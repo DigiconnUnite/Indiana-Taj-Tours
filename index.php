@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>
+        Indiana Taj Tour | Home Page
+    </title>
+    <meta name="author" content="Tourm" />
+    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template " />
+    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template " />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- include the links file  -->
+    <?php include "links.php" ?>
+
+</head>
+
+<body>
+    <!-- include the preloader file -->
+    <?php include 'preloader.php'; ?>
+
+    <!-- include the sidemenu file -->
+    <?php include 'sidemenu.php'; ?>
+
+    <!-- Include the header file -->
+    <?php include 'header.php'; ?>
+
+    <!-- Main -->
+    <main>
+
+        <!-- hero-section -->
+        <div class="th-hero-wrapper hero-1" id="hero">
+            <div class="swiper th-slider hero-slider-1" id="heroSlide1"
+                data-slider-options='{"effect":"fade","menu": ["", "", ""],"heroSlide1": {"swiper-container": {"pagination": {"el": ".swiper-pagination", "clickable": true }}}}'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-taj.png"></div>
+                            <div class="container">
+                                <div class="hero-style1">
+                                    <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get
+                                        unforgetable pleasure with us</span>
+                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                        Natural Wonder of the world
+                                    </h1>
+                                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                        <a href="tour.html" class="th-btn th-icon">Explore Tours</a>
+                                        <a href="service.html" class="th-btn style2 th-icon">Our Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-delhi.png"></div>
+                            <div class="container">
+                                <div class="hero-style1">
+                                    <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get
+                                        unforgetable pleasure with us</span>
+                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                        Let’s make your best trip with us
+                                    </h1>
+                                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                        <a href="tour.html" class="th-btn th-icon">Explore Tours</a>
+                                        <a href="service.html" class="th-btn style2 th-icon">Our Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="hero-inner">
+                            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-vanaras.png"></div>
+                            <div class="container">
+                                <div class="hero-style1">
+                                    <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get
+                                        unforgetable pleasure with us</span>
+                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                        Explore beauty of the whole world
+                                    </h1>
+                                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                        <a href="tour.html" class="th-btn th-icon">Explore Tours</a>
+                                        <a href="service.html" class="th-btn style2 th-icon">Our Services</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="th-swiper-custom">
+                    <button data-slider-prev="#heroSlide1" class="slider-arrow slider-prev">
+                        <img src="assets/img/icon/right-arrow.svg" alt="" />
+                    </button>
+                    <div class="slider-pagination"></div>
+                    <button data-slider-next="#heroSlide1" class="slider-arrow slider-next">
+                        <img src="assets/img/icon/left-arrow.svg" alt="" />
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- booking form section  -->
+        <div class="booking-sec">
+            <div class="container">
+                <form action="https://html.themeholy.com/tourm/demo/mail.php" method="POST"
+                    class="booking-form ajax-contact">
+                    <div class="input-wrap">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="form-group col-md-6 col-lg-auto">
+                                <div class="icon"><i class="fa-light fa-route"></i></div>
+                                <div class="search-input">
+                                    <label>Destination</label>
+                                    <select name="subject" id="subject" class="form-select nice-select">
+                                        <option value="Select Destination" selected="selected" disabled="disabled">
+                                            Select Destination
+                                        </option>
+                                        <option value="Australia">Australia</option>
+                                        <option value="Dubai">Dubai</option>
+                                        <option value="England">England</option>
+                                        <option value="Sweden">Sweden</option>
+                                        <option value="Thailand">Thailand</option>
+                                        <option value="Egypt">Egypt</option>
+                                        <option value="Saudi Arab">Saudi Arab</option>
+                                        <option value="Switzerland">Switzerland</option>
+                                        <option value="Scandinavia">Scandinavia</option>
+                                        <option value="Western Europe">Western Europe</option>
+                                        <option value="Indonesia">Indonesia</option>
+                                        <option class="Italy">Italy</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6 col-lg-auto">
+                                <div class="icon">
+                                    <i class="fa-regular fa-person-hiking"></i>
+                                </div>
+                                <div class="search-input">
+                                    <label>Type</label>
+                                    <select class="nice-select" name="Adventure" id="Adventure">
+                                        <option value="Adventure" selected="selected" disabled="disabled">
+                                            Adventure
+                                        </option>
+                                        <option value="Beach">Beach</option>
+                                        <option value="Group Tour">Group Tour</option>
+                                        <option value="Couple Tour">Couple Tour</option>
+                                        <option value="Family Tour">Family Tour</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6 col-lg-auto">
+                                <div class="icon"><i class="fa-light fa-clock"></i></div>
+                                <div class="search-input">
+                                    <label>Duration</label>
+                                    <select class="form-select nice-select" name="Duration" id="Duration">
+                                        <option value="Normal" selected="selected" disabled="disabled">
+                                            Duration
+                                        </option>
+                                        <option value="1">1 days</option>
+                                        <option value="2">2 days</option>
+                                        <option value="3">3 days</option>
+                                        <option value="4">4 days</option>
+                                        <option value="5">5 days</option>
+                                        <option value="6">6 days</option>
+                                        <option value="7">7 days</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group col-md-6 col-lg-auto">
+                                <div class="icon">
+                                    <i class="fa-light fa-map-location-dot"></i>
+                                </div>
+                                <div class="search-input">
+                                    <label>Tour Category</label>
+                                    <select name="subject" id="category" class="form-select nice-select">
+                                        <option value="Normal" selected="selected" disabled="disabled">
+                                            Luxury
+                                        </option>
+                                        <option value="1">Delux</option>
+                                        <option value="2">Economy</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-btn col-md-12 col-lg-auto">
+                                <button class="th-btn">
+                                    <img src="assets/img/icon/search.svg" alt="" />Search
+                                </button>
+                            </div>
+                        </div>
+                        <p class="form-messages mb-0 mt-3"></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- category section -->
+        <section class="category-area bg-top-center" data-bg-src="assets/img/bg/category_bg_1.png">
+            <div class="container th-container">
+                <div class="title-area text-center">
+                    <span class="sub-title">Wornderful Place For You</span>
+                    <h2 class="sec-title">Tour Categories</h2>
+                </div>
+                <div class="swiper th-slider has-shadow categorySlider" id="categorySlider1"
+                    data-bg-src="assets/img/bg/category_bg_1.png"
+                    data-slider-options='{"spaceBetween": "50","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"5"}}}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="category-card single">
+                                <div class="box-img global-img">
+                                    <img src="assets/img/home/cat-agra.png" alt="Image" />
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="destination.html">Agra</a>
+                                </h3>
+                                <a class="line-btn" href="destination.html">See more</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card single">
+                                <div class="box-img global-img">
+                                    <img src="assets/img/home/cat-delhi.png" alt="Image" />
+                                </div>
+                                <h3 class="box-title"><a href="destination.html">Delhi</a></h3>
+                                <a class="line-btn" href="destination.html">See more</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card single">
+                                <div class="box-img global-img">
+                                    <img src="assets/img/home/cat-jaipur.png" alt="Image" />
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="destination.html">Jaipur</a>
+                                </h3>
+                                <a class="line-btn" href="destination.html">See more</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card single">
+                                <div class="box-img global-img">
+                                    <img src="assets/img/home/cat-udaipur.png" alt="Image" />
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="destination.html">Udaipur</a>
+                                </h3>
+                                <a class="line-btn" href="destination.html">See more</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card single">
+                                <div class="box-img global-img">
+                                    <img src="assets/img/home/cat-varanasi.png" alt="Image" />
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="destination.html">Varanasi</a>
+                                </h3>
+                                <a class="line-btn" href="destination.html">See more</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card single">
+                                <div class="box-img global-img">
+                                    <img src="assets/img/home/cat-ranthambore.png" alt="Image" />
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="destination.html">Ranthambore</a>
+                                </h3>
+                                <a class="line-btn" href="destination.html">See more</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card single">
+                                <div class="box-img global-img">
+                                    <img src="assets/img/home/cat-pushkar.png" alt="Image" />
+                                </div>
+                                <h3 class="box-title"><a href="destination.html">Pushkar</a></h3>
+                                <a class="line-btn" href="destination.html">See more</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-card single">
+                                <div class="box-img global-img">
+                                    <img src="assets/img/home/cat-amritsar.png" alt="Image" />
+                                </div>
+                                <h3 class="box-title">
+                                    <a href="destination.html">Amritsar</a>
+                                </h3>
+                                <a class="line-btn" href="destination.html">See more</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="slider-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- tour section -->
+        <section class="tour-area3 position-relative bg-top-center overflow-hidden space" id="service-sec"
+            data-bg-src="assets/img/bg/tour_bg_1.jpg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center">
+                            <span class="sub-title">Best Experience</span>
+                            <h2 class="sec-title">Amazing Travel Experience</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav nav-tabs tour-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link th-btn active" id="nav-step1-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-step1" type="button">
+                        <img src="assets/img/icon/tour_icon_1.svg" alt="" />Taj Mahal Tour
+                    </button>
+                    <button class="nav-link th-btn" id="nav-step2-tab" data-bs-toggle="tab" data-bs-target="#nav-step2"
+                        type="button">
+                        <img src="assets/img/icon/tour_icon_2.svg" alt="" />Same Day Tour
+                    </button>
+                    <button class="nav-link th-btn" id="nav-step3-tab" data-bs-toggle="tab" data-bs-target="#nav-step3"
+                        type="button">
+                        <img src="assets/img/icon/tour_icon_3.svg" alt="" />Golder Triangle Tour
+                    </button>
+                </div>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade active show" id="nav-step1" role="tabpanel">
+                        <div class="slider-area tour-slider slider-drag-wrap">
+                            <div class="swiper th-slider has-shadow"
+                                data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}}'>
+                                <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal Day Tour by Car from Delhi" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Taj Mahal Day Tour by Car from Delhi</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
+                                                <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(577+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Full Day Experience</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Taj Mahal Sunrise Tour from Delhi -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour from Delhi" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Taj Mahal Sunrise Tour from Delhi</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
+                                                <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(580+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Taj Mahal Tour by Gatimaan Express Train -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Taj Mahal Tour by Gatimaan Express Train" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Taj Mahal Tour by Gatimaan Express Train</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
+                                                <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(750+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Taj Mahal Luxury Tour by Premium Car from Delhi -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-4.png" alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Taj Mahal Luxury Tour by Premium Car</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
+                                                <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(340+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Premium Experience</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                </div>
+                                <div class="slider-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-step2" role="tabpanel">
+                        <div class="slider-area tour-slider slider-drag-wrap">
+                            <div class="swiper th-slider has-shadow"
+                                data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}}'>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/same_day_tour/delhi-gate.png" alt="Full Day Old and New Delhi City Tour" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Full Day Delhi City Tour</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
+                                                <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(580+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">06 Hours Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Old & New Delhi</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Half Day Delhi City Tour -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/same_day_tour/kutub-minar.png" alt="Half Day Delhi City Tour" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Half Day Delhi City Tour</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
+                                                <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(460+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Essential Highlights</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Full Day Jaipur City Tour by Car -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/same_day_tour/hawa-mahal.png" alt="Full Day Jaipur City Tour by Car" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Full Day Jaipur City Tour</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
+                                                <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(610+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Pink City Experience</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Jaipur Tour from Delhi by Car -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/same_day_tour/amber-fort.png" alt="Jaipur Tour from Delhi by Car" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Jaipur Tour from Delhi</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
+                                                <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(370+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Round Trip from Delhi</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal Day Tour by Car from Delhi" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Taj Mahal Day Tour by Car from Delhi</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
+                                                <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(577+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Full Day Experience</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Taj Mahal Sunrise Tour from Delhi -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour from Delhi" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Taj Mahal Sunrise Tour from Delhi</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
+                                                <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(580+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Taj Mahal Tour by Gatimaan Express Train -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Taj Mahal Tour by Gatimaan Express Train" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Taj Mahal Tour by Gatimaan Express Train</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
+                                                <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(750+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Taj Mahal Luxury Tour by Premium Car from Delhi -->
+                            <div class="swiper-slide">
+                                <div class="tour-box th-ani gsap-cursor">
+                                    <div class="tour-box_img global-img">
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-4.png" alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
+                                    </div>
+                                    <div class="tour-content">
+                                        <h3 class="box-title">
+                                            <a href="tour-details.html">Taj Mahal Luxury Tour by Premium Car</a>
+                                        </h3>
+                                        <div class="tour-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
+                                                <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
+                                            </div>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(340+ Reviews)</a>
+                                        </div>
+                                        <h4 class="tour-box_price">
+                                            <span class="currency">01 Day Tour</span>
+                                        </h4>
+                                        <div class="tour-action">
+                                            <span><i class="fa-light fa-clock"></i>Premium Experience</span>
+                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                                </div>
+                                <div class="slider-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-step3" role="tabpanel">
+                        <div class="slider-area tour-slider slider-drag-wrap">
+                            <div class="swiper th-slider has-shadow"
+                                data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}}'>
+                                <div class="swiper-wrapper">
+                                <!-- Golden Triangle Tour 3 Days -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-box th-ani gsap-cursor">
+                                            <div class="tour-box_img global-img">
+                                                <img src="assets/img/golden_triangle_tour/golden-tour-1.png" alt="Golden Triangle Tour 3 Days" />
+                                            </div>
+                                            <div class="tour-content">
+                                                <h3 class="box-title">
+                                                    <a href="tour-details.html">Golden Triangle Tour 3 Days</a>
+                                                </h3>
+                                                <div class="tour-rating">
+                                                    <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
+                                                        <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
+                                                    </div>
+                                                    <a href="tour-details.html" class="woocommerce-review-link">(340+ Reviews)</a>
+                                                </div>
+                                                <h4 class="tour-box_price">
+                                                    <span class="currency">03 Night / 04 Days</span>
+                                                </h4>
+                                                <div class="tour-action">
+                                                    <span><i class="fa-light fa-clock"></i>Delhi - Agra - Jaipur</span>
+                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Golden Triangle Tour 4 Days -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-box th-ani gsap-cursor">
+                                            <div class="tour-box_img global-img">
+                                                <img src="assets/img/golden_triangle_tour/golden-tour-2.png" alt="Golden Triangle Tour 4 Days" />
+                                            </div>
+                                            <div class="tour-content">
+                                                <h3 class="box-title">
+                                                    <a href="tour-details.html">Golden Triangle Tour 4 Days</a>
+                                                </h3>
+                                                <div class="tour-rating">
+                                                    <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
+                                                        <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
+                                                    </div>
+                                                    <a href="tour-details.html" class="woocommerce-review-link">(460+ Reviews)</a>
+                                                </div>
+                                                <h4 class="tour-box_price">
+                                                    <span class="currency">04 Night / 05 Days</span>
+                                                </h4>
+                                                <div class="tour-action">
+                                                    <span><i class="fa-light fa-clock"></i>More Relaxed Itinerary</span>
+                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Golden Triangle Tour 5 Days -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-box th-ani gsap-cursor">
+                                            <div class="tour-box_img global-img">
+                                                <img src="assets/img/golden_triangle_tour/golden-tour-3.png" alt="Golden Triangle Tour 5 Days" />
+                                            </div>
+                                            <div class="tour-content">
+                                                <h3 class="box-title">
+                                                    <a href="tour-details.html">Golden Triangle Tour 5 Days</a>
+                                                </h3>
+                                                <div class="tour-rating">
+                                                    <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
+                                                        <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
+                                                    </div>
+                                                    <a href="tour-details.html" class="woocommerce-review-link">(430+ Reviews)</a>
+                                                </div>
+                                                <h4 class="tour-box_price">
+                                                    <span class="currency">06 Night / 07 Days</span>
+                                                </h4>
+                                                <div class="tour-action">
+                                                    <span><i class="fa-light fa-clock"></i>Comprehensive Experience</span>
+                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Golden Triangle Tour with Amritsar -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-box th-ani gsap-cursor">
+                                            <div class="tour-box_img global-img">
+                                                <img src="assets/img/golden_triangle_tour/golden-amritsar.png" alt="Golden Triangle Tour with Amritsar" />
+                                            </div>
+                                            <div class="tour-content">
+                                                <h3 class="box-title">
+                                                    <a href="tour-details.html">Golden Triangle with Amritsar</a>
+                                                </h3>
+                                                <div class="tour-rating">
+                                                    <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
+                                                        <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
+                                                    </div>
+                                                    <a href="tour-details.html" class="woocommerce-review-link">(290+ Reviews)</a>
+                                                </div>
+                                                <h4 class="tour-box_price">
+                                                    <span class="currency">06 Night / 07 Days</span>
+                                                </h4>
+                                                <div class="tour-action">
+                                                    <span><i class="fa-light fa-clock"></i>Golden Temple Included</span>
+                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Golden Triangle Tour with Pushkar -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-box th-ani gsap-cursor">
+                                            <div class="tour-box_img global-img">
+                                                <img src="assets/img/golden_triangle_tour/golden-pushkar.png" alt="Golden Triangle Tour with Pushkar" />
+                                            </div>
+                                            <div class="tour-content">
+                                                <h3 class="box-title">
+                                                    <a href="tour-details.html">Golden Triangle with Pushkar</a>
+                                                </h3>
+                                                <div class="tour-rating">
+                                                    <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
+                                                        <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
+                                                    </div>
+                                                    <a href="tour-details.html" class="woocommerce-review-link">(390+ Reviews)</a>
+                                                </div>
+                                                <h4 class="tour-box_price">
+                                                    <span class="currency">06 Night / 07 Days</span>
+                                                </h4>
+                                                <div class="tour-action">
+                                                    <span><i class="fa-light fa-clock"></i>Sacred Town Experience</span>
+                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Golden Triangle Tour with Ranthambore -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-box th-ani gsap-cursor">
+                                            <div class="tour-box_img global-img">
+                                                <img src="assets/img/golden_triangle_tour/golden-ranthambore.png" alt="Golden Triangle Tour with Ranthambore" />
+                                            </div>
+                                            <div class="tour-content">
+                                                <h3 class="box-title">
+                                                    <a href="tour-details.html">Golden Triangle with Ranthambore</a>
+                                                </h3>
+                                                <div class="tour-rating">
+                                                    <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
+                                                        <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
+                                                    </div>
+                                                    <a href="tour-details.html" class="woocommerce-review-link">(410+ Reviews)</a>
+                                                </div>
+                                                <h4 class="tour-box_price">
+                                                    <span class="currency">07 Night / 08 Days</span>
+                                                </h4>
+                                                <div class="tour-action">
+                                                    <span><i class="fa-light fa-clock"></i>Includes Tiger Safari</span>
+                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Golden Triangle Tour with Udaipur -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-box th-ani gsap-cursor">
+                                            <div class="tour-box_img global-img">
+                                                <img src="assets/img/golden_triangle_tour/golden-udaipur.png" alt="Golden Triangle Tour with Udaipur" />
+                                            </div>
+                                            <div class="tour-content">
+                                                <h3 class="box-title">
+                                                    <a href="tour-details.html">Golden Triangle with Udaipur</a>
+                                                </h3>
+                                                <div class="tour-rating">
+                                                    <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
+                                                        <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
+                                                    </div>
+                                                    <a href="tour-details.html" class="woocommerce-review-link">(520+ Reviews)</a>
+                                                </div>
+                                                <h4 class="tour-box_price">
+                                                    <span class="currency">07 Night / 08 Days</span>
+                                                </h4>
+                                                <div class="tour-action">
+                                                    <span><i class="fa-light fa-clock"></i>City of Lakes Included</span>
+                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Golden Triangle Tour with Varanasi -->
+                                    <div class="swiper-slide">
+                                        <div class="tour-box th-ani gsap-cursor">
+                                            <div class="tour-box_img global-img">
+                                                <img src="assets/img/golden_triangle_tour/golden-varanasi.png" alt="Golden Triangle Tour with Varanasi" />
+                                            </div>
+                                            <div class="tour-content">
+                                                <h3 class="box-title">
+                                                    <a href="tour-details.html">Golden Triangle with Varanasi</a>
+                                                </h3>
+                                                <div class="tour-rating">
+                                                    <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
+                                                        <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
+                                                    </div>
+                                                    <a href="tour-details.html" class="woocommerce-review-link">(330+ Reviews)</a>
+                                                </div>
+                                                <h4 class="tour-box_price">
+                                                    <span class="currency">07 Night / 08 Days</span>
+                                                </h4>
+                                                <div class="tour-action">
+                                                    <span><i class="fa-light fa-clock"></i>Spiritual Experience</span>
+                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="about-area position-relative overflow-hidden space" id="about-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="img-box1">
+                            <div class="img1">
+                                <img src="assets/img/home/2-about-minar.png" width="312" height="630" alt="About" />
+                            </div>
+                            <div class="img2">
+                                <img src="assets/img/home/2-about-taj.png" height="315" width="312" alt="About" />
+                            </div>
+                            <div class="img3">
+                                <img src="assets/img/home/2-about-amber.png" height="315" width="312" alt="About" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="ps-xl-4 ms-xl-2">
+                            <div class="title-area mb-20 pe-xl-5 me-xl-5">
+                                <span class="sub-title style1">Let’s Go Together</span>
+                                <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">
+                                    Plan Your Trip With us
+                                </h2>
+                                <p class="sec-text mb-30">
+                                    There are many variations of passages of available but the
+                                    majority have suffered alteration in some form, by injected
+                                    hum randomised words which don't look even slightly.
+                                </p>
+                            </div>
+                            <div class="about-item-wrap">
+                                <div class="about-item">
+                                    <div class="about-item_img">
+                                        <img src="assets/img/icon/map3.svg" alt="" />
+                                    </div>
+                                    <div class="about-item_centent">
+                                        <h5 class="box-title">Exclusive Trip</h5>
+                                        <p class="about-item_text">
+                                            There are many variations of passages of available but the
+                                            majority.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="about-item">
+                                    <div class="about-item_img">
+                                        <img src="assets/img/icon/guide.svg" alt="" />
+                                    </div>
+                                    <div class="about-item_centent">
+                                        <h5 class="box-title">Professional Guide</h5>
+                                        <p class="about-item_text">
+                                            There are many variations of passages of available but the
+                                            majority.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-35">
+                                <a href="about.html" class="th-btn style3 th-icon">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape-mockup shape1 d-none d-xl-block" data-top="12%" data-left="-16%">
+                    <img src="assets/img/shape/shape_1.png" alt="shape" />
+                </div>
+                <div class="shape-mockup shape2 d-none d-xl-block" data-top="20%" data-left="-16%">
+                    <img src="assets/img/shape/shape_2.png" alt="shape" />
+                </div>
+                <div class="shape-mockup shape3 d-none d-xl-block" data-top="14%" data-left="-10%">
+                    <img src="assets/img/shape/shape_3.png" alt="shape" />
+                </div>
+                <div class="shape-mockup shape1 d-none d-xl-block" data-bottom="0" data-right="-15%">
+                    <img src="assets/img/shape/shape_1.png" alt="shape" />
+                </div>
+                <div class="shape-mockup shape2 d-none d-xl-block" data-bottom="0%" data-right="-11%">
+                    <img src="assets/img/shape/shape_2.png" alt="shape" />
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-area spcace position-relative pb-lg-5">
+            <div class="container th-container">
+                <div class="title-area text-center">
+                    <span class="sub-title">Make Your Tour More Pleasure</span>
+                    <h2 class="sec-title">Recent Gallery</h2>
+                </div>
+                <div class="row gy-10 gx-10 justify-content-center align-items-center">
+                    <div class="col-md-6 col-lg-2">
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-1.png" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-1.png" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-2.png" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-2.png" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-3.png" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-3.png" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-4.png" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-4.png" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-5.png" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-5.png" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-6.png" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-6.png" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-7.png" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-7.png" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape-mockup d-none d-xl-block" data-top="-25%" data-left="0%">
+                    <img src="assets/img/shape/line.png" alt="shape" />
+                </div>
+                <div class="shape-mockup movingX d-none d-xl-block" data-top="30%" data-left="-3%">
+                    <img class="gmovingX" src="assets/img/shape/shape_4.png" alt="shape" />
+                </div>
+            </div>
+        </div>
+
+        <div class="about-area position-relative overflow-hidden space" id="about-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7">
+                        <div class="img-box3">
+                            <div class="img1">
+                                <img src="assets/img/home/3-about-delhi.png" width="445" height="608" alt="About" />
+                            </div>
+                            <div class="img2">
+                                <img src="assets/img/home/3-about-taj.png" width="434" height="508" alt="About" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="ps-xl-4">
+                            <div class="title-area mb-20 pe-xxl-5 me-xxl-5">
+                                <span class="sub-title style1">Let’s Go Together</span>
+                                <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">
+                                    Plan Your Trip With us
+                                </h2>
+                            </div>
+                            <p class="sec-text mb-30">
+                                There are many variations of passages of available but the
+                                majority have suffered alteration in some form, by injected hum
+                                randomised words.
+                            </p>
+                            <div class="about-item-wrap">
+                                <div class="about-item style2">
+                                    <div class="about-item_img">
+                                        <img src="assets/img/icon/about_1_1.svg" alt="" />
+                                    </div>
+                                    <div class="about-item_centent">
+                                        <h5 class="box-title">Exclusive Trip</h5>
+                                        <p class="about-item_text">
+                                            There are many variations of passages of available but the
+                                            majority.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="about-item style2">
+                                    <div class="about-item_img">
+                                        <img src="assets/img/icon/about_1_2.svg" alt="" />
+                                    </div>
+                                    <div class="about-item_centent">
+                                        <h5 class="box-title">Safety First Always</h5>
+                                        <p class="about-item_text">
+                                            There are many variations of passages of available but the
+                                            majority.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-35">
+                                <a href="about.html" class="th-btn style3 th-icon">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape-mockup movingX d-none d-xxl-block" data-top="0%" data-left="-20%">
+                    <img src="assets/img/shape/shape_2_1.png" alt="shape" />
+                </div>
+                <div class="shape-mockup jump d-none d-xxl-block" data-top="20%" data-right="-15%">
+                    <img src="assets/img/shape/shape_2_2.png" alt="shape" />
+                </div>
+                <div class="shape-mockup spin d-none d-xxl-block" data-bottom="18%" data-left="-17%">
+                    <img src="assets/img/shape/shape_2_3.png" alt="shape" />
+                </div>
+                <div class="shape-mockup movixgX d-none d-xxl-block" data-bottom="10%" data-right="-18%">
+                    <img src="assets/img/shape/shape_2_4.png" alt="shape" />
+                </div>
+            </div>
+            <div class="shape-mockup movingCar d-none d-xxl-block" data-bottom="0%" data-right="-2%">
+                <img src="assets/img/shape/car_1.png" alt="shape" />
+            </div>
+            <div class="shape-mockup d-none d-xxl-block" data-bottom="0%" data-right="0%">
+                <img src="assets/img/shape/tree_1.png" alt="shape" />
+            </div>
+        </div>
+    </main>
+
+    <!-- include the footer here  -->
+    <?php include 'footer.php'; ?>
+
+    <!-- include the bottom script -->
+    <?php include 'bottom-script.php'; ?>
+
+</body>
+
+</html>
