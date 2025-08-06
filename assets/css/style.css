@@ -2602,7 +2602,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
   cursor: pointer;
   display: block;
   z-index: 1;
-  border: 2px solid var(--theme-color);
+  border: 1px solid var(--theme-color);
   box-shadow: none;
   border-radius: 50%;
 }
@@ -2616,7 +2616,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 .scroll-top .progress-circle path {
   stroke: var(--theme-color);
-  stroke-width: 20px;
+  stroke-width: 10px;
   box-sizing: border-box;
   -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
@@ -25159,15 +25159,17 @@ span.select2-selection.select2-selection--single:focus {
   color: var(--black-color2);
 }
 .tour-box_price {
-  font-family: var(--body-font);
-  font-size: 18px;
-  font-weight: 400;
-  color: var(--body-color);
-  margin-bottom: 35px;
+ font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--body-color);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #b7b7b780;
 }
 .tour-box .currency {
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: medium;
   line-height: 36px;
   letter-spacing: 0.02em;
   color: var(--black-color2);

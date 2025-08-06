@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Indiana Taj Tour | Home Page
+        About Page | Indiana Taj Tour
     </title>
     <meta name="author" content="Tourm" />
     <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template " />

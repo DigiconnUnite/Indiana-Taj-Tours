@@ -34,77 +34,79 @@
     <!-- Main -->
     <main>
 
-        <!-- hero-section -->
-        <div class="th-hero-wrapper hero-1" id="hero">
-            <div class="swiper th-slider hero-slider-1" id="heroSlide1"
-                data-slider-options='{"effect":"fade","menu": ["", "", ""],"heroSlide1": {"swiper-container": {"pagination": {"el": ".swiper-pagination", "clickable": true }}}}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-taj.png"></div>
-                            <div class="container">
-                                <div class="hero-style1">
-                                    <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get
-                                        unforgetable pleasure with us</span>
-                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        Natural Wonder of the world
-                                    </h1>
-                                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                                        <a href="tour.html" class="th-btn th-icon">Explore Tours</a>
-                                        <a href="service.html" class="th-btn style2 th-icon">Our Services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-delhi.png"></div>
-                            <div class="container">
-                                <div class="hero-style1">
-                                    <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get
-                                        unforgetable pleasure with us</span>
-                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        Let’s make your best trip with us
-                                    </h1>
-                                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                                        <a href="tour.html" class="th-btn th-icon">Explore Tours</a>
-                                        <a href="service.html" class="th-btn style2 th-icon">Our Services</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero-inner">
-                            <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-vanaras.png"></div>
-                            <div class="container">
-                                <div class="hero-style1">
-                                    <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Get
-                                        unforgetable pleasure with us</span>
-                                    <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
-                                        Explore beauty of the whole world
-                                    </h1>
-                                    <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
-                                        <a href="tour.html" class="th-btn th-icon">Explore Tours</a>
-                                        <a href="service.html" class="th-btn style2 th-icon">Our Services</a>
-                                    </div>
-                                </div>
+       <!-- hero-section -->
+<div class="th-hero-wrapper hero-1" id="hero">
+    <div class="swiper th-slider hero-slider-1" id="heroSlide1"
+        data-slider-options='{"effect":"fade","menu": ["", "", ""],"heroSlide1": {"swiper-container": {"pagination": {"el": ".swiper-pagination", "clickable": true }}}}'>
+        <div class="swiper-wrapper">
+            <!-- Taj Mahal Slide -->
+            <div class="swiper-slide">
+                <div class="hero-inner">
+                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-taj.png"></div>
+                    <div class="container">
+                        <div class="hero-style1">
+                            <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Experience the Eternal Symbol of Love</span>
+                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                Discover the Majestic Taj Mahal
+                            </h1>
+                            <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                <a href="#tour" class="th-btn th-icon">Explore tour</a>
+                                <a href="booking.php" class="th-btn style2 th-icon">Book Tour</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="th-swiper-custom">
-                    <button data-slider-prev="#heroSlide1" class="slider-arrow slider-prev">
-                        <img src="assets/img/icon/right-arrow.svg" alt="" />
-                    </button>
-                    <div class="slider-pagination"></div>
-                    <button data-slider-next="#heroSlide1" class="slider-arrow slider-next">
-                        <img src="assets/img/icon/left-arrow.svg" alt="" />
-                    </button>
+            </div>
+            
+            <!-- Delhi Slide -->
+            <div class="swiper-slide">
+                <div class="hero-inner">
+                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-delhi.png"></div>
+                    <div class="container">
+                        <div class="hero-style1">
+                            <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Where History Meets Modernity</span>
+                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                Explore Vibrant Delhi - Heart of India
+                            </h1>
+                          <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                <a href="#tour" class="th-btn th-icon">Explore tour</a>
+                                <a href="booking.php" class="th-btn style2 th-icon">Book Tour</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Varanasi Slide -->
+            <div class="swiper-slide">
+                <div class="hero-inner">
+                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-vanaras.png"></div>
+                    <div class="container">
+                        <div class="hero-style1">
+                            <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Journey to Spiritual Enlightenment</span>
+                            <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">
+                                Sacred Varanasi - Oldest Living City
+                            </h1>
+                             <div class="btn-group" data-ani="slideinup" data-ani-delay="0.6s">
+                                <a href="#tour" class="th-btn th-icon">Explore tour</a>
+                                <a href="booking.php" class="th-btn style2 th-icon">Book Tour</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="th-swiper-custom">
+            <button data-slider-prev="#heroSlide1" class="slider-arrow slider-prev">
+                <img src="assets/img/icon/right-arrow.svg" alt="" />
+            </button>
+            <div class="slider-pagination"></div>
+            <button data-slider-next="#heroSlide1" class="slider-arrow slider-next">
+                <img src="assets/img/icon/left-arrow.svg" alt="" />
+            </button>
+        </div>
+    </div>
+</div>
 
         <!-- booking form section  -->
         <div class="booking-sec">
@@ -203,7 +205,7 @@
             <div class="container th-container">
                 <div class="title-area text-center">
                     <span class="sub-title">Wornderful Place For You</span>
-                    <h2 class="sec-title">Tour Categories</h2>
+                    <h2 class="sec-title">Top Destinations</h2>
                 </div>
                 <div class="swiper th-slider has-shadow categorySlider" id="categorySlider1"
                     data-bg-src="assets/img/bg/category_bg_1.png"
@@ -217,7 +219,7 @@
                                 <h3 class="box-title">
                                     <a href="destination.html">Agra</a>
                                 </h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <a class="line-btn" href="taj-mahal-tour.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -225,8 +227,8 @@
                                 <div class="box-img global-img">
                                     <img src="assets/img/home/cat-delhi.png" alt="Image" />
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Delhi</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="same-day-tour/full-day-delhi-tour.php">Delhi</a></h3>
+                                <a class="line-btn" href="same-day-tour/full-day-delhi-tour.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -235,9 +237,9 @@
                                     <img src="assets/img/home/cat-jaipur.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="destination.html">Jaipur</a>
+                                    <a href="same-day-tour/full-day-jaipur-tour.php">Jaipur</a>
                                 </h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <a class="line-btn" href="same-day-tour/full-day-jaipur-tour.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -246,9 +248,9 @@
                                     <img src="assets/img/home/cat-udaipur.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="destination.html">Udaipur</a>
+                                    <a href="golden-triangle-tour/udaipur-tour.php">Udaipur</a>
                                 </h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <a class="line-btn" href="golden-triangle-tour/udaipur-tour.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -257,9 +259,9 @@
                                     <img src="assets/img/home/cat-varanasi.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="destination.html">Varanasi</a>
+                                    <a href="golden-triangle-tour/varanashi-tour.php">Varanasi</a>
                                 </h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <a class="line-btn" href="golden-triangle-tour/varanashi-tour.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -268,9 +270,9 @@
                                     <img src="assets/img/home/cat-ranthambore.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="destination.html">Ranthambore</a>
+                                    <a href="golden-triangle-tour/ranthambore-tour.php">Ranthambore</a>
                                 </h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <a class="line-btn" href="golden-triangle-tour/ranthambore-tour.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -278,8 +280,8 @@
                                 <div class="box-img global-img">
                                     <img src="assets/img/home/cat-pushkar.png" alt="Image" />
                                 </div>
-                                <h3 class="box-title"><a href="destination.html">Pushkar</a></h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <h3 class="box-title"><a href="golden-triangle-tour/pushkar-tour.php">Pushkar</a></h3>
+                                <a class="line-btn" href="golden-triangle-tour/pushkar-tour.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -288,9 +290,9 @@
                                     <img src="assets/img/home/cat-amritsar.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="destination.html">Amritsar</a>
+                                    <a href="golden-triangle-tour/amritsar-tour.php">Amritsar</a>
                                 </h3>
-                                <a class="line-btn" href="destination.html">See more</a>
+                                <a class="line-btn" href="golden-triangle-tour/amritsar-tour.php">See more</a>
                             </div>
                         </div>
                         
@@ -307,8 +309,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="title-area text-center">
-                            <span class="sub-title">Best Experience</span>
-                            <h2 class="sec-title">Amazing Travel Experience</h2>
+                            <span class="sub-title">Based on user booking package.</span>
+                            <h2 class="sec-title">Our Trending Tours </h2>
                         </div>
                     </div>
                 </div>
@@ -348,10 +350,10 @@
                                             <a href="tour-details.html" class="woocommerce-review-link">(577+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
-                                            <span class="currency">01 Day Tour</span>
+                                            <span class="currency"> <i class="fas fa-location"></i> Delhi - Agra - Delhi</span>
                                         </h4>
                                         <div class="tour-action">
-                                            <span><i class="fa-light fa-clock"></i>Full Day Experience</span>
+                                            <span><i class="fa-light fa-clock"></i>1 Day</span>
                                             <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
@@ -916,14 +918,12 @@
                     <div class="col-xl-6">
                         <div class="ps-xl-4 ms-xl-2">
                             <div class="title-area mb-20 pe-xl-5 me-xl-5">
-                                <span class="sub-title style1">Let’s Go Together</span>
-                                <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">
-                                    Plan Your Trip With us
+                                <span class="sub-title style1">Welcome To Indiana Taj Tours</span>
+                                <h2 class="sec-title mb-20 pe-xl-5  heading">
+                                   Explore India with Exceptional Tour
                                 </h2>
                                 <p class="sec-text mb-30">
-                                    There are many variations of passages of available but the
-                                    majority have suffered alteration in some form, by injected
-                                    hum randomised words which don't look even slightly.
+                                   Welcome to Indiana Taj Tours, your trusted travel companion for an unforgettable journey through the captivating cities of Agra, Delhi, and Jaipur. Our thoughtfully designed tour packages combine rich history, vibrant culture, and modern comforts, delivering a smooth and memorable travel experience tailored just for you.
                                 </p>
                             </div>
                             <div class="about-item-wrap">
@@ -952,9 +952,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-35">
-                                <a href="about.html" class="th-btn style3 th-icon">Learn More</a>
-                            </div>
+                       
                         </div>
                     </div>
                 </div>
@@ -1079,7 +1077,7 @@
                     <div class="col-xl-7">
                         <div class="img-box3">
                             <div class="img1">
-                                <img src="assets/img/home/3-about-delhi.png" width="445" height="608" alt="About" />
+                                <img src="assets/img/home/3-about-jaipur.png" width="445" height="608" alt="About" />
                             </div>
                             <div class="img2">
                                 <img src="assets/img/home/3-about-taj.png" width="434" height="508" alt="About" />
