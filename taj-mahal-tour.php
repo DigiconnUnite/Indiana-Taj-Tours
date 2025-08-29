@@ -26,7 +26,7 @@
     <?php include 'preloader.php'; ?>
 
     <!-- include the sidemenu file -->
-    <?php include 'sidemenu.php'; ?>
+    <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->
     <?php include 'header.php'; ?>
@@ -99,7 +99,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -182,7 +182,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -224,7 +224,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>

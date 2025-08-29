@@ -7890,11 +7890,11 @@ ol.wp-block-rss {
   border-bottom: 1px solid rgba(233, 246, 249, 0.2);
 }
 .footer-layout2 .widget-area {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 @media (max-width: 991px) {
   .footer-layout2 .widget-area {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 }
 .footer-layout2 .footer-widget .widget_title {
