@@ -26,7 +26,7 @@
     <?php include 'preloader.php'; ?>
 
     <!-- include the sidemenu file -->
-    <?php include 'sidemenu.php'; ?>
+    <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->
     <?php include 'header.php'; ?>

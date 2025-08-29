@@ -26,7 +26,7 @@
     <?php include 'preloader.php'; ?>
 
     <!-- include the sidemenu file -->
-    <?php include 'sidemenu.php'; ?>
+    <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->
     <?php include 'header.php'; ?>
@@ -106,24 +106,23 @@
         <div class="space-extra2-top space-extra2-bottom" data-bg-src="assets/img/bg/video_bg_1.jpg">
             <div class="container">
                 <div class="row flex-row-reverse justify-content-center align-items-center">
-
-                    <div class="col-lg-6">
+                    <div class="col-6" style="padding:0;">
                         <div>
-                            <form action="mail.php" method="POST" class="contact-form style2 ajax-contact">
-                                <h3 class="sec-title mb-30 text-capitalize">Contact Us</h3>
+                            <form action="mail.php" method="POST" class="contact-form style2 ajax-contact" style="width: 80vw; max-width: 80vw; margin-left: calc(-40vw + 50%); margin-right: calc(-40vw + 50%); padding: 32px 4vw; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.08);">
+                                <h3 class="sec-title mb-30 text-capitalize" style="font-size: 1.76rem;">Contact Us</h3>
                                 <div class="row">
-                                    <div class="col-12 form-group">
+                                    <div class="col-12 form-group" style="margin-bottom: 12.8px;">
                                         <input type="text" class="form-control" name="name" id="name3"
-                                            placeholder="First Name" />
-                                        <img src="assets/img/icon/user.svg" alt="" />
+                                            placeholder="First Name" style="height: 33.6px; font-size: 0.88rem;"/>
+                                        <img src="assets/img/icon/user.svg" alt="" style="width: 17.6px; height: 17.6px; position: absolute; right: 14.4px; top: 8px;" />
                                     </div>
-                                    <div class="col-12 form-group">
+                                    <div class="col-12 form-group" style="margin-bottom: 12.8px;">
                                         <input type="email" class="form-control" name="email3" id="email3"
-                                            placeholder="Your Mail" />
-                                        <img src="assets/img/icon/mail.svg" alt="" />
+                                            placeholder="Your Mail" style="height: 33.6px; font-size: 0.88rem;"/>
+                                        <img src="assets/img/icon/mail.svg" alt="" style="width: 17.6px; height: 17.6px; position: absolute; right: 14.4px; top: 8px;" />
                                     </div>
-                                    <div class="form-group col-12">
-                                        <select name="subject" id="subject" class="form-select nice-select">
+                                    <div class="form-group col-12" style="margin-bottom: 12.8px;">
+                                        <select name="subject" id="subject" class="form-select nice-select" style="height: 33.6px; font-size: 0.88rem;">
                                             <option value="Select Tour Type" selected="selected" disabled="disabled">
                                                 Select Tour Type
                                             </option>
@@ -134,15 +133,15 @@
                                             <option value="Western Europe">Western Europe</option>
                                         </select>
                                     </div>
-                                    <div class="form-group col-12">
-                                        <textarea name="message" id="message" cols="30" rows="3" class="form-control"
-                                            placeholder="Your Message"></textarea>
-                                        <img src="assets/img/icon/chat.svg" alt="" />
+                                    <div class="form-group col-12" style="margin-bottom: 12.8px;">
+                                        <textarea name="message" id="message" cols="30" rows="4" class="form-control"
+                                            placeholder="Your Message" style="font-size: 0.88rem; min-height: 64px;"></textarea>
+                                        <img src="assets/img/icon/chat.svg" alt="" style="width: 17.6px; height: 17.6px; position: absolute; right: 14.4px; top: 8px;" />
                                     </div>
-                                    <div class="form-btn col-12 mt-24">
-                                        <button type="submit" class="th-btn style3">
+                                    <div class="form-btn col-12 mt-24" style="text-align: center;">
+                                        <button type="submit" class="th-btn style3" style="width: 100%; font-size: 0.92rem; padding: 9.6px 0;">
                                             Send message
-                                            <img src="assets/img/icon/plane.svg" alt="" />
+                                            <img src="assets/img/icon/plane.svg" alt="" style="width: 16px; height: 16px; margin-left: 6.4px;" />
                                         </button>
                                     </div>
                                 </div>
@@ -151,6 +150,8 @@
                         </div>
                     </div>
                 </div>
+           
+     
             </div>
         </div>
 

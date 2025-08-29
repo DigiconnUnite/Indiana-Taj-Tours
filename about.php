@@ -26,7 +26,7 @@
     <?php include 'preloader.php'; ?>
 
     <!-- include the sidemenu file -->
-    <?php include 'sidemenu.php'; ?>
+    <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->
     <?php include 'header.php'; ?>
@@ -58,9 +58,9 @@
                                 Luxurious Resort Features for Every Guest
                             </h2>
                             <p class="feature-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
+                            From the charming countryside to vibrant city life, Indiana offers an unforgettable travel experience for every visitor. 
+                        Discover the beauty of the Indiana Dunes, the excitement of Indianapolis Motor Speedway, the cultural treasures of 
+                        Bloomington, and the peaceful landscapes of Amish Country.
                         </div>
                     </div>
                 </div>
@@ -142,17 +142,13 @@
                     <div class="col-xl-6">
                         <div class="ps-xl-4">
                             <div class="title-area mb-20 pe-xxl-5 me-xxl-5">
-                                <span class="sub-title style1">Let’s Go Together</span>
+                                <span class="sub-title style1">Let's Go Together</span>
                                 <h2 class="sec-title mb-20  heading">
                                     Plan Your Trip With us
                                 </h2>
                             </div>
                             <p class="sec-text mb-30">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptatem
-                                excepturi odio, commodi repellendus architecto asperiores, alias vel natus impedit
-                                ratione, reprehenderit voluptate officia praesentium? Optio aspernatur enim quam facilis
-                                explicabo voluptatibus, culpa provident! Dolorem, modi quaerat ex inventore quisquam
-                                assumenda veritatis ad dignissimos. Porro iste illum quas tempore excepturi!
+                            Traveling Indiana is more exciting with the right plan. Our team creates personalized itineraries, ensuring you enjoy Indiana Dunes, scenic byways, cultural festivals, and a smooth, memorable, adventure-filled journey.
                             </p>
 
                             <div class="about-item-wrap">
@@ -163,8 +159,7 @@
                                     <div class="about-item_centent">
                                         <h5 class="box-title">Exclusive Trip</h5>
                                         <p class="about-item_text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores provident
-                                            optio, iste a sit corrupti.
+                                        Explore Indiana with luxury stays, private tours, and unique experiences tailored just for you.
                                         </p>
                                     </div>
                                 </div>
@@ -175,8 +170,7 @@
                                     <div class="about-item_centent">
                                         <h5 class="box-title">Safety First Always</h5>
                                         <p class="about-item_text">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores provident
-                                            optio, iste a sit corrupti.
+                                        Your safety comes first with clean stays, trusted guides, and secure travel throughout Indiana.</p>
                                         </p>
                                     </div>
                                 </div>
@@ -194,8 +188,8 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-6">
                                 <div class="title-area text-center">
-                                    <span class="sub-title text-white">Why Choose Indiana</span>
-                                    <h2 class="sec-title text-white">Why Choose Indiana</h2>
+                                    <span class="sub-title text-white">Our Most Popular Tour</span>
+                                    <h2 class="sec-title text-white">Our Most Popular Packages</h2>
                                 </div>
                             </div>
                         </div>
@@ -206,12 +200,9 @@
                                         <img src="assets/img/normal/feature_1_1.jpg" alt="Icon" />
                                     </div>
                                     <div class="choose-feature_content">
-                                        <h3 class="box-title">Custom Booking</h3>
+                                        <h3 class="box-title">Taj Tour</h3>
                                         <p class="box-text">
-                                            Tour and travel agencies play a crucial role in simplifying
-                                            travel planning, offering expertise, and ensuring a smooth
-                                            and enjoyable experience for travelers. Whether booking a
-                                            quick..
+                                        Explore the iconic Taj Mahal and Agra Fort with a comfortable, guided sightseeing experience.
                                         </p>
                                     </div>
                                 </div>
@@ -222,12 +213,9 @@
                                         <img src="assets/img/normal/feature_1_2.jpg" alt="Icon" />
                                     </div>
                                     <div class="choose-feature_content">
-                                        <h3 class="box-title">End-to-End Messaging</h3>
+                                        <h3 class="box-title">Golden-Triangle Tour</h3>
                                         <p class="box-text">
-                                            A worldwide tour is the ultimate journey of exploration,
-                                            offering unforgettable experiences and a chance to connect
-                                            with the world in meaningful ways. Whether you're chasing
-                                            adventure,
+                                        Explore Delhi, Agra, and Jaipur on a curated journey through India's rich culture and heritage.
                                         </p>
                                     </div>
                                 </div>
@@ -238,12 +226,9 @@
                                         <img src="assets/img/normal/feature_1_3.jpg" alt="Icon" />
                                     </div>
                                     <div class="choose-feature_content">
-                                        <h3 class="box-title">Instant Itinerary</h3>
+                                        <h3 class="box-title">Same Day Tour</h3>
                                         <p class="box-text">
-                                            A worldwide tour is the ultimate dream for many travelers—a
-                                            chance to explore the diverse cultures, landscapes, and
-                                            wonders of every corner of the globe. Whether it's a
-                                            meticulously
+                                        Ideal for travelers short on time, enjoy guided sightseeing of major landmarks in a single day.
                                         </p>
                                     </div>
                                 </div>
@@ -270,18 +255,13 @@
                         <div class="col-xl-6">
                             <div class="ps-xl-4">
                                 <div class="title-area mb-20 pe-xxl-5 me-xxl-5">
-                                    <span class="sub-title style1">Let’s Go Together</span>
+                                    <span class="sub-title style1">Why choose us</span>
                                     <h2 class="sec-title mb-20  heading">
-                                        Plan Your Trip With us
+                                        Trust Building
                                     </h2>
                                 </div>
                                 <p class="sec-text  mb-30">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum voluptatem
-                                    excepturi odio, commodi repellendus architecto asperiores, alias vel natus impedit
-                                    ratione, reprehenderit voluptate officia praesentium? Optio aspernatur enim quam
-                                    facilis
-                                    explicabo voluptatibus, culpa provident! Dolorem, modi quaerat ex inventore quisquam
-                                    assumenda veritatis ad dignissimos. Porro iste illum quas tempore excepturi!
+                                With years of experience, we create unforgettable Indiana trips, blending comfort, safety, and excitement, while guiding you through hidden gems with care and trust.
                                 </p>
 
                                 <div class="about-item-wrap">
@@ -290,10 +270,9 @@
                                             <img src="assets/img/icon/about_1_1.svg" alt="" />
                                         </div>
                                         <div class="about-item_centent">
-                                            <h5 class="box-title">Exclusive Trip</h5>
+                                            <h5 class="box-title">Exclusive Experience</h5>
                                             <p class="about-item_text">
-                                                There are many variations of passages of available but the
-                                                majority.
+                                            Discover Indiana with exclusive packages featuring guided tours, luxury stays, adventure trails, and authentic local cuisine.
                                             </p>
                                         </div>
                                     </div>
@@ -302,11 +281,9 @@
                                             <img src="assets/img/icon/about_1_2.svg" alt="" />
                                         </div>
                                         <div class="about-item_centent">
-                                            <h5 class="box-title">Safety First Always</h5>
+                                            <h5 class="box-title">Travelers stories</h5>
                                             <p class="about-item_text">
-                                                There are many variations of passages of available but the
-                                                majority.
-                                            </p>
+                                            An unforgettable Indiana trip with guided tours, comfy resorts, and well-planned, safe activities.</p>
                                         </div>
                                     </div>
                                 </div>
