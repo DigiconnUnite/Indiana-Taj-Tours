@@ -1,3 +1,25 @@
+<?php
+// Get current file name for active link logic
+$current_page = basename($_SERVER['PHP_SELF']);
+function is_active($pages) {
+    global $current_page;
+    if (is_array($pages)) {
+        return in_array($current_page, $pages) ? 'active-link' : '';
+    }
+    return $current_page === $pages ? 'active-link' : '';
+}
+?>
+<style>
+    /* Active link underline style */
+    .main-menu a.active-link, .main-menu .active-link > a, .main-menu .active-link > a:visited {
+        border-bottom: 2px solid #005463;
+        color:#005463 !important;
+        font-weight: 600;
+    }
+    .main-menu .menu-item-has-children.active-link > a {
+        border-bottom: 2px solid #005463;
+    }
+</style>
 <header class="th-header header-layout1">
     <div class="header-top">
         <div class="container th-container">
@@ -18,7 +40,6 @@
                 </div>
                 <div class="col-auto">
                     <div class="header-right">
-
                         <div class="header-links">
                             <ul>
                                 <li class="d-none d-md-inline-block">
@@ -28,9 +49,7 @@
                                 <li class="d-none d-md-inline-block">
                                     <a href="mailto:"><i class="fa-regular fa-envelope"></i>
                                         <span> info@indianataj.com</span></a>
-
                                 </li>
-
                             </ul>
                         </div>
                     </div>
@@ -50,27 +69,32 @@
                     <div class="col-auto me-xl-auto">
                         <nav class="main-menu d-none d-xl-inline-block">
                             <ul>
-                                <li>
-                                    <a class="active" href="home-travel.html">Home</a>
+                                <li class="<?php echo is_active('index.php') || is_active('home-travel.html') ? 'active-link' : ''; ?>">
+                                    <a href="home-travel.html">Home</a>
                                 </li>
-                                <li>
+                                <li class="<?php echo is_active('about.php'); ?>">
                                     <a href="about.php">About Us</a>
                                 </li>
-                                <li>
+                                <li class="<?php echo is_active('taj-mahal-tour.php'); ?>">
                                     <a href="taj-mahal-tour.php">Taj Mahal Tour</a>
                                 </li>
-                                <li class="menu-item-has-children">
+                                <?php
+                                // Check if any of the tour package pages are active
+                                $tour_pages = ['same-day-tour.php', 'golder-triangle.php'];
+                                $is_tour_active = is_active($tour_pages);
+                                ?>
+                                <li class="menu-item-has-children <?php echo $is_tour_active; ?>">
                                     <a href="#">Tour Packages</a>
                                     <ul class="sub-menu">
-                                        <li>
+                                        <li class="<?php echo is_active('same-day-tour.php'); ?>">
                                             <a href="same-day-tour.php">Same Day Tour</a>
                                         </li>
-                                        <li>
+                                        <li class="<?php echo is_active('golder-triangle.php'); ?>">
                                             <a href="golder-triangle.php">Golden Triangle</a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
+                                <li class="<?php echo is_active('contact.php'); ?>">
                                     <a href="contact.php">Contact us</a>
                                 </li>
                             </ul>
@@ -81,12 +105,11 @@
                     </div>
                     <div class="col-auto d-none d-xl-block">
                         <div class="header-button">
-                            <a href="booking.php" class="th-btn style3 th-icon">Book Now</a>
+                            <a href="booking.php" class="th-btn style3 th-icon <?php echo is_active('booking.php'); ?>">Book Now</a>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </header>

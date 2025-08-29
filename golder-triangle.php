@@ -26,7 +26,7 @@
     <?php include 'preloader.php'; ?>
 
     <!-- include the sidemenu file -->
-    <?php include 'sidemenu.php'; ?>
+    <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->
     <?php include 'header.php'; ?>
@@ -35,7 +35,7 @@
     <main>
 
         <!-- breadcrumb-section  -->
-        <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/banner-img.png">
             <div class="container">
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Golden Triangle Tour Package</h1>

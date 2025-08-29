@@ -25,8 +25,8 @@
     <!-- include the preloader file -->
     <?php include 'preloader.php'; ?>
 
-    <!-- include the sidemenu file -->
-    <?php include 'sidemenu.php'; ?>
+    <!-- include the sidebar file -->
+    <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->
     <?php include 'header.php'; ?>
@@ -354,7 +354,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>1 Day</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -381,7 +381,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -408,7 +408,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -435,7 +435,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -470,7 +470,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Old & New Delhi</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -497,7 +497,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Essential Highlights</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -524,7 +524,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Pink City Experience</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -551,7 +551,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Round Trip from Delhi</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -576,7 +576,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Full Day Experience</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -603,7 +603,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap   style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -630,7 +630,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -657,7 +657,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
-                                            <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -695,7 +695,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Delhi - Agra - Jaipur</span>
-                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -722,7 +722,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>More Relaxed Itinerary</span>
-                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -749,7 +749,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Comprehensive Experience</span>
-                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -776,7 +776,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Golden Temple Included</span>
-                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -803,7 +803,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Sacred Town Experience</span>
-                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -830,7 +830,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Includes Tiger Safari</span>
-                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -857,7 +857,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>City of Lakes Included</span>
-                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -884,7 +884,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Spiritual Experience</span>
-                                                    <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1087,7 +1087,7 @@
                     <div class="col-xl-5">
                         <div class="ps-xl-4">
                             <div class="title-area mb-20 pe-xxl-5 me-xxl-5">
-                                <span class="sub-title style1">Let’s Go Together</span>
+                                <span class="sub-title style1">Let's Go Together</span>
                                 <h2 class="sec-title mb-20 pe-xl-5 me-xl-5 heading">
                                     Plan Your Trip With us
                                 </h2>
@@ -1123,9 +1123,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="mt-35">
-                                <a href="about.html" class="th-btn style3 th-icon">Learn More</a>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
