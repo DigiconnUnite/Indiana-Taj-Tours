@@ -25,142 +25,102 @@
     <!-- include the preloader file -->
     <?php include 'preloader.php'; ?>
 
-    <!-- include the sidemenu file -->
+    <!-- include the sidebar file -->
     <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->
     <?php include 'header.php'; ?>
 
-    <!-- Main -->
-    <main>
-
-        <!-- breadcrumb-section  -->
-        <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/banner-img.png">
-            <div class="container">
-                <div class="breadcumb-content">
-                    <h1 class="breadcumb-title">Booking</h1>
-                    <ul class="breadcumb-menu">
-                        <li><a href="home-travel.html">Home</a></li>
-                        <li>Booking</li>
-                    </ul>
+<main>
+    <!-- Booking Section -->
+    <section class="booking-area space" style="background: #f7fafd;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="title-area text-center mb-5">
+                        <span class="sub-title">Book Your Tour</span>
+                        <h2 class="sec-title">Reserve Your Indiana Taj Experience</h2>
+                        <p class="mt-2">Fill out the form below to book your unforgettable journey with Indiana Taj Tour. Our team will contact you soon to confirm your booking and provide further details.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="space">
-            <div class="container">
-                <div class="title-area text-center">
-                    <span class="sub-title">Get In Touch</span>
-                    <h2 class="sec-title">Our Contact Information</h2>
-                </div>
-                <div class="row gy-4 justify-content-center">
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="about-contact-grid style2">
-                            <div class="about-contact-icon">
-                                <img src="assets/img/icon/location-dot2.svg" alt="" />
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="booking-form-box th-ani gsap-cursor p-4 p-md-5 bg-white rounded shadow">
+                        <form action="booking-submit.php" method="post" class="row g-3" id="bookingForm">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Full Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="name" name="name" required placeholder="Your Name">
                             </div>
-                            <div class="about-contact-details">
-                                <h6 class="box-title">Our Address</h6>
-                                <p class="about-contact-details-text">
-                                    2690 Hiltona Street Victoria
-                                </p>
-                                <p class="about-contact-details-text">Road, New York, Canada</p>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email Address <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" name="email" required placeholder="you@email.com">
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="about-contact-grid">
-                            <div class="about-contact-icon">
-                                <img src="assets/img/icon/call.svg" alt="" />
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Phone Number <span class="text-danger">*</span></label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required placeholder="+91-XXXXXXXXXX">
                             </div>
-                            <div class="about-contact-details">
-                                <h6 class="box-title">Phone Number</h6>
-                                <p class="about-contact-details-text">
-                                    <a href="tel:01234567890">+01 234 567 890</a>
-                                </p>
-                                <p class="about-contact-details-text">
-                                    <a href="tel:01234567890">+09 876 543 210</a>
-                                </p>
+                            <div class="col-md-6">
+                                <label for="tour" class="form-label">Select Tour Package <span class="text-danger">*</span></label>
+                                <select class="form-select" id="tour" name="tour" required>
+                                    <option value="" disabled selected>Select a package</option>
+                                    <option value="Taj Mahal Day Tour by Car">Taj Mahal Day Tour by Car</option>
+                                    <option value="Taj Mahal Sunrise Tour">Taj Mahal Sunrise Tour</option>
+                                    <option value="Taj Mahal Tour by Train">Taj Mahal Tour by Gatimaan Express Train</option>
+                                    <option value="Taj Mahal Luxury Tour">Taj Mahal Luxury Tour by Premium Car</option>
+                                    <option value="Same Day Tour">Same Day Tour</option>
+                                    <option value="Golden Triangle">Golden Triangle</option>
+                                    <option value="Custom">Custom Tour</option>
+                                </select>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="about-contact-grid">
-                            <div class="about-contact-icon">
-                                <img src="assets/img/icon/mail.svg" alt="" />
+                            <div class="col-md-6">
+                                <label for="date" class="form-label">Preferred Date <span class="text-danger">*</span></label>
+                                <input type="date" class="form-control" id="date" name="date" required min="<?php echo date('Y-m-d'); ?>">
                             </div>
-                            <div class="about-contact-details">
-                                <h6 class="box-title">Email Address</h6>
-                                <p class="about-contact-details-text">
-                                    <a href="mailto:mailinfo00@tourm.com">mailinfo00@tourm.com</a>
-                                </p>
-                                <p class="about-contact-details-text">
-                                    <a href="mailto:support24@tourm.com">support24@tourm.com</a>
-                                </p>
+                            <div class="col-md-6">
+                                <label for="guests" class="form-label">Number of Guests <span class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="guests" name="guests" min="1" max="50" required value="1">
                             </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Additional Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="3" placeholder="Any special requests or questions?"></textarea>
+                            </div>
+                            <div class="col-12 text-center mt-3">
+                                <button type="submit" class="th-btn style3 th-icon px-5 py-2">Book Now</button>
+                            </div>
+                        </form>
+                        <div id="bookingSuccess" class="alert alert-success mt-3 d-none" role="alert">
+                            Thank you for your booking! We will contact you soon.
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="space-extra2-top space-extra2-bottom" data-bg-src="assets/img/bg/video_bg_1.jpg">
-            <div class="container">
-                <div class="row flex-row-reverse justify-content-center align-items-center">
+    </section>
+</main>
+<?php include "footer.php"; ?>
 
-                    <div class="col-lg-6">
-                        <div>
-                            <form action="mail.php" method="POST" class="contact-form style2 ajax-contact">
-                                <h3 class="sec-title mb-30 text-capitalize">Contact Us</h3>
-                                <div class="row">
-                                    <div class="col-12 form-group">
-                                        <input type="text" class="form-control" name="name" id="name3"
-                                            placeholder="First Name" />
-                                        <img src="assets/img/icon/user.svg" alt="" />
-                                    </div>
-                                    <div class="col-12 form-group">
-                                        <input type="email" class="form-control" name="email3" id="email3"
-                                            placeholder="Your Mail" />
-                                        <img src="assets/img/icon/mail.svg" alt="" />
-                                    </div>
-                                    <div class="form-group col-12">
-                                        <select name="subject" id="subject" class="form-select nice-select">
-                                            <option value="Select Tour Type" selected="selected" disabled="disabled">
-                                                Select Tour Type
-                                            </option>
-                                            <option value="Africa Adventure">Africa Adventure</option>
-                                            <option value="Africa Wild">Africa Wild</option>
-                                            <option value="Asia">Asia</option>
-                                            <option value="Scandinavia">Scandinavia</option>
-                                            <option value="Western Europe">Western Europe</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group col-12">
-                                        <textarea name="message" id="message" cols="30" rows="3" class="form-control"
-                                            placeholder="Your Message"></textarea>
-                                        <img src="assets/img/icon/chat.svg" alt="" />
-                                    </div>
-                                    <div class="form-btn col-12 mt-24">
-                                        <button type="submit" class="th-btn style3">
-                                            Send message
-                                            <img src="assets/img/icon/plane.svg" alt="" />
-                                        </button>
-                                    </div>
-                                </div>
-                                <p class="form-messages mb-0 mt-3"></p>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!-- Optionally include a simple JS for form UX (no backend processing here) -->
+<script>
+    // Hide preloader when page is fully loaded
+    window.addEventListener('load', function() {
+        var preloader = document.getElementById('preloader');
+        if (preloader) {
+            preloader.style.display = 'none';
+        }
+        // Remove 'overflow: hidden' or similar if set on body
+        document.body.style.overflow = '';
+    });
 
-    </main>
-
-    <!-- include the footer here  -->
-    <?php include 'footer.php'; ?>
-
-    <!-- include the bottom script -->
-    <?php include 'bottom-script.php'; ?>
+    // Simple client-side feedback (for demo only)
+    document.getElementById('bookingForm')?.addEventListener('submit', function(e) {
+        // e.preventDefault(); // Uncomment to prevent actual submission for demo
+        document.getElementById('bookingSuccess').classList.remove('d-none');
+        setTimeout(() => {
+            document.getElementById('bookingSuccess').classList.add('d-none');
+        }, 5000);
+    });
+</script>
 
 </body>
 

@@ -6976,6 +6976,7 @@ ol.wp-block-rss {
 }
 .header-layout1 {
   background-color: var(--white-color);
+  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.08);
 }
 .header-layout1 .header-top {
   position: relative;
@@ -7701,8 +7702,8 @@ ol.wp-block-rss {
   overflow: hidden;
 }
 .widget-area {
-  padding-top: 100px;
-  padding-bottom: 46px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .sticky-footer {
   position: fixed;
@@ -7820,7 +7821,7 @@ ol.wp-block-rss {
   flex: none;
   width: 40px;
   height: 40px;
-  line-height: 37px;
+  line-height: 37px; 
   background-color: #e9f6f9;
   border-radius: 50%;
   text-align: center;
@@ -7890,11 +7891,11 @@ ol.wp-block-rss {
   border-bottom: 1px solid rgba(233, 246, 249, 0.2);
 }
 .footer-layout2 .widget-area {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 @media (max-width: 991px) {
   .footer-layout2 .widget-area {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }
 }
 .footer-layout2 .footer-widget .widget_title {

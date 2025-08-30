@@ -1,269 +1,240 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Indiana Taj Tour | Contact Us</title>
-    <meta name="author" content="Indiana Taj Tour" />
-    <meta name="description" content="Contact Indiana Taj Tour for personalized travel experiences." />
-    <meta name="keywords" content="Indiana Taj Tour, Contact, Travel, Booking, India" />
+    <title>
+        Indiana Taj Tour | Contact Us
+    </title>
+    <meta name="author" content="Tourm" />
+    <meta name="description" content="Contact Indiana Taj Tour - Reach out for tour bookings, questions, or custom requests." />
+    <meta name="keywords" content="Contact, Indiana Taj Tour, Travel, Booking, Inquiry" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
 
+    <!-- include the links file  -->
     <?php include "links.php" ?>
 
     <style>
-        body {
-            background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
-            min-height: 100vh;
-            font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+        /* Ensure both cards have the same height and improved UI */
+        .contact-cards-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: stretch;
         }
-        .contact-hero {
-            background: linear-gradient(100deg, #1a73e8 0%, #00bfae 100%);
-            color: #fff;
-            padding: 60px 0 40px 0;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-        .contact-hero .hero-title {
-            font-size: 2.8rem;
-            font-weight: 800;
-            margin-bottom: 12px;
-            letter-spacing: -1px;
-        }
-        .contact-hero .hero-desc {
-            font-size: 1.25rem;
-            opacity: 0.92;
-            margin-bottom: 0;
-        }
-        .contact-main-section {
-            padding: 0 0 60px 0;
-        }
-        .contact-card {
-            background: #fff;
-            border-radius: 18px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.10);
-            padding: 36px 32px 32px 32px;
-            margin-bottom: 32px;
-            transition: box-shadow 0.2s;
+        .contact-info-box,
+        .contact-form-box {
             height: 100%;
+            border-radius: 1.25rem !important;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            justify-content: space-between;
         }
-        .contact-card:hover {
-            box-shadow: 0 12px 40px rgba(26,115,232,0.13);
+        .contact-info-box {
+           background-color: white;
+            border: 2px solid #e3f0ff;
+            padding: 2.5rem 2rem;
+            min-height: 100%;
         }
-        .contact-card .icon-wrap {
-            background: linear-gradient(90deg, #1a73e8 0%, #00bfae 100%);
-            border-radius: 50%;
-            width: 54px;
-            height: 54px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 18px;
-        }
-
-        .contact-form-modern {
-            background: #fff;
-            border-radius: 18px;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.10);
-            padding: 40px 32px 32px 32px;
-            width: 100%;
-            max-width: 520px;
-            margin: 0 auto;
-        }
-        .contact-form-modern .form-title {
-            font-size: 2rem;
+        .contact-info-box h4 {
+            color:#005772;
             font-weight: 700;
-            color: #1a2540;
-            margin-bottom: 10px;
-            text-align: center;
         }
-        .contact-form-modern .form-desc {
-            color: #6c7a89;
-            font-size: 1.05rem;
-            margin-bottom: 28px;
-            text-align: center;
-        }
-        .contact-form-modern .form-group {
-            margin-bottom: 20px;
-            position: relative;
-        }
-        .contact-form-modern .form-control {
-            width: 100%;
-            padding: 12px 44px 12px 16px;
-            border: 1.5px solid #e0e6ed;
-            border-radius: 8px;
-            font-size: 1rem;
-            background: #f8fafc;
-            transition: border-color 0.2s;
-        }
-        .contact-form-modern .form-control:focus {
-            border-color: #1a73e8;
+        .contact-info-box ul li {
             background: #fff;
-            outline: none;
+            border-radius: 0.75rem;
+            padding: 0.75rem 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            transition: box-shadow 0.2s;
         }
-        .contact-form-modern .input-icon {
-            position: absolute;
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 20px;
-            height: 20px;
-            opacity: 0.7;
+        .contact-info-box ul li i {
+            color: #005772;
         }
-        .contact-form-modern textarea.form-control {
-            min-height: 90px;
-            resize: vertical;
+        .contact-info-box ul li:last-child {
+            margin-bottom: 0;
         }
-        .contact-form-modern .th-btn {
-            width: 100%;
-            padding: 12px 0;
-            font-size: 1.08rem;
-            border-radius: 8px;
-            background: linear-gradient(90deg, #1a73e8 0%, #00bfae 100%);
-            color: #fff;
-            font-weight: 600;
-            border: none;
-            transition: background 0.2s;
-            display: flex;
+        .contact-info-box ul li:hover {
+            box-shadow: 0 4px 16px rgba(26,35,126,0.08);
+        }
+        .contact-info-box .me-3 {
+            font-size: 1.5rem;
+            margin-top: 0.15rem;
+        }
+        .contact-info-box .social-links a {
+            background: #e3f0ff;
+            color: #005772;
+            border-radius: 50%;
+            width: 38px;
+            height: 38px;
+            display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
+            font-size: 1.2rem;
+            margin-right: 0.5rem;
+            transition: background 0.2s, color 0.2s;
+            border: 1px solid #d1e3fa;
         }
-        .contact-form-modern .th-btn:hover {
-            background: linear-gradient(90deg, #00bfae 0%, #1a73e8 100%);
+        .contact-info-box .social-links a:last-child {
+            margin-right: 0;
+        }
+        .contact-info-box .social-links a:hover {
+            background: #005772;
             color: #fff;
         }
-        /* .contact-map {
-            border-radius: 18px;
-            overflow: hidden;
-            box-shadow: 0 8px 32px rgba(0,0,0,0.10);
-            width: 100%;
-            height: 100%;
-            min-height: 340px;
-        } */
-        @media (max-width: 991.98px) {
-            .contact-main-section {
-                padding-bottom: 32px;
-            }
-            .contact-form-modern {
-                padding: 28px 10px 20px 10px;
-            }
+        .contact-form-box {
+            border: 2px solid #e3f0ff;
+            background: #fff;
+            padding: 2.5rem 2rem;
+            min-height: 100%;
         }
-        @media (max-width: 767.98px) {
-            .contact-hero {
-                padding: 36px 0 24px 0;
-            }
-            .contact-form-modern {
-                padding: 18px 4px 12px 4px;
-            }
-            .contact-card {
-                padding: 22px 10px 18px 10px;
+        @media (max-width: 991.98px) {
+            .contact-cards-row {
+                flex-direction: column;
+                gap: 1.5rem;
             }
         }
     </style>
 </head>
 
 <body>
+    <!-- include the preloader file -->
     <?php include 'preloader.php'; ?>
+
+    <!-- include the sidebar file -->
     <?php include 'sidebar.php'; ?>
+
+    <!-- Include the header file -->
     <?php include 'header.php'; ?>
 
-    <main>
-        <!-- Modern Hero Section -->
-        <section class="contact-hero">
-            <div class="container">
-                <h1 class="hero-title">Contact Indiana Taj Tour</h1>
-                <p class="hero-desc">We're here to help you plan your perfect journey. Reach out for custom itineraries, questions, or bookings!</p>
+<main>
+    <!-- Contact Section -->
+    <section class="contact-area space" style="background: #f7fafd;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="title-area text-center mb-5">
+                        <span class="sub-title">Get in Touch</span>
+                        <h2 class="sec-title">Contact Indiana Taj Tour</h2>
+                        <p class="mt-2">Have questions, need a custom tour, or want to book your next adventure? Fill out the form below or reach us directly. Our team is here to help you plan the perfect journey!</p>
+                    </div>
+                </div>
             </div>
-        </section>
-
-        <!-- Main Contact Section -->
-        <section class="contact-main-section">
-            <div class="container">
-                <div class="row g-5 align-items-stretch">
-                    <!-- Contact Info Cards -->
-                    <div class="col-lg-4 d-flex flex-column justify-content-between">
-                        <div class="contact-card mb-4">
-                            <div class="icon-wrap">
-                                <img src="assets/img/icon/location-dot2.svg" alt="Location" />
-                            </div>
-                            <div class="card-title">Our Address</div>
-                            <div class="card-text">2690 Hiltona Street Victoria</div>
-                            <div class="card-text">Road, New York, Canada</div>
-                        </div>
-                        <div class="contact-card mb-4">
-                            <div class="icon-wrap">
-                                <img src="assets/img/icon/call.svg" alt="Phone" />
-                            </div>
-                            <div class="card-title">Phone Number</div>
-                            <a class="card-link" href="tel:01234567890">+01 234 567 890</a>
-                            <a class="card-link" href="tel:09876543210">+09 876 543 210</a>
-                        </div>
-                        <div class="contact-card">
-                            <div class="icon-wrap">
-                                <img src="assets/img/icon/mail.svg" alt="Email" />
-                            </div>
-                            <div class="card-title">Email Address</div>
-                            <a class="card-link" href="mailto:mailinfo00@tourm.com">mailinfo00@tourm.com</a>
-                            <a class="card-link" href="mailto:support24@tourm.com">support24@tourm.com</a>
+            <div class="contact-cards-row mb-5">
+                <div class="col-lg-5 d-flex">
+                    <div class="contact-info-box w-100">
+                        <h4 class="mb-4 text-center"><i class="fas fa-address-book me-2 "></i>Contact Information</h4>
+                        <ul class="list-unstyled mb-4">
+                            <li class="d-flex align-items-start">
+                                <span class="me-3"><i class="fas fa-map-marker-alt "></i></span>
+                                <span>
+                                    <strong>Address:</strong><br>
+                                    123 Taj Road, Agra, Uttar Pradesh, India
+                                </span>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <span class="me-3"><i class="fas fa-envelope "></i></span>
+                                <span>
+                                    <strong>Email:</strong><br>
+                                    <a href="mailto:info@indianatajtour.com">info@indianatajtour.com</a>
+                                </span>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <span class="me-3"><i class="fas fa-phone-alt "></i></span>
+                                <span>
+                                    <strong>Phone:</strong><br>
+                                    <a href="tel:+919999999999">+91-99999-99999</a>
+                                </span>
+                            </li>
+                            <li class="d-flex align-items-start">
+                                <span class="me-3"><i class="fas fa-clock "></i></span>
+                                <span>
+                                    <strong>Working Hours:</strong><br>
+                                    Mon - Sun: 8:00 AM - 10:00 PM
+                                </span>
+                            </li>
+                        </ul>
+                        <div class="social-links mt-auto text-center">
+                            <a href="#" class="me-2" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="me-2" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="me-2" title="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
-                    <!-- Contact Form Only (Map Removed) -->
-                    <div class="col-lg-8 d-flex justify-content-center align-items-center">
-                        <div class="w-100">
-                            <form action="mail.php" method="POST" class="contact-form-modern ajax-contact w-100">
-                                <div class="form-title">Send Us a Message</div>
-                                <div class="form-desc">Fill out the form and our team will get back to you promptly.</div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="name" id="name"
-                                        placeholder="Your Name" required />
-                                    <img src="assets/img/icon/user.svg" alt="" class="input-icon" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email" required />
-                                    <img src="assets/img/icon/mail.svg" alt="" class="input-icon" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" name="mobile" id="mobile"
-                                        placeholder="Mobile Number" pattern="[0-9+ ]*" required />
-                                    <img src="assets/img/icon/call.svg" alt="" class="input-icon" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="date" class="form-control" name="tour_date" id="tour_date"
-                                        placeholder="Tour Date" required />
-                                    <img src="assets/img/icon/calendar.svg" alt="" class="input-icon" />
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" id="message" cols="30" rows="4" class="form-control"
-                                        placeholder="Your Message" required></textarea>
-                                    <img src="assets/img/icon/chat.svg" alt="" class="input-icon" />
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="th-btn style3">
-                                        <span>Send Message</span>
-                                        <img src="assets/img/icon/plane.svg" alt="" style="width: 18px; height: 18px;" />
-                                    </button>
-                                </div>
-                                <p class="form-messages mb-0 mt-3"></p>
-                            </form>
+                </div>
+                <div class="col-lg-6 d-flex">
+                    <div class="contact-form-box w-100">
+                        <form action="contact-submit.php" method="post" class="row g-3" id="contactForm">
+                            <div class="col-md-6">
+                                <label for="contactName" class="form-label">Full Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="contactName" name="name" required placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="contactEmail" class="form-label">Email Address <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="contactEmail" name="email" required placeholder="you@email.com">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="contactPhone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="contactPhone" name="phone" placeholder="+91-XXXXXXXXXX">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="contactSubject" class="form-label">Subject <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="contactSubject" name="subject" required placeholder="Subject">
+                            </div>
+                            <div class="col-12">
+                                <label for="contactMessage" class="form-label">Message <span class="text-danger">*</span></label>
+                                <textarea class="form-control" id="contactMessage" name="message" rows="4" required placeholder="How can we help you?"></textarea>
+                            </div>
+                            <div class="col-12 text-center mt-3">
+                                <button type="submit" class="th-btn style3 th-icon px-5 py-2">Send Message</button>
+                            </div>
+                        </form>
+                        <div id="contactSuccess" class="alert alert-success mt-3 d-none" role="alert">
+                            Thank you for contacting us! We will get back to you soon.
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-10">
+                    <!-- Google Map Embed (optional, matches theme) -->
+                    <div class="rounded shadow overflow-hidden" style="height: 350px;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.726073289074!2d78.0395673150447!3d27.17501578301709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397471d7c2b2c7b1%3A0x2b2b2b2b2b2b2b2b!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Taj Mahal Location"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<?php include "footer.php"; ?>
 
-    <?php include 'footer.php'; ?>
-    <?php include 'bottom-script.php'; ?>
+<!-- Optionally include a simple JS for form UX (no backend processing here) -->
+<script>
+    // Hide preloader when page is fully loaded
+    window.addEventListener('load', function() {
+        var preloader = document.getElementById('preloader');
+        if (preloader) {
+            preloader.style.display = 'none';
+        }
+        document.body.style.overflow = '';
+    });
+
+    // Simple client-side feedback (for demo only)
+    document.getElementById('contactForm')?.addEventListener('submit', function(e) {
+        // e.preventDefault(); // Uncomment to prevent actual submission for demo
+        document.getElementById('contactSuccess').classList.remove('d-none');
+        setTimeout(() => {
+            document.getElementById('contactSuccess').classList.add('d-none');
+        }, 5000);
+    });
+</script>
+
 </body>
+
 </html>

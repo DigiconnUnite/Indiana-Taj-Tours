@@ -146,8 +146,7 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/same_day_tour/hawa-mahal.png" alt="Full Day Jaipur City Tour by Car" />
-                            alt="Full Day Jaipur City Tour by Car" />
+                            <img src="assets/img/same_day_tour/hawa-mahal.png" alt="Full Day Jaipur City Tour by Car" alt="Full Day Jaipur City Tour by Car" />
                         </div>
                     </div>
                     <div class="col-lg-6">

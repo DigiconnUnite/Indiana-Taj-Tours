@@ -341,13 +341,13 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Taj Mahal Day Tour by Car from Delhi</a>
+                                            <a href="taj-mahal-tour/day-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
                                                 <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(577+ Reviews)</a>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(77+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency"> <i class="fas fa-location"></i> Delhi - Agra - Delhi</span>
@@ -368,20 +368,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Taj Mahal Sunrise Tour from Delhi</a>
+                                            <a href="taj-mahal-tour/day-tour-by-car-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
                                                 <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(580+ Reviews)</a>
+                                            <a href="tour-details.html" class="woocommerce-review-link">(50+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now </a>
                                         </div>
                                     </div>
                                 </div>

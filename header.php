@@ -69,8 +69,8 @@ function is_active($pages) {
                     <div class="col-auto me-xl-auto">
                         <nav class="main-menu d-none d-xl-inline-block">
                             <ul>
-                                <li class="<?php echo is_active('index.php') || is_active('home-travel.html') ? 'active-link' : ''; ?>">
-                                    <a href="home-travel.html">Home</a>
+                                <li class="<?php echo is_active('index.php') || is_active('index.php') ? 'active-link' : ''; ?>">
+                                    <a href="index.php">Home</a>
                                 </li>
                                 <li class="<?php echo is_active('about.php'); ?>">
                                     <a href="about.php">About Us</a>
