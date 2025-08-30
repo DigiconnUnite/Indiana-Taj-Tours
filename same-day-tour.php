@@ -35,7 +35,7 @@
     <main>
 
         <!-- breadcrumb-section  -->
-        <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/banner-img.png">
+        <div class="breadcumb-wrapper" >
             <div class="container">
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Same Day Tour Package</h1>

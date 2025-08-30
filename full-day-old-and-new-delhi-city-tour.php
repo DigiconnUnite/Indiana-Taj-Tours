@@ -1,280 +1,648 @@
-<?php 
-    // Include the links, preloader, sidebar, and header for consistent UI
-    include "../links.php"; 
-    include '../preloader.php'; 
-    include '../sidebar.php'; 
-    include '../header.php'; 
-?>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
-<main>
-    <!-- Hero Section -->
-    <section class="th-hero-wrapper hero-inner-page" style="background-image: url('../assets/img/hero/hero-delhi.png'); background-size: cover; background-position: center;">
-        <div class="container">
-            <div class="hero-content text-center py-5">
-                <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Same Day Tour</span>
-                <h1 class="hero-title" data-ani="slideinup" data-ani-delay="0.4s">Full Day Delhi Tour</h1>
-                <nav aria-label="breadcrumb" class="d-flex justify-content-center mt-3">
-                    <ol class="breadcrumb bg-transparent p-0 m-0">
-                        <li class="breadcrumb-item"><a href="../index.php">Home</a></li>
-                        <li class="breadcrumb-item"><a href="../same-day-tour.php">Same Day Tour</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Full Day Delhi Tour</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-    </section>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>
+        Taj Mahal Day Tour by Car from Delhi | Indiana Taj Tour
+    </title>
+    <meta name="author" content="Tourm" />
+    <meta name="description" content="Experience the magnificent Taj Mahal on a day tour from Delhi with Indiana Taj Tours - A perfect day trip to Agra's iconic monument" />
+    <meta name="keywords" content="Taj Mahal day tour, Delhi to Agra day trip, Taj Mahal by car from Delhi" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
 
-    <!-- Tour Details Section -->
-    <section class="tour-details-area section-space">
-        <div class="container">
-            <div class="row gy-5">
-                <!-- Tour Images & Overview -->
-                <div class="col-lg-8">
-                    <div class="tour-details-content">
-                        <div class="tour-details-gallery mb-4">
-                            <div class="swiper th-slider tourGallerySlider" data-slider-options='{"spaceBetween":10,"slidesPerView":1,"pagination":{"el":".swiper-pagination","clickable":true}}'>
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <img src="../assets/img/delhi_tour/delhi-1.jpg" alt="Red Fort, Delhi" class="img-fluid rounded shadow" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="../assets/img/delhi_tour/delhi-2.jpg" alt="Qutub Minar, Delhi" class="img-fluid rounded shadow" />
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <img src="../assets/img/delhi_tour/delhi-3.jpg" alt="India Gate, Delhi" class="img-fluid rounded shadow" />
-                                    </div>
-                                </div>
-                                <div class="swiper-pagination mt-2"></div>
-                            </div>
-                        </div>
-                        <div class="tour-details-header mb-3">
-                            <h2 class="mb-2">Full Day Delhi Tour</h2>
-                            <div class="d-flex flex-wrap align-items-center gap-3">
-                                <span class="badge bg-primary"><i class="fa-light fa-clock me-1"></i> 1 Day</span>
-                                <span class="badge bg-success"><i class="fa-light fa-location-dot me-1"></i> Delhi</span>
-                                <span class="badge bg-warning text-dark"><i class="fa-light fa-star me-1"></i> 4.8/5 (120+ Reviews)</span>
-                            </div>
-                        </div>
-                        <div class="tour-details-desc mb-4">
-                            <h4>Tour Overview</h4>
-                            <p>
-                                Experience the vibrant culture, rich history, and architectural marvels of India’s capital with our <strong>Full Day Delhi Tour</strong>. Explore both Old and New Delhi in a single day, visiting iconic landmarks, bustling markets, and serene temples. Perfect for travelers who want to immerse themselves in the essence of Delhi in comfort and style.
-                            </p>
-                        </div>
-                        <div class="tour-details-itinerary mb-4">
-                            <h4>Itinerary</h4>
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">
-                                    <strong>08:00 AM:</strong> Pick up from your hotel/airport/railway station in Delhi.
-                                </li>
-                                <li class="list-group-item">
-                                    <strong>Red Fort:</strong> Marvel at the grandeur of this UNESCO World Heritage Site.
-                                </li>
-                                <li class="list-group-item">
-                                    <strong>Jama Masjid & Chandni Chowk:</strong> Visit India’s largest mosque and enjoy a rickshaw ride through the bustling market.
-                                </li>
-                                <li class="list-group-item">
-                                    <strong>Raj Ghat:</strong> Pay homage at Mahatma Gandhi’s memorial.
-                                </li>
-                                <li class="list-group-item">
-                                    <strong>India Gate & President’s House:</strong> Drive past these iconic landmarks in New Delhi.
-                                </li>
-                                <li class="list-group-item">
-                                    <strong>Qutub Minar:</strong> Explore the world’s tallest brick minaret.
-                                </li>
-                                <li class="list-group-item">
-                                    <strong>Lotus Temple & Humayun’s Tomb:</strong> Admire the architectural beauty and tranquility.
-                                </li>
-                                <li class="list-group-item">
-                                    <strong>06:00 PM:</strong> Drop back to your hotel/airport/railway station.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tour-details-includes mb-4">
-                            <h4>Inclusions</h4>
-                            <ul class="th-list style-check">
-                                <li>Private air-conditioned car with driver</li>
-                                <li>Professional English-speaking guide</li>
-                                <li>All parking, tolls, and taxes</li>
-                                <li>Bottled water</li>
-                                <li>Hotel/airport pickup and drop-off</li>
-                            </ul>
-                        </div>
-                        <div class="tour-details-excludes mb-4">
-                            <h4>Exclusions</h4>
-                            <ul class="th-list style-cross">
-                                <li>Monument entrance fees</li>
-                                <li>Meals and personal expenses</li>
-                                <li>Tips and gratuities</li>
-                            </ul>
-                        </div>
-                        <div class="tour-details-tips">
-                            <h4>Tips for Travelers</h4>
-                            <ul class="th-list style-dot">
-                                <li>Wear comfortable walking shoes and carry sunglasses.</li>
-                                <li>Respect local customs at religious sites.</li>
-                                <li>Carry a valid ID for monument entry.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Booking Sidebar -->
-                <div class="col-lg-4">
-                    <div class="tour-booking-sidebar p-4 rounded shadow bg-white sticky-top" style="top: 100px;">
-                        <h4 class="mb-3">Book This Tour</h4>
-                        <form action="../booking.php" method="get" class="th-form">
-                            <input type="hidden" name="tour" value="Full Day Delhi Tour">
-                            <div class="mb-3">
-                                <label for="name" class="form-label">Your Name</label>
-                                <input type="text" class="form-control" id="name" name="name" required placeholder="Enter your name">
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Email Address</label>
-                                <input type="email" class="form-control" id="email" name="email" required placeholder="Enter your email">
-                            </div>
-                            <div class="mb-3">
-                                <label for="date" class="form-label">Preferred Date</label>
-                                <input type="date" class="form-control" id="date" name="date" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="guests" class="form-label">No. of Guests</label>
-                                <input type="number" class="form-control" id="guests" name="guests" min="1" value="1" required>
-                            </div>
-                            <button type="submit" class="th-btn w-100">Book Now</button>
-                        </form>
-                        <div class="tour-price-box mt-4 text-center">
-                            <span class="h5 d-block mb-1 text-muted">Starting From</span>
-                            <span class="display-6 fw-bold text-primary">&#8377; 2,999 <small class="fs-6 text-muted">/ person</small></span>
-                            <div class="mt-2">
-                                <span class="badge bg-success"><i class="fa-light fa-check-circle me-1"></i>Best Price Guarantee</span>
-                            </div>
-                        </div>
-                        <div class="mt-4 text-center">
-                            <img src="../assets/img/payments.png" alt="Payment Methods" class="img-fluid" style="max-width: 180px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Related Tours Section -->
-    <section class="related-tours-area section-space-bottom">
-        <div class="container">
-            <div class="title-area text-center mb-4">
-                <span class="sub-title">You May Also Like</span>
-                <h2 class="sec-title">Related Tours</h2>
-            </div>
-            <div class="swiper th-slider has-shadow" data-slider-options='{"spaceBetween":30,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":2},"992":{"slidesPerView":3}}}'>
-                <div class="swiper-wrapper">
-                    <!-- Related Tour 1 -->
-                    <div class="swiper-slide">
-                        <div class="tour-box th-ani gsap-cursor">
-                            <div class="tour-box_img global-img">
-                                <img src="../assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal Day Tour by Car from Delhi" />
-                            </div>
-                            <div class="tour-content">
-                                <h3 class="box-title">
-                                    <a href="../taj-mahal-tour/day-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
-                                </h3>
-                                <div class="tour-rating">
-                                    <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
-                                        <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
-                                    </div>
-                                    <a href="#" class="woocommerce-review-link">(77+ Reviews)</a>
-                                </div>
-                                <h4 class="tour-box_price">
-                                    <span class="currency">Delhi - Agra - Delhi</span>
-                                </h4>
-                                <div class="tour-action">
-                                    <span><i class="fa-light fa-clock"></i>1 Day</span>
-                                    <a href="../booking.php?tour=Taj Mahal Day Tour by Car from Delhi" class="th-btn text-nowrap style4 th-icon">Book Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Related Tour 2 -->
-                    <div class="swiper-slide">
-                        <div class="tour-box th-ani gsap-cursor">
-                            <div class="tour-box_img global-img">
-                                <img src="../assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour from Delhi" />
-                            </div>
-                            <div class="tour-content">
-                                <h3 class="box-title">
-                                    <a href="../taj-mahal-tour/day-tour-by-car-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
-                                </h3>
-                                <div class="tour-rating">
-                                    <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
-                                        <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
-                                    </div>
-                                    <a href="#" class="woocommerce-review-link">(50+ Reviews)</a>
-                                </div>
-                                <h4 class="tour-box_price">
-                                    <span class="currency">01 Day Tour</span>
-                                </h4>
-                                <div class="tour-action">
-                                    <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-                                    <a href="../booking.php?tour=Taj Mahal Sunrise Tour from Delhi" class="th-btn text-nowrap style4 th-icon">Book Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Related Tour 3 -->
-                    <div class="swiper-slide">
-                        <div class="tour-box th-ani gsap-cursor">
-                            <div class="tour-box_img global-img">
-                                <img src="../assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Taj Mahal Tour by Gatimaan Express Train" />
-                            </div>
-                            <div class="tour-content">
-                                <h3 class="box-title">
-                                    <a href="../taj-mahal-tour/gatimaan-express-tour.php">Taj Mahal Tour by Gatimaan Express Train</a>
-                                </h3>
-                                <div class="tour-rating">
-                                    <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
-                                        <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
-                                    </div>
-                                    <a href="#" class="woocommerce-review-link">(750+ Reviews)</a>
-                                </div>
-                                <h4 class="tour-box_price">
-                                    <span class="currency">01 Day Tour</span>
-                                </h4>
-                                <div class="tour-action">
-                                    <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
-                                    <a href="../booking.php?tour=Taj Mahal Tour by Gatimaan Express Train" class="th-btn text-nowrap style4 th-icon">Book Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Add more related tours as needed -->
-                </div>
-            </div>
-        </div>
-    </section>
-</main>
-
-<?php include '../footer.php'; ?>
-
-<!-- Swiper JS (if not already included globally) -->
-<script src="../assets/js/swiper-bundle.min.js"></script>
-<script>
-    // Initialize Swiper for gallery and related tours
-    document.addEventListener('DOMContentLoaded', function() {
-        new Swiper('.tourGallerySlider', {
-            spaceBetween: 10,
-            slidesPerView: 1,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true
+    <!-- include the links file  -->
+    <?php include "links.php" ?>
+    
+    <style>
+        .tour-hero {
+            position: relative;
+            padding: 120px 0 80px;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/img/taj_mahal_tour/taj_mahal-1.png') center/cover no-repeat;
+            color: white;
+            text-align: center;
+        }
+        .tour-badge {
+            display: inline-block;
+            background: #005772;
+            color: #fff;
+            padding: 8px 20px;  
+            border-radius: 30px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .tour-highlight {
+            background: #fffbe7;
+            padding: 18px 22px;
+            border-left: 5px solid #005772;
+            margin: 28px 0;
+            border-radius: 8px;
+        }
+        .itinerary-step {
+            position: relative;
+            padding-left: 90px;
+            margin-bottom: 38px;
+            background: #f8f8f8;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            padding-top: 18px;
+            padding-bottom: 18px;
+        }
+        .itinerary-step-number {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 54px;
+            height: 54px;
+            background: linear-gradient(135deg,#015569 60%,rgb(0, 149, 175) 100%);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border: 3px solid #fff;
+        }
+        .itinerary-step h4 {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+        .inclusion-list, .exclusion-list {
+            list-style: none;
+            padding: 0;
+        }
+        .inclusion-list li, .exclusion-list li {
+            padding: 8px 0 8px 34px;
+            position: relative;
+            font-size: 1rem;
+        }
+        .inclusion-list li:before {
+            content: "✓";
+            color: #4CAF50;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .exclusion-list li:before {
+            content: "✗";
+            color: #F44336;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .related-tour-card {
+            transition: box-shadow 0.3s, transform 0.3s;
+            height: 100%;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .related-tour-card:hover {
+            transform: translateY(-8px) scale(1.03);
+            box-shadow: 0 8px 24px rgba(228,168,83,0.18);
+        }
+        .tour-img {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px 12px 0 0;
+        }
+        .tour-img img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .related-tour-card:hover .tour-img img {
+            transform: scale(1.06);
+        }
+        .tour-badge {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            z-index: 2;
+            font-size: 0.95rem;
+            padding: 7px 16px;
+            background: #005772;
+            color: #fff;
+            border-radius: 20px;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        .tour-content {
+            padding: 22px 18px 18px 18px;
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .tour-title {
+            font-size: 1.13rem;
+            font-weight: 700;
+            margin-bottom: 7px;
+            color: #222;
+        }
+        .tour-destination {
+            font-size: 0.98rem;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        .tour-meta {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+        .tour-rating i {
+            margin-right: 4px;
+        }
+        .th-btn.style3:hover {
+            background: #c98a2b;
+            color: #fff;
+        }
+        .tour-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            gap: 18px;
+            margin: 30px 0;
+        }
+        .tour-gallery img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .tour-gallery img:hover {
+            transform: scale(1.04);
+        }
+        .booking-form {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        .price-tag {
+            font-size: 28px;
+            color: #005772;
+            font-weight: 700;
+            margin: 15px 0;
+            text-align: center;
+        }
+        .tour-info-list {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: flex; 
+            gap: 5px;
+            flex-wrap: wrap;
+   
+        }
+        .info-item {
+            background: #f8f8f8;
+            border-radius: 8px;
+            padding: 14px 18px;
+            margin-bottom: 12px;
+            display: flex;
+ margin-inline: auto;
+            align-items: center;
+            width: 45%;
+        }
+        .info-icon {
+            font-size: 1.5rem;
+            color: #005772;
+            margin-right: 16px;
+        }
+        .info-content h6 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+        .info-content p {
+            font-size: 0.97rem;
+            margin-bottom: 0;
+        }
+        @media (max-width: 991px) {
+            .tour-gallery img {
+                height: 140px;
             }
-        });
-        new Swiper('.related-tours-area .th-slider', {
-            spaceBetween: 30,
-            slidesPerView: 3,
-            breakpoints: {
-                0: { slidesPerView: 1 },
-                576: { slidesPerView: 2 },
-                992: { slidesPerView: 3 }
+            .tour-img img {
+                height: 160px;
             }
-        });
-    });
-</script>
+        }
+        @media (max-width: 767px) {
+            .itinerary-step {
+                padding-left: 60px;
+            }
+            .itinerary-step-number {
+                width: 38px;
+                height: 38px;
+                font-size: 15px;
+                left: 8px;
+            }
+            .tour-gallery {
+                grid-template-columns: 1fr 1fr;
+            }
+            .tour-img img {
+                height: 120px;
+            }
+        }
+        @media (max-width: 575px) {
+            .tour-gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- include the preloader file -->
+    <?php include 'preloader.php'; ?>
+
+    <!-- include the sidemenu file -->
+    <?php include 'sidebar.php'; ?>
+
+    <!-- Include the header file -->
+    <?php include 'header.php'; ?>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Tour Hero Section -->
+        <section class="tour-hero" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <span class="tour-badge">Popular Choice</span>
+                        <h1 class="breadcumb-title">Taj Mahal Day Tour by Car from Delhi</h1>
+                        <p class="text-white">Delhi - Agra - Delhi | Experience the magnificence of the Taj Mahal on a comfortable day trip</p>
+                        <div class="d-flex justify-content-center flex-wrap mt-4">
+                            <div class="mx-3 my-2"><i class="fas fa-clock me-2"></i> 1 Day Tour</div>
+                            <div class="mx-3 my-2"><i class="fas fa-map-marker-alt me-2"></i> Pickup & Drop: Delhi</div>
+                            <div class="mx-3 my-2"><i class="fas fa-users me-2"></i> Private Tour</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Tour Details Section -->
+        <section class="space-top space-extra-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <!-- Overview -->
+                        <div class="mb-5 pb-3 border-bottom">
+                            <h2 class="sec-title mb-3">Tour Overview</h2>
+                            <p>Experience the wonder of the Taj Mahal on our expertly crafted day tour from Delhi. This comprehensive tour is designed for travelers who want to witness one of the Seven Wonders of the World without the early morning departure of sunrise tours. Travel in comfort in our air-conditioned vehicles with an experienced guide who will bring the rich history of the Mughal era to life.</p>
+                            <p>Your day begins with a convenient pickup from your Delhi hotel, followed by a scenic drive to Agra. Explore the magnificent Taj Mahal, the majestic Agra Fort, and other architectural marvels at a relaxed pace. Enjoy a delicious lunch at a renowned local restaurant before returning to Delhi in the evening with memories to last a lifetime.</p>
+                            
+                            <div class="tour-highlight">
+                                <h4 class="mb-3"><i class="fas fa-bolt me-2"></i> Why Choose This Tour?</h4>
+                                <p>Perfect for those who prefer a more relaxed start to their day while still experiencing the full splendor of the Taj Mahal and Agra's historical treasures with expert guidance and comfort throughout.</p>
+                            </div>
+                        </div>
+
+                        <!-- Tour Gallery -->
+                        <div class="mb-5 pb-3 border-bottom">
+                            <h2 class="sec-title mb-3">Tour Gallery</h2>
+                            <div class="tour-gallery">
+                                <img src="assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal daytime view">
+                                <img src="assets/img/taj_mahal_tour/agra-fort.jpg" alt="Agra Fort">
+                                <img src="assets/img/taj_mahal_tour/car.png" alt="Comfortable AC Car">
+                                <img src="assets/img/taj_mahal_tour/food.png" alt="Lunch at local restaurant">
+                            </div>
+                        </div>
+
+                        <!-- Highlights -->
+                        <div class="mb-5 pb-3 border-bottom">
+                            <h2 class="sec-title mb-3">Tour Highlights</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="feature-item style2 d-flex align-items-start mb-4">
+                                        <div class="feature-item_icon me-3" style="font-size: 1.5rem; color:#044e6b;">
+                                            <i class="fas fa-monument"></i>
+                                        </div>
+                                        <div class="feature-item_content">
+                                            <h4 class="box-title mb-1">Taj Mahal Exploration</h4>
+                                            <p class="mb-0">Spend quality time exploring the magnificent Taj Mahal with an expert guide sharing its history and secrets.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="feature-item style2 d-flex align-items-start mb-4">
+                                        <div class="feature-item_icon me-3" style="font-size: 1.5rem; color:#044e6b;">
+                                            <i class="fas fa-utensils"></i>
+                                        </div>
+                                        <div class="feature-item_content">
+                                            <h4 class="box-title mb-1">Delicious Lunch</h4>
+                                            <p class="mb-0">Enjoy a sumptuous lunch at a quality local restaurant featuring authentic North Indian cuisine.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="feature-item style2 d-flex align-items-start mb-4">
+                                        <div class="feature-item_icon me-3" style="font-size: 1.5rem; color:#044e6b;">
+                                            <i class="fas fa-landmark"></i>
+                                        </div>
+                                        <div class="feature-item_content">
+                                            <h4 class="box-title mb-1">Agra Fort Visit</h4>
+                                            <p class="mb-0">Explore the historic Agra Fort, a UNESCO World Heritage Site with rich Mughal history.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="feature-item style2 d-flex align-items-start mb-4">
+                                        <div class="feature-item_icon me-3" style="font-size: 1.5rem; color:#044e6b;">
+                                            <i class="fas fa-car"></i>
+                                        </div>
+                                        <div class="feature-item_content">
+                                            <h4 class="box-title mb-1">Comfortable Transport</h4>
+                                            <p class="mb-0">Travel in air-conditioned comfort with a professional driver for a relaxed journey.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Quick Info Widget (moved from sidebar) -->
+                        <div class="mb-5 pb-3">
+                            <h2 class="sec-title mb-3">Tour Details</h2>
+                            <div class="tour-info-list">
+                                <div class="info-item d-flex align-items-center mb-2">
+                                    <div class="info-icon me-3">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h6 class="mb-1">Duration</h6>
+                                        <p class="mb-0">12-14 Hours (Approx. 7:00 AM - 9:00 PM)</p>
+                                    </div>
+                                </div>
+                                <div class="info-item d-flex align-items-center mb-2">
+                                    <div class="info-icon me-3">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h6 class="mb-1">Group Size</h6>
+                                        <p class="mb-0">Private tour for your party only</p>
+                                    </div>
+                                </div>
+                                <div class="info-item d-flex align-items-center mb-2">
+                                    <div class="info-icon me-3">
+                                        <i class="fas fa-language"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h6 class="mb-1">Language</h6>
+                                        <p class="mb-0">English, Hindi, Spanish (on request)</p>
+                                    </div>
+                                </div>
+                                <div class="info-item d-flex align-items-center mb-2">
+                                    <div class="info-icon me-3">
+                                        <i class="fas fa-car"></i>
+                                    </div>
+                                    <div class="info-content">
+                                        <h6 class="mb-1">Transport</h6>
+                                        <p class="mb-0">AC Luxury Vehicle</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <!-- Itinerary -->
+                        <div class="mb-5 pb-3 border-bottom">
+                            <h2 class="sec-title mb-3">Tour Itinerary</h2>
+                            
+                            <div class="itinerary-step">
+                                <div class="itinerary-step-number">1</div>
+                                <h4>7:00 AM: Pickup from Delhi Hotel/Airport</h4>
+                                <p>Our driver will pick you up from your hotel or airport in Delhi to begin your journey to Agra. Enjoy a comfortable drive in our air-conditioned vehicle while taking in the scenery along the Yamuna Expressway.</p>
+                            </div>
+                            
+                            <div class="itinerary-step">
+                                <div class="itinerary-step-number">2</div>
+                                <h4>11:00 AM: Arrival in Agra & Taj Mahal Visit</h4>
+                                <p>Arrive in Agra and meet your expert guide who will take you to the magnificent Taj Mahal. Spend 2-3 hours exploring this architectural marvel and learning about its fascinating history and construction.</p>
+                            </div>
+                            
+                            <div class="itinerary-step">
+                                <div class="itinerary-step-number">3</div>
+                                <h4>1:30 PM: Lunch at Local Restaurant</h4>
+                                <p>Enjoy a delicious lunch at a quality local restaurant, sampling authentic North Indian cuisine in a comfortable setting.</p>
+                            </div>
+                            
+                            <div class="itinerary-step">
+                                <div class="itinerary-step-number">4</div>
+                                <h4>3:00 PM: Agra Fort Exploration</h4>
+                                <p>Visit the majestic Agra Fort, a UNESCO World Heritage site. Explore its palaces, halls, and gardens while your guide shares stories of the Mughal emperors who once resided here.</p>
+                            </div>
+                            
+                            <div class="itinerary-step">
+                                <div class="itinerary-step-number">5</div>
+                                <h4>5:00 PM: Local Craft Shopping (Optional)</h4>
+                                <p>Visit a local marble handicraft center to see artisans creating beautiful works in the same style as the Taj Mahal's decorations (optional stop).</p>
+                            </div>
+                            
+                            <div class="itinerary-step">
+                                <div class="itinerary-step-number">6</div>
+                                <h4>6:00 PM: Return Journey to Delhi</h4>
+                                <p>Begin your return journey to Delhi, arriving at your hotel or preferred drop-off location by approximately 9:00 PM, concluding your memorable day tour.</p>
+                            </div>
+                        </div>
+
+                        <!-- Inclusions/Exclusions -->
+                        <div class="mb-5 pb-3">
+                            <h2 class="sec-title mb-3">What's Included</h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Inclusions</h4>
+                                    <ul class="inclusion-list">
+                                        <li>Hotel/Airport pick-up and drop-off in Delhi</li>
+                                        <li>Private air-conditioned car with English-speaking driver</li>
+                                        <li>Professional live tour guide in Agra</li>
+                                        <li>All monument entrance tickets (Taj Mahal & Agra Fort)</li>
+                                        <li>Buffet lunch at a quality local restaurant</li>
+                                        <li>Complimentary mineral water during the journey</li>
+                                        <li>All taxes, parking, and road tolls</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4 class="mb-3"><i class="fas fa-times-circle text-danger me-2"></i> Exclusions</h4>
+                                    <ul class="exclusion-list">
+                                        <li>Tips/Gratuities for guide and driver</li>
+                                        <li>Any additional meals or drinks not specified</li>
+                                        <li>Personal expenses and souvenirs</li>
+                                        <li>Camera fees at monuments (if applicable)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Booking Widget (moved from sidebar) -->
+                        <div class="mb-5 pb-3">
+                            <h2 class="sec-title mb-3">Book This Tour</h2>
+                            <div class="price-tag">From $85 per person</div>
+                            
+                            <div class="booking-form mt-3">
+                                <h4 class="mb-4">Enquiry Form</h4>
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group mb-3">
+                                                <label for="fullName">Full Name <span style="color:red">*</span></label>
+                                                <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Your Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group mb-3">
+                                                <label for="email">Email Address <span style="color:red">*</span></label>
+                                                <input type="email" class="form-control" id="email" name="email" placeholder="you@email.com" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group mb-3">
+                                                <label for="phone">Phone Number <span style="color:red">*</span></label>
+                                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" required pattern="^\+?\d{10,15}$">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group mb-3">
+                                                <label for="package">Select Tour Package <span style="color:red">*</span></label>
+                                                <select class="form-control" id="package" name="package" required>
+                                                    <option value="">Select a package</option>
+                                                    <option value="Taj Mahal Day Tour by Car from Delhi" selected>Taj Mahal Day Tour by Car from Delhi</option>
+                                                    <option value="Taj Mahal Sunrise Tour by Car from Delhi">Taj Mahal Sunrise Tour by Car from Delhi</option>
+                                                    <option value="Taj Mahal Tour by Gatimaan Express Train">Taj Mahal Tour by Gatimaan Express Train</option>
+                                                    <option value="Custom/Other">Custom/Other</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group mb-3">
+                                                <label for="date">Preferred Date <span style="color:red">*</span></label>
+                                                <input type="date" class="form-control" id="date" name="date" placeholder="mm/dd/yyyy" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group mb-3">
+                                                <label for="guests">Number of Guests <span style="color:red">*</span></label>
+                                                <input type="number" class="form-control" id="guests" name="guests" placeholder="1" min="1" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label for="message">Additional Message</label>
+                                        <textarea class="form-control" id="message" name="message" rows="3" placeholder="Any special requests or questions?"></textarea>
+                                    </div>
+                                    <button type="submit" class="th-btn w-100">Book Now</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Tours -->
+        <section class="space-top space-extra-bottom bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center mb-4">
+                            <span class="sub-title" style="color:#005772;font-weight:600;letter-spacing:1px;">Explore More</span>
+                            <h2 class="sec-title" style="font-size:2.1rem;font-weight:700;">Related Tours</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gy-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="related-tour-card">
+                            <div class="tour-img">
+                                <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour">
+                                <span class="tour-badge">01 Day Tour</span>
+                            </div>
+                            <div class="tour-content">
+                                <h3 class="tour-title">Taj Mahal Sunrise Tour from Delhi</h3>
+                                <p class="tour-destination">Delhi - Agra - Delhi</p>
+                                <div class="tour-meta">
+                                    <div class="tour-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.8 (750+)</span>
+                                    </div>
+                                </div>
+                                <a href="taj-sunrise-tour.html" class="th-btn style3">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="related-tour-card">
+                            <div class="tour-img">
+                                <img src="assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Gatimaan Express Tour">
+                                <span class="tour-badge">01 Day Tour</span>
+                            </div>
+                            <div class="tour-content">
+                                <h3 class="tour-title">Taj Mahal Tour by Gatimaan Express Train</h3>
+                                <p class="tour-destination">Delhi - Agra - Delhi</p>
+                                <div class="tour-meta">
+                                    <div class="tour-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.7 (577+)</span>
+                                    </div>
+                                </div>
+                                <a href="gatimaan-tour.html" class="th-btn style3">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="related-tour-card">
+                            <div class="tour-img">
+                                <img src="assets/img/taj_mahal_tour/taj_mahal-4.png" alt="Luxury Taj Tour">
+                                <span class="tour-badge">01 Day Tour</span>
+                            </div>
+                            <div class="tour-content">
+                                <h3 class="tour-title">Taj Mahal Luxury Tour by Premium Car</h3>
+                                <p class="tour-destination">Delhi - Agra - Delhi</p>
+                                <div class="tour-meta">
+                                    <div class="tour-rating">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.9 (420+)</span>
+                                    </div>
+                                </div>
+                                <a href="luxury-taj-tour.html" class="th-btn style3">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- include the footer here  -->
+    <?php include 'footer.php'; ?>
+
+    <!-- include the bottom script -->
+    <?php include 'bottom-script.php'; ?>
+
+</body>
+
+</html>

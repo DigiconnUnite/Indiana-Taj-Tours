@@ -40,7 +40,7 @@
     <main>
 
         <!-- Breadcrumb / Page Hero -->
-        <section class="breadcumb-wrapper" data-bg-src="assets/img/bg/banner-img.png">
+        <section class="breadcumb-wrapper" >
             <div class="container">
                 <div class="breadcumb-content text-center">
                     <h1 class="breadcumb-title">Terms &amp; Conditions</h1>
