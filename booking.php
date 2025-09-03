@@ -25,11 +25,7 @@
     <!-- include the preloader file -->
     <?php include 'preloader.php'; ?>
 
-<<<<<<< HEAD
     <!-- include the sidebar file -->
-=======
-    <!-- include the sidemenu file -->
->>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
     <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->

@@ -385,11 +385,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now </a>
-=======
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
->>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
