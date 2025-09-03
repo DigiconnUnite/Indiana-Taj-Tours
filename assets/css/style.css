@@ -26567,22 +26567,7 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.feature-item:hover {
-  background-color: var(--theme-color);
-}
-.feature-item:hover .feature-item_icon {
-  background-color: var(--white-color);
-}
-.feature-item:hover .feature-item_icon img {
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
-.feature-item:hover .feature-item_text {
-  color: var(--white-color);
-}
-.feature-item:hover .box-title {
-  color: var(--white-color);
-}
+
 .feature-wrapper {
   display: -webkit-box;
   display: -webkit-flex;

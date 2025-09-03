@@ -40,7 +40,7 @@
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Same Day Tour Package</h1>
                     <ul class="breadcumb-menu">
-                        <li><a href="home-travel.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>Same Day Tour</li>
                     </ul>
                 </div>
@@ -72,7 +72,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Full Day Old and New Delhi City Tour</a>
+                                <a href="./full-day-old-and-new-delhi-city-tour.php">Full Day Old and New Delhi City Tour</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -98,7 +98,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Half Day Delhi City Tour</a>
+                                <a href="./half-day-delhi-city-tour.php">Half Day Delhi City Tour</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -138,7 +138,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Full Day Jaipur City Tour by Car</a>
+                                <a href="./full-day-jaipur-city-tour-by-car.php">Full Day Jaipur City Tour by Car</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -178,7 +178,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Jaipur Tour from Delhi by Car</a>
+                                <a href="./jaipur-tour-from-delhi-by-car.php">Jaipur Tour from Delhi by Car</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -219,7 +219,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -234,7 +234,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Taj Mahal Day Tour by Car from Delhi</a>
+                                <a href="./taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -260,7 +260,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -274,7 +274,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Taj Mahal Sunrise Tour from Delhi</a>
+                                <a href="./taj-mahal-sunrise-tour-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -301,7 +301,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -316,7 +316,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Taj Mahal Tour by Gatimaan Express Train</a>
+                                <a href="./taj-mahal-tour-by-gatimaan-express-train.php">Taj Mahal Tour by Gatimaan Express Train</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -342,7 +342,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -357,7 +357,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Taj Mahal Luxury Tour by Premium Car from Delhi</a>
+                                <a href="./taj-mahal-luxury-tour-by-premium-car-from-delhi.php">Taj Mahal Luxury Tour by Premium Car from Delhi</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -384,7 +384,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>

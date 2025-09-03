@@ -63,7 +63,7 @@ function is_active($pages) {
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="home-travel.html"><img src="assets/img/logo-dark.png" alt="Tourm" /></a>
+                            <a href="index.php"><img src="assets/img/logo-dark.png" alt="Tourm" /></a>
                         </div>
                     </div>
                     <div class="col-auto me-xl-auto">

@@ -217,9 +217,9 @@
                                     <img src="assets/img/home/cat-agra.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="destination.html">Agra</a>
+                                    <a href="./taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Agra</a>
                                 </h3>
-                                <a class="line-btn" href="taj-mahal-tour.php">See more</a>
+                                <a class="line-btn" href="./taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -227,8 +227,8 @@
                                 <div class="box-img global-img">
                                     <img src="assets/img/home/cat-delhi.png" alt="Image" />
                                 </div>
-                                <h3 class="box-title"><a href="same-day-tour/full-day-delhi-tour.php">Delhi</a></h3>
-                                <a class="line-btn" href="same-day-tour/full-day-delhi-tour.php">See more</a>
+                                <h3 class="box-title"><a href="./full-day-old-and-new-delhi-city-tour.php">Delhi</a></h3>
+                                <a class="line-btn" href="./full-day-old-and-new-delhi-city-tour.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -237,9 +237,9 @@
                                     <img src="assets/img/home/cat-jaipur.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="same-day-tour/full-day-jaipur-tour.php">Jaipur</a>
+                                    <a href="./full-day-jaipur-city-tour-by-car.php">Jaipur</a>
                                 </h3>
-                                <a class="line-btn" href="same-day-tour/full-day-jaipur-tour.php">See more</a>
+                                <a class="line-btn" href="./full-day-jaipur-city-tour-by-car.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -248,9 +248,9 @@
                                     <img src="assets/img/home/cat-udaipur.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="golden-triangle-tour/udaipur-tour.php">Udaipur</a>
+                                    <a href="./golden-triangle-tour-with-udaipur.php">Udaipur</a>
                                 </h3>
-                                <a class="line-btn" href="golden-triangle-tour/udaipur-tour.php">See more</a>
+                                <a class="line-btn" href="./golden-triangle-tour-with-udaipur.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -259,9 +259,9 @@
                                     <img src="assets/img/home/cat-varanasi.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="golden-triangle-tour/varanashi-tour.php">Varanasi</a>
+                                    <a href="./golden-triangle-tour-with-varanasi.php">Varanasi</a>
                                 </h3>
-                                <a class="line-btn" href="golden-triangle-tour/varanashi-tour.php">See more</a>
+                                <a class="line-btn" href="./golden-triangle-tour-with-varanasi.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -270,9 +270,9 @@
                                     <img src="assets/img/home/cat-ranthambore.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="golden-triangle-tour/ranthambore-tour.php">Ranthambore</a>
+                                    <a href="./golden-triangle-tour-with-ranthambore.php">Ranthambore</a>
                                 </h3>
-                                <a class="line-btn" href="golden-triangle-tour/ranthambore-tour.php">See more</a>
+                                <a class="line-btn" href="./golden-triangle-tour-with-ranthambore.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -280,8 +280,8 @@
                                 <div class="box-img global-img">
                                     <img src="assets/img/home/cat-pushkar.png" alt="Image" />
                                 </div>
-                                <h3 class="box-title"><a href="golden-triangle-tour/pushkar-tour.php">Pushkar</a></h3>
-                                <a class="line-btn" href="golden-triangle-tour/pushkar-tour.php">See more</a>
+                                <h3 class="box-title"><a href="./golden-triangle-tour-with-pushkar.php">Pushkar</a></h3>
+                                <a class="line-btn" href="./golden-triangle-tour-with-pushkar.php">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -290,9 +290,9 @@
                                     <img src="assets/img/home/cat-amritsar.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="golden-triangle-tour/amritsar-tour.php">Amritsar</a>
+                                    <a href="./golden-triangle-tour-with-amritsar.php">Amritsar</a>
                                 </h3>
-                                <a class="line-btn" href="golden-triangle-tour/amritsar-tour.php">See more</a>
+                                <a class="line-btn" href="./golden-triangle-tour-with-amritsar.php">See more</a>
                             </div>
                         </div>
                         
@@ -341,20 +341,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="taj-mahal-tour/day-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
+                                            <a href="taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
                                                 <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(77+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(77+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency"> <i class="fas fa-location"></i> Delhi - Agra - Delhi</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>1 Day</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -368,20 +368,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="taj-mahal-tour/day-tour-by-car-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
+                                            <a href="taj-mahal-sunrise-tour-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
                                                 <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(50+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(50+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now </a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now </a>
                                         </div>
                                     </div>
                                 </div>
@@ -395,20 +395,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Taj Mahal Tour by Gatimaan Express Train</a>
+                                            <a href="taj-mahal-tour-by-gatimaan-express-train.php">Taj Mahal Tour by Gatimaan Express Train</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
                                                 <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(750+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(750+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -422,20 +422,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Taj Mahal Luxury Tour by Premium Car</a>
+                                            <a href="taj-mahal-luxury-tour-by-premium-car-from-delhi.php">Taj Mahal Luxury Tour by Premium Car</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
                                                 <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(340+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(340+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -457,20 +457,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Full Day Delhi City Tour</a>
+                                            <a href="full-day-old-and-new-delhi-city-tour.php">Full Day Delhi City Tour</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
                                                 <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(580+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(580+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">06 Hours Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Old & New Delhi</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -484,20 +484,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Half Day Delhi City Tour</a>
+                                            <a href="half-day-delhi-city-tour.php">Half Day Delhi City Tour</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
                                                 <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(460+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(460+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Essential Highlights</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -511,20 +511,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Full Day Jaipur City Tour</a>
+                                            <a href="full-day-jaipur-city-tour-by-car.php">Full Day Jaipur City Tour</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
                                                 <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(610+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(610+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Pink City Experience</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -538,20 +538,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Jaipur Tour from Delhi</a>
+                                            <a href="jaipur-tour-from-delhi-by-car.php">Jaipur Tour from Delhi</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
                                                 <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(370+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(370+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Round Trip from Delhi</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -563,20 +563,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Taj Mahal Day Tour by Car from Delhi</a>
+                                            <a href="taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
                                                 <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(577+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(577+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Full Day Experience</span>
-                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -590,20 +590,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Taj Mahal Sunrise Tour from Delhi</a>
+                                            <a href="taj-mahal-sunrise-tour-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
                                                 <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(580+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(580+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-                                            <a href="contact.html" class="th-btn text-nowrap   style4 th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn text-nowrap   style4 th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -617,20 +617,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Taj Mahal Tour by Gatimaan Express Train</a>
+                                            <a href="taj-mahal-tour-by-gatimaan-express-train.php">Taj Mahal Tour by Gatimaan Express Train</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
                                                 <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(750+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(750+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
-                                            <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -644,20 +644,20 @@
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="tour-details.html">Taj Mahal Luxury Tour by Premium Car</a>
+                                            <a href="taj-mahal-luxury-tour-by-premium-car-from-delhi.php">Taj Mahal Luxury Tour by Premium Car</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
                                                 <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
                                             </div>
-                                            <a href="tour-details.html" class="woocommerce-review-link">(340+ Reviews)</a>
+                                            <a href="#" class="woocommerce-review-link">(340+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
-                                            <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                            <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -682,20 +682,20 @@
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
-                                                    <a href="tour-details.html">Golden Triangle Tour 3 Days</a>
+                                                    <a href="./golden-triangle-tour-3-days.php">Golden Triangle Tour 3 Days</a>
                                                 </h3>
                                                 <div class="tour-rating">
                                                     <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
                                                         <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
                                                     </div>
-                                                    <a href="tour-details.html" class="woocommerce-review-link">(340+ Reviews)</a>
+                                                    <a href="#" class="woocommerce-review-link">(340+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
                                                     <span class="currency">03 Night / 04 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Delhi - Agra - Jaipur</span>
-                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -709,20 +709,20 @@
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
-                                                    <a href="tour-details.html">Golden Triangle Tour 4 Days</a>
+                                                    <a href="golden-triangle-tour-4-days.php">Golden Triangle Tour 4 Days</a>
                                                 </h3>
                                                 <div class="tour-rating">
                                                     <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
                                                         <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
                                                     </div>
-                                                    <a href="tour-details.html" class="woocommerce-review-link">(460+ Reviews)</a>
+                                                    <a href="#" class="woocommerce-review-link">(460+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
                                                     <span class="currency">04 Night / 05 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>More Relaxed Itinerary</span>
-                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -736,20 +736,20 @@
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
-                                                    <a href="tour-details.html">Golden Triangle Tour 5 Days</a>
+                                                    <a href="golden-triangle-tour-5-days.php">Golden Triangle Tour 5 Days</a>
                                                 </h3>
                                                 <div class="tour-rating">
                                                     <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
                                                         <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
                                                     </div>
-                                                    <a href="tour-details.html" class="woocommerce-review-link">(430+ Reviews)</a>
+                                                    <a href="#" class="woocommerce-review-link">(430+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
                                                     <span class="currency">06 Night / 07 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Comprehensive Experience</span>
-                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -763,20 +763,20 @@
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
-                                                    <a href="tour-details.html">Golden Triangle with Amritsar</a>
+                                                    <a href="golden-triangle-tour-with-amritsar.php">Golden Triangle with Amritsar</a>
                                                 </h3>
                                                 <div class="tour-rating">
                                                     <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
                                                         <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
                                                     </div>
-                                                    <a href="tour-details.html" class="woocommerce-review-link">(290+ Reviews)</a>
+                                                    <a href="#" class="woocommerce-review-link">(290+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
                                                     <span class="currency">06 Night / 07 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Golden Temple Included</span>
-                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -790,20 +790,20 @@
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
-                                                    <a href="tour-details.html">Golden Triangle with Pushkar</a>
+                                                    <a href="golden-triangle-tour-with-pushkar.php">Golden Triangle with Pushkar</a>
                                                 </h3>
                                                 <div class="tour-rating">
                                                     <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
                                                         <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
                                                     </div>
-                                                    <a href="tour-details.html" class="woocommerce-review-link">(390+ Reviews)</a>
+                                                    <a href="#" class="woocommerce-review-link">(390+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
                                                     <span class="currency">06 Night / 07 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Sacred Town Experience</span>
-                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -817,20 +817,20 @@
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
-                                                    <a href="tour-details.html">Golden Triangle with Ranthambore</a>
+                                                    <a href="golden-triangle-tour-with-ranthambore.php">Golden Triangle with Ranthambore</a>
                                                 </h3>
                                                 <div class="tour-rating">
                                                     <div class="star-rating" role="img" aria-label="Rated 4.9 out of 5">
                                                         <span style="width: 98%">Rated <strong class="rating">4.9</strong> out of 5</span>
                                                     </div>
-                                                    <a href="tour-details.html" class="woocommerce-review-link">(410+ Reviews)</a>
+                                                    <a href="#" class="woocommerce-review-link">(410+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
                                                     <span class="currency">07 Night / 08 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Includes Tiger Safari</span>
-                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -844,20 +844,20 @@
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
-                                                    <a href="tour-details.html">Golden Triangle with Udaipur</a>
+                                                    <a href="golden-triangle-tour-with-udaipur.php">Golden Triangle with Udaipur</a>
                                                 </h3>
                                                 <div class="tour-rating">
                                                     <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
                                                         <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
                                                     </div>
-                                                    <a href="tour-details.html" class="woocommerce-review-link">(520+ Reviews)</a>
+                                                    <a href="#" class="woocommerce-review-link">(520+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
                                                     <span class="currency">07 Night / 08 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>City of Lakes Included</span>
-                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -871,20 +871,20 @@
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
-                                                    <a href="tour-details.html">Golden Triangle with Varanasi</a>
+                                                    <a href="./golden-triangle-tour-with-varanasi.php">Golden Triangle with Varanasi</a>
                                                 </h3>
                                                 <div class="tour-rating">
                                                     <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
                                                         <span style="width: 94%">Rated <strong class="rating">4.7</strong> out of 5</span>
                                                     </div>
-                                                    <a href="tour-details.html" class="woocommerce-review-link">(330+ Reviews)</a>
+                                                    <a href="#" class="woocommerce-review-link">(330+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
                                                     <span class="currency">07 Night / 08 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Spiritual Experience</span>
-                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
                                                 </div>
                                             </div>
                                         </div>

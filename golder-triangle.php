@@ -40,7 +40,7 @@
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Golden Triangle Tour Package</h1>
                     <ul class="breadcumb-menu">
-                        <li><a href="home-travel.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>Golden Triangle Tour</li>
                     </ul>
                 </div>
@@ -72,7 +72,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Golden Triangle Tour 3 Days</a>
+                                <a href="./golden-triangle-tour-3-days.php">Golden Triangle Tour 3 Days</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -99,7 +99,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -113,7 +113,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Golden Triangle Tour 4 Days</a>
+                                <a href="./golden-triangle-tour-4-days.php">Golden Triangle Tour 4 Days</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -140,7 +140,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Golden Triangle Tour 5 Days</a>
+                                <a href="golden-triangle-tour-5-days.php">Golden Triangle Tour 5 Days</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -181,7 +181,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Golden Triangle Tour with Amritsar</a>
+                                <a href="golden-triangle-tour-with-amritsar.php">Golden Triangle Tour with Amritsar</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -223,7 +223,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -238,7 +238,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Golden Triangle Tour with Pushkar</a>
+                                <a href="golden-triangle-tour-with-pushkar.php">Golden Triangle Tour with Pushkar</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -265,7 +265,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -280,7 +280,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Golden Triangle Tour with Ranthambore</a>
+                                <a href="golden-triangle-tour-with-ranthambore.php">Golden Triangle Tour with Ranthambore</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -308,7 +308,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -323,7 +323,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Golden Triangle Tour with Udaipur</a>
+                                <a href="golden-triangle-tour-with-udaipur.php">Golden Triangle Tour with Udaipur</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -350,7 +350,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -365,7 +365,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Golden Triangle Tour with Varanasi</a>
+                                <a href="golden-triangle-tour-with-varanasi.php">Golden Triangle Tour with Varanasi</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -392,7 +392,7 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40">
-                                <a href="contact.html" class="th-btn style4 th-icon">Book Now</a>
+                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>

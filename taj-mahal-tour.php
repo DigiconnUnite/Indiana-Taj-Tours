@@ -40,7 +40,7 @@
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Taj Mahal Tour Package</h1>
                     <ul class="breadcumb-menu">
-                        <li><a href="home-travel.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>Taj Mahal Tour</li>
                     </ul>
                 </div>
@@ -73,7 +73,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Taj Mahal Day Tour by Car from Delhi</a>
+                                <a href="./taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -114,7 +114,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Taj Mahal Sunrise Tour from Delhi</a>
+                                <a href="./taj-mahal-sunrise-tour-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -156,7 +156,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Taj Mahal Tour by Gatimaan Express Train</a>
+                                <a href="./taj-mahal-tour-by-gatimaan-express-train.php">Taj Mahal Tour by Gatimaan Express Train</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -197,7 +197,7 @@
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="tour-details.html">Taj Mahal Luxury Tour by Premium Car from Delhi</a>
+                                <a href="./taj-mahal-luxury-tour-by-premium-car-from-delhi.php">Taj Mahal Luxury Tour by Premium Car from Delhi</a>
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
