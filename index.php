@@ -354,7 +354,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>1 Day</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -381,7 +385,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now </a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -408,7 +416,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -435,7 +447,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -470,7 +486,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Old & New Delhi</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -497,7 +517,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Essential Highlights</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -524,7 +548,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Pink City Experience</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -551,7 +579,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Round Trip from Delhi</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -576,7 +608,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Full Day Experience</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -603,7 +639,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn text-nowrap   style4 th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn text-nowrap   style4 th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -630,7 +670,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -657,7 +701,11 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
+<<<<<<< HEAD
                                             <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                            <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                         </div>
                                     </div>
                                 </div>
@@ -695,7 +743,11 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Delhi - Agra - Jaipur</span>
+<<<<<<< HEAD
                                                     <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                                 </div>
                                             </div>
                                         </div>
@@ -722,7 +774,11 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>More Relaxed Itinerary</span>
+<<<<<<< HEAD
                                                     <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                                 </div>
                                             </div>
                                         </div>
@@ -749,7 +805,11 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Comprehensive Experience</span>
+<<<<<<< HEAD
                                                     <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                                 </div>
                                             </div>
                                         </div>
@@ -776,7 +836,11 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Golden Temple Included</span>
+<<<<<<< HEAD
                                                     <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                                 </div>
                                             </div>
                                         </div>
@@ -803,7 +867,11 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Sacred Town Experience</span>
+<<<<<<< HEAD
                                                     <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                                 </div>
                                             </div>
                                         </div>
@@ -830,7 +898,11 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Includes Tiger Safari</span>
+<<<<<<< HEAD
                                                     <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                                 </div>
                                             </div>
                                         </div>
@@ -857,7 +929,11 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>City of Lakes Included</span>
+<<<<<<< HEAD
                                                     <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                                 </div>
                                             </div>
                                         </div>
@@ -884,7 +960,11 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Spiritual Experience</span>
+<<<<<<< HEAD
                                                     <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+=======
+                                                    <a href="contact.html" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                                                 </div>
                                             </div>
                                         </div>

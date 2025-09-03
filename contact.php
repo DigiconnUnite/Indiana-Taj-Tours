@@ -107,7 +107,11 @@
     <!-- include the preloader file -->
     <?php include 'preloader.php'; ?>
 
+<<<<<<< HEAD
     <!-- include the sidebar file -->
+=======
+    <!-- include the sidemenu file -->
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
     <?php include 'sidebar.php'; ?>
 
     <!-- Include the header file -->
@@ -201,13 +205,64 @@
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
             <div class="row mt-5 justify-content-center">
                 <div class="col-lg-10">
                     <!-- Google Map Embed (optional, matches theme) -->
                     <div class="rounded shadow overflow-hidden" style="height: 350px;">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.726073289074!2d78.0395673150447!3d27.17501578301709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397471d7c2b2c7b1%3A0x2b2b2b2b2b2b2b2b!2sTaj%20Mahal!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Taj Mahal Location"></iframe>
+=======
+        </div>
+        <div class="space-extra2-top space-extra2-bottom" data-bg-src="assets/img/bg/video_bg_1.jpg">
+            <div class="container">
+                <div class="row flex-row-reverse justify-content-center align-items-center">
+                    <div class="col-6" style="padding:0;">
+                        <div>
+                            <form action="mail.php" method="POST" class="contact-form style2 ajax-contact" style="width: 80vw; max-width: 80vw; margin-left: calc(-40vw + 50%); margin-right: calc(-40vw + 50%); padding: 32px 4vw; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.08);">
+                                <h3 class="sec-title mb-30 text-capitalize" style="font-size: 1.76rem;">Contact Us</h3>
+                                <div class="row">
+                                    <div class="col-12 form-group" style="margin-bottom: 12.8px;">
+                                        <input type="text" class="form-control" name="name" id="name3"
+                                            placeholder="First Name" style="height: 33.6px; font-size: 0.88rem;"/>
+                                        <img src="assets/img/icon/user.svg" alt="" style="width: 17.6px; height: 17.6px; position: absolute; right: 14.4px; top: 8px;" />
+                                    </div>
+                                    <div class="col-12 form-group" style="margin-bottom: 12.8px;">
+                                        <input type="email" class="form-control" name="email3" id="email3"
+                                            placeholder="Your Mail" style="height: 33.6px; font-size: 0.88rem;"/>
+                                        <img src="assets/img/icon/mail.svg" alt="" style="width: 17.6px; height: 17.6px; position: absolute; right: 14.4px; top: 8px;" />
+                                    </div>
+                                    <div class="form-group col-12" style="margin-bottom: 12.8px;">
+                                        <select name="subject" id="subject" class="form-select nice-select" style="height: 33.6px; font-size: 0.88rem;">
+                                            <option value="Select Tour Type" selected="selected" disabled="disabled">
+                                                Select Tour Type
+                                            </option>
+                                            <option value="Africa Adventure">Africa Adventure</option>
+                                            <option value="Africa Wild">Africa Wild</option>
+                                            <option value="Asia">Asia</option>
+                                            <option value="Scandinavia">Scandinavia</option>
+                                            <option value="Western Europe">Western Europe</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-12" style="margin-bottom: 12.8px;">
+                                        <textarea name="message" id="message" cols="30" rows="4" class="form-control"
+                                            placeholder="Your Message" style="font-size: 0.88rem; min-height: 64px;"></textarea>
+                                        <img src="assets/img/icon/chat.svg" alt="" style="width: 17.6px; height: 17.6px; position: absolute; right: 14.4px; top: 8px;" />
+                                    </div>
+                                    <div class="form-btn col-12 mt-24" style="text-align: center;">
+                                        <button type="submit" class="th-btn style3" style="width: 100%; font-size: 0.92rem; padding: 9.6px 0;">
+                                            Send message
+                                            <img src="assets/img/icon/plane.svg" alt="" style="width: 16px; height: 16px; margin-left: 6.4px;" />
+                                        </button>
+                                    </div>
+                                </div>
+                                <p class="form-messages mb-0 mt-3"></p>
+                            </form>
+                        </div>
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                     </div>
                 </div>
+           
+     
             </div>
         </div>
     </section>

@@ -19,7 +19,11 @@
     <meta property="og:description" content="Policies covering bookings, payments, cancellations, refunds, responsibilities, and privacy." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="/terms-and-conditions.php" />
+<<<<<<< HEAD
     <meta property="og:image" content="assets/img/bg/banner-img.png" />
+=======
+    <meta property="og:image" content="assets/img/bg/breadcumb-bg.jpg" />
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
 
     <!-- include the links file  -->
     <?php include "links.php" ?>
@@ -40,7 +44,11 @@
     <main>
 
         <!-- Breadcrumb / Page Hero -->
+<<<<<<< HEAD
         <section class="breadcumb-wrapper" >
+=======
+        <section class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
             <div class="container">
                 <div class="breadcumb-content text-center">
                     <h1 class="breadcumb-title">Terms &amp; Conditions</h1>

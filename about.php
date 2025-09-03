@@ -85,8 +85,14 @@
                                 Experience India with Indiana Taj Tours
                             </h2>
                             <p class="feature-text">
+<<<<<<< HEAD
                                 Discover India with Indiana Taj Tours—expert guides, tailored trips, and unforgettable experiences in Agra, Jaipur, and beyond.
                             </p>
+=======
+                            From the charming countryside to vibrant city life, Indiana offers an unforgettable travel experience for every visitor. 
+                        Discover the beauty of the Indiana Dunes, the excitement of Indianapolis Motor Speedway, the cultural treasures of 
+                        Bloomington, and the peaceful landscapes of Amish Country.
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                         </div>
                     </div>
                 </div>

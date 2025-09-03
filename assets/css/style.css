@@ -7891,11 +7891,19 @@ ol.wp-block-rss {
   border-bottom: 1px solid rgba(233, 246, 249, 0.2);
 }
 .footer-layout2 .widget-area {
+<<<<<<< HEAD
   padding-bottom: 10px;
 }
 @media (max-width: 991px) {
   .footer-layout2 .widget-area {
     padding-bottom: 10px;
+=======
+  padding-bottom: 30px;
+}
+@media (max-width: 991px) {
+  .footer-layout2 .widget-area {
+    padding-bottom: 20px;
+>>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
   }
 }
 .footer-layout2 .footer-widget .widget_title {
