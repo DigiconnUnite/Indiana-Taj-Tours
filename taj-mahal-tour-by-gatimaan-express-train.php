@@ -289,8 +289,9 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <span class="tour-badge">Popular Choice</span>
-                        <h1 class="breadcumb-title">Taj Mahal Day Tour by Car from Delhi</h1>
-                        <p class="text-white">Delhi - Agra - Delhi | Experience the magnificence of the Taj Mahal on a comfortable day trip</p>
+                        <h1 class="breadcumb-title">Taj Mahal Tour by Gatimaan Express Train</h1>
+                        <br>
+                        <p class="text-white">Delhi - Agra - Delhi | A luxurious and hassle-free rail journey to the Taj Mahal</p>
                         <div class="d-flex justify-content-center flex-wrap mt-4">
                             <div class="mx-3 my-2"><i class="fas fa-clock me-2"></i> 1 Day Tour</div>
                             <div class="mx-3 my-2"><i class="fas fa-map-marker-alt me-2"></i> Pickup & Drop: Delhi</div>
@@ -310,12 +311,12 @@
                         <!-- Overview -->
                         <div class="mb-5 pb-3 border-bottom">
                             <h2 class="sec-title mb-3">Tour Overview</h2>
-                            <p>Experience the wonder of the Taj Mahal on our expertly crafted day tour from Delhi. This comprehensive tour is designed for travelers who want to witness one of the Seven Wonders of the World without the early morning departure of sunrise tours. Travel in comfort in our air-conditioned vehicles with an experienced guide who will bring the rich history of the Mughal era to life.</p>
-                            <p>Your day begins with a convenient pickup from your Delhi hotel, followed by a scenic drive to Agra. Explore the magnificent Taj Mahal, the majestic Agra Fort, and other architectural marvels at a relaxed pace. Enjoy a delicious lunch at a renowned local restaurant before returning to Delhi in the evening with memories to last a lifetime.</p>
+                            <p>Looking for a comfortable, luxurious, and peaceful train journey from Delhi to the Taj Mahal? Our "Taj Mahal Tour by Train" is the perfect itinerary for you. Designed for those who prefer to avoid road traffic, this tour maximizes your sightseeing time in Agra via the high-speed Gatimaan Express</p>
+                            <p>This all-inclusive package features fast train tickets, monument entry fees, an expert private guide, seamless air-conditioned transfers, and a sumptuous lunch at a 5-star hotel for a truly effortless experience.</p>
                             
                             <div class="tour-highlight">
                                 <h4 class="mb-3"><i class="fas fa-bolt me-2"></i> Why Choose This Tour?</h4>
-                                <p>Perfect for those who prefer a more relaxed start to their day while still experiencing the full splendor of the Taj Mahal and Agra's historical treasures with expert guidance and comfort throughout.</p>
+                                <p>Escape the traffic and enjoy a swift, comfortable rail journey. This tour offers the perfect blend of luxury, convenience, and comprehensive sightseeing, ensuring you experience the best of Agra without the stress of a long road trip.</p>
                             </div>
                         </div>
 
@@ -390,7 +391,7 @@
                                     </div>
                                     <div class="info-content">
                                         <h6 class="mb-1">Duration</h6>
-                                        <p class="mb-0">12-14 Hours (Approx. 7:00 AM - 9:00 PM)</p>
+                                        <p class="mb-0">1 Day Tour</p>
                                     </div>
                                 </div>
                                 <div class="info-item d-flex align-items-center mb-2">
@@ -399,7 +400,7 @@
                                     </div>
                                     <div class="info-content">
                                         <h6 class="mb-1">Group Size</h6>
-                                        <p class="mb-0">Private tour for your party only</p>
+                                        <p class="mb-0">Private Guided Tour</p>
                                     </div>
                                 </div>
                                 <div class="info-item d-flex align-items-center mb-2">
@@ -417,7 +418,7 @@
                                     </div>
                                     <div class="info-content">
                                         <h6 class="mb-1">Transport</h6>
-                                        <p class="mb-0">AC Luxury Vehicle</p>
+                                        <p class="mb-0">Gatimaan Express Train + Private Car</p>
                                     </div>
                                 </div>
                                 
@@ -430,38 +431,38 @@
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">1</div>
-                                <h4>7:00 AM: Pickup from Delhi Hotel/Airport</h4>
-                                <p>Our driver will pick you up from your hotel or airport in Delhi to begin your journey to Agra. Enjoy a comfortable drive in our air-conditioned vehicle while taking in the scenery along the Yamuna Expressway.</p>
+                                <h4>6:30 AM: Pick-up from Delhi/NCR</h4>
+                                <p>Your day begins with a pick-up from your hotel in Delhi. Our driver will take you to Hazrat Nizamuddin Railway Station, assisting you with your tickets and helping you find your coach and seats.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">2</div>
-                                <h4>11:00 AM: Arrival in Agra & Taj Mahal Visit</h4>
-                                <p>Arrive in Agra and meet your expert guide who will take you to the magnificent Taj Mahal. Spend 2-3 hours exploring this architectural marvel and learning about its fascinating history and construction.</p>
+                                <h4>8:10 AM: Gatimaan Express to Agra</h4>
+                                <p>Board the Gatimaan Express, departing at 8:10 AM. Relax and enjoy the light breakfast served on the train as you glide to Agra in just 90 minutes.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">3</div>
-                                <h4>1:30 PM: Lunch at Local Restaurant</h4>
-                                <p>Enjoy a delicious lunch at a quality local restaurant, sampling authentic North Indian cuisine in a comfortable setting.</p>
+                                <h4>9:50 AM: Arrival & Visit the Taj Mahal</h4>
+                                <p>Upon arriving in Agra at 9:50 AM, you'll meet your guide and head directly to the Taj Mahal. Spend up to three hours exploring this breathtaking monument of love.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">4</div>
-                                <h4>3:00 PM: Agra Fort Exploration</h4>
-                                <p>Visit the majestic Agra Fort, a UNESCO World Heritage site. Explore its palaces, halls, and gardens while your guide shares stories of the Mughal emperors who once resided here.</p>
+                                <h4>1:00 PM: Lunch at a 5-Star Hotel</h4>
+                                <p>After your visit, enjoy a luxurious unlimited buffet lunch at a 5-star hotel, featuring a mix of Continental and Indian cuisine.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">5</div>
-                                <h4>5:00 PM: Local Craft Shopping (Optional)</h4>
-                                <p>Visit a local marble handicraft center to see artisans creating beautiful works in the same style as the Taj Mahal's decorations (optional stop).</p>
+                                <h4>2:00 PM: Discover Agra Fort</h4>
+                                <p>Next, visit the massive 16th-century Agra Fort. Spend about an hour exploring its palaces, halls, and rich history.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">6</div>
-                                <h4>6:00 PM: Return Journey to Delhi</h4>
-                                <p>Begin your return journey to Delhi, arriving at your hotel or preferred drop-off location by approximately 9:00 PM, concluding your memorable day tour.</p>
+                                <h4>3:00 PM: Visit the Baby Taj (Optional)</h4>
+                                <p>After the fort, you have the option to visit Itimad-ud-Daulah, the beautiful 'Baby Taj', renowned for its intricate pietra dura inlay work.</p>
                             </div>
                         </div>
 

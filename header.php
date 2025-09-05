@@ -44,7 +44,8 @@ function is_active($pages) {
                             <ul>
                                 <li class="d-none d-md-inline-block">
                                     <a href="tel:+"><i class="fa-regular fa-phone-volume"></i>
-                                        <span>+91-0000000000</span></a>
+                                        <span>+91-955769951
+                                        </span></a>
                                 </li>
                                 <li class="d-none d-md-inline-block">
                                     <a href="mailto:"><i class="fa-regular fa-envelope"></i>

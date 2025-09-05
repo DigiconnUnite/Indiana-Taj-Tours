@@ -62,10 +62,10 @@
                     </div>
                     <div class="details">
                         <p>
-                            <a href="tel:+01234567890" class="info-box_link">+01 234 567 890</a>
+                            <a href="tel:+91-955769951" class="info-box_link">+91-955769951</a>
                         </p>
                         <p>
-                            <a href="tel:+09876543210" class="info-box_link">+09 876 543 210</a>
+                            <a href="tel:+91-955767995" class="info-box_link">+91-955769951</a>
                         </p>
                     </div>
                 </div>

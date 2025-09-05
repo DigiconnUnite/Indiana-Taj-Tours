@@ -149,7 +149,7 @@
                                 <span class="me-3"><i class="fas fa-phone-alt "></i></span>
                                 <span>
                                     <strong>Phone:</strong><br>
-                                    <a href="tel:+919999999999">+91-99999-99999</a>
+                                    <a href="tel:+91-9557679951">+91-9557679951</a>
                                 </span>
                             </li>
                             <li class="d-flex align-items-start">
