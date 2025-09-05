@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Day Tour by Car from Delhi | Indiana Taj Tour
+        Golden Triangle Tour 4 Days | Indiana Taj Tour
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Experience the magnificent Taj Mahal on a day tour from Delhi with Indiana Taj Tours - A perfect day trip to Agra's iconic monument" />
-    <meta name="keywords" content="Taj Mahal day tour, Delhi to Agra day trip, Taj Mahal by car from Delhi" />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Explore India's Golden Triangle in 4 days - Delhi, Agra, Jaipur. Visit Taj Mahal, forts, palaces, and cultural sites." />
+    <meta name="keywords" content="Golden Triangle 4 days, India tour packages, Delhi Agra Jaipur tour, 4 day India itinerary" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />

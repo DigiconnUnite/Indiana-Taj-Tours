@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Day Tour by Car from Delhi | Indiana Taj Tour
+        Golden Triangle Tour with Varanasi | Indiana Taj Tour
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Experience the magnificent Taj Mahal on a day tour from Delhi with Indiana Taj Tours - A perfect day trip to Agra's iconic monument" />
-    <meta name="keywords" content="Taj Mahal day tour, Delhi to Agra day trip, Taj Mahal by car from Delhi" />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Explore India's Golden Triangle - Delhi, Agra, Jaipur - plus the spiritual city of Varanasi. Experience heritage, culture, and the Ganges River." />
+    <meta name="keywords" content="Golden Triangle with Varanasi, India tour packages, Delhi Agra Jaipur Varanasi, spiritual India tour" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -500,7 +500,7 @@
                             
                             <div class="booking-form mt-3">
                                 <h4 class="mb-4">Enquiry Form</h4>
-                                <form>
+                                <form action="main.php" method="post" id="bookingForm">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group mb-3">
@@ -527,9 +527,10 @@
                                                 <label for="package">Select Tour Package <span style="color:red">*</span></label>
                                                 <select class="form-control" id="package" name="package" required>
                                                     <option value="">Select a package</option>
-                                                    <option value="Taj Mahal Day Tour by Car from Delhi" selected>Taj Mahal Day Tour by Car from Delhi</option>
-                                                    <option value="Taj Mahal Sunrise Tour by Car from Delhi">Taj Mahal Sunrise Tour by Car from Delhi</option>
-                                                    <option value="Taj Mahal Tour by Gatimaan Express Train">Taj Mahal Tour by Gatimaan Express Train</option>
+                                                    <option value="Golden Triangle Tour with Varanasi" selected>Golden Triangle Tour with Varanasi</option>
+                                                    <option value="Golden Triangle Tour 3 Days">Golden Triangle Tour 3 Days</option>
+                                                    <option value="Golden Triangle Tour 4 Days">Golden Triangle Tour 4 Days</option>
+                                                    <option value="Golden Triangle Tour 5 Days">Golden Triangle Tour 5 Days</option>
                                                     <option value="Custom/Other">Custom/Other</option>
                                                 </select>
                                             </div>
@@ -555,6 +556,7 @@
                                     </div>
                                     <button type="submit" class="th-btn w-100">Book Now</button>
                                 </form>
+                                <div id="bookingSuccess" class="alert mt-3 d-none" role="alert"></div>
                             </div>
                         </div>
                     </div>
@@ -642,6 +644,64 @@
 
     <!-- include the bottom script -->
     <?php include 'bottom-script.php'; ?>
+
+    <script>
+        // Handle booking form submission with AJAX
+        document.getElementById('bookingForm')?.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const form = this;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const successAlert = document.getElementById('bookingSuccess');
+
+            // Disable submit button and show loading
+            submitBtn.disabled = true;
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Submitting...';
+
+            // Prepare form data
+            const formData = new FormData(form);
+
+            // Send AJAX request
+            fetch('main.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Show success message
+                    successAlert.className = 'alert alert-success mt-3';
+                    successAlert.textContent = data.message;
+                    successAlert.classList.remove('d-none');
+
+                    // Reset form
+                    form.reset();
+
+                    // Hide success message after 10 seconds
+                    setTimeout(() => {
+                        successAlert.classList.add('d-none');
+                    }, 10000);
+                } else {
+                    // Show error message
+                    successAlert.className = 'alert alert-danger mt-3';
+                    successAlert.textContent = data.message;
+                    successAlert.classList.remove('d-none');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                successAlert.className = 'alert alert-danger mt-3';
+                successAlert.textContent = 'An error occurred. Please try again later.';
+                successAlert.classList.remove('d-none');
+            })
+            .finally(() => {
+                // Re-enable submit button
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalText;
+            });
+        });
+    </script>
 
 </body>
 

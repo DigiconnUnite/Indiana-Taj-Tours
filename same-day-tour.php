@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Same Day Tour Package | Indiana Taj Tour
+        Same Day Tours from Delhi - Indiana Taj Tour | Taj Mahal, Jaipur, Delhi Day Trips
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template " />
-    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template " />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Explore India's iconic destinations with our same-day tours from Delhi. Visit Taj Mahal, Jaipur, and Delhi in one day with expert guides and comfortable transport." />
+    <meta name="keywords" content="same day tour Delhi, Taj Mahal day tour, Jaipur day trip, Delhi sightseeing, India day tours" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />

@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Sunrise Tour Details | Indiana Taj Tour
+        Taj Mahal and Agra Fort Tour by Car from Delhi | Indiana Taj Tour
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Experience the breathtaking Taj Mahal at sunrise with Indiana Taj Tours - A once in a lifetime experience from Delhi to Agra" />
-    <meta name="keywords" content="Taj Mahal sunrise tour, Delhi to Agra tour, same day Taj Mahal tour" />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Experience the Taj Mahal and Agra Fort in one day from Delhi. Visit these UNESCO sites with expert guides and comfortable transport." />
+    <meta name="keywords" content="Taj Mahal tour, Agra Fort tour, Taj Mahal from Delhi, Agra tour, Taj Mahal day tour" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />

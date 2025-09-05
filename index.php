@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Indiana Taj Tour | Home Page
+        Indiana Taj Tour - Explore Taj Mahal, Delhi, Jaipur & Golden Triangle Tours
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template " />
-    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template " />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Discover the best Taj Mahal tours, Golden Triangle packages, and day trips from Delhi. Book your unforgettable India adventure with Indiana Taj Tour today." />
+    <meta name="keywords" content="Taj Mahal tour, Golden Triangle tour, Delhi tours, Jaipur tours, Agra tours, India travel packages" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -111,30 +111,28 @@
         <!-- booking form section  -->
         <div class="booking-sec">
             <div class="container">
-                <form action="https://html.themeholy.com/tourm/demo/mail.php" method="POST"
-                    class="booking-form ajax-contact">
+                <form action="search-results.php" method="GET"
+                    class="booking-form ajax-contact" id="searchForm">
                     <div class="input-wrap">
                         <div class="row align-items-center justify-content-between">
                             <div class="form-group col-md-6 col-lg-auto">
                                 <div class="icon"><i class="fa-light fa-route"></i></div>
                                 <div class="search-input">
                                     <label>Destination</label>
-                                    <select name="subject" id="subject" class="form-select nice-select">
-                                        <option value="Select Destination" selected="selected" disabled="disabled">
+                                    <select name="destination" id="destination" class="form-select nice-select">
+                                        <option value="" selected="selected" disabled="disabled">
                                             Select Destination
                                         </option>
-                                        <option value="Australia">Australia</option>
-                                        <option value="Dubai">Dubai</option>
-                                        <option value="England">England</option>
-                                        <option value="Sweden">Sweden</option>
-                                        <option value="Thailand">Thailand</option>
-                                        <option value="Egypt">Egypt</option>
-                                        <option value="Saudi Arab">Saudi Arab</option>
-                                        <option value="Switzerland">Switzerland</option>
-                                        <option value="Scandinavia">Scandinavia</option>
-                                        <option value="Western Europe">Western Europe</option>
-                                        <option value="Indonesia">Indonesia</option>
-                                        <option class="Italy">Italy</option>
+                                        <option value="delhi">Delhi</option>
+                                        <option value="agra">Agra</option>
+                                        <option value="jaipur">Jaipur</option>
+                                        <option value="udaipur">Udaipur</option>
+                                        <option value="varanasi">Varanasi</option>
+                                        <option value="amritsar">Amritsar</option>
+                                        <option value="pushkar">Pushkar</option>
+                                        <option value="ranthambore">Ranthambore</option>
+                                        <option value="golden-triangle">Golden Triangle (Delhi + Agra + Jaipur)</option>
+                                        <option value="all">All Destinations</option>
                                     </select>
                                 </div>
                             </div>
@@ -144,14 +142,17 @@
                                 </div>
                                 <div class="search-input">
                                     <label>Type</label>
-                                    <select class="nice-select" name="Adventure" id="Adventure">
-                                        <option value="Adventure" selected="selected" disabled="disabled">
-                                            Adventure
+                                    <select class="nice-select" name="tourType" id="tourType">
+                                        <option value="" selected="selected" disabled="disabled">
+                                            Tour Type
                                         </option>
-                                        <option value="Beach">Beach</option>
-                                        <option value="Group Tour">Group Tour</option>
-                                        <option value="Couple Tour">Couple Tour</option>
-                                        <option value="Family Tour">Family Tour</option>
+                                        <option value="day-tour">Day Tour</option>
+                                        <option value="same-day">Same Day Tour</option>
+                                        <option value="multi-day">Multi-Day Tour</option>
+                                        <option value="golden-triangle">Golden Triangle</option>
+                                        <option value="luxury">Luxury Tour</option>
+                                        <option value="sunrise">Sunrise Tour</option>
+                                        <option value="all">All Types</option>
                                     </select>
                                 </div>
                             </div>
@@ -159,17 +160,19 @@
                                 <div class="icon"><i class="fa-light fa-clock"></i></div>
                                 <div class="search-input">
                                     <label>Duration</label>
-                                    <select class="form-select nice-select" name="Duration" id="Duration">
-                                        <option value="Normal" selected="selected" disabled="disabled">
+                                    <select class="form-select nice-select" name="duration" id="duration">
+                                        <option value="" selected="selected" disabled="disabled">
                                             Duration
                                         </option>
-                                        <option value="1">1 days</option>
-                                        <option value="2">2 days</option>
-                                        <option value="3">3 days</option>
-                                        <option value="4">4 days</option>
-                                        <option value="5">5 days</option>
-                                        <option value="6">6 days</option>
-                                        <option value="7">7 days</option>
+                                        <option value="1">1 Day</option>
+                                        <option value="2">2 Days</option>
+                                        <option value="3">3 Days</option>
+                                        <option value="4">4 Days</option>
+                                        <option value="5">5 Days</option>
+                                        <option value="6">6 Days</option>
+                                        <option value="7">7 Days</option>
+                                        <option value="8">8 Days</option>
+                                        <option value="all">Any Duration</option>
                                     </select>
                                 </div>
                             </div>
@@ -179,12 +182,14 @@
                                 </div>
                                 <div class="search-input">
                                     <label>Tour Category</label>
-                                    <select name="subject" id="category" class="form-select nice-select">
-                                        <option value="Normal" selected="selected" disabled="disabled">
-                                            Luxury
+                                    <select name="category" id="category" class="form-select nice-select">
+                                        <option value="" selected="selected" disabled="disabled">
+                                            Category
                                         </option>
-                                        <option value="1">Delux</option>
-                                        <option value="2">Economy</option>
+                                        <option value="luxury">Luxury</option>
+                                        <option value="premium">Premium</option>
+                                        <option value="standard">Standard</option>
+                                        <option value="all">All Categories</option>
                                     </select>
                                 </div>
                             </div>
@@ -354,7 +359,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>1 Day</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="taj-mahal-and-agra-fort-tour-by-car-from-delhi.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -381,7 +386,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now </a>
+                                            <a href="taj-mahal-sunrise-tour-from-delhi.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -408,7 +413,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="taj-mahal-tour-by-gatimaan-express-train.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -435,7 +440,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="taj-mahal-luxury-tour-by-premium-car-from-delhi.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -470,7 +475,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Old & New Delhi</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="full-day-old-and-new-delhi-city-tour.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -497,7 +502,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Essential Highlights</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="half-day-delhi-city-tour.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -524,7 +529,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Pink City Experience</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="full-day-jaipur-city-tour-by-car.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -551,7 +556,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Round Trip from Delhi</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="jaipur-tour-from-delhi-by-car.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -576,7 +581,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Full Day Experience</span>
-                                            <a href="booking.php" class="th-btn text-nowrap style4 th-icon">Book Now</a>
+                                            <a href="taj-mahal-and-agra-fort-tour-by-car-from-delhi.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -603,7 +608,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
-                                            <a href="booking.php" class="th-btn text-nowrap   style4 th-icon">Book Now</a>
+                                            <a href="taj-mahal-sunrise-tour-from-delhi.php" class="th-btn text-nowrap   style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -630,7 +635,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
-                                            <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                            <a href="taj-mahal-tour-by-gatimaan-express-train.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -657,7 +662,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
-                                            <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                            <a href="taj-mahal-luxury-tour-by-premium-car-from-delhi.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -695,7 +700,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Delhi - Agra - Jaipur</span>
-                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="golden-triangle-tour-3-days.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -722,7 +727,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>More Relaxed Itinerary</span>
-                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="golden-triangle-tour-4-days.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -749,7 +754,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Comprehensive Experience</span>
-                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="golden-triangle-tour-5-days.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -776,7 +781,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Golden Temple Included</span>
-                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="golden-triangle-tour-with-amritsar.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -803,7 +808,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Sacred Town Experience</span>
-                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="golden-triangle-tour-with-pushkar.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -830,7 +835,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Includes Tiger Safari</span>
-                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="golden-triangle-tour-with-ranthambore.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -857,7 +862,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>City of Lakes Included</span>
-                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="golden-triangle-tour-with-udaipur.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -884,7 +889,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Spiritual Experience</span>
-                                                    <a href="booking.php" class="th-btn style4 text-nowrap th-icon">Book Now</a>
+                                                    <a href="golden-triangle-tour-with-varanasi.php" class="th-btn style4 text-nowrap th-icon">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1154,6 +1159,70 @@
 
     <!-- include the bottom script -->
     <?php include 'bottom-script.php'; ?>
+
+    <script>
+        // Search form functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchForm = document.getElementById('searchForm');
+            const searchBtn = searchForm.querySelector('button[type="submit"]');
+
+            // Add loading state to search button
+            searchForm.addEventListener('submit', function(e) {
+                const destination = document.getElementById('destination').value;
+                const tourType = document.getElementById('tourType').value;
+                const duration = document.getElementById('duration').value;
+                const category = document.getElementById('category').value;
+
+                // Check if at least one field is selected
+                if (!destination && !tourType && !duration && !category) {
+                    e.preventDefault();
+                    alert('Please select at least one search criteria to find tours.');
+                    return;
+                }
+
+                // Show loading state
+                const originalText = searchBtn.innerHTML;
+                searchBtn.innerHTML = '<i class="fas fa-search me-2"></i>Searching...';
+                searchBtn.disabled = true;
+
+                // Re-enable after a short delay (form will submit)
+                setTimeout(() => {
+                    searchBtn.innerHTML = originalText;
+                    searchBtn.disabled = false;
+                }, 1000);
+            });
+
+            // Dynamic form interactions
+            const destinationSelect = document.getElementById('destination');
+            const tourTypeSelect = document.getElementById('tourType');
+
+            // Auto-suggest tour type based on destination
+            destinationSelect.addEventListener('change', function() {
+                const destination = this.value;
+                if (destination === 'golden-triangle') {
+                    tourTypeSelect.value = 'golden-triangle';
+                } else if (destination === 'agra') {
+                    tourTypeSelect.value = 'day-tour';
+                } else if (destination === 'delhi' || destination === 'jaipur') {
+                    tourTypeSelect.value = 'same-day';
+                }
+            });
+
+            // Auto-suggest duration based on tour type
+            tourTypeSelect.addEventListener('change', function() {
+                const tourType = this.value;
+                const durationSelect = document.getElementById('duration');
+
+                if (tourType === 'golden-triangle') {
+                    durationSelect.value = '3';
+                } else if (tourType === 'multi-day') {
+                    durationSelect.value = '7';
+                } else if (tourType === 'day-tour' || tourType === 'same-day' || tourType === 'sunrise') {
+                    durationSelect.value = '1';
+                }
+            });
+        });
+    </script>
 
 </body>
 

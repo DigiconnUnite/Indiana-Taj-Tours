@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Tour Package | Indiana Taj Tour
+        Taj Mahal Tours from Delhi - Indiana Taj Tour | Sunrise, Luxury & Train Packages
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template " />
-    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template " />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Experience the Taj Mahal with our exclusive tours from Delhi. Choose from sunrise, luxury, and train packages for an unforgettable visit to India's most iconic monument." />
+    <meta name="keywords" content="Taj Mahal tour, Taj Mahal from Delhi, Taj Mahal sunrise tour, Taj Mahal luxury tour, Taj Mahal train tour" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />

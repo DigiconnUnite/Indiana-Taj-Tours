@@ -10,3 +10,20 @@
 <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
 <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 <link rel="stylesheet" href="assets/css/style.css" />
+
+<style>
+/* Hide scrollbar globally */
+html {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+/* Ensure body doesn't show scrollbars */
+body {
+    overflow-x: hidden;
+}
+</style>

@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Day Tour by Car from Delhi | Indiana Taj Tour
+        Jaipur Tour from Delhi by Car | Indiana Taj Tour
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Experience the magnificent Taj Mahal on a day tour from Delhi with Indiana Taj Tours - A perfect day trip to Agra's iconic monument" />
-    <meta name="keywords" content="Taj Mahal day tour, Delhi to Agra day trip, Taj Mahal by car from Delhi" />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Explore Jaipur from Delhi with a day trip. Visit Amber Fort, City Palace, and more with comfortable transport and expert guides." />
+    <meta name="keywords" content="Jaipur tour from Delhi, day trip Jaipur, Amber Fort, City Palace, Jaipur sightseeing" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />

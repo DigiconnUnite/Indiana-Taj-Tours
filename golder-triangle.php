@@ -7,9 +7,9 @@
     <title>
         Golden Triangle Tour Package | Indiana Taj Tour
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template " />
-    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template " />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Discover India's Golden Triangle - Delhi, Agra, Jaipur. Visit Taj Mahal, palaces, forts, and markets with our expert guides." />
+    <meta name="keywords" content="Golden Triangle tour, India tour packages, Delhi Agra Jaipur, Taj Mahal tour" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />

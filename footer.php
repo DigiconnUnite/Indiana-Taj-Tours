@@ -101,7 +101,7 @@
                 </div>
                 <div class="col-md-4 text-center mb-3 mb-md-0">
                 <p class="copyright-text mb-0">
-                        Developed By <a class="text-white" href="https://digiconnunite.com/">Digiconn Unite Pvt. Ltd.</a>
+                        Developed By <a style="color: orange;" href="https://digiconnunite.com/">Digiconn Unite Pvt. Ltd.</a>
                     </p>
                 </div>
                 <div class="col-md-4 text-md-end text-center d-none d-md-block">

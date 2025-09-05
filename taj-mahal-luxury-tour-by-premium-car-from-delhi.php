@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Sunrise Tour Details | Indiana Taj Tour
+        Taj Mahal Luxury Tour by Premium Car from Delhi | Indiana Taj Tour
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Experience the breathtaking Taj Mahal at sunrise with Indiana Taj Tours - A once in a lifetime experience from Delhi to Agra" />
-    <meta name="keywords" content="Taj Mahal sunrise tour, Delhi to Agra tour, same day Taj Mahal tour" />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Experience the Taj Mahal in luxury with our premium car tour from Delhi. Enjoy private transport, expert guides, and exclusive access to this UNESCO site." />
+    <meta name="keywords" content="Taj Mahal luxury tour, premium car tour Delhi, Taj Mahal private tour, luxury Taj Mahal visit" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />

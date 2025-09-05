@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Indiana Taj Tour | Contact Us
+        Contact Us - Indiana Taj Tour | Get in Touch for Taj Mahal Tours
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Contact Indiana Taj Tour - Reach out for tour bookings, questions, or custom requests." />
-    <meta name="keywords" content="Contact, Indiana Taj Tour, Travel, Booking, Inquiry" />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Contact Indiana Taj Tour for Taj Mahal tours, Golden Triangle packages, and custom India travel experiences. Reach us for bookings, inquiries, and personalized itineraries." />
+    <meta name="keywords" content="contact Indiana Taj Tour, Taj Mahal tour contact, Golden Triangle booking, India travel inquiry, tour booking contact" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-lg-6 d-flex">
                     <div class="contact-form-box w-100">
-                        <form action="contact-submit.php" method="post" class="row g-3" id="contactForm">
+                        <form action="main.php" method="post" class="row g-3" id="contactForm">
                             <div class="col-md-6">
                                 <label for="contactName" class="form-label">Full Name <span class="text-danger">*</span></label>
                                 <input type="text" class="form-control" id="contactName" name="name" required placeholder="Your Name">
@@ -227,13 +227,59 @@
         document.body.style.overflow = '';
     });
 
-    // Simple client-side feedback (for demo only)
+    // Handle contact form submission with AJAX
     document.getElementById('contactForm')?.addEventListener('submit', function(e) {
-        // e.preventDefault(); // Uncomment to prevent actual submission for demo
-        document.getElementById('contactSuccess').classList.remove('d-none');
-        setTimeout(() => {
-            document.getElementById('contactSuccess').classList.add('d-none');
-        }, 5000);
+        e.preventDefault();
+
+        const form = this;
+        const submitBtn = form.querySelector('button[type="submit"]');
+        const successAlert = document.getElementById('contactSuccess');
+
+        // Disable submit button and show loading
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Sending...';
+
+        // Prepare form data
+        const formData = new FormData(form);
+
+        // Send AJAX request
+        fetch('main.php', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Show success message
+                successAlert.className = 'alert alert-success mt-3';
+                successAlert.textContent = data.message;
+                successAlert.classList.remove('d-none');
+
+                // Reset form
+                form.reset();
+
+                // Hide success message after 10 seconds
+                setTimeout(() => {
+                    successAlert.classList.add('d-none');
+                }, 10000);
+            } else {
+                // Show error message
+                successAlert.className = 'alert alert-danger mt-3';
+                successAlert.textContent = data.message;
+                successAlert.classList.remove('d-none');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            successAlert.className = 'alert alert-danger mt-3';
+            successAlert.textContent = 'An error occurred. Please try again later.';
+            successAlert.classList.remove('d-none');
+        })
+        .finally(() => {
+            // Re-enable submit button
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = 'Send Message';
+        });
     });
 </script>
 

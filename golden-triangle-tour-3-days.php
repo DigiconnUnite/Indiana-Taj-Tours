@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Day Tour by Car from Delhi | Indiana Taj Tour
+        Golden Triangle Tour 3 Days | Indiana Taj Tour
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Experience the magnificent Taj Mahal on a day tour from Delhi with Indiana Taj Tours - A perfect day trip to Agra's iconic monument" />
-    <meta name="keywords" content="Taj Mahal day tour, Delhi to Agra day trip, Taj Mahal by car from Delhi" />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Discover India's Golden Triangle in 3 days - Delhi, Agra, Jaipur. Visit Taj Mahal, Red Fort, Amber Fort, and more." />
+    <meta name="keywords" content="Golden Triangle 3 days, India tour packages, Delhi Agra Jaipur tour, 3 day India itinerary" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -288,13 +288,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <span class="tour-badge">Popular Choice</span>
-                        <h1 class="breadcumb-title">Taj Mahal Day Tour by Car from Delhi</h1>
-                        <p class="text-white">Delhi - Agra - Delhi | Experience the magnificence of the Taj Mahal on a comfortable day trip</p>
+                        <span class="tour-badge">Most Popular</span>
+                        <h1 class="breadcumb-title">Golden Triangle Tour - 3 Days</h1>
+                        <p class="text-white">Delhi - Agra - Jaipur | Discover India's iconic heritage in 3 unforgettable days</p>
                         <div class="d-flex justify-content-center flex-wrap mt-4">
-                            <div class="mx-3 my-2"><i class="fas fa-clock me-2"></i> 1 Day Tour</div>
-                            <div class="mx-3 my-2"><i class="fas fa-map-marker-alt me-2"></i> Pickup & Drop: Delhi</div>
-                            <div class="mx-3 my-2"><i class="fas fa-users me-2"></i> Private Tour</div>
+                            <div class="mx-3 my-2"><i class="fas fa-clock me-2"></i> 3 Days / 2 Nights</div>
+                            <div class="mx-3 my-2"><i class="fas fa-map-marker-alt me-2"></i> Delhi - Agra - Jaipur</div>
+                            <div class="mx-3 my-2"><i class="fas fa-users me-2"></i> Small Groups</div>
                         </div>
                     </div>
                 </div>
@@ -310,12 +310,12 @@
                         <!-- Overview -->
                         <div class="mb-5 pb-3 border-bottom">
                             <h2 class="sec-title mb-3">Tour Overview</h2>
-                            <p>Experience the wonder of the Taj Mahal on our expertly crafted day tour from Delhi. This comprehensive tour is designed for travelers who want to witness one of the Seven Wonders of the World without the early morning departure of sunrise tours. Travel in comfort in our air-conditioned vehicles with an experienced guide who will bring the rich history of the Mughal era to life.</p>
-                            <p>Your day begins with a convenient pickup from your Delhi hotel, followed by a scenic drive to Agra. Explore the magnificent Taj Mahal, the majestic Agra Fort, and other architectural marvels at a relaxed pace. Enjoy a delicious lunch at a renowned local restaurant before returning to Delhi in the evening with memories to last a lifetime.</p>
-                            
+                            <p>Embark on India's most iconic journey with our comprehensive 3-day Golden Triangle Tour. This meticulously crafted itinerary takes you through Delhi, Agra, and Jaipur - three cities that represent the pinnacle of India's rich cultural heritage, architectural marvels, and historical significance.</p>
+                            <p>From the bustling streets of Delhi to the romantic Taj Mahal in Agra, and the vibrant Pink City of Jaipur, this tour offers an immersive experience of India's diverse landscapes, ancient monuments, and vibrant culture. Travel in comfort with our experienced guides who bring history to life through fascinating narratives and local insights.</p>
+
                             <div class="tour-highlight">
-                                <h4 class="mb-3"><i class="fas fa-bolt me-2"></i> Why Choose This Tour?</h4>
-                                <p>Perfect for those who prefer a more relaxed start to their day while still experiencing the full splendor of the Taj Mahal and Agra's historical treasures with expert guidance and comfort throughout.</p>
+                                <h4 class="mb-3"><i class="fas fa-crown me-2"></i> Why Choose Our Golden Triangle Tour?</h4>
+                                <p>Experience India's cultural heartland in just 3 days with expertly curated itineraries, comfortable accommodations, knowledgeable local guides, and seamless transportation. Perfect for first-time visitors seeking an authentic introduction to India's heritage.</p>
                             </div>
                         </div>
 
@@ -323,10 +323,10 @@
                         <div class="mb-5 pb-3 border-bottom">
                             <h2 class="sec-title mb-3">Tour Gallery</h2>
                             <div class="tour-gallery">
-                                <img src="assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal daytime view">
-                                <img src="assets/img/taj_mahal_tour/agra-fort.jpg" alt="Agra Fort">
-                                <img src="assets/img/taj_mahal_tour/car.png" alt="Comfortable AC Car">
-                                <img src="assets/img/taj_mahal_tour/food.png" alt="Lunch at local restaurant">
+                                <img src="assets/img/golden_triangle_tour/taj-mahal-golden.jpg" alt="Taj Mahal - Symbol of Love">
+                                <img src="assets/img/golden_triangle_tour/amber-fort.jpg" alt="Amber Fort Jaipur">
+                                <img src="assets/img/golden_triangle_tour/red-fort-delhi.jpg" alt="Red Fort Delhi">
+                                <img src="assets/img/golden_triangle_tour/golden-triangle-map.jpg" alt="Golden Triangle Route Map">
                             </div>
                         </div>
 
@@ -340,8 +340,8 @@
                                             <i class="fas fa-monument"></i>
                                         </div>
                                         <div class="feature-item_content">
-                                            <h4 class="box-title mb-1">Taj Mahal Exploration</h4>
-                                            <p class="mb-0">Spend quality time exploring the magnificent Taj Mahal with an expert guide sharing its history and secrets.</p>
+                                            <h4 class="box-title mb-1">Taj Mahal - Symbol of Love</h4>
+                                            <p class="mb-0">Witness the breathtaking beauty of the Taj Mahal, a UNESCO World Heritage Site and one of the Seven Wonders of the World.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -351,8 +351,8 @@
                                             <i class="fas fa-utensils"></i>
                                         </div>
                                         <div class="feature-item_content">
-                                            <h4 class="box-title mb-1">Delicious Lunch</h4>
-                                            <p class="mb-0">Enjoy a sumptuous lunch at a quality local restaurant featuring authentic North Indian cuisine.</p>
+                                            <h4 class="box-title mb-1">Authentic Local Cuisine</h4>
+                                            <p class="mb-0">Savor traditional Rajasthani and Mughal cuisine at carefully selected restaurants offering authentic flavors.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -362,8 +362,8 @@
                                             <i class="fas fa-landmark"></i>
                                         </div>
                                         <div class="feature-item_content">
-                                            <h4 class="box-title mb-1">Agra Fort Visit</h4>
-                                            <p class="mb-0">Explore the historic Agra Fort, a UNESCO World Heritage Site with rich Mughal history.</p>
+                                            <h4 class="box-title mb-1">Amber Fort & Palace</h4>
+                                            <p class="mb-0">Explore the magnificent Amber Fort, a stunning blend of Hindu and Mughal architecture overlooking Maota Lake.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -373,8 +373,8 @@
                                             <i class="fas fa-car"></i>
                                         </div>
                                         <div class="feature-item_content">
-                                            <h4 class="box-title mb-1">Comfortable Transport</h4>
-                                            <p class="mb-0">Travel in air-conditioned comfort with a professional driver for a relaxed journey.</p>
+                                            <h4 class="box-title mb-1">Comfortable Transportation</h4>
+                                            <p class="mb-0">Travel in air-conditioned vehicles with experienced drivers ensuring a smooth and comfortable journey throughout.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -390,7 +390,7 @@
                                     </div>
                                     <div class="info-content">
                                         <h6 class="mb-1">Duration</h6>
-                                        <p class="mb-0">12-14 Hours (Approx. 7:00 AM - 9:00 PM)</p>
+                                        <p class="mb-0">3 Days / 2 Nights</p>
                                     </div>
                                 </div>
                                 <div class="info-item d-flex align-items-center mb-2">
@@ -427,41 +427,23 @@
                         <!-- Itinerary -->
                         <div class="mb-5 pb-3 border-bottom">
                             <h2 class="sec-title mb-3">Tour Itinerary</h2>
-                            
+
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">1</div>
-                                <h4>7:00 AM: Pickup from Delhi Hotel/Airport</h4>
-                                <p>Our driver will pick you up from your hotel or airport in Delhi to begin your journey to Agra. Enjoy a comfortable drive in our air-conditioned vehicle while taking in the scenery along the Yamuna Expressway.</p>
+                                <h4>Day 1: Arrival in Delhi - Capital City Exploration</h4>
+                                <p>Upon arrival in Delhi, you will be greeted by our representative and transferred to your hotel. After freshening up, embark on a comprehensive city tour visiting Old Delhi's Red Fort, Jama Masjid, and Chandni Chowk market. In the evening, explore New Delhi's India Gate, Rashtrapati Bhavan, and Qutub Minar. Overnight stay in Delhi.</p>
                             </div>
-                            
+
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">2</div>
-                                <h4>11:00 AM: Arrival in Agra & Taj Mahal Visit</h4>
-                                <p>Arrive in Agra and meet your expert guide who will take you to the magnificent Taj Mahal. Spend 2-3 hours exploring this architectural marvel and learning about its fascinating history and construction.</p>
+                                <h4>Day 2: Delhi to Agra - Taj Mahal & Agra Fort</h4>
+                                <p>After breakfast, drive to Agra (approximately 3-4 hours). Visit the magnificent Taj Mahal, a UNESCO World Heritage Site and symbol of eternal love. Explore Agra Fort, a massive red sandstone fort complex. Enjoy lunch at a local restaurant and visit Itmad-ud-Daulah (Baby Taj). Overnight stay in Agra.</p>
                             </div>
-                            
+
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">3</div>
-                                <h4>1:30 PM: Lunch at Local Restaurant</h4>
-                                <p>Enjoy a delicious lunch at a quality local restaurant, sampling authentic North Indian cuisine in a comfortable setting.</p>
-                            </div>
-                            
-                            <div class="itinerary-step">
-                                <div class="itinerary-step-number">4</div>
-                                <h4>3:00 PM: Agra Fort Exploration</h4>
-                                <p>Visit the majestic Agra Fort, a UNESCO World Heritage site. Explore its palaces, halls, and gardens while your guide shares stories of the Mughal emperors who once resided here.</p>
-                            </div>
-                            
-                            <div class="itinerary-step">
-                                <div class="itinerary-step-number">5</div>
-                                <h4>5:00 PM: Local Craft Shopping (Optional)</h4>
-                                <p>Visit a local marble handicraft center to see artisans creating beautiful works in the same style as the Taj Mahal's decorations (optional stop).</p>
-                            </div>
-                            
-                            <div class="itinerary-step">
-                                <div class="itinerary-step-number">6</div>
-                                <h4>6:00 PM: Return Journey to Delhi</h4>
-                                <p>Begin your return journey to Delhi, arriving at your hotel or preferred drop-off location by approximately 9:00 PM, concluding your memorable day tour.</p>
+                                <h4>Day 3: Agra to Jaipur - Pink City Discovery</h4>
+                                <p>After breakfast, drive to Jaipur (approximately 5-6 hours). Visit Amber Fort and Palace, perched on a hill overlooking Maota Lake. Explore the City Palace, Jantar Mantar observatory, and Hawa Mahal. Experience the vibrant local markets and culture. Transfer to airport/railway station for departure or extend your stay.</p>
                             </div>
                         </div>
 
@@ -472,22 +454,26 @@
                                 <div class="col-md-6">
                                     <h4 class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Inclusions</h4>
                                     <ul class="inclusion-list">
-                                        <li>Hotel/Airport pick-up and drop-off in Delhi</li>
-                                        <li>Private air-conditioned car with English-speaking driver</li>
-                                        <li>Professional live tour guide in Agra</li>
-                                        <li>All monument entrance tickets (Taj Mahal & Agra Fort)</li>
-                                        <li>Buffet lunch at a quality local restaurant</li>
-                                        <li>Complimentary mineral water during the journey</li>
-                                        <li>All taxes, parking, and road tolls</li>
+                                        <li>Airport/railway station pick-up and drop-off</li>
+                                        <li>Comfortable air-conditioned transportation</li>
+                                        <li>Professional English-speaking tour guide</li>
+                                        <li>All monument entrance fees (Taj Mahal, Agra Fort, Amber Fort, etc.)</li>
+                                        <li>2 nights accommodation in 3-star hotels</li>
+                                        <li>Daily breakfast and some meals as mentioned</li>
+                                        <li>All applicable taxes and service charges</li>
+                                        <li>24/7 customer support throughout the tour</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <h4 class="mb-3"><i class="fas fa-times-circle text-danger me-2"></i> Exclusions</h4>
                                     <ul class="exclusion-list">
-                                        <li>Tips/Gratuities for guide and driver</li>
-                                        <li>Any additional meals or drinks not specified</li>
-                                        <li>Personal expenses and souvenirs</li>
+                                        <li>International airfare and airport taxes</li>
+                                        <li>Personal expenses and shopping</li>
+                                        <li>Tips and gratuities for guide and driver</li>
+                                        <li>Travel insurance and medical expenses</li>
+                                        <li>Any additional meals or beverages not mentioned</li>
                                         <li>Camera fees at monuments (if applicable)</li>
+                                        <li>Any services not specifically mentioned in inclusions</li>
                                     </ul>
                                 </div>
                             </div>
@@ -500,7 +486,7 @@
                             
                             <div class="booking-form mt-3">
                                 <h4 class="mb-4">Enquiry Form</h4>
-                                <form>
+                                <form action="main.php" method="post" id="bookingForm">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group mb-3">
@@ -527,9 +513,12 @@
                                                 <label for="package">Select Tour Package <span style="color:red">*</span></label>
                                                 <select class="form-control" id="package" name="package" required>
                                                     <option value="">Select a package</option>
-                                                    <option value="Taj Mahal Day Tour by Car from Delhi" selected>Taj Mahal Day Tour by Car from Delhi</option>
-                                                    <option value="Taj Mahal Sunrise Tour by Car from Delhi">Taj Mahal Sunrise Tour by Car from Delhi</option>
-                                                    <option value="Taj Mahal Tour by Gatimaan Express Train">Taj Mahal Tour by Gatimaan Express Train</option>
+                                                    <option value="Golden Triangle Tour 3 Days" selected>Golden Triangle Tour 3 Days</option>
+                                                    <option value="Golden Triangle Tour 4 Days">Golden Triangle Tour 4 Days</option>
+                                                    <option value="Golden Triangle Tour 5 Days">Golden Triangle Tour 5 Days</option>
+                                                    <option value="Golden Triangle with Amritsar">Golden Triangle with Amritsar</option>
+                                                    <option value="Golden Triangle with Pushkar">Golden Triangle with Pushkar</option>
+                                                    <option value="Golden Triangle with Ranthambore">Golden Triangle with Ranthambore</option>
                                                     <option value="Custom/Other">Custom/Other</option>
                                                 </select>
                                             </div>
@@ -555,6 +544,7 @@
                                     </div>
                                     <button type="submit" class="th-btn w-100">Book Now</button>
                                 </form>
+                                <div id="bookingSuccess" class="alert mt-3 d-none" role="alert"></div>
                             </div>
                         </div>
                     </div>
@@ -568,8 +558,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="title-area text-center mb-4">
-                            <span class="sub-title" style="color:#005772;font-weight:600;letter-spacing:1px;">Explore More</span>
-                            <h2 class="sec-title" style="font-size:2.1rem;font-weight:700;">Related Tours</h2>
+                            <span class="sub-title" style="color:#005772;font-weight:600;letter-spacing:1px;">Explore More Options</span>
+                            <h2 class="sec-title" style="font-size:2.1rem;font-weight:700;">Other Golden Triangle Tours</h2>
                         </div>
                     </div>
                 </div>
@@ -577,57 +567,57 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="related-tour-card">
                             <div class="tour-img">
-                                <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour">
-                                <span class="tour-badge">01 Day Tour</span>
+                                <img src="assets/img/golden_triangle_tour/golden-tour-2.png" alt="Golden Triangle 4 Days">
+                                <span class="tour-badge">4 Days Tour</span>
                             </div>
                             <div class="tour-content">
-                                <h3 class="tour-title">Taj Mahal Sunrise Tour from Delhi</h3>
-                                <p class="tour-destination">Delhi - Agra - Delhi</p>
+                                <h3 class="tour-title">Golden Triangle Tour 4 Days</h3>
+                                <p class="tour-destination">Delhi - Agra - Jaipur</p>
                                 <div class="tour-meta">
                                     <div class="tour-rating">
                                         <i class="fas fa-star"></i>
-                                        <span>4.8 (750+)</span>
+                                        <span>4.8 (460+)</span>
                                     </div>
                                 </div>
-                                <a href="taj-sunrise-tour.html" class="th-btn style3">View Details</a>
+                                <a href="golden-triangle-tour-4-days.php" class="th-btn style3">View Details</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="related-tour-card">
                             <div class="tour-img">
-                                <img src="assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Gatimaan Express Tour">
-                                <span class="tour-badge">01 Day Tour</span>
+                                <img src="assets/img/golden_triangle_tour/golden-tour-3.png" alt="Golden Triangle 5 Days">
+                                <span class="tour-badge">5 Days Tour</span>
                             </div>
                             <div class="tour-content">
-                                <h3 class="tour-title">Taj Mahal Tour by Gatimaan Express Train</h3>
-                                <p class="tour-destination">Delhi - Agra - Delhi</p>
+                                <h3 class="tour-title">Golden Triangle Tour 5 Days</h3>
+                                <p class="tour-destination">Delhi - Agra - Jaipur</p>
                                 <div class="tour-meta">
                                     <div class="tour-rating">
                                         <i class="fas fa-star"></i>
-                                        <span>4.7 (577+)</span>
+                                        <span>4.9 (430+)</span>
                                     </div>
                                 </div>
-                                <a href="gatimaan-tour.html" class="th-btn style3">View Details</a>
+                                <a href="golden-triangle-tour-5-days.php" class="th-btn style3">View Details</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="related-tour-card">
                             <div class="tour-img">
-                                <img src="assets/img/taj_mahal_tour/taj_mahal-4.png" alt="Luxury Taj Tour">
-                                <span class="tour-badge">01 Day Tour</span>
+                                <img src="assets/img/golden_triangle_tour/golden-amritsar.png" alt="Golden Triangle with Amritsar">
+                                <span class="tour-badge">6 Days Tour</span>
                             </div>
                             <div class="tour-content">
-                                <h3 class="tour-title">Taj Mahal Luxury Tour by Premium Car</h3>
-                                <p class="tour-destination">Delhi - Agra - Delhi</p>
+                                <h3 class="tour-title">Golden Triangle with Amritsar</h3>
+                                <p class="tour-destination">Delhi - Agra - Jaipur - Amritsar</p>
                                 <div class="tour-meta">
                                     <div class="tour-rating">
                                         <i class="fas fa-star"></i>
-                                        <span>4.9 (420+)</span>
+                                        <span>4.8 (290+)</span>
                                     </div>
                                 </div>
-                                <a href="luxury-taj-tour.html" class="th-btn style3">View Details</a>
+                                <a href="golden-triangle-tour-with-amritsar.php" class="th-btn style3">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -642,6 +632,63 @@
 
     <!-- include the bottom script -->
     <?php include 'bottom-script.php'; ?>
+
+    <script>
+        // Handle booking form submission with AJAX
+        document.getElementById('bookingForm')?.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const form = this;
+            const submitBtn = form.querySelector('button[type="submit"]');
+            const successAlert = document.getElementById('bookingSuccess');
+
+            // Disable submit button and show loading
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Submitting...';
+
+            // Prepare form data
+            const formData = new FormData(form);
+
+            // Send AJAX request
+            fetch('main.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Show success message
+                    successAlert.className = 'alert alert-success mt-3';
+                    successAlert.textContent = data.message;
+                    successAlert.classList.remove('d-none');
+
+                    // Reset form
+                    form.reset();
+
+                    // Hide success message after 10 seconds
+                    setTimeout(() => {
+                        successAlert.classList.add('d-none');
+                    }, 10000);
+                } else {
+                    // Show error message
+                    successAlert.className = 'alert alert-danger mt-3';
+                    successAlert.textContent = data.message;
+                    successAlert.classList.remove('d-none');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                successAlert.className = 'alert alert-danger mt-3';
+                successAlert.textContent = 'An error occurred. Please try again later.';
+                successAlert.classList.remove('d-none');
+            })
+            .finally(() => {
+                // Re-enable submit button
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = 'Book Now';
+            });
+        });
+    </script>
 
 </body>
 

@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        About Page | Indiana Taj Tour
+        About Us - Indiana Taj Tour | Expert India Travel Guides
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Tourm - Travel & Tour Booking Agency HTML Template " />
-    <meta name="keywords" content="Tourm - Travel & Tour Booking Agency HTML Template " />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Learn about Indiana Taj Tour, your trusted partner for exploring India's iconic destinations like Taj Mahal, Delhi, Jaipur. Discover our expert guides and customized travel experiences." />
+    <meta name="keywords" content="about Indiana Taj Tour, India travel agency, Taj Mahal tours, Golden Triangle tours, travel guides India" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -85,14 +85,9 @@
                                 Experience India with Indiana Taj Tours
                             </h2>
                             <p class="feature-text">
-<<<<<<< HEAD
-                                Discover India with Indiana Taj Tours—expert guides, tailored trips, and unforgettable experiences in Agra, Jaipur, and beyond.
-                            </p>
-=======
                             From the charming countryside to vibrant city life, Indiana offers an unforgettable travel experience for every visitor. 
                         Discover the beauty of the Indiana Dunes, the excitement of Indianapolis Motor Speedway, the cultural treasures of 
                         Bloomington, and the peaceful landscapes of Amish Country.
->>>>>>> 01855dcb4151cd76f4ba6be53acaee75aacbe957
                         </div>
                     </div>
                 </div>

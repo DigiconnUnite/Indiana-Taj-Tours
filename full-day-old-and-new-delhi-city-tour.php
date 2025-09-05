@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Day Tour by Car from Delhi | Indiana Taj Tour
+        Full Day Old and New Delhi City Tour | Indiana Taj Tour
     </title>
-    <meta name="author" content="Tourm" />
-    <meta name="description" content="Experience the magnificent Taj Mahal on a day tour from Delhi with Indiana Taj Tours - A perfect day trip to Agra's iconic monument" />
-    <meta name="keywords" content="Taj Mahal day tour, Delhi to Agra day trip, Taj Mahal by car from Delhi" />
+    <meta name="author" content="Indiana Taj Tour" />
+    <meta name="description" content="Explore Old and New Delhi in a full day tour. Visit Red Fort, Jama Masjid, India Gate, and more with expert guides and comfortable transport." />
+    <meta name="keywords" content="Delhi city tour, Old Delhi, New Delhi, Red Fort, India Gate, Delhi sightseeing" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
