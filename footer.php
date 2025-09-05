@@ -78,8 +78,8 @@
                                 </div>
                                 <div class="details">
                                     <p>
-                                        <a href="mailto:mailinfo00@tourm.com"
-                                            class="info-box_link">info@indianataj.com</a>
+                                        <a href="mailto:indianatajtourswork@gmail.com"
+                                            class="info-box_link">indianatajtourswork@gmail.com</a>
                                     </p>
 
                                 </div>

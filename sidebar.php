@@ -75,10 +75,10 @@
                     </div>
                     <div class="details">
                         <p>
-                            <a href="mailto:mailinfo00@tourm.com" class="info-box_link">mailinfo00@tourm.com</a>
+                            <a href="mailto:indianatajtourswork@gmail.com" class="info-box_link">indianatajtourswork@gmail.com</a>
                         </p>
                         <p>
-                            <a href="mailto:support24@tourm.com" class="info-box_link">support24@tourm.com</a>
+                            <a href="mailto:indianatajtourswork@gmail.com" class="info-box_link">indianatajtourswork@gmail.com</a>
                         </p>
                     </div>
                 </div>

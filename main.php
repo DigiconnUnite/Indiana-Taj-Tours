@@ -1,4 +1,20 @@
 <?php
+/**
+ * Indiana Taj Tour - Main PHP Handler for Forms and Email Functionality
+ *
+ * @author Shivam Thakur
+ * @version 1.0.0
+ * @since 2025
+ *
+ * Developer Information:
+ * - Name: Shivam Thakur
+ * - LinkedIn: https://in.linkedin.com/in/shivam-thakur-9b1a54311
+ * - GitHub: https://github.com/shivamThakurXcode
+ *
+ * Description: This file handles contact form submissions, booking inquiries,
+ * and email functionality using PHPMailer for the Indiana Taj Tour website.
+ */
+
 // Indiana Taj Tour - Main PHP Handler for Forms and Email Functionality
 // This file handles contact form submissions and booking inquiries
 

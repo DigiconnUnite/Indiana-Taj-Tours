@@ -48,8 +48,8 @@ function is_active($pages) {
                                         </span></a>
                                 </li>
                                 <li class="d-none d-md-inline-block">
-                                    <a href="mailto:"><i class="fa-regular fa-envelope"></i>
-                                        <span> info@indianataj.com</span></a>
+                                    <a href="mailto:indianatajtourswork@gmail.com"><i class="fa-regular fa-envelope"></i>
+                                        <span> indianatajtourswork@gmail.com</span></a>
                                 </li>
                             </ul>
                         </div>

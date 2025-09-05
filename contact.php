@@ -142,7 +142,7 @@
                                 <span class="me-3"><i class="fas fa-envelope "></i></span>
                                 <span>
                                     <strong>Email:</strong><br>
-                                    <a href="mailto:info@indianatajtour.com">info@indianatajtour.com</a>
+                                    <a href="mailto:indianatajtourswork@gmail.com">indianatajtourswork@gmail.com</a>
                                 </span>
                             </li>
                             <li class="d-flex align-items-start">

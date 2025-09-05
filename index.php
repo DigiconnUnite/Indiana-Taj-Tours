@@ -1,3 +1,21 @@
+<?php
+/**
+ * Indiana Taj Tour - Homepage
+ *
+ * @author Digiconn Unite Pvt. Ltd.
+ * @version 1.0.0
+ * @since 2025
+ *
+ * Developer Information:
+ * - Company: Digiconn Unite Pvt. Ltd.
+ * - Company Website:  https://www.digiconnunite.com
+ * - Developer: Shivam Thakur
+ * - LinkedIn: https://in.linkedin.com/in/shivam-thakur-9b1a54311
+ * - GitHub: https://github.com/shivamThakurXcode
+
+ */
+?>
+
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 
