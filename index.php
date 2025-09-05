@@ -372,7 +372,7 @@
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.8 out of 5">
-                                                <span style="width: 96%">Rated <strong class="rating">4.8</strong> out of 5</span>
+                                                <span style="width: 96%">Rated <strong class="rating">4.8</strong>out of 5</span>
                                             </div>
                                             <a href="#" class="woocommerce-review-link">(50+ Reviews)</a>
                                         </div>

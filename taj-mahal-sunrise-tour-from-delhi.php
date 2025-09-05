@@ -290,7 +290,8 @@
                     <div class="col-lg-8 mx-auto">
                         <span class="tour-badge">Popular Choice</span>
                         <h1 class="breadcumb-title">Taj Mahal Sunrise Tour from Delhi</h1>
-                        <p class="text-white">Delhi - Agra - Delhi | Experience the magnificence of the Taj Mahal on a comfortable sunrise trip</p>
+                        <br>
+                        <p class="text-white">Delhi - Agra - Delhi | Witness the magic of sunrise at one of the Seven Wonders of the World</p>
                         <div class="d-flex justify-content-center flex-wrap mt-4">
                             <div class="mx-3 my-2"><i class="fas fa-clock me-2"></i> 1 Day Tour</div>
                             <div class="mx-3 my-2"><i class="fas fa-map-marker-alt me-2"></i> Pickup & Drop: Delhi</div>
@@ -310,12 +311,12 @@
                         <!-- Overview -->
                         <div class="mb-5 pb-3 border-bottom">
                             <h2 class="sec-title mb-3">Tour Overview</h2>
-                            <p>Your comfort and safety are our top priorities when planning the Taj Mahal Sunrise Tour by luxury car from Delhi. This is one of our most popular packages, meticulously designed to ensure your comfort from the moment you are picked up in a luxurious AC car in Delhi until your return. Witness the breathtaking beauty of the Taj Mahal at sunrise and explore</p>
-                            <p>Your day begins with a convenient pickup from your Delhi hotel, followed by a scenic drive to Agra. Explore the magnificent Taj Mahal, the majestic Agra Fort, and other architectural marvels at a relaxed pace. Enjoy a delicious lunch at a renowned local restaurant before returning to Delhi in the evening with memories to last a lifetime.</p>
+                            <p>Your comfort and safety are our top priorities when planning the Taj Mahal Sunrise Tour by luxury car from Delhi. This is one of our most popular packages, meticulously designed to ensure your comfort from the moment you are picked up in a luxurious AC car in Delhi until your return. Witness the breathtaking beauty of the Taj Mahal at sunrise and explore the historical Agra Fort at your own pace.</p>
+                            
                             
                             <div class="tour-highlight">
                                 <h4 class="mb-3"><i class="fas fa-bolt me-2"></i> Why Choose This Tour?</h4>
-                                <p>Perfect for those who prefer a more relaxed start to their day while still experiencing the full splendor of the Taj Mahal and Agra's historical treasures with expert guidance and comfort throughout.</p>
+                                <p>Experience the Taj Mahal in the magical morning light with fewer crowds, expert guidance, and luxurious comfort throughout your journey.</p>
                             </div>
                         </div>
 
@@ -340,8 +341,8 @@
                                             <i class="fas fa-monument"></i>
                                         </div>
                                         <div class="feature-item_content">
-                                            <h4 class="box-title mb-1">Taj Mahal Exploration</h4>
-                                            <p class="mb-0">Spend quality time exploring the magnificent Taj Mahal with an expert guide sharing its history and secrets.</p>
+                                            <h4 class="box-title mb-1">Sunrise at Taj Mahal</h4>
+                                            <p class="mb-0">Marvel at the stunning Taj Mahal at sunrise, guided by an experienced professional.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -351,8 +352,8 @@
                                             <i class="fas fa-utensils"></i>
                                         </div>
                                         <div class="feature-item_content">
-                                            <h4 class="box-title mb-1">Delicious Lunch</h4>
-                                            <p class="mb-0">Enjoy a sumptuous lunch at a quality local restaurant featuring authentic North Indian cuisine.</p>
+                                            <h4 class="box-title mb-1">Gourmet Breakfast</h4>
+                                            <p class="mb-0">Relish a delicious breakfast at a five-star hotel with Indian and continental options.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -362,8 +363,8 @@
                                             <i class="fas fa-landmark"></i>
                                         </div>
                                         <div class="feature-item_content">
-                                            <h4 class="box-title mb-1">Agra Fort Visit</h4>
-                                            <p class="mb-0">Explore the historic Agra Fort, a UNESCO World Heritage Site with rich Mughal history.</p>
+                                            <h4 class="box-title mb-1">Agra Fort Exploration</h4>
+                                            <p class="mb-0">Explore the historic Agra Fort, a UNESCO World Heritage Site with rich history.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -373,8 +374,8 @@
                                             <i class="fas fa-car"></i>
                                         </div>
                                         <div class="feature-item_content">
-                                            <h4 class="box-title mb-1">Comfortable Transport</h4>
-                                            <p class="mb-0">Travel in air-conditioned comfort with a professional driver for a relaxed journey.</p>
+                                            <h4 class="box-title mb-1">Exclusive Access</h4>
+                                            <p class="mb-0">Enjoy exclusive access to the Taj Mahal before the crowds arrive for a more intimate experience.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -430,38 +431,38 @@
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">1</div>
-                                <h4>7:00 AM: Pickup from Delhi Hotel/Airport</h4>
-                                <p>Our driver will pick you up from your hotel or airport in Delhi to begin your journey to Agra. Enjoy a comfortable drive in our air-conditioned vehicle while taking in the scenery along the Yamuna Expressway.</p>
+                                <h4>2:30 AM: Pickup from Anywhere in Delhi/NCR</h4>
+                                <p>Our driver will arrive at your hotel at the scheduled time to pick you up for your journey. Enjoy a comfortable 3-hour drive in a luxurious AC car from Delhi NCR to Agra.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">2</div>
-                                <h4>11:00 AM: Arrival in Agra & Taj Mahal Visit</h4>
-                                <p>Arrive in Agra and meet your expert guide who will take you to the magnificent Taj Mahal. Spend 2-3 hours exploring this architectural marvel and learning about its fascinating history and construction.</p>
+                                <h4>5:30 AM: Experience the Majestic Taj Mahal</h4>
+                                <p>Arrive in Agra at approximately 6:00 AM. Your first stop will be the magnificent Taj Mahal, where you'll spend at least three hours. A knowledgeable tour guide will accompany you, ensuring you see all the highlights, capture stunning photos, and create unforgettable memories.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">3</div>
-                                <h4>1:30 PM: Lunch at Local Restaurant</h4>
-                                <p>Enjoy a delicious lunch at a quality local restaurant, sampling authentic North Indian cuisine in a comfortable setting.</p>
+                                <h4>9:00 AM: Breakfast</h4>
+                                <p>After exploring the Taj Mahal, head to a five-star hotel for a delicious breakfast. Savor a variety of Indian and continental dishes in a luxurious setting.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">4</div>
-                                <h4>3:00 PM: Agra Fort Exploration</h4>
-                                <p>Visit the majestic Agra Fort, a UNESCO World Heritage site. Explore its palaces, halls, and gardens while your guide shares stories of the Mughal emperors who once resided here.</p>
+                                <h4>10:00 AM: Discover the Alluring Agra Fort</h4>
+                                <p>Following your breakfast, visit the fascinating Agra Fort, also known as the Walled City. Spend about an hour exploring this historical monument.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">5</div>
-                                <h4>5:00 PM: Local Craft Shopping (Optional)</h4>
-                                <p>Visit a local marble handicraft center to see artisans creating beautiful works in the same style as the Taj Mahal's decorations (optional stop).</p>
+                                <h4>11:00 AM: Return Journey to Delhi</h4>
+                                <p>After a fulfilling tour of Agra's iconic sites and a delectable breakfast, board your luxury vehicle for the return journey to Delhi NCR.</p>
                             </div>
                             
                             <div class="itinerary-step">
                                 <div class="itinerary-step-number">6</div>
-                                <h4>6:00 PM: Return Journey to Delhi</h4>
-                                <p>Begin your return journey to Delhi, arriving at your hotel or preferred drop-off location by approximately 9:00 PM, concluding your memorable day tour.</p>
+                                <h4>2:30 PM: Drop Off in Delhi NCR</h4>
+                                <p>Arrive back in Delhi around 2:00 PM, where our driver will drop you off at your preferred location, concluding your memorable sunrise tour.</p>
                             </div>
                         </div>
 
@@ -472,22 +473,21 @@
                                 <div class="col-md-6">
                                     <h4 class="mb-3"><i class="fas fa-check-circle text-success me-2"></i> Inclusions</h4>
                                     <ul class="inclusion-list">
-                                        <li>Hotel/Airport pick-up and drop-off in Delhi</li>
-                                        <li>Private air-conditioned car with English-speaking driver</li>
-                                        <li>Professional live tour guide in Agra</li>
-                                        <li>All monument entrance tickets (Taj Mahal & Agra Fort)</li>
-                                        <li>Buffet lunch at a quality local restaurant</li>
-                                        <li>Complimentary mineral water during the journey</li>
-                                        <li>All taxes, parking, and road tolls</li>
+                                        <li>Hotel/Airport pick-up and drop-off</li>
+                                        <li>Private air-conditioned car with a driver</li>
+                                        <li>Live tour guide (English, Hindi, Spanish on request)</li>
+                                        <li>All Monument Entrance Tickets</li>
+                                        <li>Gourmet Breakfast at a 5-star hotel</li>
+                                        <li>Complimentary water bottles</li>
+                                        <li>Driver allowances, parking fees, taxes, and tolls</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <h4 class="mb-3"><i class="fas fa-times-circle text-danger me-2"></i> Exclusions</h4>
                                     <ul class="exclusion-list">
-                                        <li>Tips/Gratuities for guide and driver</li>
-                                        <li>Any additional meals or drinks not specified</li>
-                                        <li>Personal expenses and souvenirs</li>
-                                        <li>Camera fees at monuments (if applicable)</li>
+                                        <li>Tips / Gratuities to guide and driver</li>
+                                        <li>Any other meals and drinks not specified</li>
+                                        <li>Any kind of personal expenses</li>
                                     </ul>
                                 </div>
                             </div>

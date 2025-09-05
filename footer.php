@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="details">
                                     <p>
-                                        <a href="tel:+01234567890" class="info-box_link">+91-0000000000</a>
+                                        <a href="tel:+01234567890" class="info-box_link">+91-955769951</a>
                                     </p>
                                 </div>
                             </div>
