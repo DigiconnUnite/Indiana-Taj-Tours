@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Dynamic Tour Details Page - Indiana Taj Tour
  *
@@ -12,16 +13,16 @@ $slug = isset($_GET['slug']) ? trim($_GET['slug']) : '';
 
 // Debug: Check if slug is provided
 if (empty($slug)) {
-    header("HTTP/1.0 400 Bad Request");
-    echo "<h1>Error</h1><p>No tour slug provided in the URL.</p>";
+    header('HTTP/1.0 400 Bad Request');
+    echo '<h1>Error</h1><p>No tour slug provided in the URL.</p>';
     exit;
 }
 
 // Include tours data with error handling
 $toursDataPath = __DIR__ . '/tours-data.php';
 if (!file_exists($toursDataPath)) {
-    header("HTTP/1.0 500 Internal Server Error");
-    echo "<h1>Server Error</h1><p>Tour data file not found.</p>";
+    header('HTTP/1.0 500 Internal Server Error');
+    echo '<h1>Server Error</h1><p>Tour data file not found.</p>';
     exit;
 }
 
@@ -29,22 +30,22 @@ include $toursDataPath;
 
 // Check if tours array exists
 if (!isset($tours) || !is_array($tours)) {
-    header("HTTP/1.0 500 Internal Server Error");
-    echo "<h1>Server Error</h1><p>Tour data not loaded properly.</p>";
+    header('HTTP/1.0 500 Internal Server Error');
+    echo '<h1>Server Error</h1><p>Tour data not loaded properly.</p>';
     exit;
 }
 
 // Check if tour exists
 if (!isset($tours[$slug])) {
     // Tour not found - redirect to 404 or show error
-    header("HTTP/1.0 404 Not Found");
-    echo "<h1>Tour Not Found</h1><p>The requested tour could not be found.</p>";
+    header('HTTP/1.0 404 Not Found');
+    echo '<h1>Tour Not Found</h1><p>The requested tour could not be found.</p>';
     echo "<p>Requested slug: <strong>$slug</strong></p>";
-    echo "<p>Available tours:</p><ul>";
+    echo '<p>Available tours:</p><ul>';
     foreach (array_keys($tours) as $availableSlug) {
         echo "<li>$availableSlug</li>";
     }
-    echo "</ul>";
+    echo '</ul>';
     exit;
 }
 
@@ -52,9 +53,9 @@ if (!isset($tours[$slug])) {
 $tour = $tours[$slug];
 
 // Set page metadata
-$pageTitle = $tour['title'] . ' | Indiana Taj Tour';
+$pageTitle       = $tour['title'] . ' | Indiana Taj Tour';
 $pageDescription = substr($tour['overview'], 0, 160) . '...';
-$pageKeywords = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['location'] . ', India travel packages';
+$pageKeywords    = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['location'] . ', India travel packages';
 ?>
 
 <!DOCTYPE html>
@@ -74,7 +75,7 @@ $pageKeywords = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->
-    <?php include "links.php" ?>
+    <?php include 'links.php' ?>
 
     <style>
         /* Enhanced Tour Hero Section */
@@ -96,6 +97,58 @@ $pageKeywords = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['
             background: linear-gradient(45deg, rgba(17, 61, 72, 0.1), rgba(0, 0, 0, 0.3));
             z-index: 1;
         }
+
+
+        .highlight-row {
+            display: flex;
+            align-items: center;
+            background: #f8fafb;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(17,61,72,0.06);
+            margin-bottom: 24px;
+            padding: 18px 24px;
+            min-height: 110px;
+        }
+        .highlight-icon {
+            flex: 0 0 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 60px;
+            width: 60px;
+            background: #e6f0f3;
+            border-radius: 50%;
+            font-size: 2rem;
+            color: #113d48;
+            margin-right: 28px;
+        }
+        .highlight-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .highlight-content .box-title {
+            margin-bottom: 6px;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #113d48;
+        }
+        @media (max-width: 767px) {
+            .highlight-row {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 16px 10px;
+            }
+            .highlight-icon {
+                margin-right: 0;
+                margin-bottom: 12px;
+            }
+        }
+                            
         .tour-hero .container {
             position: relative;
             z-index: 2;
@@ -132,7 +185,7 @@ $pageKeywords = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255,255,255,0.2);
             border-radius: 25px;
-            padding: 12px 20px;
+            padding: 6px 10px;
             color: white;
             font-weight: 500;
             display: flex;
@@ -301,7 +354,7 @@ $pageKeywords = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['
             cursor: pointer;
         }
         .tour-gallery img:hover {
-            transform: scale(1.05) rotate(1deg);
+           
             box-shadow: 0 8px 30px rgba(0,0,0,0.15);
         }
 
@@ -665,12 +718,12 @@ $pageKeywords = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['
                             <div class="row">
                                 <?php foreach ($tour['highlights'] as $highlight): ?>
                                 <div class="col-md-6">
-                                    <div class="feature-item style2 d-flex align-items-start mb-4">
-                                        <div class="feature-item_icon me-3" style="font-size: 1.5rem; color:#113d48;">
+                                    <div class="highlight-row">
+                                        <div class="highlight-icon">
                                             <i class="<?php echo $highlight['icon']; ?>"></i>
                                         </div>
-                                        <div class="feature-item_content">
-                                            <h4 class="box-title mb-1"><?php echo $highlight['title']; ?></h4>
+                                        <div class="highlight-content">
+                                            <h4 class="box-title"><?php echo $highlight['title']; ?></h4>
                                             <p class="mb-0"><?php echo $highlight['desc']; ?></p>
                                         </div>
                                     </div>
@@ -830,10 +883,10 @@ $pageKeywords = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['
     <?php include 'bottom-script.php'; ?>
 
    <?php
-    // Set the tour name for the fixed button
-    $tourName = $tour['title'];
-    include 'fixed-book-button.php';
-    ?>
+// Set the tour name for the fixed button
+$tourName = $tour['title'];
+include 'fixed-book-button.php';
+?>
    
 
     <script>

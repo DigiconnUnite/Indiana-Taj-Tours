@@ -19,7 +19,7 @@ $encodedTourName = urlencode($tourName);
     /* Fixed Book This Tour Button */
     .fixed-book-button {
         position: fixed;
-        bottom: 30px;
+        bottom: 8rem;
         right: 30px;
         z-index: 9999;
         animation: slideInFromRight 0.5s ease-out;

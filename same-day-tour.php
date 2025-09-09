@@ -97,7 +97,8 @@
                                     <li><span class="title">Includes:</span> Guide, Monument Entries, Bottled Water</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=full-day-old-and-new-delhi-city-tour" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -137,7 +138,8 @@
                                     <li><span class="title">Includes:</span> Guide, Monument Entries (Optional)</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=half-day-delhi-city-tour" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -177,7 +179,8 @@
                                     <li><span class="title">Includes:</span> Guide, Monument Entries, Lunch</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=full-day-jaipur-city-tour-by-car" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -218,7 +221,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=jaipur-tour-from-delhi-by-car" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -259,7 +263,8 @@
                                     <li><span class="title">Includes:</span> Guide, Monument Entries, Breakfast</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -300,7 +305,8 @@
                                     <li><span class="title">Includes:</span> Guide, Monument Entries, Breakfast</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -341,7 +347,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -383,7 +390,8 @@
                                         Multi-cuisine Lunch, Refreshments</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>

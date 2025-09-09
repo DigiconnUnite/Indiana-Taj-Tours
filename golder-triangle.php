@@ -98,7 +98,8 @@
                                         Breakfast</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=golden-triangle-tour-3-days" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -139,7 +140,8 @@
                                         Entries</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=golden-triangle-tour-4-days" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -180,14 +182,15 @@
                                         Exclusive Experiences</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=golden-triangle-tour-5-days" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
-                    <div class="col-lg-6 order-lg-4">   
+                    <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
                             <img src="assets/img/golden_triangle_tour/golden-varanasi.png"
                                 alt="Golden Triangle Tour with Amritsar" />
@@ -222,7 +225,8 @@
                                         Entries</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=golden-triangle-tour-with-amritsar" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -264,7 +268,8 @@
                                         Cultural Experiences</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=golden-triangle-tour-with-pushkar" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -307,7 +312,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=golden-triangle-tour-with-ranthambore" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -349,7 +355,8 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=golden-triangle-tour-with-udaipur" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -391,7 +398,8 @@
                                         Transfers</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=golden-triangle-tour-with-varanasi" class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
