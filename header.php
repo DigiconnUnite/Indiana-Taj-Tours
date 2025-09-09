@@ -95,6 +95,9 @@ function is_active($pages) {
                                         </li>
                                     </ul>
                                 </li>
+                                <li class="<?php echo is_active('search-tours.php'); ?>">
+                                    <a href="search-tours.php">Search Tours</a>
+                                </li>
                                 <li class="<?php echo is_active('contact.php'); ?>">
                                     <a href="contact.php">Contact us</a>
                                 </li>

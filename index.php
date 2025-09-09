@@ -1,12 +1,12 @@
 <?php
 /**
- * Indiana Taj Tour - Homepage
+ * Indiana Taj Tour 
  *
  * @author Digiconn Unite Pvt. Ltd.
  * @version 1.0.0
  * @since 2025
  *
- * Developer Information:
+ * Development Information:
  * - Company: Digiconn Unite Pvt. Ltd.
  * - Company Website:  https://www.digiconnunite.com
  * - Developer: Shivam Thakur
@@ -36,6 +36,112 @@
 
     <!-- include the links file  -->
     <?php include "links.php" ?>
+
+    <style>
+        /* Tour Search and Filter Styles */
+        .tour-search-filter {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 3rem 0;
+            margin: 2rem 0;
+        }
+
+        .search-filter-form {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .search-filter-form:hover {
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .search-filter-form .form-label {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 0.5rem;
+        }
+
+        .search-filter-form .form-control,
+        .search-filter-form .form-select {
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .search-filter-form .form-control:focus,
+        .search-filter-form .form-select:focus {
+            border-color: #113d48;
+            box-shadow: 0 0 0 0.2rem rgba(17, 61, 72, 0.25);
+        }
+
+        .search-filter-form .btn {
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .search-filter-form .btn-primary {
+            background: linear-gradient(135deg, #113d48 0%, #0a2a35 100%);
+            border: none;
+        }
+
+        .search-filter-form .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(17, 61, 72, 0.4);
+        }
+
+        .filter-results {
+            font-size: 0.9rem;
+            color: #6c757d;
+        }
+
+        /* Tour Box Styling */
+        .tour-box_price .currency {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive improvements */
+        @media (max-width: 768px) {
+            .tour-search-filter {
+                padding: 2rem 0;
+            }
+
+            .search-filter-form {
+                margin: 0 1rem;
+                padding: 1.5rem;
+            }
+
+            .search-filter-form .row > div {
+                margin-bottom: 1rem;
+            }
+        }
+
+        /* Tour box hover effects */
+        .tour-box {
+            transition: all 0.3s ease;
+        }
+
+        .tour-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        /* Filter animation */
+        .tour-box {
+            opacity: 1;
+            transform: scale(1);
+            transition: all 0.3s ease;
+        }
+
+        .tour-box[style*="display: none"] {
+            opacity: 0;
+            transform: scale(0.95);
+        }
+    </style>
 
 </head>
 
@@ -129,18 +235,15 @@
         <!-- booking form section  -->
         <div class="booking-sec">
             <div class="container">
-                <form action="search-results.php" method="GET"
-                    class="booking-form ajax-contact" id="searchForm">
+                <form action="search-tours.php" method="POST" class="booking-form" id="tourSearchForm">
                     <div class="input-wrap">
                         <div class="row align-items-center justify-content-between">
                             <div class="form-group col-md-6 col-lg-auto">
                                 <div class="icon"><i class="fa-light fa-route"></i></div>
                                 <div class="search-input">
-                                    <label>Destination</label>
-                                    <select name="destination" id="destination" class="form-select nice-select">
-                                        <option value="" selected="selected" disabled="disabled">
-                                            Select Destination
-                                        </option>
+                                    <label>Location</label>
+                                    <select name="location" id="location" class="form-select nice-select">
+                                        <option value="">All Locations</option>
                                         <option value="delhi">Delhi</option>
                                         <option value="agra">Agra</option>
                                         <option value="jaipur">Jaipur</option>
@@ -149,8 +252,6 @@
                                         <option value="amritsar">Amritsar</option>
                                         <option value="pushkar">Pushkar</option>
                                         <option value="ranthambore">Ranthambore</option>
-                                        <option value="golden-triangle">Golden Triangle (Delhi + Agra + Jaipur)</option>
-                                        <option value="all">All Destinations</option>
                                     </select>
                                 </div>
                             </div>
@@ -159,18 +260,12 @@
                                     <i class="fa-regular fa-person-hiking"></i>
                                 </div>
                                 <div class="search-input">
-                                    <label>Type</label>
-                                    <select class="nice-select" name="tourType" id="tourType">
-                                        <option value="" selected="selected" disabled="disabled">
-                                            Tour Type
-                                        </option>
-                                        <option value="day-tour">Day Tour</option>
+                                    <label>Tour Type</label>
+                                    <select name="tourType" id="tourType" class="nice-select">
+                                        <option value="">All Types</option>
+                                        <option value="taj-mahal">Taj Mahal Tour</option>
                                         <option value="same-day">Same Day Tour</option>
-                                        <option value="multi-day">Multi-Day Tour</option>
                                         <option value="golden-triangle">Golden Triangle</option>
-                                        <option value="luxury">Luxury Tour</option>
-                                        <option value="sunrise">Sunrise Tour</option>
-                                        <option value="all">All Types</option>
                                     </select>
                                 </div>
                             </div>
@@ -178,10 +273,8 @@
                                 <div class="icon"><i class="fa-light fa-clock"></i></div>
                                 <div class="search-input">
                                     <label>Duration</label>
-                                    <select class="form-select nice-select" name="duration" id="duration">
-                                        <option value="" selected="selected" disabled="disabled">
-                                            Duration
-                                        </option>
+                                    <select name="duration" id="duration" class="form-select nice-select">
+                                        <option value="">Any Duration</option>
                                         <option value="1">1 Day</option>
                                         <option value="2">2 Days</option>
                                         <option value="3">3 Days</option>
@@ -190,30 +283,21 @@
                                         <option value="6">6 Days</option>
                                         <option value="7">7 Days</option>
                                         <option value="8">8 Days</option>
-                                        <option value="all">Any Duration</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group col-md-6 col-lg-auto">
                                 <div class="icon">
-                                    <i class="fa-light fa-map-location-dot"></i>
+                                    <i class="fa-light fa-search"></i>
                                 </div>
                                 <div class="search-input">
-                                    <label>Tour Category</label>
-                                    <select name="category" id="category" class="form-select nice-select">
-                                        <option value="" selected="selected" disabled="disabled">
-                                            Category
-                                        </option>
-                                        <option value="luxury">Luxury</option>
-                                        <option value="premium">Premium</option>
-                                        <option value="standard">Standard</option>
-                                        <option value="all">All Categories</option>
-                                    </select>
+                                    <label>Search Tours</label>
+                                    <input type="text" name="search" id="search" class="form-control" placeholder="Search by tour name...">
                                 </div>
                             </div>
                             <div class="form-btn col-md-12 col-lg-auto">
-                                <button class="th-btn">
-                                    <img src="assets/img/icon/search.svg" alt="" />Search
+                                <button type="submit" class="th-btn">
+                                    <i class="fas fa-search"></i> Search Tours
                                 </button>
                             </div>
                         </div>
@@ -240,9 +324,9 @@
                                     <img src="assets/img/home/cat-agra.png" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
-                                    <a href="./taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Agra</a>
+                                    <a href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi">Agra</a>
                                 </h3>
-                                <a class="line-btn" href="./taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">See more</a>
+                                <a class="line-btn" href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi">See more</a>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -358,7 +442,7 @@
                                 data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}}'>
                                 <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal Day Tour by Car from Delhi" />
                                     </div>
@@ -385,7 +469,7 @@
                             
                             <!-- Taj Mahal Sunrise Tour from Delhi -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour from Delhi" />
                                     </div>
@@ -412,7 +496,7 @@
                             
                             <!-- Taj Mahal Tour by Gatimaan Express Train -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Taj Mahal Tour by Gatimaan Express Train" />
                                     </div>
@@ -439,7 +523,7 @@
                             
                             <!-- Taj Mahal Luxury Tour by Premium Car from Delhi -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/taj_mahal_tour/taj_mahal-4.png" alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
                                     </div>
@@ -474,7 +558,7 @@
                                 data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"4"}}}'>
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="same-day" data-location="delhi" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/same_day_tour/delhi-gate.png" alt="Full Day Old and New Delhi City Tour" />
                                     </div>
@@ -501,7 +585,7 @@
                             
                             <!-- Half Day Delhi City Tour -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="same-day" data-location="delhi" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/same_day_tour/kutub-minar.png" alt="Half Day Delhi City Tour" />
                                     </div>
@@ -528,7 +612,7 @@
                             
                             <!-- Full Day Jaipur City Tour by Car -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="same-day" data-location="jaipur" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/same_day_tour/hawa-mahal.png" alt="Full Day Jaipur City Tour by Car" />
                                     </div>
@@ -555,7 +639,7 @@
                             
                             <!-- Jaipur Tour from Delhi by Car -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="same-day" data-location="delhi jaipur" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/same_day_tour/amber-fort.png" alt="Jaipur Tour from Delhi by Car" />
                                     </div>
@@ -580,13 +664,13 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal Day Tour by Car from Delhi" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
-                                            <a href="taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
+                                            <a href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi">Taj Mahal Day Tour by Car from Delhi</a>
                                         </h3>
                                         <div class="tour-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.7 out of 5">
@@ -599,7 +683,7 @@
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Full Day Experience</span>
-                                            <a href="taj-mahal-and-agra-fort-tour-by-car-from-delhi.php" class="th-btn text-nowrap style4 th-icon">Read More</a>
+                                            <a href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi" class="th-btn text-nowrap style4 th-icon">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -607,7 +691,7 @@
                             
                             <!-- Taj Mahal Sunrise Tour from Delhi -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour from Delhi" />
                                     </div>
@@ -622,7 +706,7 @@
                                             <a href="#" class="woocommerce-review-link">(580+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
-                                            <span class="currency">01 Day Tour</span>
+                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Sunrise Experience</span>
@@ -634,7 +718,7 @@
                             
                             <!-- Taj Mahal Tour by Gatimaan Express Train -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Taj Mahal Tour by Gatimaan Express Train" />
                                     </div>
@@ -649,7 +733,7 @@
                                             <a href="#" class="woocommerce-review-link">(750+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
-                                            <span class="currency">01 Day Tour</span>
+                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Train Journey Included</span>
@@ -661,7 +745,7 @@
                             
                             <!-- Taj Mahal Luxury Tour by Premium Car from Delhi -->
                             <div class="swiper-slide">
-                                <div class="tour-box th-ani gsap-cursor">
+                                <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
                                         <img src="assets/img/taj_mahal_tour/taj_mahal-4.png" alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
                                     </div>
@@ -676,7 +760,7 @@
                                             <a href="#" class="woocommerce-review-link">(340+ Reviews)</a>
                                         </div>
                                         <h4 class="tour-box_price">
-                                            <span class="currency">01 Day Tour</span>
+                                             <span class="currency">01 Day Tour</span>
                                         </h4>
                                         <div class="tour-action">
                                             <span><i class="fa-light fa-clock"></i>Premium Experience</span>
@@ -699,7 +783,7 @@
                                 <div class="swiper-wrapper">
                                 <!-- Golden Triangle Tour 3 Days -->
                                     <div class="swiper-slide">
-                                        <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur" data-duration="3">
                                             <div class="tour-box_img global-img">
                                                 <img src="assets/img/golden_triangle_tour/golden-tour-1.png" alt="Golden Triangle Tour 3 Days" />
                                             </div>
@@ -714,7 +798,7 @@
                                                     <a href="#" class="woocommerce-review-link">(340+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
-                                                    <span class="currency">03 Night / 04 Days</span>
+                                                     <span class="currency">03 Night / 04 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Delhi - Agra - Jaipur</span>
@@ -726,7 +810,7 @@
                                     
                                     <!-- Golden Triangle Tour 4 Days -->
                                     <div class="swiper-slide">
-                                        <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur" data-duration="4">
                                             <div class="tour-box_img global-img">
                                                 <img src="assets/img/golden_triangle_tour/golden-tour-2.png" alt="Golden Triangle Tour 4 Days" />
                                             </div>
@@ -741,7 +825,7 @@
                                                     <a href="#" class="woocommerce-review-link">(460+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
-                                                    <span class="currency">04 Night / 05 Days</span>
+                                                     <span class="currency">04 Night / 05 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>More Relaxed Itinerary</span>
@@ -753,7 +837,7 @@
                                     
                                     <!-- Golden Triangle Tour 5 Days -->
                                     <div class="swiper-slide">
-                                        <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur" data-duration="5">
                                             <div class="tour-box_img global-img">
                                                 <img src="assets/img/golden_triangle_tour/golden-tour-3.png" alt="Golden Triangle Tour 5 Days" />
                                             </div>
@@ -768,7 +852,7 @@
                                                     <a href="#" class="woocommerce-review-link">(430+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
-                                                    <span class="currency">06 Night / 07 Days</span>
+                                                     <span class="currency">06 Night / 07 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Comprehensive Experience</span>
@@ -780,7 +864,7 @@
                                     
                                     <!-- Golden Triangle Tour with Amritsar -->
                                     <div class="swiper-slide">
-                                        <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur amritsar" data-duration="6">
                                             <div class="tour-box_img global-img">
                                                 <img src="assets/img/golden_triangle_tour/golden-amritsar.png" alt="Golden Triangle Tour with Amritsar" />
                                             </div>
@@ -795,7 +879,7 @@
                                                     <a href="#" class="woocommerce-review-link">(290+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
-                                                    <span class="currency">06 Night / 07 Days</span>
+                                                     <span class="currency">06 Night / 07 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Golden Temple Included</span>
@@ -807,7 +891,7 @@
                                     
                                     <!-- Golden Triangle Tour with Pushkar -->
                                     <div class="swiper-slide">
-                                        <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur pushkar" data-duration="6">
                                             <div class="tour-box_img global-img">
                                                 <img src="assets/img/golden_triangle_tour/golden-pushkar.png" alt="Golden Triangle Tour with Pushkar" />
                                             </div>
@@ -822,7 +906,7 @@
                                                     <a href="#" class="woocommerce-review-link">(390+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
-                                                    <span class="currency">06 Night / 07 Days</span>
+                                                     <span class="currency">06 Night / 07 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Sacred Town Experience</span>
@@ -834,7 +918,7 @@
                                     
                                     <!-- Golden Triangle Tour with Ranthambore -->
                                     <div class="swiper-slide">
-                                        <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur ranthambore" data-duration="7">
                                             <div class="tour-box_img global-img">
                                                 <img src="assets/img/golden_triangle_tour/golden-ranthambore.png" alt="Golden Triangle Tour with Ranthambore" />
                                             </div>
@@ -849,7 +933,7 @@
                                                     <a href="#" class="woocommerce-review-link">(410+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
-                                                    <span class="currency">07 Night / 08 Days</span>
+                                                     <span class="currency">07 Night / 08 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Includes Tiger Safari</span>
@@ -861,7 +945,7 @@
                                     
                                     <!-- Golden Triangle Tour with Udaipur -->
                                     <div class="swiper-slide">
-                                        <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur udaipur" data-duration="6">
                                             <div class="tour-box_img global-img">
                                                 <img src="assets/img/golden_triangle_tour/golden-udaipur.png" alt="Golden Triangle Tour with Udaipur" />
                                             </div>
@@ -876,7 +960,7 @@
                                                     <a href="#" class="woocommerce-review-link">(520+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
-                                                    <span class="currency">07 Night / 08 Days</span>
+                                                     <span class="currency">07 Night / 08 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>City of Lakes Included</span>
@@ -888,7 +972,7 @@
                                     
                                     <!-- Golden Triangle Tour with Varanasi -->
                                     <div class="swiper-slide">
-                                        <div class="tour-box th-ani gsap-cursor">
+                                        <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur varanasi" data-duration="7">
                                             <div class="tour-box_img global-img">
                                                 <img src="assets/img/golden_triangle_tour/golden-varanasi.png" alt="Golden Triangle Tour with Varanasi" />
                                             </div>
@@ -903,7 +987,7 @@
                                                     <a href="#" class="woocommerce-review-link">(330+ Reviews)</a>
                                                 </div>
                                                 <h4 class="tour-box_price">
-                                                    <span class="currency">07 Night / 08 Days</span>
+                                                     <span class="currency">07 Night / 08 Days</span>
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>Spiritual Experience</span>
@@ -1179,65 +1263,23 @@
     <?php include 'bottom-script.php'; ?>
 
     <script>
-        // Search form functionality
+        // Form submission handling
         document.addEventListener('DOMContentLoaded', function() {
-            const searchForm = document.getElementById('searchForm');
-            const searchBtn = searchForm.querySelector('button[type="submit"]');
+            const searchForm = document.getElementById('tourSearchForm');
 
-            // Add loading state to search button
             searchForm.addEventListener('submit', function(e) {
-                const destination = document.getElementById('destination').value;
-                const tourType = document.getElementById('tourType').value;
-                const duration = document.getElementById('duration').value;
-                const category = document.getElementById('category').value;
-
-                // Check if at least one field is selected
-                if (!destination && !tourType && !duration && !category) {
-                    e.preventDefault();
-                    alert('Please select at least one search criteria to find tours.');
-                    return;
-                }
-
-                // Show loading state
-                const originalText = searchBtn.innerHTML;
-                searchBtn.innerHTML = '<i class="fas fa-search me-2"></i>Searching...';
-                searchBtn.disabled = true;
+                // Form will submit to search-tours.php
+                // You can add loading states or validation here if needed
+                const submitBtn = searchForm.querySelector('button[type="submit"]');
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Searching...';
+                submitBtn.disabled = true;
 
                 // Re-enable after a short delay (form will submit)
                 setTimeout(() => {
-                    searchBtn.innerHTML = originalText;
-                    searchBtn.disabled = false;
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
                 }, 1000);
-            });
-
-            // Dynamic form interactions
-            const destinationSelect = document.getElementById('destination');
-            const tourTypeSelect = document.getElementById('tourType');
-
-            // Auto-suggest tour type based on destination
-            destinationSelect.addEventListener('change', function() {
-                const destination = this.value;
-                if (destination === 'golden-triangle') {
-                    tourTypeSelect.value = 'golden-triangle';
-                } else if (destination === 'agra') {
-                    tourTypeSelect.value = 'day-tour';
-                } else if (destination === 'delhi' || destination === 'jaipur') {
-                    tourTypeSelect.value = 'same-day';
-                }
-            });
-
-            // Auto-suggest duration based on tour type
-            tourTypeSelect.addEventListener('change', function() {
-                const tourType = this.value;
-                const durationSelect = document.getElementById('duration');
-
-                if (tourType === 'golden-triangle') {
-                    durationSelect.value = '3';
-                } else if (tourType === 'multi-day') {
-                    durationSelect.value = '7';
-                } else if (tourType === 'day-tour' || tourType === 'same-day' || tourType === 'sunrise') {
-                    durationSelect.value = '1';
-                }
             });
         });
     </script>

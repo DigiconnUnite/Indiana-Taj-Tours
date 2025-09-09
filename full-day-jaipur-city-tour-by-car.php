@@ -644,6 +644,12 @@ n<!DOCTYPE html>
     <!-- include the bottom script -->
     <?php include 'bottom-script.php'; ?>
 
+    <?php
+    // Set the tour name for the fixed button
+    $tourName = 'Full Day Jaipur City Tour by Car';
+    include 'fixed-book-button.php';
+    ?>
+
     <script>
         // Handle booking form submission with AJAX
         document.getElementById('bookingForm')?.addEventListener('submit', function(e) {

@@ -140,8 +140,9 @@
                                     <li><span class="title">Includes:</span> Guide, Monument Entries, Breakfast</li>
                                 </ul>
                             </div>
-                            <div class="resort-btn mt-40">
-                                <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
+                            <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
+                                <a href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi" class="th-btn style3 th-icon">Read More</a>
+                                <a href="booking.php?tour=taj-mahal-day-tour-by-car-from-delhi" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
                     </div>

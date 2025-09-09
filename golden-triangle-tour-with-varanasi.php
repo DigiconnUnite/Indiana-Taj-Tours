@@ -645,6 +645,12 @@
     <!-- include the bottom script -->
     <?php include 'bottom-script.php'; ?>
 
+    <?php
+    // Set the tour name for the fixed button
+    $tourName = 'Golden Triangle Tour with Varanasi';
+    include 'fixed-book-button.php';
+    ?>
+
     <script>
         // Handle booking form submission with AJAX
         document.getElementById('bookingForm')?.addEventListener('submit', function(e) {

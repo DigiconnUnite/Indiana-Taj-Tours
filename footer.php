@@ -93,23 +93,25 @@
     </div>
     <div class="copyright-wrap">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center justify-content-between ">
                 <div class="col-md-4 text-md-start text-center mb-3 mb-md-0">
-                    <p class="copyright-text mb-0">
+                   <p class="copyright-text mb-0">
+                        Developed By <a style="color: orange;" href="https://digiconnunite.com/">Digiconn Unite Pvt. Ltd.</a>
+                    </p>   
+               
+                </div>
+                <div class="col-md-4 text-end mb-3 mb-md-0">
+              <p class="copyright-text mb-0">
                         © Copyright 2025 <a href="index.php"> Indiana Taj Tour </a> | All Rights Reserved.
                     </p>
                 </div>
-                <div class="col-md-4 text-center mb-3 mb-md-0">
-                <p class="copyright-text mb-0">
-                        Developed By <a style="color: orange;" href="https://digiconnunite.com/">Digiconn Unite Pvt. Ltd.</a>
-                    </p>
-                </div>
-                <div class="col-md-4 text-md-end text-center d-none d-md-block">
+                <!-- <div class="col-md-4 text-md-end text-center d-none d-md-block">
                     <div class="footer-card">
                         <span class="title">We Accept</span>
                         <img src="assets/img/shape/cards.png" alt="" />
                     </div>
-                </div>
+                    
+                </div> -->
             </div>
         </div>
     </div>
