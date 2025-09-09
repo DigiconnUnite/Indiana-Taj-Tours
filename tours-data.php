@@ -80,6 +80,8 @@ $tours = [
             'assets/img/taj_mahal_tour/agra-fort.jpg'
         ],
         'overview' => 'Witness one of the world\'s most magical spectacles - the sunrise over the Taj Mahal - on this exclusive early morning tour from Delhi. As dawn breaks, the first rays of sunlight illuminate the pristine white marble of this architectural masterpiece, creating an ethereal glow that photographers and romantics dream of capturing. This premium experience begins with an early pickup from your Delhi hotel, allowing you to reach Agra before the crowds and heat of the day. Your expert guide will lead you through the tranquil grounds of the Taj Mahal as the monument transforms from a silhouette against the dark sky to a radiant beacon in the morning light. Learn about the poignant love story behind this UNESCO World Heritage site and the intricate craftsmanship that has captivated visitors for centuries. After soaking in the sunrise views, enjoy a leisurely breakfast at a charming local restaurant before continuing to the imposing Agra Fort, where Mughal emperors once ruled an empire. The fort\'s red sandstone walls offer a striking contrast to the white marble of the Taj and provide panoramic views of the Yamuna River. This tour is designed for those who seek the most serene and photogenic experience of the Taj Mahal, returning you to Delhi by midday with the rest of your day free to relax or explore more of the capital.',
+        
+
         'why_choose' => 'Be among the first visitors of the day at the Taj Mahal.',
         'highlights' => [
             ['icon' => 'fas fa-sun', 'title' => 'Sunrise Experience', 'desc' => 'Witness the Taj Mahal come alive with sunlight'],
@@ -641,6 +643,304 @@ $tours = [
             ['title' => 'Golden Triangle Tour 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
             ['title' => 'Golden Triangle Tour 4 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-2.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-4-days', 'duration' => '4 Days', 'rating' => '4.8 (460+)'],
             ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '6 Days', 'rating' => '4.8 (290+)']
+        ]
+    ],
+    'golden-triangle-tour-with-amritsar' => [
+        'id' => 12,
+        'title' => 'Golden Triangle Tour with Amritsar',
+        'slug' => 'golden-triangle-tour-with-amritsar',
+        'type' => 'golden-triangle',
+        'location' => 'Delhi - Agra - Jaipur - Amritsar - Delhi',
+        'duration' => '7 Days / 6 Nights',
+        'price' => 700,
+        'rating' => 4.8,
+        'reviews' => 290,
+        'badge' => 'Complete North India',
+        'pickup_drop' => 'Delhi',
+        'service' => 'Complete Package',
+        'languages' => 'English, Hindi',
+        'transport' => 'Private AC Vehicle + Flight',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-amritsar.png',
+        'gallery' => [
+            'assets/img/golden_triangle_tour/golden-amritsar.png',
+            'assets/img/taj_mahal_tour/taj_mahal-1.png',
+            'assets/img/same_day_tour/amber-fort.png',
+            'assets/img/golden_triangle_tour/golden-tour-1.png'
+        ],
+        'overview' => 'Combine the cultural wonders of the Golden Triangle with the spiritual experience of Amritsar\'s Golden Temple. This comprehensive 7-day tour takes you through Delhi\'s historic monuments, the Taj Mahal in Agra, Jaipur\'s royal palaces, and concludes with the sacred Golden Temple and Wagah Border ceremony in Amritsar.',
+        'why_choose' => 'Experience the complete Golden Triangle plus the spiritual heart of Punjab.',
+        'highlights' => [
+            ['icon' => 'fas fa-landmark', 'title' => 'Taj Mahal', 'desc' => 'Witness the Taj Mahal at sunrise'],
+            ['icon' => 'fas fa-crown', 'title' => 'Amber Fort', 'desc' => 'Explore Jaipur\'s magnificent fort'],
+            ['icon' => 'fas fa-temple', 'title' => 'Golden Temple', 'desc' => 'Visit Amritsar\'s sacred Golden Temple'],
+            ['icon' => 'fas fa-flag', 'title' => 'Wagah Border', 'desc' => 'Experience the Wagah Border ceremony']
+        ],
+        'itinerary' => [
+            ['step' => 1, 'time' => 'Day 1', 'title' => 'Delhi Arrival', 'desc' => 'Arrive in Delhi, transfer to hotel'],
+            ['step' => 2, 'time' => 'Day 2', 'title' => 'Delhi Sightseeing', 'desc' => 'Visit Red Fort, Jama Masjid, India Gate'],
+            ['step' => 3, 'time' => 'Day 3', 'title' => 'Agra Day Trip', 'desc' => 'Full day trip to Agra - Taj Mahal, Agra Fort'],
+            ['step' => 4, 'time' => 'Day 4', 'title' => 'Jaipur Exploration', 'desc' => 'Drive to Jaipur, visit Amber Fort, City Palace'],
+            ['step' => 5, 'time' => 'Day 5', 'title' => 'Jaipur to Amritsar', 'desc' => 'Drive to Amritsar, visit Golden Temple'],
+            ['step' => 6, 'time' => 'Day 6', 'title' => 'Amritsar Sightseeing', 'desc' => 'Wagah Border ceremony, Jallianwala Bagh'],
+            ['step' => 7, 'time' => 'Day 7', 'title' => 'Departure', 'desc' => 'Transfer to airport/station for departure']
+        ],
+        'inclusions' => [
+            '6-night hotel accommodation',
+            'Daily breakfast and dinner',
+            'Private air-conditioned vehicle',
+            'Expert guide',
+            'All monument tickets',
+            'All transfers'
+        ],
+        'exclusions' => [
+            'International flights',
+            'Personal expenses',
+            'Tips',
+            'Camera fees'
+        ],
+        'related_tours' => [
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle 4 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-2.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-4-days', 'duration' => '4 Days', 'rating' => '4.8 (460+)'],
+            ['title' => 'Golden Triangle 5 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-3.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-5-days', 'duration' => '5 Days', 'rating' => '4.9 (430+)']
+        ]
+    ],
+    'golden-triangle-tour-with-pushkar' => [
+        'id' => 13,
+        'title' => 'Golden Triangle Tour with Pushkar',
+        'slug' => 'golden-triangle-tour-with-pushkar',
+        'type' => 'golden-triangle',
+        'location' => 'Delhi - Agra - Jaipur - Pushkar - Delhi',
+        'duration' => '7 Days / 6 Nights',
+        'price' => 650,
+        'rating' => 4.8,
+        'reviews' => 390,
+        'badge' => 'Sacred Rajasthan',
+        'pickup_drop' => 'Delhi',
+        'service' => 'Complete Package',
+        'languages' => 'English, Hindi',
+        'transport' => 'Private AC Vehicle',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-pushkar.png',
+        'gallery' => [
+            'assets/img/golden_triangle_tour/golden-pushkar.png',
+            'assets/img/golden_triangle_tour/pushkar-temple.png',
+            'assets/img/golden_triangle_tour/pushkar-lake.png',
+            'assets/img/golden_triangle_tour/pushkar-camel.png'
+        ],
+        'overview' => 'Experience the Golden Triangle plus the sacred town of Pushkar, famous for its Brahma Temple and annual camel fair. This 7-day tour combines Delhi\'s historic monuments, Agra\'s Taj Mahal, Jaipur\'s palaces with Pushkar\'s spiritual atmosphere and desert culture.',
+        'why_choose' => 'Combine cultural exploration with spiritual experiences in Pushkar.',
+        'highlights' => [
+            ['icon' => 'fas fa-landmark', 'title' => 'Taj Mahal', 'desc' => 'Witness the Taj Mahal at sunrise'],
+            ['icon' => 'fas fa-temple', 'title' => 'Brahma Temple', 'desc' => 'Visit the only Brahma temple in the world'],
+            ['icon' => 'fas fa-water', 'title' => 'Pushkar Lake', 'desc' => 'Holy lake with 52 bathing ghats'],
+            ['icon' => 'fas fa-horse', 'title' => 'Camel Safari', 'desc' => 'Optional desert camel ride']
+        ],
+        'itinerary' => [
+            ['step' => 1, 'time' => 'Day 1', 'title' => 'Delhi Arrival', 'desc' => 'Arrive in Delhi, transfer to hotel'],
+            ['step' => 2, 'time' => 'Day 2', 'title' => 'Delhi Sightseeing', 'desc' => 'Visit Red Fort, Jama Masjid, India Gate'],
+            ['step' => 3, 'time' => 'Day 3', 'title' => 'Agra Day Trip', 'desc' => 'Full day trip to Agra - Taj Mahal, Agra Fort'],
+            ['step' => 4, 'time' => 'Day 4', 'title' => 'Jaipur Exploration', 'desc' => 'Drive to Jaipur, visit Amber Fort, City Palace'],
+            ['step' => 5, 'time' => 'Day 5', 'title' => 'Jaipur to Pushkar', 'desc' => 'Drive to Pushkar, visit Brahma Temple and Lake'],
+            ['step' => 6, 'time' => 'Day 6', 'title' => 'Pushkar Exploration', 'desc' => 'Savitur Temple, local markets, cultural experiences'],
+            ['step' => 7, 'time' => 'Day 7', 'title' => 'Return to Delhi', 'desc' => 'Drive back to Delhi, departure']
+        ],
+        'inclusions' => [
+            '6-night heritage hotel accommodation',
+            'Daily breakfast and most meals',
+            'Private air-conditioned vehicle',
+            'Expert guide',
+            'All monument tickets',
+            'Cultural experiences'
+        ],
+        'exclusions' => [
+            'Personal expenses',
+            'Tips',
+            'Camel safari (optional)',
+            'Camera fees'
+        ],
+        'related_tours' => [
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
+        ]
+    ],
+    'golden-triangle-tour-with-ranthambore' => [
+        'id' => 14,
+        'title' => 'Golden Triangle Tour with Ranthambore',
+        'slug' => 'golden-triangle-tour-with-ranthambore',
+        'type' => 'golden-triangle',
+        'location' => 'Delhi - Agra - Ranthambore - Jaipur - Delhi',
+        'duration' => '8 Days / 7 Nights',
+        'price' => 750,
+        'rating' => 4.9,
+        'reviews' => 410,
+        'badge' => 'Wildlife & Culture',
+        'pickup_drop' => 'Delhi',
+        'service' => 'Complete Package',
+        'languages' => 'English, Hindi',
+        'transport' => 'Private AC Vehicle + Safari Jeep',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-ranthambore.png',
+        'gallery' => [
+            'assets/img/golden_triangle_tour/golden-ranthambore.png',
+            'assets/img/golden_triangle_tour/ranthambore-tiger.png',
+            'assets/img/golden_triangle_tour/ranthambore-fort.png',
+            'assets/img/golden_triangle_tour/ranthambore-safari.png'
+        ],
+        'overview' => 'Combine cultural exploration with wildlife adventure on this extended Golden Triangle tour including Ranthambore National Park. Experience Delhi\'s monuments, Agra\'s Taj Mahal, thrilling tiger safaris in Ranthambore, and Jaipur\'s palaces in this comprehensive 8-day journey.',
+        'why_choose' => 'Experience India\'s best tiger sightings combined with cultural treasures.',
+        'highlights' => [
+            ['icon' => 'fas fa-landmark', 'title' => 'Taj Mahal', 'desc' => 'Witness the Taj Mahal at sunrise'],
+            ['icon' => 'fas fa-paw', 'title' => 'Tiger Safari', 'desc' => 'Jeep safari in Ranthambore National Park'],
+            ['icon' => 'fas fa-landmark', 'title' => 'Ranthambore Fort', 'desc' => 'Explore the historic fort'],
+            ['icon' => 'fas fa-crown', 'title' => 'Amber Fort', 'desc' => 'Visit Jaipur\'s magnificent fort']
+        ],
+        'itinerary' => [
+            ['step' => 1, 'time' => 'Day 1', 'title' => 'Delhi Arrival', 'desc' => 'Arrive in Delhi, transfer to hotel'],
+            ['step' => 2, 'time' => 'Day 2', 'title' => 'Delhi Sightseeing', 'desc' => 'Visit Red Fort, Jama Masjid, India Gate'],
+            ['step' => 3, 'time' => 'Day 3', 'title' => 'Agra Day Trip', 'desc' => 'Full day trip to Agra - Taj Mahal, Agra Fort'],
+            ['step' => 4, 'time' => 'Day 4', 'title' => 'Agra to Ranthambore', 'desc' => 'Drive to Ranthambore, evening safari'],
+            ['step' => 5, 'time' => 'Day 5', 'title' => 'Ranthambore Safari', 'desc' => 'Morning and evening safaris, fort visit'],
+            ['step' => 6, 'time' => 'Day 6', 'title' => 'Ranthambore to Jaipur', 'desc' => 'Drive to Jaipur, visit Amber Fort'],
+            ['step' => 7, 'time' => 'Day 7', 'title' => 'Jaipur Exploration', 'desc' => 'City Palace, Jantar Mantar, Hawa Mahal'],
+            ['step' => 8, 'time' => 'Day 8', 'title' => 'Return to Delhi', 'desc' => 'Drive back to Delhi, departure']
+        ],
+        'inclusions' => [
+            '7-night accommodation (jungle lodge + hotels)',
+            'Daily breakfast and dinner',
+            'Private air-conditioned vehicle',
+            'Expert guide',
+            'Multiple jeep safaris',
+            'All monument tickets'
+        ],
+        'exclusions' => [
+            'Personal expenses',
+            'Tips',
+            'Camera fees',
+            'Travel insurance'
+        ],
+        'related_tours' => [
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
+        ]
+    ],
+    'golden-triangle-tour-with-varanasi' => [
+        'id' => 15,
+        'title' => 'Golden Triangle Tour with Varanasi',
+        'slug' => 'golden-triangle-tour-with-varanasi',
+        'type' => 'golden-triangle',
+        'location' => 'Delhi - Agra - Jaipur - Varanasi',
+        'duration' => '8 Days / 7 Nights',
+        'price' => 720,
+        'rating' => 4.7,
+        'reviews' => 330,
+        'badge' => 'Spiritual Journey',
+        'pickup_drop' => 'Delhi',
+        'service' => 'Complete Package',
+        'languages' => 'English, Hindi',
+        'transport' => 'Private AC Vehicle + Flight',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-varanasi.png',
+        'gallery' => [
+            'assets/img/golden_triangle_tour/golden-varanasi.png',
+            'assets/img/golden_triangle_tour/varanasi-ghats.png',
+            'assets/img/golden_triangle_tour/varanasi-ganges.png',
+            'assets/img/golden_triangle_tour/varanasi-temple.png'
+        ],
+        'overview' => 'Combine the cultural highlights of the Golden Triangle with the spiritual energy of Varanasi, the oldest living city in the world. This 8-day tour takes you through Delhi\'s monuments, Agra\'s Taj Mahal, Jaipur\'s palaces, and concludes with Varanasi\'s sacred ghats and Ganga Aarti ceremony.',
+        'why_choose' => 'Experience cultural wonders combined with profound spiritual experiences.',
+        'highlights' => [
+            ['icon' => 'fas fa-landmark', 'title' => 'Taj Mahal', 'desc' => 'Witness the Taj Mahal at sunrise'],
+            ['icon' => 'fas fa-water', 'title' => 'Ganga Aarti', 'desc' => 'Evening prayer ceremony on the Ganges'],
+            ['icon' => 'fas fa-ship', 'title' => 'Boat Ride', 'desc' => 'Sunrise boat ride along the ghats'],
+            ['icon' => 'fas fa-temple', 'title' => 'Ancient Temples', 'desc' => 'Visit Kashi Vishwanath and Sarnath']
+        ],
+        'itinerary' => [
+            ['step' => 1, 'time' => 'Day 1', 'title' => 'Delhi Arrival', 'desc' => 'Arrive in Delhi, transfer to hotel'],
+            ['step' => 2, 'time' => 'Day 2', 'title' => 'Delhi Sightseeing', 'desc' => 'Visit Red Fort, Jama Masjid, India Gate'],
+            ['step' => 3, 'time' => 'Day 3', 'title' => 'Agra Day Trip', 'desc' => 'Full day trip to Agra - Taj Mahal, Agra Fort'],
+            ['step' => 4, 'time' => 'Day 4', 'title' => 'Jaipur Exploration', 'desc' => 'Drive to Jaipur, visit Amber Fort, City Palace'],
+            ['step' => 5, 'time' => 'Day 5', 'title' => 'Jaipur to Varanasi', 'desc' => 'Flight to Varanasi, evening Ganga Aarti'],
+            ['step' => 6, 'time' => 'Day 6', 'title' => 'Varanasi Exploration', 'desc' => 'Boat ride, temple visits, old city walk'],
+            ['step' => 7, 'time' => 'Day 7', 'title' => 'Sarnath & More', 'desc' => 'Visit Sarnath, more temples, evening Aarti'],
+            ['step' => 8, 'time' => 'Day 8', 'title' => 'Departure', 'desc' => 'Transfer to airport for departure']
+        ],
+        'inclusions' => [
+            '7-night accommodation (riverfront hotel)',
+            'Daily breakfast and dinner',
+            'Private air-conditioned vehicle',
+            'Expert guide',
+            'Boat ride on Ganges',
+            'All monument tickets'
+        ],
+        'exclusions' => [
+            'International flights',
+            'Personal expenses',
+            'Tips',
+            'Camera fees'
+        ],
+        'related_tours' => [
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
+        ]
+    ],
+    'golden-triangle-tour-with-udaipur' => [
+        'id' => 16,
+        'title' => 'Golden Triangle Tour with Udaipur',
+        'slug' => 'golden-triangle-tour-with-udaipur',
+        'type' => 'golden-triangle',
+        'location' => 'Delhi - Agra - Jaipur - Udaipur',
+        'duration' => '8 Days / 7 Nights',
+        'price' => 680,
+        'rating' => 4.7,
+        'reviews' => 520,
+        'badge' => 'Romantic Rajasthan',
+        'pickup_drop' => 'Delhi',
+        'service' => 'Complete Package',
+        'languages' => 'English, Hindi',
+        'transport' => 'Private AC Vehicle + Flight',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-udaipur.png',
+        'gallery' => [
+            'assets/img/golden_triangle_tour/golden-udaipur.png',
+            'assets/img/golden_triangle_tour/udaipur-palace.png',
+            'assets/img/golden_triangle_tour/udaipur-lake.png',
+            'assets/img/golden_triangle_tour/udaipur-boat.png'
+        ],
+        'overview' => 'Extend your Golden Triangle experience to include Udaipur, the romantic "City of Lakes" with its stunning palaces and lakes. This 8-day tour combines Delhi\'s historic monuments, Agra\'s Taj Mahal, Jaipur\'s palaces with Udaipur\'s fairy-tale architecture and serene lake Pichola.',
+        'why_choose' => 'Experience the romance and beauty of Udaipur combined with Golden Triangle highlights.',
+        'highlights' => [
+            ['icon' => 'fas fa-landmark', 'title' => 'Taj Mahal', 'desc' => 'Witness the Taj Mahal at sunrise'],
+            ['icon' => 'fas fa-crown', 'title' => 'City Palace Udaipur', 'desc' => 'Explore Udaipur\'s magnificent palace'],
+            ['icon' => 'fas fa-ship', 'title' => 'Lake Pichola', 'desc' => 'Boat cruise on the romantic lake'],
+            ['icon' => 'fas fa-building', 'title' => 'Amber Fort', 'desc' => 'Visit Jaipur\'s hilltop fort']
+        ],
+        'itinerary' => [
+            ['step' => 1, 'time' => 'Day 1', 'title' => 'Delhi Arrival', 'desc' => 'Arrive in Delhi, transfer to hotel'],
+            ['step' => 2, 'time' => 'Day 2', 'title' => 'Delhi Sightseeing', 'desc' => 'Visit Red Fort, Jama Masjid, India Gate'],
+            ['step' => 3, 'time' => 'Day 3', 'title' => 'Agra Day Trip', 'desc' => 'Full day trip to Agra - Taj Mahal, Agra Fort'],
+            ['step' => 4, 'time' => 'Day 4', 'title' => 'Jaipur Exploration', 'desc' => 'Drive to Jaipur, visit Amber Fort, City Palace'],
+            ['step' => 5, 'time' => 'Day 5', 'title' => 'Jaipur to Udaipur', 'desc' => 'Flight to Udaipur, city orientation'],
+            ['step' => 6, 'time' => 'Day 6', 'title' => 'Udaipur Sightseeing', 'desc' => 'City Palace, Lake Pichola boat cruise'],
+            ['step' => 7, 'time' => 'Day 7', 'title' => 'Udaipur Exploration', 'desc' => 'Saheliyon ki Bari, local markets, cultural shows'],
+            ['step' => 8, 'time' => 'Day 8', 'title' => 'Departure', 'desc' => 'Transfer to airport for departure']
+        ],
+        'inclusions' => [
+            '7-night lakeview hotel accommodation',
+            'Daily breakfast and dinner',
+            'Private air-conditioned vehicle',
+            'Expert guide',
+            'Boat cruise on Lake Pichola',
+            'All monument tickets'
+        ],
+        'exclusions' => [
+            'International flights',
+            'Personal expenses',
+            'Tips',
+            'Camera fees'
+        ],
+        'related_tours' => [
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
         ]
     ]
 ];
