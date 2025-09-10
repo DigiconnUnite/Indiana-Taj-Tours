@@ -13,7 +13,7 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->
@@ -121,7 +121,7 @@
                 <div class="col-lg-8">
                     <div class="title-area text-center mb-5">
                         <span class="sub-title">Get in Touch</span>
-                        <h2 class="sec-title">Contact Indiana Taj Tour</h2>
+                        <h1 class="sec-title">Contact Indiana Taj Tour</h1>
                         <p class="mt-2">Have questions, need a custom tour, or want to book your next adventure? Fill out the form below or reach us directly. Our team is here to help you plan the perfect journey!</p>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
             <div class="contact-cards-row mb-5">
                 <div class="col-lg-5 d-flex">
                     <div class="contact-info-box w-100">
-                        <h4 class="mb-4 text-center"><i class="fas fa-address-book me-2 "></i>Contact Information</h4>
+                        <h2 class="mb-4 text-center"><i class="fas fa-address-book me-2 "></i>Contact Information</h2>
                         <ul class="list-unstyled mb-4">
                             <li class="d-flex align-items-start">
                                 <span class="me-3"><i class="fas fa-map-marker-alt "></i></span>
@@ -170,6 +170,7 @@
                 </div>
                 <div class="col-lg-6 d-flex">
                     <div class="contact-form-box w-100">
+                        
                         <form action="main.php" method="post" class="row g-3" id="contactForm">
                             <div class="col-md-6">
                                 <label for="contactName" class="form-label">Full Name <span class="text-danger">*</span></label>

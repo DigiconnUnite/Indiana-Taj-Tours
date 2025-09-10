@@ -13,7 +13,7 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->
@@ -66,13 +66,13 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-tour-1.png" alt="Golden Triangle Tour 3 Days" />
+                            <img src="assets/img/golden_triangle_tour/golden-tour-1.webp" alt="Golden Triangle Tour 3 Days" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./golden-triangle-tour-3-days.php">Golden Triangle Tour 3 Days</a>
+                                Golden Triangle Tour 3 Days
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -108,13 +108,13 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-tour-2.png" alt="Golden Triangle Tour 4 Days" />
+                            <img src="assets/img/golden_triangle_tour/golden-tour-2.webp" alt="Golden Triangle Tour 4 Days" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./golden-triangle-tour-4-days.php">Golden Triangle Tour 4 Days</a>
+                                Golden Triangle Tour 4 Days
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -150,13 +150,13 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-tour-3.png" alt="Golden Triangle Tour 5 Days" />
+                            <img src="assets/img/golden_triangle_tour/golden-tour-3.webp" alt="Golden Triangle Tour 5 Days" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="golden-triangle-tour-5-days.php">Golden Triangle Tour 5 Days</a>
+                                Golden Triangle Tour 5 Days
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -192,14 +192,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-varanasi.png"
+                            <img src="assets/img/golden_triangle_tour/golden-amritsar.webp"
                                 alt="Golden Triangle Tour with Amritsar" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="golden-triangle-tour-with-amritsar.php">Golden Triangle Tour with Amritsar</a>
+                                Golden Triangle Tour with Amritsar
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -235,14 +235,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-pushkar.png"
+                            <img src="assets/img/golden_triangle_tour/golden-pushkar.webp"
                                 alt="Golden Triangle Tour with Pushkar" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="golden-triangle-tour-with-pushkar.php">Golden Triangle Tour with Pushkar</a>
+                                Golden Triangle Tour with Pushkar
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -278,14 +278,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-ranthambore.png"
+                            <img src="assets/img/golden_triangle_tour/golden-ranthambore.webp"
                                 alt="Golden Triangle Tour with Ranthambore" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="golden-triangle-tour-with-ranthambore.php">Golden Triangle Tour with Ranthambore</a>
+                                Golden Triangle Tour with Ranthambore
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -322,14 +322,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-udaipur.png"
+                            <img src="assets/img/golden_triangle_tour/golden-udaipur.webp"
                                 alt="Golden Triangle Tour with Udaipur" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="golden-triangle-tour-with-udaipur.php">Golden Triangle Tour with Udaipur</a>
+                                Golden Triangle Tour with Udaipur
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -365,14 +365,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-varanasi.png"
+                            <img src="assets/img/golden_triangle_tour/golden-varanasi.webp"
                                 alt="Golden Triangle Tour with Varanasi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="golden-triangle-tour-with-varanasi.php">Golden Triangle Tour with Varanasi</a>
+                                Golden Triangle Tour with Varanasi
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">

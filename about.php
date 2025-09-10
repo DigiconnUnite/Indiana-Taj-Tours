@@ -13,7 +13,7 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->
@@ -40,7 +40,7 @@
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">About Indiana</h1>
                     <ul class="breadcumb-menu">
-                        <li><a href="home-travel.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>About Indiana</li>
                     </ul>
                 </div>
@@ -155,11 +155,11 @@
                     <div class="col-xl-6">
                         <div class="img-box3">
                             <div class="img1">
-                                 <img src="assets/img/about/abt-2.png" width="400" alt="About" />
+                                 <img src="assets/img/about/abt-2.webp" width="400" alt="About" />
                          
                             </div>
                             <div class="img2">
-                                      <img src="assets/img/about/abt-1.png" width="400" alt="About" />
+                                      <img src="assets/img/about/abt-1.webp" width="400" alt="About" />
                             </div>
                         </div>
                     </div>
@@ -207,7 +207,7 @@
             <!-- why choose us -->
             <div class="overflow-hidden space overflow-hidden">
 
-                <div class="choose-area2" data-bg-src="assets/img/bg/feature_bg_1.png">
+                <div class="choose-area2" data-bg-src="assets/img/bg/feature_bg_1.webp">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-6">
@@ -221,7 +221,7 @@
                             <div class="col-lg-4 col-md-6 choose-feature_wrapp">
                                 <div class="choose-feature">
                                     <div class="box-img">
-                                        <img src="assets/img/about/taj-trip.png" alt="Icon" />
+                                        <img src="assets/img/about/taj-trip.webp" alt="Icon" />
                                     </div>
                                     <div class="choose-feature_content">
                                         <h3 class="box-title">Taj Tour</h3>
@@ -234,7 +234,7 @@
                             <div class="col-lg-4 col-md-6 choose-feature_wrapp">
                                 <div class="choose-feature">
                                     <div class="box-img">
-                                        <img src="assets/img/about/golden-trip.png" alt="Icon" />
+                                        <img src="assets/img/about/golden-trip.webp" alt="Icon" />
                                     </div>
                                     <div class="choose-feature_content">
                                         <h3 class="box-title">Golden-Triangle Tour</h3>
@@ -247,7 +247,7 @@
                             <div class="col-lg-4 col-md-6 choose-feature_wrapp">
                                 <div class="choose-feature">
                                     <div class="box-img">
-                                        <img src="assets/img/about/same-day.png" alt="Icon" />
+                                        <img src="assets/img/about/same-day.webp" alt="Icon" />
                                     </div>
                                     <div class="choose-feature_content">
                                         <h3 class="box-title">Same Day Tour</h3>
@@ -269,11 +269,11 @@
                         <div class="col-xl-6">
                             <div class="img-box3">
                             <div class="img1">
-                                 <img src="assets/img/about/abt-4.png" width="400" alt="About" />
+                                 <img src="assets/img/about/abt-4.webp" width="400" alt="About" />
                          
                             </div>
                             <div class="img2">
-                                      <img src="assets/img/about/abt-3.png" width="400" alt="About" />
+                                      <img src="assets/img/about/abt-3.webp" width="400" alt="About" />
                             </div>
         </div>
                         </div>

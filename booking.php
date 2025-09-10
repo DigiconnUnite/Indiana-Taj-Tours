@@ -13,7 +13,7 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->
@@ -24,7 +24,7 @@
         .booking-hero {
             position: relative;
             padding: 140px 0 100px;
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('assets/img/bg/banner-img.png') center/cover no-repeat;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('assets/img/bg/banner-img.webp') center/cover no-repeat;
             color: white;
             text-align: center;
             overflow: hidden;
@@ -504,17 +504,17 @@
                                 <div class="form-floating">
                                     <select class="form-select" id="tour" name="tour" required>
                                         <option value="" disabled selected>Choose your tour package</option>
-                                        <optgroup label="🏛️ Taj Mahal Tours">
+                                        <optgroup label="Taj Mahal Tours">
                                             <option value="Taj Mahal Day Tour by Car from Delhi">Taj Mahal Day Tour by Car from Delhi</option>
                                             <option value="Taj Mahal Sunrise Tour from Delhi">Taj Mahal Sunrise Tour from Delhi</option>
                                             <option value="Taj Mahal Tour by Gatimaan Express Train">Taj Mahal Tour by Gatimaan Express Train</option>
                                             <option value="Taj Mahal Luxury Tour by Premium Car from Delhi">Taj Mahal Luxury Tour by Premium Car from Delhi</option>
                                         </optgroup>
-                                        <optgroup label="🏙️ Delhi City Tours">
+                                        <optgroup label="Delhi City Tours">
                                             <option value="Full Day Old and New Delhi City Tour">Full Day Old and New Delhi City Tour</option>
                                             <option value="Half Day Delhi City Tour">Half Day Delhi City Tour</option>
                                         </optgroup>
-                                        <optgroup label="🏰 Jaipur Tours">
+                                        <optgroup label="Jaipur Tours">
                                             <option value="Full Day Jaipur City Tour by Car">Full Day Jaipur City Tour by Car</option>
                                             <option value="Jaipur Tour from Delhi by Car">Jaipur Tour from Delhi by Car</option>
                                         </optgroup>
@@ -528,7 +528,7 @@
                                             <option value="Golden Triangle Tour with Udaipur">Golden Triangle Tour with Udaipur</option>
                                             <option value="Golden Triangle Tour with Varanasi">Golden Triangle Tour with Varanasi</option>
                                         </optgroup>
-                                        <optgroup label="🎯 Other Options">
+                                        <optgroup label=" Other Options">
                                             <option value="Custom Tour Package">Custom Tour Package</option>
                                         </optgroup>
                                     </select>

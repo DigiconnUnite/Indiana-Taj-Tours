@@ -27,7 +27,7 @@ $tours = [
         'rating' => 4.7,
         'reviews' => 77,
         'description' => 'Experience the majestic Taj Mahal with a comfortable day trip from Delhi. Includes Agra Fort and transportation.',
-        'image' => 'assets/img/taj_mahal_tour/taj_mahal-1.png',
+        'image' => 'assets/img/taj_mahal_tour/taj_mahal-1.webp',
         'slug' => 'taj-mahal-day-tour-by-car-from-delhi',
         'url' => 'tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi',
         'inclusions' => ['Transportation', 'Guide', 'Entry Tickets', 'Lunch']
@@ -42,7 +42,7 @@ $tours = [
         'rating' => 4.8,
         'reviews' => 50,
         'description' => 'Witness the Taj Mahal at sunrise for a magical experience. Early morning departure from Delhi.',
-        'image' => 'assets/img/taj_mahal_tour/taj_mahal-2.png',
+        'image' => 'assets/img/taj_mahal_tour/taj_mahal-2.webp',
         'slug' => 'taj-mahal-sunrise-tour-from-delhi',
         'url' => 'tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi',
         'inclusions' => ['Transportation', 'Guide', 'Sunrise Entry', 'Breakfast']
@@ -57,7 +57,7 @@ $tours = [
         'rating' => 4.8,
         'reviews' => 750,
         'description' => 'High-speed train journey to Agra for a quick and comfortable Taj Mahal visit.',
-        'image' => 'assets/img/taj_mahal_tour/taj_mahal-3.png',
+        'image' => 'assets/img/taj_mahal_tour/taj_mahal-3.webp',
         'slug' => 'taj-mahal-tour-by-gatimaan-express-train',
         'url' => 'tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train',
         'inclusions' => ['Train Tickets', 'Guide', 'Entry Tickets', 'Lunch']
@@ -72,7 +72,7 @@ $tours = [
         'rating' => 4.9,
         'reviews' => 340,
         'description' => 'Luxury experience with premium car, private guide, and VIP entry to Taj Mahal.',
-        'image' => 'assets/img/taj_mahal_tour/taj_mahal-4.png',
+        'image' => 'assets/img/taj_mahal_tour/taj_mahal-4.webp',
         'slug' => 'taj-mahal-luxury-tour-by-premium-car-from-delhi',
         'url' => 'tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi',
         'inclusions' => ['Premium Car', 'Private Guide', 'VIP Entry', 'Luxury Lunch']
@@ -89,7 +89,7 @@ $tours = [
         'rating' => 4.9,
         'reviews' => 580,
         'description' => 'Explore Old and New Delhi in one day. Visit Red Fort, Jama Masjid, and modern Delhi.',
-        'image' => 'assets/img/same_day_tour/delhi-gate.png',
+        'image' => 'assets/img/same_day_tour/delhi-gate.webp',
         'slug' => 'full-day-old-and-new-delhi-city-tour',
         'url' => 'tour-details.php?slug=full-day-old-and-new-delhi-city-tour',
         'inclusions' => ['Transportation', 'Guide', 'Entry Tickets', 'Lunch']
@@ -104,7 +104,7 @@ $tours = [
         'rating' => 4.9,
         'reviews' => 460,
         'description' => 'Essential Delhi highlights in half a day. Perfect for short visits.',
-        'image' => 'assets/img/same_day_tour/kutub-minar.png',
+        'image' => 'assets/img/same_day_tour/kutub-minar.webp',
         'slug' => 'half-day-delhi-city-tour',
         'url' => 'tour-details.php?slug=half-day-delhi-city-tour',
         'inclusions' => ['Transportation', 'Guide', 'Entry Tickets']
@@ -119,7 +119,7 @@ $tours = [
         'rating' => 4.9,
         'reviews' => 610,
         'description' => 'Discover the Pink City of Jaipur. Visit Amber Fort, City Palace, and Hawa Mahal.',
-        'image' => 'assets/img/same_day_tour/hawa-mahal.png',
+        'image' => 'assets/img/same_day_tour/hawa-mahal.webp',
         'slug' => 'full-day-jaipur-city-tour-by-car',
         'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car',
         'inclusions' => ['Transportation', 'Guide', 'Entry Tickets', 'Lunch']
@@ -134,7 +134,7 @@ $tours = [
         'rating' => 4.9,
         'reviews' => 370,
         'description' => 'Round trip from Delhi to Jaipur. Experience the royal heritage of Rajasthan.',
-        'image' => 'assets/img/same_day_tour/amber-fort.png',
+        'image' => 'assets/img/same_day_tour/amber-fort.webp',
         'slug' => 'jaipur-tour-from-delhi-by-car',
         'url' => 'tour-details.php?slug=jaipur-tour-from-delhi-by-car',
         'inclusions' => ['Transportation', 'Guide', 'Entry Tickets', 'Lunch']
@@ -151,7 +151,7 @@ $tours = [
         'rating' => 4.7,
         'reviews' => 340,
         'description' => 'Classic Golden Triangle itinerary covering Delhi, Agra, and Jaipur in 3 days.',
-        'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png',
+        'image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp',
         'slug' => 'golden-triangle-tour-3-days',
         'url' => 'tour-details.php?slug=golden-triangle-tour-3-days',
         'inclusions' => ['Transportation', 'Hotels', 'Guide', 'Entry Tickets', 'Meals']
@@ -166,7 +166,7 @@ $tours = [
         'rating' => 4.8,
         'reviews' => 460,
         'description' => 'Relaxed Golden Triangle tour with more time to explore each destination.',
-        'image' => 'assets/img/golden_triangle_tour/golden-tour-2.png',
+        'image' => 'assets/img/golden_triangle_tour/golden-tour-2.webp',
         'slug' => 'golden-triangle-tour-4-days',
         'url' => 'tour-details.php?slug=golden-triangle-tour-4-days',
         'inclusions' => ['Transportation', 'Hotels', 'Guide', 'Entry Tickets', 'Meals']
@@ -181,7 +181,7 @@ $tours = [
         'rating' => 4.9,
         'reviews' => 430,
         'description' => 'Comprehensive Golden Triangle experience with additional sightseeing.',
-        'image' => 'assets/img/golden_triangle_tour/golden-tour-3.png',
+        'image' => 'assets/img/golden_triangle_tour/golden-tour-3.webp',
         'slug' => 'golden-triangle-tour-5-days',
         'url' => 'tour-details.php?slug=golden-triangle-tour-5-days',
         'inclusions' => ['Transportation', 'Hotels', 'Guide', 'Entry Tickets', 'Meals']
@@ -196,7 +196,7 @@ $tours = [
         'rating' => 4.8,
         'reviews' => 290,
         'description' => 'Extended Golden Triangle tour including the Golden Temple in Amritsar.',
-        'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png',
+        'image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp',
         'slug' => 'golden-triangle-tour-with-amritsar',
         'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar',
         'inclusions' => ['Transportation', 'Hotels', 'Guide', 'Entry Tickets', 'Meals']
@@ -211,7 +211,7 @@ $tours = [
         'rating' => 4.8,
         'reviews' => 390,
         'description' => 'Golden Triangle tour with a visit to the sacred town of Pushkar.',
-        'image' => 'assets/img/golden_triangle_tour/golden-pushkar.png',
+        'image' => 'assets/img/golden_triangle_tour/golden-pushkar.webp',
         'slug' => 'golden-triangle-tour-with-pushkar',
         'url' => 'tour-details.php?slug=golden-triangle-tour-with-pushkar',
         'inclusions' => ['Transportation', 'Hotels', 'Guide', 'Entry Tickets', 'Meals']
@@ -226,7 +226,7 @@ $tours = [
         'rating' => 4.9,
         'reviews' => 410,
         'description' => 'Golden Triangle tour including tiger safari at Ranthambore National Park.',
-        'image' => 'assets/img/golden_triangle_tour/golden-ranthambore.png',
+        'image' => 'assets/img/golden_triangle_tour/golden-ranthambore.webp',
         'slug' => 'golden-triangle-tour-with-ranthambore',
         'url' => 'tour-details.php?slug=golden-triangle-tour-with-ranthambore',
         'inclusions' => ['Transportation', 'Hotels', 'Guide', 'Entry Tickets', 'Safari', 'Meals']
@@ -241,7 +241,7 @@ $tours = [
         'rating' => 4.7,
         'reviews' => 520,
         'description' => 'Extended Golden Triangle tour including the City of Lakes, Udaipur.',
-        'image' => 'assets/img/golden_triangle_tour/golden-udaipur.png',
+        'image' => 'assets/img/golden_triangle_tour/golden-udaipur.webp',
         'slug' => 'golden-triangle-tour-with-udaipur',
         'url' => 'tour-details.php?slug=golden-triangle-tour-with-udaipur',
         'inclusions' => ['Transportation', 'Hotels', 'Guide', 'Entry Tickets', 'Meals']
@@ -256,7 +256,7 @@ $tours = [
         'rating' => 4.7,
         'reviews' => 330,
         'description' => 'Spiritual Golden Triangle tour including Varanasi and the Ganges River.',
-        'image' => 'assets/img/golden_triangle_tour/golden-varanasi.png',
+        'image' => 'assets/img/golden_triangle_tour/golden-varanasi.webp',
         'slug' => 'golden-triangle-tour-with-varanasi',
         'url' => 'tour-details.php?slug=golden-triangle-tour-with-varanasi',
         'inclusions' => ['Transportation', 'Hotels', 'Guide', 'Entry Tickets', 'Boat Ride', 'Meals']
@@ -521,7 +521,7 @@ $debug = [
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Search Tours</h1>
                     <ul class="breadcumb-menu">
-                        <li><a href="home-travel.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>Search Tours</li>
                     </ul>
                 </div>

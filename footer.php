@@ -6,7 +6,7 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.php"><img src="assets/img/logo-light.png" alt="Tourm" /></a>
+                                <a href="index.php"><img src="assets/img/logo-light.webp" alt="Tourm" /></a>
                             </div>
                             <p class="about-text">
                                 Indiana Taj Tours crafts memorable journeys across Agra,Jaipur and beyond. 
@@ -68,7 +68,7 @@
                                 </div>
                                 <div class="details">
                                     <p>
-                                        <a href="tel:+01234567890" class="info-box_link">+91-955769951</a>
+                                        <a href="tel:+01234567890" class="info-box_link">+91-9557679951</a>
                                     </p>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@
                 <!-- <div class="col-md-4 text-md-end text-center d-none d-md-block">
                     <div class="footer-card">
                         <span class="title">We Accept</span>
-                        <img src="assets/img/shape/cards.png" alt="" />
+                        <img src="assets/img/shape/cards.webp" alt="" />
                     </div>
                     
                 </div> -->

@@ -52,10 +52,10 @@ if (!isset($tours[$slug])) {
 // Get tour data
 $tour = $tours[$slug];
 
-// Set page metadata
-$pageTitle       = $tour['title'] . ' | Indiana Taj Tour';
-$pageDescription = substr($tour['overview'], 0, 160) . '...';
-$pageKeywords    = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['location'] . ', India travel packages';
+// Set page metadata - use specific metadata from tour data if available, otherwise fallback to generic
+$pageTitle       = isset($tour['meta_title']) ? $tour['meta_title'] : $tour['title'] . ' | Indiana Taj Tour';
+$pageDescription = isset($tour['meta_description']) ? $tour['meta_description'] : substr($tour['overview'], 0, 160) . '...';
+$pageKeywords    = isset($tour['meta_keywords']) ? $tour['meta_keywords'] : 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tour['location'] . ', India travel packages';
 ?>
 
 <!DOCTYPE html>
@@ -71,7 +71,7 @@ $pageKeywords    = 'Taj Mahal tour, ' . strtolower($tour['title']) . ', ' . $tou
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->

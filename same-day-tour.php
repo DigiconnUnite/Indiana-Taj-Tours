@@ -13,7 +13,7 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->
@@ -66,13 +66,13 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/same_day_tour/delhi-gate.png" alt="Full Day Old and New Delhi City Tour" />
+                            <img src="assets/img/same_day_tour/delhi-gate.webp" alt="Full Day Old and New Delhi City Tour" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./full-day-old-and-new-delhi-city-tour.php">Full Day Old and New Delhi City Tour</a>
+                                Full Day Old and New Delhi City Tour
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -107,13 +107,13 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/same_day_tour/kutub-minar.png" alt="Half Day Delhi City Tour" />
+                            <img src="assets/img/same_day_tour/kutub-minar.webp" alt="Half Day Delhi City Tour" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./half-day-delhi-city-tour.php">Half Day Delhi City Tour</a>
+                                Half Day Delhi City Tour
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -148,13 +148,13 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/same_day_tour/hawa-mahal.png" alt="Full Day Jaipur City Tour by Car" alt="Full Day Jaipur City Tour by Car" />
+                            <img src="assets/img/same_day_tour/hawa-mahal.webp" alt="Full Day Jaipur City Tour by Car" alt="Full Day Jaipur City Tour by Car" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./full-day-jaipur-city-tour-by-car.php">Full Day Jaipur City Tour by Car</a>
+                                Full Day Jaipur City Tour by Car
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -189,13 +189,13 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/same_day_tour/amber-fort.png" alt="Jaipur Tour from Delhi by Car" />
+                            <img src="assets/img/same_day_tour/amber-fort.webp" alt="Jaipur Tour from Delhi by Car" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./jaipur-tour-from-delhi-by-car.php">Jaipur Tour from Delhi by Car</a>
+                                Jaipur Tour from Delhi by Car
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -231,14 +231,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/taj_mahal_tour/taj_mahal-1.png"
+                            <img src="assets/img/taj_mahal_tour/taj_mahal-1.webp"
                                 alt="Taj Mahal Day Tour by Car from Delhi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
+                                Taj Mahal Day Tour by Car from Delhi
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -273,13 +273,13 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                                  <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour from Delhi" />
+                                  <img src="assets/img/taj_mahal_tour/taj_mahal-2.webp" alt="Taj Mahal Sunrise Tour from Delhi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./taj-mahal-sunrise-tour-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
+                                Taj Mahal Sunrise Tour from Delhi
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -315,14 +315,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                              <img src="assets/img/taj_mahal_tour/taj_mahal-3.png"
+                              <img src="assets/img/taj_mahal_tour/taj_mahal-3.webp"
                                 alt="Taj Mahal Tour by Gatimaan Express Train" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./taj-mahal-tour-by-gatimaan-express-train.php">Taj Mahal Tour by Gatimaan Express Train</a>
+                                Taj Mahal Tour by Gatimaan Express Train
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -357,14 +357,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                              <img src="assets/img/taj_mahal_tour/taj_mahal-4.png"
+                              <img src="assets/img/taj_mahal_tour/taj_mahal-4.webp"
                                 alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./taj-mahal-luxury-tour-by-premium-car-from-delhi.php">Taj Mahal Luxury Tour by Premium Car from Delhi</a>
+                                Taj Mahal Luxury Tour by Premium Car from Delhi
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">

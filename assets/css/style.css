@@ -8125,7 +8125,7 @@ ol.wp-block-rss {
   background-position: left top;
 
             padding: 120px 0 80px;
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/img/bg/banner-img.png') center/cover no-repeat;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/img/bg/banner-img.webp') center/cover no-repeat;
             color: white;
             text-align: center;
 }
@@ -10974,8 +10974,8 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child
   }
 }
 .hero-6 .th-hero-bg {
-  -webkit-mask-image: url("../img/bg/hero_bg_6_1.png");
-  mask-image: url("../img/bg/hero_bg_6_1.png");
+  -webkit-mask-image: url("../img/bg/hero_bg_6_1.webp");
+  mask-image: url("../img/bg/hero_bg_6_1.webp");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;
@@ -12229,8 +12229,8 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child
   left: 0;
   width: 100%;
   height: 262px;
-  -webkit-mask-image: url("../img/shape/hero-shape1.png");
-  mask-image: url("../img/shape/hero-shape1.png");
+  -webkit-mask-image: url("../img/shape/hero-shape1.webp");
+  mask-image: url("../img/shape/hero-shape1.webp");
   background-color: var(--white-color);
   -webkit-mask-repeat: repeat-x;
   mask-repeat: repeat-x;
@@ -12244,8 +12244,8 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child
   left: 0;
   width: 100%;
   height: 317.19px;
-  -webkit-mask-image: url("../img/shape/hero-shape2.png");
-  mask-image: url("../img/shape/hero-shape2.png");
+  -webkit-mask-image: url("../img/shape/hero-shape2.webp");
+  mask-image: url("../img/shape/hero-shape2.webp");
   background-color: var(--theme-color);
   -webkit-mask-repeat: repeat-x;
   mask-repeat: repeat-x;
@@ -17862,7 +17862,7 @@ span.select2-selection.select2-selection--single:focus {
   right: 0;
   width: 200px;
   height: 200px;
-  background-image: url("../img/shape/about-shape.png");
+  background-image: url("../img/shape/about-shape.webp");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: bottom right;
@@ -19876,8 +19876,8 @@ span.select2-selection.select2-selection--single:focus {
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   background: #ffffff;
-  -webkit-mask-image: url("../img/testimonial/testi_shape_2.png");
-  mask-image: url("../img/testimonial/testi_shape_2.png");
+  -webkit-mask-image: url("../img/testimonial/testi_shape_2.webp");
+  mask-image: url("../img/testimonial/testi_shape_2.webp");
   z-index: 2;
 }
 @media (max-width: 767px) {
@@ -20755,8 +20755,8 @@ span.select2-selection.select2-selection--single:focus {
   position: absolute;
   inset: 0;
   background-color: var(--smoke-color);
-  -webkit-mask-image: url("../img/normal/price-shape.png");
-  mask-image: url("../img/normal/price-shape.png");
+  -webkit-mask-image: url("../img/normal/price-shape.webp");
+  mask-image: url("../img/normal/price-shape.webp");
   -webkit-mask-size: 100% 100%;
   mask-size: 100% 100%;
   -webkit-mask-position: bottom center;
@@ -20831,7 +20831,7 @@ span.select2-selection.select2-selection--single:focus {
   left: -19%;
   min-width: 200px;
   height: 200px;
-  background-image: url("../img/normal/price-shape2.png");
+  background-image: url("../img/normal/price-shape2.webp");
   -webkit-mask-size: cover;
   mask-size: cover;
   -webkit-mask-repeat: no-repeat;

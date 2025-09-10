@@ -19,7 +19,7 @@
     <meta property="og:description" content="Policies covering bookings, payments, cancellations, refunds, responsibilities, and privacy." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="/terms-and-conditions.php" />
-    <meta property="og:image" content="assets/img/bg/banner-img.png" />
+    <meta property="og:image" content="assets/img/bg/banner-img.webp" />
 
     <!-- include the links file  -->
     <?php include "links.php" ?>
@@ -53,7 +53,7 @@
         </section>
 
         <!-- Terms Content -->
-        <section style="background-repeat: repeat;" class="space bg-top-center"  data-bg-src="assets/img/bg/about_bg_1.jpg">
+        <section style="background-repeat: repeat;" class="space bg-top-center"  data-bg-src="assets/img/bg/about_bg_1.webp">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-10">

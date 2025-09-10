@@ -13,7 +13,7 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->
@@ -66,14 +66,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/taj_mahal_tour/taj_mahal-1.png"
+                            <img src="assets/img/taj_mahal_tour/taj_mahal-1.webp"
                                 alt="Taj Mahal Day Tour by Car from Delhi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./taj-mahal-and-agra-fort-tour-by-car-from-delhi.php">Taj Mahal Day Tour by Car from Delhi</a>
+                                Taj Mahal Day Tour by Car from Delhi
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -108,14 +108,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/taj_mahal_tour/taj_mahal-2.png"
+                            <img src="assets/img/taj_mahal_tour/taj_mahal-2.webp"
                              alt="Taj Mahal Sunrise Tour from Delhi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./taj-mahal-sunrise-tour-from-delhi.php">Taj Mahal Sunrise Tour from Delhi</a>
+                                Taj Mahal Sunrise Tour from Delhi
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -151,14 +151,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/taj_mahal_tour/taj_mahal-3.png"
+                            <img src="assets/img/taj_mahal_tour/taj_mahal-3.webp"
                                 alt="Taj Mahal Tour by Gatimaan Express Train" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./taj-mahal-tour-by-gatimaan-express-train.php">Taj Mahal Tour by Gatimaan Express Train</a>
+                                Taj Mahal Tour by Gatimaan Express Train
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
@@ -193,14 +193,14 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/taj_mahal_tour/taj_mahal-4.png"
+                            <img src="assets/img/taj_mahal_tour/taj_mahal-4.webp"
                                 alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="resort-content">
                             <h3 class="box-title">
-                                <a href="./taj-mahal-luxury-tour-by-premium-car-from-delhi.php">Taj Mahal Luxury Tour by Premium Car from Delhi</a>
+                                Taj Mahal Luxury Tour by Premium Car from Delhi
                             </h3>
                             <div class="resort-rating">
                                 <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">

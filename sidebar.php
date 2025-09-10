@@ -6,7 +6,7 @@
         <div class="widget">
             <div class="th-widget-about">
                 <div class="about-logo">
-                    <a href="index.php"><img src="assets/img/logo-dark.png" alt="Tourm" /></a>
+                    <a href="index.php"><img src="assets/img/logo-dark.webp" alt="Tourm" /></a>
                 </div>
                 <p class="about-text">
                     Rapidiously myocardinate cross-platform intellectual capital
@@ -25,7 +25,7 @@
             <div class="recent-post-wrap">
                 <div class="recent-post">
                     <div class="media-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg"
+                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.webp"
                                 alt="Blog Image" /></a>
                     </div>
                     <div class="media-body">
@@ -39,7 +39,7 @@
                 </div>
                 <div class="recent-post">
                     <div class="media-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg"
+                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.webp"
                                 alt="Blog Image" /></a>
                     </div>
                     <div class="media-body">
@@ -62,10 +62,10 @@
                     </div>
                     <div class="details">
                         <p>
-                            <a href="tel:+91-955769951" class="info-box_link">+91-955769951</a>
+                            <a href="tel:+91-9557679951" class="info-box_link">+91-9557679951</a>
                         </p>
                         <p>
-                            <a href="tel:+91-955767995" class="info-box_link">+91-955769951</a>
+                            <a href="tel:+91-955767995" class="info-box_link">+91-9557679951</a>
                         </p>
                     </div>
                 </div>
@@ -105,12 +105,12 @@
     <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="home-travel.html"><img src="assets/img/logo-dark.png" alt="Tourm" /></a>
+            <a href="index.php"><img src="assets/img/logo-dark.webp" alt="Tourm" /></a>
         </div>
         <div class="th-mobile-menu">
             <ul>
                 <li>
-                    <a class="active" href="home-travel.html">Home</a>
+                    <a class="active" href="index.php">Home</a>
                 </li>
                 <li>
                     <a href="about.html">About Us</a>

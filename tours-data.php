@@ -13,15 +13,18 @@ $tours = [
         'reviews' => 77,
         'badge' => 'Most Popular',
         'pickup_drop' => 'Delhi',
-        'service' => 'Private Tour', 
+        'service' => 'Private Tour',
         'languages' => 'English, Hindi, Spanish (on request)',
         'transport' => 'Private Luxury Car',
-        'hero_image' => 'assets/img/bg/banner-img.png',
+        'hero_image' => 'assets/img/bg/banner-img.webp',
+        'meta_title' => 'Taj Mahal Day Tour by Car from Delhi | Indiana Taj Tour',
+        'meta_description' => 'Experience the Taj Mahal on a comfortable day tour from Delhi. Visit the iconic monument, Agra Fort, and Baby Taj with private car transport, expert guide, and all inclusions.',
+        'meta_keywords' => 'Taj Mahal day tour Delhi, Taj Mahal car tour, Agra day trip Delhi, Taj Mahal private tour, India monument tour',
         'gallery' => [
-            'assets/img/taj_mahal_tour/taj_mahal-2.png',
-            'assets/img/taj_mahal_tour/agra-fort.jpg',
-            'assets/img/taj_mahal_tour/car.png',
-            'assets/img/taj_mahal_tour/food.png'
+            'assets/img/taj_mahal_tour/taj_mahal-2.webp',
+            'assets/img/taj_mahal_tour/agra-fort.webp',
+            'assets/img/taj_mahal_tour/car.webp',
+            'assets/img/taj_mahal_tour/food.webp'
         ],
         'overview' => 'Embark on an unforgettable journey to witness the breathtaking Taj Mahal, one of the Seven Wonders of the World, on this meticulously crafted day tour from Delhi. Our Taj Mahal Day Tour by Car offers you the perfect blend of comfort, convenience, and cultural immersion as you travel in a private luxury vehicle to Agra. Upon arrival, you\'ll be greeted by the iconic white marble monument that stands as an eternal symbol of love. Explore the intricate architecture and fascinating history of the Taj Mahal with your expert guide, who will bring to life the stories of Emperor Shah Jahan and his beloved Mumtaz Mahal. The tour continues to the majestic Agra Fort, a UNESCO World Heritage site that offers stunning views of the Taj Mahal from its ramparts. Enjoy a delicious lunch at a carefully selected local restaurant, savoring authentic Mughlai cuisine. The journey also includes a visit to the exquisite Baby Taj (Itimad-ud-Daulah), often referred to as the "draft of the Taj Mahal," which showcases the fine craftsmanship that predates the Taj itself. This comprehensive tour ensures you experience the best of Agra\'s Mughal heritage in a single, comfortable day, returning to Delhi with memories to last a lifetime.',
         'why_choose' => 'Experience the best of Agra\'s Mughal architecture in a single, comfortable day trip.',
@@ -52,9 +55,9 @@ $tours = [
             'Personal expenses'
         ],
         'related_tours' => [
-            ['title' => 'Taj Mahal Sunrise Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-2.png', 'url' => 'tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi', 'duration' => '1 Day', 'rating' => '4.8 (50+)'],
-            ['title' => 'Taj Mahal by Train', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-3.png', 'url' => 'tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train', 'duration' => '1 Day', 'rating' => '4.8 (750+)'],
-            ['title' => 'Taj Mahal Luxury Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-4.png', 'url' => 'tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.9 (340+)']
+            ['title' => 'Taj Mahal Sunrise Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-2.webp', 'url' => 'tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi', 'duration' => '1 Day', 'rating' => '4.8 (50+)'],
+            ['title' => 'Taj Mahal by Train', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-3.webp', 'url' => 'tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train', 'duration' => '1 Day', 'rating' => '4.8 (750+)'],
+            ['title' => 'Taj Mahal Luxury Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-4.webp', 'url' => 'tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.9 (340+)']
         ]
     ],
     'taj-mahal-sunrise-tour-from-delhi' => [
@@ -72,12 +75,15 @@ $tours = [
         'service' => 'Private Tour',
         'languages' => 'English, Hindi',
         'transport' => 'Private Luxury Car',
-        'hero_image' => 'assets/img/taj_mahal_tour/taj_mahal-2.png',
+        'hero_image' => 'assets/img/taj_mahal_tour/taj_mahal-2.webp',
+        'meta_title' => 'Taj Mahal Sunrise Tour from Delhi | Early Morning Experience | Indiana Taj Tour',
+        'meta_description' => 'Witness the magical Taj Mahal sunrise from Delhi. Experience the monument at dawn with private transport, expert guide, and breakfast. Book your exclusive sunrise tour today.',
+        'meta_keywords' => 'Taj Mahal sunrise tour Delhi, early morning Taj Mahal, Taj Mahal dawn experience, sunrise monument tour India',
         'gallery' => [
-            'assets/img/taj_mahal_tour/taj_mahal-1.png',
-            'assets/img/taj_mahal_tour/taj_mahal-2.png',
-            'assets/img/taj_mahal_tour/sunrise.png',
-            'assets/img/taj_mahal_tour/agra-fort.jpg'
+            'assets/img/taj_mahal_tour/taj_mahal-1.webp',
+            'assets/img/taj_mahal_tour/taj_mahal-2.webp',
+            'assets/img/taj_mahal_tour/sunrise.webp',
+            'assets/img/taj_mahal_tour/agra-fort.webp'
         ],
         'overview' => 'Witness one of the world\'s most magical spectacles - the sunrise over the Taj Mahal - on this exclusive early morning tour from Delhi. As dawn breaks, the first rays of sunlight illuminate the pristine white marble of this architectural masterpiece, creating an ethereal glow that photographers and romantics dream of capturing. This premium experience begins with an early pickup from your Delhi hotel, allowing you to reach Agra before the crowds and heat of the day. Your expert guide will lead you through the tranquil grounds of the Taj Mahal as the monument transforms from a silhouette against the dark sky to a radiant beacon in the morning light. Learn about the poignant love story behind this UNESCO World Heritage site and the intricate craftsmanship that has captivated visitors for centuries. After soaking in the sunrise views, enjoy a leisurely breakfast at a charming local restaurant before continuing to the imposing Agra Fort, where Mughal emperors once ruled an empire. The fort\'s red sandstone walls offer a striking contrast to the white marble of the Taj and provide panoramic views of the Yamuna River. This tour is designed for those who seek the most serene and photogenic experience of the Taj Mahal, returning you to Delhi by midday with the rest of your day free to relax or explore more of the capital.',
         
@@ -109,9 +115,9 @@ $tours = [
             'Tips'
         ],
         'related_tours' => [
-            ['title' => 'Taj Mahal Day Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-1.png', 'url' => 'tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.7 (77+)'],
-            ['title' => 'Taj Mahal by Train', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-3.png', 'url' => 'tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train', 'duration' => '1 Day', 'rating' => '4.8 (750+)'],
-            ['title' => 'Taj Mahal Luxury Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-4.png', 'url' => 'tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.9 (340+)']
+            ['title' => 'Taj Mahal Day Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-1.webp', 'url' => 'tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.7 (77+)'],
+            ['title' => 'Taj Mahal by Train', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-3.webp', 'url' => 'tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train', 'duration' => '1 Day', 'rating' => '4.8 (750+)'],
+            ['title' => 'Taj Mahal Luxury Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-4.webp', 'url' => 'tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.9 (340+)']
         ]
     ],
     'taj-mahal-tour-by-gatimaan-express-train' => [
@@ -129,12 +135,15 @@ $tours = [
         'service' => 'Train + Car',
         'languages' => 'English, Hindi',
         'transport' => 'Gatimaan Express + Private Car',
-        'hero_image' => 'assets/img/taj_mahal_tour/taj_mahal-3.png',
+        'hero_image' => 'assets/img/taj_mahal_tour/taj_mahal-3.webp',
+        'meta_title' => 'Taj Mahal Tour by Gatimaan Express Train | Fastest Train to Agra | Indiana Taj Tour',
+        'meta_description' => 'Travel to the Taj Mahal on India\'s fastest train, Gatimaan Express. Comfortable AC journey from Delhi to Agra with private car transfer and expert guide. Book now!',
+        'meta_keywords' => 'Taj Mahal Gatimaan Express, fastest train to Taj Mahal, Delhi to Agra train tour, Taj Mahal train package',
         'gallery' => [
-            'assets/img/taj_mahal_tour/train.png',
-            'assets/img/taj_mahal_tour/taj_mahal-1.png',
-            'assets/img/taj_mahal_tour/agra-fort.jpg',
-            'assets/img/taj_mahal_tour/car.png'
+            'assets/img/taj_mahal_tour/train.webp',
+            'assets/img/taj_mahal_tour/taj_mahal-1.webp',
+            'assets/img/taj_mahal_tour/agra-fort.webp',
+            'assets/img/taj_mahal_tour/car.webp'
         ],
         'overview' => 'Experience the perfect blend of speed, comfort, and cultural immersion on this Taj Mahal Tour by Gatimaan Express Train, India\'s fastest train service. This thoughtfully designed tour eliminates the fatigue of road travel while maximizing your time to explore Agra\'s magnificent Mughal heritage. Your journey begins with a convenient pickup from your Delhi hotel and transfer to the railway station, where you\'ll board the air-conditioned Gatimaan Express. As you travel at speeds up to 160 km/h, enjoy the changing landscapes of rural India from your comfortable seat while savoring complimentary breakfast served onboard. Upon arrival in Agra, your private vehicle and expert guide will be waiting to whisk you away to the iconic Taj Mahal. Marvel at this architectural wonder as your guide shares fascinating insights into its history, construction, and the enduring love story behind its creation. Continue to the imposing Agra Fort, a UNESCO World Heritage site where Mughal emperors once lived and governed. Enjoy a delicious lunch at a carefully selected restaurant featuring local cuisine before exploring the exquisite Itimad-ud-Daulah, often called the "Baby Taj." The return journey on the Gatimaan Express allows you to relax and reflect on your day\'s adventures, arriving back in Delhi by evening with memories of a truly exceptional day trip.',
         'why_choose' => 'Save time with India\'s fastest train service.',
@@ -169,9 +178,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Taj Mahal Day Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-1.png', 'url' => 'tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.7 (77+)'],
-            ['title' => 'Taj Mahal Sunrise Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-2.png', 'url' => 'tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi', 'duration' => '1 Day', 'rating' => '4.8 (50+)'],
-            ['title' => 'Taj Mahal Luxury Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-4.png', 'url' => 'tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.9 (340+)']
+            ['title' => 'Taj Mahal Day Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-1.webp', 'url' => 'tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.7 (77+)'],
+            ['title' => 'Taj Mahal Sunrise Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-2.webp', 'url' => 'tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi', 'duration' => '1 Day', 'rating' => '4.8 (50+)'],
+            ['title' => 'Taj Mahal Luxury Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-4.webp', 'url' => 'tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.9 (340+)']
         ]
     ],
     'taj-mahal-luxury-tour-by-premium-car-from-delhi' => [
@@ -189,12 +198,15 @@ $tours = [
         'service' => 'Premium Private Tour',
         'languages' => 'English, Hindi, Multiple',
         'transport' => 'Premium Luxury Vehicle',
-        'hero_image' => 'assets/img/taj_mahal_tour/taj_mahal-4.png',
+        'hero_image' => 'assets/img/taj_mahal_tour/taj_mahal-4.webp',
+        'meta_title' => 'Taj Mahal Luxury Tour by Premium Car from Delhi | VIP Experience | Indiana Taj Tour',
+        'meta_description' => 'Experience the Taj Mahal in ultimate luxury with premium car transport, VIP access, gourmet dining, and personal guide. The most exclusive way to visit India\'s iconic monument.',
+        'meta_keywords' => 'Taj Mahal luxury tour, premium Taj Mahal experience, VIP Taj Mahal access, luxury car tour Delhi to Agra',
         'gallery' => [
-            'assets/img/taj_mahal_tour/luxury-car.png',
-            'assets/img/taj_mahal_tour/taj_mahal-1.png',
-            'assets/img/taj_mahal_tour/agra-fort.jpg',
-            'assets/img/taj_mahal_tour/premium-food.png'
+            'assets/img/taj_mahal_tour/car.webp',
+            'assets/img/taj_mahal_tour/taj_mahal-1.webp',
+            'assets/img/taj_mahal_tour/agra-fort.webp',
+            'assets/img/taj_mahal_tour/sunrise.webp'
         ],
         'overview' => 'Indulge in the ultimate luxury experience with our premium Taj Mahal tour, designed for discerning travelers who demand nothing but the best. This exclusive journey begins with your pickup from your Delhi hotel in a premium luxury vehicle, complete with a professional chauffeur and complimentary refreshments. Travel in supreme comfort to Agra, where you\'ll bypass the regular queues with VIP access to the Taj Mahal, allowing you more time to appreciate this architectural marvel without the usual crowds. Your personal expert guide will provide in-depth commentary on the history, architecture, and romantic legacy of this UNESCO World Heritage site. After exploring the Taj Mahal at a leisurely pace, enjoy a private tour of the majestic Agra Fort, where Mughal emperors once ruled an empire. Savor a gourmet lunch at one of Agra\'s finest restaurants, featuring a curated menu of Mughlai delicacies paired with fine wines. The tour continues with a visit to the exquisite Itimad-ud-Daulah, often called the "Baby Taj," where you\'ll admire the delicate craftsmanship that inspired the Taj Mahal. Throughout the day, enjoy personalized attention, premium amenities, and the flexibility to customize your experience according to your preferences. Return to Delhi in the evening with a deepened appreciation for India\'s rich cultural heritage and memories of a truly extraordinary day.',
         'why_choose' => 'Experience Taj Mahal in absolute luxury with VIP access.',
@@ -225,9 +237,9 @@ $tours = [
             'Personal shopping'
         ],
         'related_tours' => [
-            ['title' => 'Taj Mahal Day Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-1.png', 'url' => 'taj-mahal-and-agra-fort-tour-by-car-from-delhi.php', 'duration' => '1 Day', 'rating' => '4.7 (77+)'],
-            ['title' => 'Taj Mahal Sunrise Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-2.png', 'url' => 'taj-mahal-sunrise-tour-from-delhi.php', 'duration' => '1 Day', 'rating' => '4.8 (50+)'],
-            ['title' => 'Taj Mahal by Train', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-3.png', 'url' => 'taj-mahal-tour-by-gatimaan-express-train.php', 'duration' => '1 Day', 'rating' => '4.8 (750+)']
+            ['title' => 'Taj Mahal Day Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-1.webp', 'url' => 'tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi', 'duration' => '1 Day', 'rating' => '4.7 (77+)'],
+            ['title' => 'Taj Mahal Sunrise Tour', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-2.webp', 'url' => 'tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi', 'duration' => '1 Day', 'rating' => '4.8 (50+)'],
+            ['title' => 'Taj Mahal by Train', 'image' => 'assets/img/taj_mahal_tour/taj_mahal-3.webp', 'url' => 'tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train', 'duration' => '1 Day', 'rating' => '4.8 (750+)']
         ]
     ],
     // Same Day Tours
@@ -246,12 +258,15 @@ $tours = [
         'service' => 'Private Tour',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Car',
-        'hero_image' => 'assets/img/same_day_tour/hawa-mahal.png',
+        'hero_image' => 'assets/img/same_day_tour/hawa-mahal.webp',
+        'meta_title' => 'Full Day Jaipur City Tour by Car | Pink City Rajasthan | Indiana Taj Tour',
+        'meta_description' => 'Explore Jaipur\'s royal heritage on a full-day private tour. Visit Amber Fort, City Palace, Hawa Mahal, and Jantar Mantar with comfortable AC car transport and expert guide.',
+        'meta_keywords' => 'Jaipur city tour, Pink City tour Rajasthan, Amber Fort Jaipur, City Palace Jaipur, Hawa Mahal tour',
         'gallery' => [
-            'assets/img/same_day_tour/hawa-mahal.png',
-            'assets/img/same_day_tour/city-palace.png',
-            'assets/img/same_day_tour/amber-fort.png',
-            'assets/img/same_day_tour/jantar-mantar.png'
+            'assets/img/same_day_tour/hawa-mahal.webp',
+            'assets/img/same_day_tour/city-palace.webp',
+            'assets/img/same_day_tour/amber-fort.webp',
+            'assets/img/same_day_tour/kutub-minar.webp'
         ],
         'overview' => 'Immerse yourself in the royal grandeur of Jaipur, the vibrant Pink City, on this comprehensive full-day tour that showcases the best of Rajasthan\'s capital. Your journey begins with a convenient pickup from your Jaipur hotel in a comfortable air-conditioned car, setting the stage for a day of cultural exploration and architectural wonders. First, visit the magnificent Amber Fort, a stunning example of Rajput architecture perched on a hilltop overlooking Maota Lake. Marvel at the intricate mirror work of the Sheesh Mahal and learn about the fort\'s fascinating history as you explore its sprawling courtyards and palaces. Continue to the City Palace, a splendid complex of courtyards, gardens, and buildings that blends Rajasthani and Mughal architecture. Here, you\'ll witness the opulent lifestyle of Jaipur\'s royal family through a remarkable collection of textiles, costumes, and artifacts. Next, visit the UNESCO World Heritage site Jantar Mantar, an astronomical observatory featuring the world\'s largest stone sundial and a collection of nineteen architectural astronomical instruments. After a delicious traditional Rajasthani lunch, head to the iconic Hawa Mahal, or Palace of Winds, with its unique honeycomb facade of 953 small windows. The tour also includes visits to the beautiful Jal Mahal, a palace floating in the middle of Man Sagar Lake, and the Albert Hall Museum, a fine example of Indo-Saracenic architecture. Throughout the day, your expert guide will provide fascinating insights into Jaipur\'s rich history, culture, and traditions, ensuring you leave with a deep appreciation for this enchanting city.',
         'why_choose' => 'Discover Jaipur\'s royal heritage with a local expert guide.',
@@ -286,9 +301,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Jaipur Tour from Delhi', 'image' => 'assets/img/same_day_tour/amber-fort.png', 'url' => 'jaipur-tour-from-delhi-by-car.php', 'duration' => '1 Day', 'rating' => '4.9 (370+)'],
-            ['title' => 'Delhi City Tour', 'image' => 'assets/img/same_day_tour/delhi-gate.png', 'url' => 'full-day-old-and-new-delhi-city-tour.php', 'duration' => '1 Day', 'rating' => '4.9 (580+)'],
-            ['title' => 'Half Day Delhi Tour', 'image' => 'assets/img/same_day_tour/kutub-minar.png', 'url' => 'half-day-delhi-city-tour.php', 'duration' => 'Half Day', 'rating' => '4.9 (460+)']
+            ['title' => 'Jaipur Tour from Delhi', 'image' => 'assets/img/same_day_tour/amber-fort.webp', 'url' => 'tour-details.php?slug=jaipur-tour-from-delhi-by-car', 'duration' => '1 Day', 'rating' => '4.9 (370+)'],
+            ['title' => 'Delhi City Tour', 'image' => 'assets/img/same_day_tour/delhi-gate.webp', 'url' => 'tour-details.php?slug=full-day-old-and-new-delhi-city-tour', 'duration' => '1 Day', 'rating' => '4.9 (580+)'],
+            ['title' => 'Half Day Delhi Tour', 'image' => 'assets/img/same_day_tour/kutub-minar.webp', 'url' => 'tour-details.php?slug=half-day-delhi-city-tour', 'duration' => 'Half Day', 'rating' => '4.9 (460+)']
         ]
     ],
     'full-day-old-and-new-delhi-city-tour' => [
@@ -306,12 +321,15 @@ $tours = [
         'service' => 'Private Tour',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Car',
-        'hero_image' => 'assets/img/same_day_tour/delhi-gate.png',
+        'hero_image' => 'assets/img/same_day_tour/delhi-gate.webp',
+        'meta_title' => 'Full Day Old and New Delhi City Tour | Historical Monuments | Indiana Taj Tour',
+        'meta_description' => 'Explore Delhi\'s rich history on a comprehensive city tour. Visit Red Fort, Jama Masjid, India Gate, Qutub Minar, and Humayun\'s Tomb with private transport and expert guide.',
+        'meta_keywords' => 'Delhi city tour, Old Delhi New Delhi, Red Fort Delhi, India Gate tour, Qutub Minar Delhi',
         'gallery' => [
-            'assets/img/same_day_tour/delhi-gate.png',
-            'assets/img/same_day_tour/red-fort.png',
-            'assets/img/same_day_tour/kutub-minar.png',
-            'assets/img/same_day_tour/india-gate.png'
+            'assets/img/same_day_tour/delhi-gate.webp',
+            'assets/img/same_day_tour/amber-fort.webp',
+            'assets/img/same_day_tour/kutub-minar.webp',
+            'assets/img/same_day_tour/hawa-mahal.webp'
         ],
         'overview' => 'Experience the fascinating duality of India\'s capital city on this comprehensive full-day tour that takes you through both Old and New Delhi. Your journey begins in Old Delhi, where you\'ll step back in time to the Mughal era as you visit the imposing Red Fort, a UNESCO World Heritage site that served as the main residence of the Mughal emperors for over 200 years. From there, explore the magnificent Jama Masjid, one of India\'s largest mosques, where you can climb to the top of its minarets for panoramic views of the surrounding area. Immerse yourself in the vibrant chaos of Chandni Chowk, one of Delhi\'s oldest and busiest markets, where you\'ll experience the sights, sounds, and aromas of traditional Indian bazaars. Enjoy a rickshaw ride through its narrow lanes, passing by historic havelis (mansions) and spice markets. After a traditional Delhi lunch, transition to New Delhi, a stark contrast with its wide, tree-lined avenues and colonial-era buildings. Visit the iconic India Gate, a war memorial dedicated to the soldiers of the British Indian Army who died during World War I. Continue to Humayun\'s Tomb, a beautiful garden tomb that is considered a precursor to the Taj Mahal, and explore the Qutub Minar complex, home to the world\'s tallest brick minaret and several other ancient structures. The tour also includes a drive past the President\'s House (Rashtrapati Bhavan) and Parliament House, giving you a glimpse of modern India\'s political heart. Throughout the day, your expert guide will provide fascinating insights into Delhi\'s rich history, diverse culture, and the seamless blend of ancient and modern that defines this captivating city.',
         'why_choose' => 'Discover Delhi\'s fascinating blend of ancient and modern.',
@@ -345,9 +363,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Half Day Delhi Tour', 'image' => 'assets/img/same_day_tour/kutub-minar.png', 'url' => 'half-day-delhi-city-tour.php', 'duration' => 'Half Day', 'rating' => '4.9 (460+)'],
-            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'full-day-jaipur-city-tour-by-car.php', 'duration' => '1 Day', 'rating' => '4.9 (610+)'],
-            ['title' => 'Jaipur from Delhi', 'image' => 'assets/img/same_day_tour/amber-fort.png', 'url' => 'jaipur-tour-from-delhi-by-car.php', 'duration' => '1 Day', 'rating' => '4.9 (370+)']
+            ['title' => 'Half Day Delhi Tour', 'image' => 'assets/img/same_day_tour/kutub-minar.webp', 'url' => 'tour-details.php?slug=half-day-delhi-city-tour', 'duration' => 'Half Day', 'rating' => '4.9 (460+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.webp', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)'],
+            ['title' => 'Jaipur from Delhi', 'image' => 'assets/img/same_day_tour/amber-fort.webp', 'url' => 'tour-details.php?slug=jaipur-tour-from-delhi-by-car', 'duration' => '1 Day', 'rating' => '4.9 (370+)']
         ]
     ],
     'half-day-delhi-city-tour' => [
@@ -365,12 +383,15 @@ $tours = [
         'service' => 'Private Tour',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Car',
-        'hero_image' => 'assets/img/same_day_tour/kutub-minar.png',
+        'hero_image' => 'assets/img/same_day_tour/kutub-minar.webp',
+        'meta_title' => 'Half Day Delhi City Tour | Essential Monuments | Indiana Taj Tour',
+        'meta_description' => 'See Delhi\'s most important landmarks in just half a day. Visit Qutub Minar, India Gate, Red Fort, and Jama Masjid with private transport and expert guide.',
+        'meta_keywords' => 'half day Delhi tour, Delhi monuments tour, Qutub Minar tour, India Gate Delhi, Red Fort half day',
         'gallery' => [
-            'assets/img/same_day_tour/kutub-minar.png',
-            'assets/img/same_day_tour/india-gate.png',
-            'assets/img/same_day_tour/red-fort.png',
-            'assets/img/same_day_tour/jama-masjid.png'
+            'assets/img/same_day_tour/kutub-minar.webp',
+            'assets/img/same_day_tour/delhi-gate.webp',
+            'assets/img/same_day_tour/amber-fort.webp',
+            'assets/img/same_day_tour/hawa-mahal.webp'
         ],
         'overview' => 'Perfect for travelers with limited time, this half-day tour of Delhi offers a curated experience of the city\'s most iconic landmarks and cultural treasures. Whether you choose a morning or afternoon departure, this tour is designed to give you a comprehensive introduction to India\'s vibrant capital in just a few hours. Your journey begins with a convenient pickup from your Delhi hotel, followed by a visit to the majestic Qutub Minar, a UNESCO World Heritage site and the world\'s tallest brick minaret. Marvel at this 73-meter tall architectural masterpiece, which dates back to the 13th century, and explore the surrounding complex of ancient ruins and monuments. Continue to the iconic India Gate, a solemn war memorial that stands at the heart of New Delhi. Learn about its significance and the soldiers it commemorates as you stroll along the Rajpath, taking in the impressive government buildings that line this ceremonial boulevard. The tour then takes you to the historic Red Fort, a symbol of India\'s rich Mughal heritage. While we don\'t enter the fort due to time constraints, you\'ll have the opportunity to admire its imposing red sandstone walls and learn about its fascinating history from your guide. Finally, visit the magnificent Jama Masjid, one of India\'s largest mosques, where you can admire its stunning architecture and experience the spiritual atmosphere of this important religious site. Throughout the tour, your expert guide will provide fascinating insights into Delhi\'s history, culture, and modern life, ensuring you leave with a deeper understanding and appreciation of this incredible city.',
         'why_choose' => 'See Delhi\'s most important landmarks in just half a day.',
@@ -402,9 +423,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Full Day Delhi Tour', 'image' => 'assets/img/same_day_tour/delhi-gate.png', 'url' => 'full-day-old-and-new-delhi-city-tour.php', 'duration' => '1 Day', 'rating' => '4.9 (580+)'],
-            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'full-day-jaipur-city-tour-by-car.php', 'duration' => '1 Day', 'rating' => '4.9 (610+)'],
-            ['title' => 'Jaipur from Delhi', 'image' => 'assets/img/same_day_tour/amber-fort.png', 'url' => 'jaipur-tour-from-delhi-by-car.php', 'duration' => '1 Day', 'rating' => '4.9 (370+)']
+            ['title' => 'Full Day Delhi Tour', 'image' => 'assets/img/same_day_tour/delhi-gate.webp', 'url' => 'tour-details.php?slug=full-day-old-and-new-delhi-city-tour', 'duration' => '1 Day', 'rating' => '4.9 (580+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.webp', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)'],
+            ['title' => 'Jaipur from Delhi', 'image' => 'assets/img/same_day_tour/amber-fort.webp', 'url' => 'tour-details.php?slug=jaipur-tour-from-delhi-by-car', 'duration' => '1 Day', 'rating' => '4.9 (370+)']
         ]
     ],
     'jaipur-tour-from-delhi-by-car' => [
@@ -422,12 +443,15 @@ $tours = [
         'service' => 'Round Trip Tour',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Car',
-        'hero_image' => 'assets/img/same_day_tour/amber-fort.png',
+        'hero_image' => 'assets/img/same_day_tour/amber-fort.webp',
+        'meta_title' => 'Jaipur Tour from Delhi by Car | Pink City Day Trip | Indiana Taj Tour',
+        'meta_description' => 'Experience Jaipur\'s royal heritage on a day trip from Delhi. Visit Amber Fort, City Palace, Hawa Mahal, and Jantar Mantar with comfortable round-trip transport.',
+        'meta_keywords' => 'Jaipur tour from Delhi, day trip Jaipur Delhi, Pink City from Delhi, Amber Fort day tour',
         'gallery' => [
-            'assets/img/same_day_tour/amber-fort.png',
-            'assets/img/same_day_tour/hawa-mahal.png',
-            'assets/img/same_day_tour/city-palace.png',
-            'assets/img/same_day_tour/jantar-mantar.png'
+            'assets/img/same_day_tour/amber-fort.webp',
+            'assets/img/same_day_tour/hawa-mahal.webp',
+            'assets/img/same_day_tour/city-palace.webp',
+            'assets/img/same_day_tour/kutub-minar.webp'
         ],
         'overview' => 'Embark on an unforgettable day trip from Delhi to Jaipur, the vibrant Pink City of Rajasthan, and experience the royal grandeur of this enchanting destination. This tour is perfect for travelers who want to explore Jaipur\'s magnificent attractions without the hassle of overnight stays. Your journey begins with an early morning pickup from your Delhi hotel in a comfortable air-conditioned car, setting off on the scenic drive to Jaipur. As you leave the bustling capital behind, watch the landscape transform into the colorful countryside of Rajasthan. Upon arrival in Jaipur, your first stop is the magnificent Amber Fort, a stunning example of Rajput architecture perched on a hilltop overlooking Maota Lake. Explore its sprawling courtyards, intricate palaces, and the famous Sheesh Mahal (Mirror Palace) with your expert guide, who will bring to life the history and legends of this ancient fortress. Continue to the City Palace, a splendid complex that houses several palatial structures, courtyards, and gardens. Here, you\'ll witness the opulent lifestyle of Jaipur\'s royal family through a remarkable collection of textiles, costumes, and artifacts. Next, visit the UNESCO World Heritage site Jantar Mantar, an astronomical observatory featuring the world\'s largest stone sundial and a collection of nineteen architectural astronomical instruments. After a delicious traditional Rajasthani lunch, head to the iconic Hawa Mahal, or Palace of Winds, with its unique honeycomb facade of 953 small windows designed to allow royal ladies to observe street festivals without being seen. The tour also includes a visit to the beautiful Jal Mahal, a palace floating in the middle of Man Sagar Lake, and a drive past the Albert Hall Museum. As evening approaches, begin your comfortable journey back to Delhi, arriving at your hotel with memories of a day filled with cultural wonders, architectural marvels, and royal splendor.',
         'why_choose' => 'Combine Delhi and Jaipur in one day with comfortable transportation.',
@@ -464,9 +488,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Full Day Jaipur Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'full-day-jaipur-city-tour-by-car.php', 'duration' => '1 Day', 'rating' => '4.9 (610+)'],
-            ['title' => 'Full Day Delhi Tour', 'image' => 'assets/img/same_day_tour/delhi-gate.png', 'url' => 'full-day-old-and-new-delhi-city-tour.php', 'duration' => '1 Day', 'rating' => '4.9 (580+)'],
-            ['title' => 'Half Day Delhi Tour', 'image' => 'assets/img/same_day_tour/kutub-minar.png', 'url' => 'half-day-delhi-city-tour.php', 'duration' => 'Half Day', 'rating' => '4.9 (460+)']
+            ['title' => 'Full Day Jaipur Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.webp', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)'],
+            ['title' => 'Full Day Delhi Tour', 'image' => 'assets/img/same_day_tour/delhi-gate.webp', 'url' => 'tour-details.php?slug=full-day-old-and-new-delhi-city-tour', 'duration' => '1 Day', 'rating' => '4.9 (580+)'],
+            ['title' => 'Half Day Delhi Tour', 'image' => 'assets/img/same_day_tour/kutub-minar.webp', 'url' => 'tour-details.php?slug=half-day-delhi-city-tour', 'duration' => 'Half Day', 'rating' => '4.9 (460+)']
         ]
     ],
     // Golden Triangle Tours
@@ -485,12 +509,15 @@ $tours = [
         'service' => 'Complete Package',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Car',
-        'hero_image' => 'assets/img/golden_triangle_tour/golden-tour-1.png',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp',
+        'meta_title' => 'Golden Triangle Tour 3 Days | Delhi Agra Jaipur | Indiana Taj Tour',
+        'meta_description' => 'Explore India\'s Golden Triangle in 3 days. Visit Taj Mahal in Agra, historic Delhi monuments, and Jaipur\'s palaces with comfortable accommodation and private transport.',
+        'meta_keywords' => 'Golden Triangle tour India, Delhi Agra Jaipur tour, 3 day India tour, Taj Mahal Golden Triangle',
         'gallery' => [
-            'assets/img/golden_triangle_tour/golden-tour-1.png',
-            'assets/img/taj_mahal_tour/taj_mahal-1.png',
-            'assets/img/same_day_tour/amber-fort.png',
-            'assets/img/same_day_tour/city-palace.png'
+            'assets/img/golden_triangle_tour/golden-tour-1.webp',
+            'assets/img/taj_mahal_tour/taj_mahal-1.webp',
+            'assets/img/same_day_tour/amber-fort.webp',
+            'assets/img/same_day_tour/city-palace.webp'
         ],
         'overview' => 'Embark on India\'s most iconic journey with our Golden Triangle Tour, a perfectly crafted 3-day itinerary that introduces you to the country\'s rich cultural heritage, magnificent architecture, and vibrant history. This tour connects three incredible cities—Delhi, Agra, and Jaipur—each offering a unique glimpse into India\'s diverse tapestry of traditions and landmarks. Your adventure begins in Delhi, where ancient monuments stand alongside modern marvels. Explore the historic Red Fort, a symbol of Mughal grandeur, and Jama Masjid, one of India\'s largest mosques. Wander through the bustling lanes of Chandni Chowk, experiencing the sensory delights of this ancient market. In New Delhi, marvel at the Qutub Minar, a UNESCO World Heritage site, and pay homage at India Gate, a solemn war memorial. The next day, journey to Agra to witness the unparalleled beauty of the Taj Mahal, one of the Seven Wonders of the World. As the sun rises over this marble masterpiece, you\'ll understand why it\'s considered the ultimate symbol of eternal love. Explore the majestic Agra Fort, where Mughal emperors once ruled an empire, and visit the exquisite Itimad-ud-Daulah, often called the "Baby Taj." On the final day, travel to Jaipur, the vibrant Pink City of Rajasthan. Visit the magnificent Amber Fort, a stunning example of Rajput architecture, and explore the City Palace, a splendid complex that houses several palatial structures. Discover the astronomical wonders of Jantar Mantar and admire the unique honeycomb facade of Hawa Mahal, the Palace of Winds. Throughout your journey, enjoy comfortable accommodations, expert guidance, and seamless transportation, ensuring an unforgettable introduction to the wonders of India.',
         'why_choose' => 'Cover India\'s most important destinations in just 3 days.',
@@ -522,9 +549,9 @@ $tours = [
             'Travel insurance'
         ],
         'related_tours' => [
-            ['title' => 'Golden Triangle 4 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-2.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-4-days', 'duration' => '4 Days', 'rating' => '4.8 (460+)'],
-            ['title' => 'Golden Triangle 5 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-3.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-5-days', 'duration' => '5 Days', 'rating' => '4.9 (430+)'],
-            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '6 Days', 'rating' => '4.8 (290+)']
+            ['title' => 'Golden Triangle 4 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-2.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-4-days', 'duration' => '4 Days', 'rating' => '4.8 (460+)'],
+            ['title' => 'Golden Triangle 5 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-3.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-5-days', 'duration' => '5 Days', 'rating' => '4.9 (430+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '6 Days', 'rating' => '4.8 (290+)']
         ]
     ],
     // Additional Golden Triangle Tours
@@ -543,12 +570,15 @@ $tours = [
         'service' => 'Complete Package',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Car',
-        'hero_image' => 'assets/img/golden_triangle_tour/golden-tour-2.png',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-tour-2.webp',
+        'meta_title' => 'Golden Triangle Tour 4 Days | Relaxed India Experience | Indiana Taj Tour',
+        'meta_description' => 'Take your time exploring India\'s Golden Triangle over 4 days. Enjoy extended stays in Delhi, Agra, and Jaipur with more leisure time and cultural experiences.',
+        'meta_keywords' => '4 day Golden Triangle tour, relaxed India tour, Delhi Agra Jaipur 4 days, extended Golden Triangle',
         'gallery' => [
-            'assets/img/golden_triangle_tour/golden-tour-2.png',
-            'assets/img/taj_mahal_tour/taj_mahal-1.png',
-            'assets/img/same_day_tour/amber-fort.png',
-            'assets/img/same_day_tour/city-palace.png'
+            'assets/img/golden_triangle_tour/golden-tour-2.webp',
+            'assets/img/taj_mahal_tour/taj_mahal-1.webp',
+            'assets/img/same_day_tour/amber-fort.webp',
+            'assets/img/same_day_tour/city-palace.webp'
         ],
         'overview' => 'Experience the magic of India\'s Golden Triangle at a more relaxed pace with our 4-day itinerary, designed to give you ample time to explore each destination thoroughly. This extended tour allows you to immerse yourself in the rich history, vibrant culture, and architectural wonders of Delhi, Agra, and Jaipur without feeling rushed. Your journey begins in Delhi, where you\'ll have a full day to discover both Old and New Delhi. Explore the historic Red Fort and Jama Masjid in Old Delhi, then wander through the bustling lanes of Chandni Chowk on a rickshaw ride. In New Delhi, marvel at the Qutub Minar, a UNESCO World Heritage site, and pay homage at India Gate. The next day, travel to Agra to witness the unparalleled beauty of the Taj Mahal at sunrise, a truly magical experience that will stay with you forever. Explore the majestic Agra Fort, where Mughal emperors once ruled an empire, and visit the exquisite Itimad-ud-Daulah, often called the "Baby Taj." On the third day, journey to Jaipur, the vibrant Pink City of Rajasthan. Visit the magnificent Amber Fort, where you can enjoy an elephant ride (optional) up to the fort, and explore the City Palace, a splendid complex that houses several palatial structures. Discover the astronomical wonders of Jantar Mantar and admire the unique honeycomb facade of Hawa Mahal, the Palace of Winds. The final day is dedicated to further exploration of Jaipur, including visits to the beautiful Jal Mahal and the Albert Hall Museum, as well as some time for shopping in the colorful bazaars of the city. Throughout your journey, enjoy comfortable accommodations, expert guidance, and seamless transportation, ensuring an unforgettable introduction to the wonders of India.',
         'why_choose' => 'Take your time to explore each destination thoroughly. Enjoy more leisure time and cultural experiences with this extended itinerary.',
@@ -581,9 +611,9 @@ $tours = [
             'Travel insurance'
         ],
         'related_tours' => [
-            ['title' => 'Golden Triangle Tour 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
-            ['title' => 'Golden Triangle Tour 5 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-3.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-5-days', 'duration' => '5 Days', 'rating' => '4.9 (430+)'],
-            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '6 Days', 'rating' => '4.8 (290+)']
+            ['title' => 'Golden Triangle Tour 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle Tour 5 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-3.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-5-days', 'duration' => '5 Days', 'rating' => '4.9 (430+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '6 Days', 'rating' => '4.8 (290+)']
         ]
     ],
     'golden-triangle-tour-5-days' => [
@@ -601,12 +631,15 @@ $tours = [
         'service' => 'Complete Package',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Car',
-        'hero_image' => 'assets/img/golden_triangle_tour/golden-tour-3.png',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-tour-3.webp',
+        'meta_title' => 'Golden Triangle Tour 5 Days | Complete India Experience | Indiana Taj Tour',
+        'meta_description' => 'Experience the ultimate Golden Triangle journey over 5 days. Maximum exploration time with sunrise/sunset visits, local markets, and authentic cultural experiences.',
+        'meta_keywords' => '5 day Golden Triangle tour, complete India tour, extended Delhi Agra Jaipur, comprehensive Golden Triangle',
         'gallery' => [
-            'assets/img/golden_triangle_tour/golden-tour-3.png',
-            'assets/img/taj_mahal_tour/taj_mahal-1.png',
-            'assets/img/same_day_tour/amber-fort.png',
-            'assets/img/same_day_tour/city-palace.png'
+            'assets/img/golden_triangle_tour/golden-tour-3.webp',
+            'assets/img/taj_mahal_tour/taj_mahal-1.webp',
+            'assets/img/same_day_tour/amber-fort.webp',
+            'assets/img/same_day_tour/city-palace.webp'
         ],
         'overview' => 'Immerse yourself in the ultimate Golden Triangle experience with our comprehensive 5-day tour, designed for travelers who want to explore India\'s rich cultural heritage in depth. This extended itinerary allows you to discover not only the major attractions of Delhi, Agra, and Jaipur but also to experience the local culture, cuisine, and hidden gems that make each city unique. Your journey begins in Delhi, where you\'ll have two full days to explore both the ancient and modern facets of this vibrant capital. In Old Delhi, visit the historic Red Fort and Jama Masjid, then wander through the bustling lanes of Chandni Chowk on a rickshaw ride. In New Delhi, marvel at the Qutub Minar, a UNESCO World Heritage site, and pay homage at India Gate. The third day takes you to Agra, where you\'ll witness the breathtaking beauty of the Taj Mahal at both sunrise and sunset, offering two completely different perspectives of this architectural masterpiece. Explore the majestic Agra Fort and visit the exquisite Itimad-ud-Daulah, often called the "Baby Taj." On the fourth day, journey to Jaipur, the vibrant Pink City of Rajasthan. Visit the magnificent Amber Fort, where you can enjoy an elephant ride (optional) up to the fort, and explore the City Palace, a splendid complex that houses several palatial structures. Discover the astronomical wonders of Jantar Mantar and admire the unique honeycomb facade of Hawa Mahal, the Palace of Winds. The final day is dedicated to further exploration of Jaipur, including visits to the beautiful Jal Mahal, the Albert Hall Museum, and the colorful local markets where you can shop for traditional handicrafts, textiles, and jewelry. Throughout your journey, enjoy comfortable accommodations, delicious meals featuring local cuisine, expert guidance, and seamless transportation, ensuring an unforgettable and comprehensive introduction to the wonders of India.',
         'why_choose' => 'Maximum exploration time with comfortable pacing. Experience local markets, cultural performances, and authentic cuisine alongside major attractions.',
@@ -640,9 +673,9 @@ $tours = [
             'Travel insurance'
         ],
         'related_tours' => [
-            ['title' => 'Golden Triangle Tour 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
-            ['title' => 'Golden Triangle Tour 4 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-2.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-4-days', 'duration' => '4 Days', 'rating' => '4.8 (460+)'],
-            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '6 Days', 'rating' => '4.8 (290+)']
+            ['title' => 'Golden Triangle Tour 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle Tour 4 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-2.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-4-days', 'duration' => '4 Days', 'rating' => '4.8 (460+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '6 Days', 'rating' => '4.8 (290+)']
         ]
     ],
     'golden-triangle-tour-with-amritsar' => [
@@ -660,12 +693,15 @@ $tours = [
         'service' => 'Complete Package',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Vehicle + Flight',
-        'hero_image' => 'assets/img/golden_triangle_tour/golden-amritsar.png',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp',
+        'meta_title' => 'Golden Triangle Tour with Amritsar | Complete North India | Indiana Taj Tour',
+        'meta_description' => 'Combine Golden Triangle highlights with Amritsar\'s Golden Temple and Wagah Border ceremony. 7-day comprehensive tour of India\'s most sacred and historic sites.',
+        'meta_keywords' => 'Golden Triangle with Amritsar, Golden Temple tour, Wagah Border ceremony, complete North India tour',
         'gallery' => [
-            'assets/img/golden_triangle_tour/golden-amritsar.png',
-            'assets/img/taj_mahal_tour/taj_mahal-1.png',
-            'assets/img/same_day_tour/amber-fort.png',
-            'assets/img/golden_triangle_tour/golden-tour-1.png'
+            'assets/img/golden_triangle_tour/golden-amritsar.webp',
+            'assets/img/taj_mahal_tour/taj_mahal-1.webp',
+            'assets/img/same_day_tour/amber-fort.webp',
+            'assets/img/golden_triangle_tour/golden-tour-1.webp'
         ],
         'overview' => 'Combine the cultural wonders of the Golden Triangle with the spiritual experience of Amritsar\'s Golden Temple. This comprehensive 7-day tour takes you through Delhi\'s historic monuments, the Taj Mahal in Agra, Jaipur\'s royal palaces, and concludes with the sacred Golden Temple and Wagah Border ceremony in Amritsar.',
         'why_choose' => 'Experience the complete Golden Triangle plus the spiritual heart of Punjab.',
@@ -699,9 +735,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
-            ['title' => 'Golden Triangle 4 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-2.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-4-days', 'duration' => '4 Days', 'rating' => '4.8 (460+)'],
-            ['title' => 'Golden Triangle 5 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-3.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-5-days', 'duration' => '5 Days', 'rating' => '4.9 (430+)']
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle 4 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-2.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-4-days', 'duration' => '4 Days', 'rating' => '4.8 (460+)'],
+            ['title' => 'Golden Triangle 5 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-3.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-5-days', 'duration' => '5 Days', 'rating' => '4.9 (430+)']
         ]
     ],
     'golden-triangle-tour-with-pushkar' => [
@@ -719,12 +755,15 @@ $tours = [
         'service' => 'Complete Package',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Vehicle',
-        'hero_image' => 'assets/img/golden_triangle_tour/golden-pushkar.png',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-pushkar.webp',
+        'meta_title' => 'Golden Triangle Tour with Pushkar | Sacred Rajasthan | Indiana Taj Tour',
+        'meta_description' => 'Combine Golden Triangle wonders with Pushkar\'s spiritual significance. Visit Brahma Temple, holy lake, and desert culture on this sacred Rajasthan journey.',
+        'meta_keywords' => 'Golden Triangle with Pushkar, Brahma Temple tour, Pushkar holy lake, sacred Rajasthan tour',
         'gallery' => [
-            'assets/img/golden_triangle_tour/golden-pushkar.png',
-            'assets/img/golden_triangle_tour/pushkar-temple.png',
-            'assets/img/golden_triangle_tour/pushkar-lake.png',
-            'assets/img/golden_triangle_tour/pushkar-camel.png'
+            'assets/img/golden_triangle_tour/golden-pushkar.webp',
+            'assets/img/golden_triangle_tour/golden-tour-1.webp',
+            'assets/img/golden_triangle_tour/golden-jaipur.webp',
+            'assets/img/golden_triangle_tour/golden-delhi.webp'
         ],
         'overview' => 'Experience the Golden Triangle plus the sacred town of Pushkar, famous for its Brahma Temple and annual camel fair. This 7-day tour combines Delhi\'s historic monuments, Agra\'s Taj Mahal, Jaipur\'s palaces with Pushkar\'s spiritual atmosphere and desert culture.',
         'why_choose' => 'Combine cultural exploration with spiritual experiences in Pushkar.',
@@ -758,9 +797,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
-            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
-            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.webp', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
         ]
     ],
     'golden-triangle-tour-with-ranthambore' => [
@@ -778,12 +817,15 @@ $tours = [
         'service' => 'Complete Package',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Vehicle + Safari Jeep',
-        'hero_image' => 'assets/img/golden_triangle_tour/golden-ranthambore.png',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-ranthambore.webp',
+        'meta_title' => 'Golden Triangle Tour with Ranthambore | Wildlife & Culture | Indiana Taj Tour',
+        'meta_description' => 'Experience India\'s best tiger safaris in Ranthambore combined with Golden Triangle highlights. 8-day adventure with cultural monuments and wildlife experiences.',
+        'meta_keywords' => 'Golden Triangle with Ranthambore, tiger safari tour, Ranthambore National Park, wildlife Golden Triangle',
         'gallery' => [
-            'assets/img/golden_triangle_tour/golden-ranthambore.png',
-            'assets/img/golden_triangle_tour/ranthambore-tiger.png',
-            'assets/img/golden_triangle_tour/ranthambore-fort.png',
-            'assets/img/golden_triangle_tour/ranthambore-safari.png'
+            'assets/img/golden_triangle_tour/golden-ranthambore.webp',
+            'assets/img/golden_triangle_tour/golden-tour-1.webp',
+            'assets/img/golden_triangle_tour/golden-jaipur.webp',
+            'assets/img/golden_triangle_tour/golden-delhi.webp'
         ],
         'overview' => 'Combine cultural exploration with wildlife adventure on this extended Golden Triangle tour including Ranthambore National Park. Experience Delhi\'s monuments, Agra\'s Taj Mahal, thrilling tiger safaris in Ranthambore, and Jaipur\'s palaces in this comprehensive 8-day journey.',
         'why_choose' => 'Experience India\'s best tiger sightings combined with cultural treasures.',
@@ -818,9 +860,9 @@ $tours = [
             'Travel insurance'
         ],
         'related_tours' => [
-            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
-            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
-            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.webp', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
         ]
     ],
     'golden-triangle-tour-with-varanasi' => [
@@ -838,12 +880,15 @@ $tours = [
         'service' => 'Complete Package',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Vehicle + Flight',
-        'hero_image' => 'assets/img/golden_triangle_tour/golden-varanasi.png',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-varanasi.webp',
+        'meta_title' => 'Golden Triangle Tour with Varanasi | Spiritual Journey | Indiana Taj Tour',
+        'meta_description' => 'Combine Golden Triangle monuments with Varanasi\'s spiritual essence. Experience Ganga Aarti, ancient temples, and profound spiritual awakening on the banks of the Ganges.',
+        'meta_keywords' => 'Golden Triangle with Varanasi, Ganga Aarti tour, Varanasi spiritual tour, Kashi Vishwanath temple',
         'gallery' => [
-            'assets/img/golden_triangle_tour/golden-varanasi.png',
-            'assets/img/golden_triangle_tour/varanasi-ghats.png',
-            'assets/img/golden_triangle_tour/varanasi-ganges.png',
-            'assets/img/golden_triangle_tour/varanasi-temple.png'
+            'assets/img/golden_triangle_tour/golden-varanasi.webp',
+            'assets/img/golden_triangle_tour/golden-tour-1.webp',
+            'assets/img/golden_triangle_tour/golden-jaipur.webp',
+            'assets/img/golden_triangle_tour/golden-delhi.webp'
         ],
         'overview' => 'Combine the cultural highlights of the Golden Triangle with the spiritual energy of Varanasi, the oldest living city in the world. This 8-day tour takes you through Delhi\'s monuments, Agra\'s Taj Mahal, Jaipur\'s palaces, and concludes with Varanasi\'s sacred ghats and Ganga Aarti ceremony.',
         'why_choose' => 'Experience cultural wonders combined with profound spiritual experiences.',
@@ -878,9 +923,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
-            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
-            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.webp', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
         ]
     ],
     'golden-triangle-tour-with-udaipur' => [
@@ -898,12 +943,15 @@ $tours = [
         'service' => 'Complete Package',
         'languages' => 'English, Hindi',
         'transport' => 'Private AC Vehicle + Flight',
-        'hero_image' => 'assets/img/golden_triangle_tour/golden-udaipur.png',
+        'hero_image' => 'assets/img/golden_triangle_tour/golden-udaipur.webp',
+        'meta_title' => 'Golden Triangle Tour with Udaipur | Romantic Rajasthan | Indiana Taj Tour',
+        'meta_description' => 'Experience the romance of Udaipur combined with Golden Triangle highlights. Visit Lake Pichola, City Palace, and fairy-tale architecture of the Venice of East.',
+        'meta_keywords' => 'Golden Triangle with Udaipur, Lake Pichola tour, Udaipur City Palace, romantic Rajasthan tour',
         'gallery' => [
-            'assets/img/golden_triangle_tour/golden-udaipur.png',
-            'assets/img/golden_triangle_tour/udaipur-palace.png',
-            'assets/img/golden_triangle_tour/udaipur-lake.png',
-            'assets/img/golden_triangle_tour/udaipur-boat.png'
+            'assets/img/golden_triangle_tour/golden-udaipur.webp',
+            'assets/img/golden_triangle_tour/golden-tour-1.webp',
+            'assets/img/golden_triangle_tour/golden-jaipur.webp',
+            'assets/img/golden_triangle_tour/golden-delhi.webp'
         ],
         'overview' => 'Extend your Golden Triangle experience to include Udaipur, the romantic "City of Lakes" with its stunning palaces and lakes. This 8-day tour combines Delhi\'s historic monuments, Agra\'s Taj Mahal, Jaipur\'s palaces with Udaipur\'s fairy-tale architecture and serene lake Pichola.',
         'why_choose' => 'Experience the romance and beauty of Udaipur combined with Golden Triangle highlights.',
@@ -938,9 +986,9 @@ $tours = [
             'Camera fees'
         ],
         'related_tours' => [
-            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
-            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.png', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
-            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.png', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
+            ['title' => 'Golden Triangle 3 Days', 'image' => 'assets/img/golden_triangle_tour/golden-tour-1.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-3-days', 'duration' => '3 Days', 'rating' => '4.7 (340+)'],
+            ['title' => 'Golden Triangle with Amritsar', 'image' => 'assets/img/golden_triangle_tour/golden-amritsar.webp', 'url' => 'tour-details.php?slug=golden-triangle-tour-with-amritsar', 'duration' => '7 Days', 'rating' => '4.8 (290+)'],
+            ['title' => 'Jaipur City Tour', 'image' => 'assets/img/same_day_tour/hawa-mahal.webp', 'url' => 'tour-details.php?slug=full-day-jaipur-city-tour-by-car', 'duration' => '1 Day', 'rating' => '4.9 (610+)']
         ]
     ]
 ];

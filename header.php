@@ -44,7 +44,7 @@ function is_active($pages) {
                             <ul>
                                 <li class="d-none d-md-inline-block">
                                     <a href="tel:+"><i class="fa-regular fa-phone-volume"></i>
-                                        <span>+91-955769951
+                                        <span>+91-9557679951
                                         </span></a>
                                 </li>
                                 <li class="d-none d-md-inline-block">
@@ -64,7 +64,7 @@ function is_active($pages) {
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="index.php"><img src="assets/img/logo-dark.png" alt="Tourm" /></a>
+                            <a href="index.php"><img src="assets/img/logo-dark.webp" alt="Tourm" /></a>
                         </div>
                     </div>
                     <div class="col-auto me-xl-auto">

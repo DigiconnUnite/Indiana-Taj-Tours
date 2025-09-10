@@ -31,7 +31,7 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- include the links file  -->
@@ -166,7 +166,7 @@
             <!-- Taj Mahal Slide -->
             <div class="swiper-slide">
                 <div class="hero-inner">
-                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-taj.png"></div>
+                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-taj.webp"></div>
                     <div class="container">
                         <div class="hero-style1">
                             <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Experience the Eternal Symbol of Love</span>
@@ -185,7 +185,7 @@
             <!-- Delhi Slide -->
             <div class="swiper-slide">
                 <div class="hero-inner">
-                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-delhi.png"></div>
+                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-delhi.webp"></div>
                     <div class="container">
                         <div class="hero-style1">
                             <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Where History Meets Modernity</span>
@@ -204,7 +204,7 @@
             <!-- Varanasi Slide -->
             <div class="swiper-slide">
                 <div class="hero-inner">
-                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-vanaras.png"></div>
+                    <div class="th-hero-bg" data-bg-src="assets/img/hero/hero-vanaras.webp"></div>
                     <div class="container">
                         <div class="hero-style1">
                             <span class="sub-title style1" data-ani="slideinup" data-ani-delay="0.2s">Journey to Spiritual Enlightenment</span>
@@ -308,20 +308,20 @@
         </div>
 
         <!-- category section -->
-        <section class="category-area bg-top-center" data-bg-src="assets/img/bg/category_bg_1.png">
+        <section class="category-area bg-top-center" data-bg-src="assets/img/bg/category_bg_1.webp">
             <div class="container th-container">
                 <div class="title-area text-center">
                     <span class="sub-title">Wornderful Place For You</span>
                     <h2 class="sec-title">Top Destinations</h2>
                 </div>
                 <div class="swiper th-slider has-shadow categorySlider" id="categorySlider1"
-                    data-bg-src="assets/img/bg/category_bg_1.png"
+                    data-bg-src="assets/img/bg/category_bg_1.webp"
                     data-slider-options='{"spaceBetween": "50","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1400":{"slidesPerView":"5"}}}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="category-card single">
                                 <div class="box-img global-img">
-                                    <img src="assets/img/home/cat-agra.png" alt="Image" />
+                                    <img src="assets/img/home/cat-agra.webp" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
                                     <a href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi">Agra</a>
@@ -332,7 +332,7 @@
                         <div class="swiper-slide">
                             <div class="category-card single">
                                 <div class="box-img global-img">
-                                    <img src="assets/img/home/cat-delhi.png" alt="Image" />
+                                    <img src="assets/img/home/cat-delhi.webp" alt="Image" />
                                 </div>
                                 <h3 class="box-title"><a href="./full-day-old-and-new-delhi-city-tour.php">Delhi</a></h3>
                                 <a class="line-btn" href="./full-day-old-and-new-delhi-city-tour.php">See more</a>
@@ -341,7 +341,7 @@
                         <div class="swiper-slide">
                             <div class="category-card single">
                                 <div class="box-img global-img">
-                                    <img src="assets/img/home/cat-jaipur.png" alt="Image" />
+                                    <img src="assets/img/home/cat-jaipur.webp" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
                                     <a href="./full-day-jaipur-city-tour-by-car.php">Jaipur</a>
@@ -352,7 +352,7 @@
                         <div class="swiper-slide">
                             <div class="category-card single">
                                 <div class="box-img global-img">
-                                    <img src="assets/img/home/cat-udaipur.png" alt="Image" />
+                                    <img src="assets/img/home/cat-udaipur.webp" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
                                     <a href="./golden-triangle-tour-with-udaipur.php">Udaipur</a>
@@ -363,7 +363,7 @@
                         <div class="swiper-slide">
                             <div class="category-card single">
                                 <div class="box-img global-img">
-                                    <img src="assets/img/home/cat-varanasi.png" alt="Image" />
+                                    <img src="assets/img/home/cat-varanasi.webp" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
                                     <a href="./golden-triangle-tour-with-varanasi.php">Varanasi</a>
@@ -374,7 +374,7 @@
                         <div class="swiper-slide">
                             <div class="category-card single">
                                 <div class="box-img global-img">
-                                    <img src="assets/img/home/cat-ranthambore.png" alt="Image" />
+                                    <img src="assets/img/home/cat-ranthambore.webp" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
                                     <a href="./golden-triangle-tour-with-ranthambore.php">Ranthambore</a>
@@ -385,7 +385,7 @@
                         <div class="swiper-slide">
                             <div class="category-card single">
                                 <div class="box-img global-img">
-                                    <img src="assets/img/home/cat-pushkar.png" alt="Image" />
+                                    <img src="assets/img/home/cat-pushkar.webp" alt="Image" />
                                 </div>
                                 <h3 class="box-title"><a href="./golden-triangle-tour-with-pushkar.php">Pushkar</a></h3>
                                 <a class="line-btn" href="./golden-triangle-tour-with-pushkar.php">See more</a>
@@ -394,7 +394,7 @@
                         <div class="swiper-slide">
                             <div class="category-card single">
                                 <div class="box-img global-img">
-                                    <img src="assets/img/home/cat-amritsar.png" alt="Image" />
+                                    <img src="assets/img/home/cat-amritsar.webp" alt="Image" />
                                 </div>
                                 <h3 class="box-title">
                                     <a href="./golden-triangle-tour-with-amritsar.php">Amritsar</a>
@@ -411,7 +411,7 @@
 
         <!-- tour section -->
         <section class="tour-area3 position-relative bg-top-center overflow-hidden space" id="service-sec"
-            data-bg-src="assets/img/bg/tour_bg_1.jpg">
+            data-bg-src="assets/img/bg/tour_bg_1.webp">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -444,7 +444,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal Day Tour by Car from Delhi" />
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-1.webp" alt="Taj Mahal Day Tour by Car from Delhi" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -471,7 +471,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour from Delhi" />
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-2.webp" alt="Taj Mahal Sunrise Tour from Delhi" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -498,7 +498,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Taj Mahal Tour by Gatimaan Express Train" />
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-3.webp" alt="Taj Mahal Tour by Gatimaan Express Train" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -525,7 +525,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/taj_mahal_tour/taj_mahal-4.png" alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-4.webp" alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -560,7 +560,7 @@
                                     <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="same-day" data-location="delhi" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/same_day_tour/delhi-gate.png" alt="Full Day Old and New Delhi City Tour" />
+                                        <img src="assets/img/same_day_tour/delhi-gate.webp" alt="Full Day Old and New Delhi City Tour" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -587,7 +587,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="same-day" data-location="delhi" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/same_day_tour/kutub-minar.png" alt="Half Day Delhi City Tour" />
+                                        <img src="assets/img/same_day_tour/kutub-minar.webp" alt="Half Day Delhi City Tour" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -614,7 +614,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="same-day" data-location="jaipur" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/same_day_tour/hawa-mahal.png" alt="Full Day Jaipur City Tour by Car" />
+                                        <img src="assets/img/same_day_tour/hawa-mahal.webp" alt="Full Day Jaipur City Tour by Car" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -641,7 +641,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="same-day" data-location="delhi jaipur" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/same_day_tour/amber-fort.png" alt="Jaipur Tour from Delhi by Car" />
+                                        <img src="assets/img/same_day_tour/amber-fort.webp" alt="Jaipur Tour from Delhi by Car" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -666,7 +666,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/taj_mahal_tour/taj_mahal-1.png" alt="Taj Mahal Day Tour by Car from Delhi" />
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-1.webp" alt="Taj Mahal Day Tour by Car from Delhi" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -693,7 +693,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/taj_mahal_tour/taj_mahal-2.png" alt="Taj Mahal Sunrise Tour from Delhi" />
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-2.webp" alt="Taj Mahal Sunrise Tour from Delhi" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -720,7 +720,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/taj_mahal_tour/taj_mahal-3.png" alt="Taj Mahal Tour by Gatimaan Express Train" />
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-3.webp" alt="Taj Mahal Tour by Gatimaan Express Train" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -747,7 +747,7 @@
                             <div class="swiper-slide">
                                 <div class="tour-box th-ani gsap-cursor" data-type="taj-mahal" data-location="delhi agra" data-duration="1">
                                     <div class="tour-box_img global-img">
-                                        <img src="assets/img/taj_mahal_tour/taj_mahal-4.png" alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
+                                        <img src="assets/img/taj_mahal_tour/taj_mahal-4.webp" alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
                                     </div>
                                     <div class="tour-content">
                                         <h3 class="box-title">
@@ -785,7 +785,7 @@
                                     <div class="swiper-slide">
                                         <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur" data-duration="3">
                                             <div class="tour-box_img global-img">
-                                                <img src="assets/img/golden_triangle_tour/golden-tour-1.png" alt="Golden Triangle Tour 3 Days" />
+                                                <img src="assets/img/golden_triangle_tour/golden-tour-1.webp" alt="Golden Triangle Tour 3 Days" />
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
@@ -812,7 +812,7 @@
                                     <div class="swiper-slide">
                                         <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur" data-duration="4">
                                             <div class="tour-box_img global-img">
-                                                <img src="assets/img/golden_triangle_tour/golden-tour-2.png" alt="Golden Triangle Tour 4 Days" />
+                                                <img src="assets/img/golden_triangle_tour/golden-tour-2.webp" alt="Golden Triangle Tour 4 Days" />
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
@@ -839,7 +839,7 @@
                                     <div class="swiper-slide">
                                         <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur" data-duration="5">
                                             <div class="tour-box_img global-img">
-                                                <img src="assets/img/golden_triangle_tour/golden-tour-3.png" alt="Golden Triangle Tour 5 Days" />
+                                                <img src="assets/img/golden_triangle_tour/golden-tour-3.webp" alt="Golden Triangle Tour 5 Days" />
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
@@ -866,7 +866,7 @@
                                     <div class="swiper-slide">
                                         <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur amritsar" data-duration="6">
                                             <div class="tour-box_img global-img">
-                                                <img src="assets/img/golden_triangle_tour/golden-amritsar.png" alt="Golden Triangle Tour with Amritsar" />
+                                                <img src="assets/img/golden_triangle_tour/golden-amritsar.webp" alt="Golden Triangle Tour with Amritsar" />
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
@@ -893,7 +893,7 @@
                                     <div class="swiper-slide">
                                         <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur pushkar" data-duration="6">
                                             <div class="tour-box_img global-img">
-                                                <img src="assets/img/golden_triangle_tour/golden-pushkar.png" alt="Golden Triangle Tour with Pushkar" />
+                                                <img src="assets/img/golden_triangle_tour/golden-pushkar.webp" alt="Golden Triangle Tour with Pushkar" />
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
@@ -920,7 +920,7 @@
                                     <div class="swiper-slide">
                                         <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur ranthambore" data-duration="7">
                                             <div class="tour-box_img global-img">
-                                                <img src="assets/img/golden_triangle_tour/golden-ranthambore.png" alt="Golden Triangle Tour with Ranthambore" />
+                                                <img src="assets/img/golden_triangle_tour/golden-ranthambore.webp" alt="Golden Triangle Tour with Ranthambore" />
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
@@ -947,7 +947,7 @@
                                     <div class="swiper-slide">
                                         <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur udaipur" data-duration="6">
                                             <div class="tour-box_img global-img">
-                                                <img src="assets/img/golden_triangle_tour/golden-udaipur.png" alt="Golden Triangle Tour with Udaipur" />
+                                                <img src="assets/img/golden_triangle_tour/golden-udaipur.webp" alt="Golden Triangle Tour with Udaipur" />
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
@@ -974,7 +974,7 @@
                                     <div class="swiper-slide">
                                         <div class="tour-box th-ani gsap-cursor" data-type="golden-triangle" data-location="delhi agra jaipur varanasi" data-duration="7">
                                             <div class="tour-box_img global-img">
-                                                <img src="assets/img/golden_triangle_tour/golden-varanasi.png" alt="Golden Triangle Tour with Varanasi" />
+                                                <img src="assets/img/golden_triangle_tour/golden-varanasi.webp" alt="Golden Triangle Tour with Varanasi" />
                                             </div>
                                             <div class="tour-content">
                                                 <h3 class="box-title">
@@ -1012,13 +1012,13 @@
                     <div class="col-xl-6">
                         <div class="img-box1">
                             <div class="img1">
-                                <img src="assets/img/home/2-about-minar.png" width="312" height="630" alt="About" />
+                                <img src="assets/img/home/2-about-minar.webp" width="312" height="630" alt="About" />
                             </div>
                             <div class="img2">
-                                <img src="assets/img/home/2-about-taj.png" height="315" width="312" alt="About" />
+                                <img src="assets/img/home/2-about-taj.webp" height="315" width="312" alt="About" />
                             </div>
                             <div class="img3">
-                                <img src="assets/img/home/2-about-amber.png" height="315" width="312" alt="About" />
+                                <img src="assets/img/home/2-about-amber.webp" height="315" width="312" alt="About" />
                             </div>
                         </div>
                     </div>
@@ -1064,19 +1064,19 @@
                     </div>
                 </div>
                 <div class="shape-mockup shape1 d-none d-xl-block" data-top="12%" data-left="-16%">
-                    <img src="assets/img/shape/shape_1.png" alt="shape" />
+                    <img src="assets/img/shape/shape_1.webp" alt="shape" />
                 </div>
                 <div class="shape-mockup shape2 d-none d-xl-block" data-top="20%" data-left="-16%">
-                    <img src="assets/img/shape/shape_2.png" alt="shape" />
+                    <img src="assets/img/shape/shape_2.webp" alt="shape" />
                 </div>
                 <div class="shape-mockup shape3 d-none d-xl-block" data-top="14%" data-left="-10%">
-                    <img src="assets/img/shape/shape_3.png" alt="shape" />
+                    <img src="assets/img/shape/shape_3.webp" alt="shape" />
                 </div>
                 <div class="shape-mockup shape1 d-none d-xl-block" data-bottom="0" data-right="-15%">
-                    <img src="assets/img/shape/shape_1.png" alt="shape" />
+                    <img src="assets/img/shape/shape_1.webp" alt="shape" />
                 </div>
                 <div class="shape-mockup shape2 d-none d-xl-block" data-bottom="0%" data-right="-11%">
-                    <img src="assets/img/shape/shape_2.png" alt="shape" />
+                    <img src="assets/img/shape/shape_2.webp" alt="shape" />
                 </div>
             </div>
         </div>
@@ -1091,11 +1091,11 @@
                     <div class="col-md-6 col-lg-2">
                         <div class="gallery-card">
                             <div class="box-img global-img">
-                                <a href="assets/img/home/gallery-1.png" class="popup-image">
+                                <a href="assets/img/home/gallery-1.webp" class="popup-image">
                                     <div class="icon-btn">
                                         <i class="fal fa-magnifying-glass-plus"></i>
                                     </div>
-                                    <img src="assets/img/home/gallery-1.png" alt="gallery image" />
+                                    <img src="assets/img/home/gallery-1.webp" alt="gallery image" />
                                 </a>
                             </div>
                         </div>
@@ -1103,33 +1103,21 @@
                     <div class="col-md-6 col-lg-2">
                         <div class="gallery-card">
                             <div class="box-img global-img">
-                                <a href="assets/img/home/gallery-2.png" class="popup-image">
+                                <a href="assets/img/home/gallery-2.webp" class="popup-image">
                                     <div class="icon-btn">
                                         <i class="fal fa-magnifying-glass-plus"></i>
                                     </div>
-                                    <img src="assets/img/home/gallery-2.png" alt="gallery image" />
+                                    <img src="assets/img/home/gallery-2.webp" alt="gallery image" />
                                 </a>
                             </div>
                         </div>
                         <div class="gallery-card">
                             <div class="box-img global-img">
-                                <a href="assets/img/home/gallery-3.png" class="popup-image">
+                                <a href="assets/img/home/gallery-3.webp" class="popup-image">
                                     <div class="icon-btn">
                                         <i class="fal fa-magnifying-glass-plus"></i>
                                     </div>
-                                    <img src="assets/img/home/gallery-3.png" alt="gallery image" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-2">
-                        <div class="gallery-card">
-                            <div class="box-img global-img">
-                                <a href="assets/img/home/gallery-4.png" class="popup-image">
-                                    <div class="icon-btn">
-                                        <i class="fal fa-magnifying-glass-plus"></i>
-                                    </div>
-                                    <img src="assets/img/home/gallery-4.png" alt="gallery image" />
+                                    <img src="assets/img/home/gallery-3.webp" alt="gallery image" />
                                 </a>
                             </div>
                         </div>
@@ -1137,21 +1125,11 @@
                     <div class="col-md-6 col-lg-2">
                         <div class="gallery-card">
                             <div class="box-img global-img">
-                                <a href="assets/img/home/gallery-5.png" class="popup-image">
+                                <a href="assets/img/home/gallery-4.webp" class="popup-image">
                                     <div class="icon-btn">
                                         <i class="fal fa-magnifying-glass-plus"></i>
                                     </div>
-                                    <img src="assets/img/home/gallery-5.png" alt="gallery image" />
-                                </a>
-                            </div>
-                        </div>
-                        <div class="gallery-card">
-                            <div class="box-img global-img">
-                                <a href="assets/img/home/gallery-6.png" class="popup-image">
-                                    <div class="icon-btn">
-                                        <i class="fal fa-magnifying-glass-plus"></i>
-                                    </div>
-                                    <img src="assets/img/home/gallery-6.png" alt="gallery image" />
+                                    <img src="assets/img/home/gallery-4.webp" alt="gallery image" />
                                 </a>
                             </div>
                         </div>
@@ -1159,21 +1137,43 @@
                     <div class="col-md-6 col-lg-2">
                         <div class="gallery-card">
                             <div class="box-img global-img">
-                                <a href="assets/img/home/gallery-7.png" class="popup-image">
+                                <a href="assets/img/home/gallery-5.webp" class="popup-image">
                                     <div class="icon-btn">
                                         <i class="fal fa-magnifying-glass-plus"></i>
                                     </div>
-                                    <img src="assets/img/home/gallery-7.png" alt="gallery image" />
+                                    <img src="assets/img/home/gallery-5.webp" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-6.webp" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-6.webp" alt="gallery image" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-2">
+                        <div class="gallery-card">
+                            <div class="box-img global-img">
+                                <a href="assets/img/home/gallery-7.webp" class="popup-image">
+                                    <div class="icon-btn">
+                                        <i class="fal fa-magnifying-glass-plus"></i>
+                                    </div>
+                                    <img src="assets/img/home/gallery-7.webp" alt="gallery image" />
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="shape-mockup d-none d-xl-block" data-top="-25%" data-left="0%">
-                    <img src="assets/img/shape/line.png" alt="shape" />
+                    <img src="assets/img/shape/line.webp" alt="shape" />
                 </div>
                 <div class="shape-mockup movingX d-none d-xl-block" data-top="30%" data-left="-3%">
-                    <img class="gmovingX" src="assets/img/shape/shape_4.png" alt="shape" />
+                    <img class="gmovingX" src="assets/img/shape/shape_4.webp" alt="shape" />
                 </div>
             </div>
         </div>
@@ -1184,10 +1184,10 @@
                     <div class="col-xl-7">
                         <div class="img-box3">
                             <div class="img1">
-                                <img src="assets/img/home/3-about-jaipur.png" width="445" height="608" alt="About" />
+                                <img src="assets/img/home/3-about-jaipur.webp" width="445" height="608" alt="About" />
                             </div>
                             <div class="img2">
-                                <img src="assets/img/home/3-about-taj.png" width="434" height="508" alt="About" />
+                                <img src="assets/img/home/3-about-taj.webp" width="434" height="508" alt="About" />
                             </div>
                         </div>
                     </div>
@@ -1235,23 +1235,23 @@
                     </div>
                 </div>
                 <div class="shape-mockup movingX d-none d-xxl-block" data-top="0%" data-left="-20%">
-                    <img src="assets/img/shape/shape_2_1.png" alt="shape" />
+                    <img src="assets/img/shape/shape_2_1.webp" alt="shape" />
                 </div>
                 <div class="shape-mockup jump d-none d-xxl-block" data-top="20%" data-right="-15%">
-                    <img src="assets/img/shape/shape_2_2.png" alt="shape" />
+                    <img src="assets/img/shape/shape_2_2.webp" alt="shape" />
                 </div>
                 <div class="shape-mockup spin d-none d-xxl-block" data-bottom="18%" data-left="-17%">
-                    <img src="assets/img/shape/shape_2_3.png" alt="shape" />
+                    <img src="assets/img/shape/shape_2_3.webp" alt="shape" />
                 </div>
                 <div class="shape-mockup movixgX d-none d-xxl-block" data-bottom="10%" data-right="-18%">
-                    <img src="assets/img/shape/shape_2_4.png" alt="shape" />
+                    <img src="assets/img/shape/shape_2_4.webp" alt="shape" />
                 </div>
             </div>
             <div class="shape-mockup movingCar d-none d-xxl-block" data-bottom="0%" data-right="-2%">
-                <img src="assets/img/shape/car_1.png" alt="shape" />
+                <img src="assets/img/shape/car_1.webp" alt="shape" />
             </div>
             <div class="shape-mockup d-none d-xxl-block" data-bottom="0%" data-right="0%">
-                <img src="assets/img/shape/tree_1.png" alt="shape" />
+                <img src="assets/img/shape/tree_1.webp" alt="shape" />
             </div>
         </div>
     </main>
