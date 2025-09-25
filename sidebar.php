@@ -6,7 +6,7 @@
         <div class="widget">
             <div class="th-widget-about">
                 <div class="about-logo">
-                    <a href="index.php"><img src="assets/img/logo-dark.webp" alt="Tourm" /></a>
+                    <a href="index.php"><img src="assets/img/logo-dark.webp" alt="Indiana Taj tour logo" /></a>
                 </div>
                 <p class="about-text">
                     Rapidiously myocardinate cross-platform intellectual capital
@@ -105,7 +105,7 @@
     <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.php"><img src="assets/img/logo-dark.webp" alt="Tourm" /></a>
+            <a href="index.php"><img src="assets/img/logo-dark.webp" alt="indiana logo" /></a>
         </div>
         <div class="th-mobile-menu">
             <ul>

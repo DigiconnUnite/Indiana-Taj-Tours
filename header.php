@@ -58,13 +58,13 @@ function is_active($pages) {
             </div>
         </div>
     </div>
-    <div class="sticky-wrapper">
-        <div class="menu-area">
+    <div class="sticky-wrapper fixed ">
+        <div class="menu-area ">
             <div class="container th-container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="index.php"><img src="assets/img/logo-dark.webp" alt="Tourm" /></a>
+                            <a href="index.php"><img  src="assets/img/logo-full.webp" width="150" alt="indian taj tours logo" /></a>
                         </div>
                     </div>
                     <div class="col-auto me-xl-auto">

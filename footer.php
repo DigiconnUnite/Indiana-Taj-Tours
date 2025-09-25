@@ -6,7 +6,7 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.php"><img src="assets/img/logo-light.webp" alt="Tourm" /></a>
+                                <a href="index.php"><img src="assets/img/logo-dark.webp" width="300" alt="Indiana Taj Tour Logo" /></a>
                             </div>
                             <p class="about-text">
                                 Indiana Taj Tours crafts memorable journeys across Agra,Jaipur and beyond. 
