@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
 <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 <link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" type="image/png" href="assets/img/favicon.jpg" />
 
 <style>
 /* Hide scrollbar globally */
