@@ -7,7 +7,7 @@
     <title>
         Taj Mahal Tour Package | Indiana Taj Tour
     </title>
-    <link rel="canonical" href="https://www.indianatajtours.com/taj-mahal-tour.php" />
+    <link rel="canonical" href="https://indianatajtours.com/taj-mahal-tour.php" />
 
     <meta name="author" content="Indiana Taj Tour" />
     <meta name="description"

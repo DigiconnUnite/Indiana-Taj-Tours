@@ -12,6 +12,7 @@
     <meta name="keywords" content="contact Indiana Taj Tour, Taj Mahal tour contact, Golden Triangle booking, India travel inquiry, tour booking contact" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="canonical" href="https://indianatajtours.com/contact.php" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />

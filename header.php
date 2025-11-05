@@ -22,7 +22,6 @@ function get_canonical_url() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="<?php echo get_canonical_url(); ?>" />
 <style>
     /* Active link underline style */
     .main-menu a.active-link, .main-menu .active-link > a, .main-menu .active-link > a:visited {

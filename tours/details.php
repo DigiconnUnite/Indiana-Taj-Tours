@@ -152,6 +152,7 @@ $pageKeywords    = isset($tour['meta_keywords']) ? $tour['meta_keywords'] : 'Taj
     <meta name="keywords" content="<?php echo $pageKeywords; ?>" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="canonical" href="https://indianatajtours.com/tours/<?php echo htmlspecialchars($slug); ?>" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
