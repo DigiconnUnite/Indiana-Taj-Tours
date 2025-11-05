@@ -1,0 +1,23 @@
+RewriteEngine On
+
+# Handle tour detail URLs like /tours/slug-name
+# Rewrite /tours/slug-name to /tours/details.php?slug=slug-name
+RewriteRule ^([a-zA-Z0-9-]+)$ details.php?slug=$1 [QSA,L]
+
+# Backward compatibility: Redirect old query-based URLs to clean URLs
+# Redirect /tours/details.php?slug=slug-name to /tours/slug-name
+RewriteCond %{REQUEST_URI} ^/tours/details\.php$
+RewriteCond %{QUERY_STRING} ^slug=([a-zA-Z0-9-]+)$
+RewriteRule ^details\.php$ %1? [R=301,L]
+
+# Security: Prevent access to sensitive files
+<Files "*.php">
+    Order Deny,Allow
+    Allow from all
+</Files>
+
+# Prevent access to .htaccess file
+<Files ".htaccess">
+    Order Allow,Deny
+    Deny from all
+</Files>

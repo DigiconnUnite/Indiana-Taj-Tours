@@ -6,12 +6,12 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.php"><img src="assets/img/logo-dark.webp" width="300" alt="Indiana Taj Tour Logo" /></a>
+                                <a href="index.php"><img src="../assets/img/logo-dark.webp" width="300"
+                                        alt="Indiana Taj Tour Logo" /></a>
                             </div>
                             <p class="about-text">
-                                Indiana Taj Tours crafts memorable journeys across Agra,Jaipur and beyond. 
-                                Enjoy licensed guides,flexible itineraries tailored to your
-                                time and interests for a seamless, authentic India experience.
+                                Indiana Taj Tours, a leading Agra-based travel agency, specializes in Taj Mahal and
+                                Golden Triangle Tours.
                             </p>
                             <div class="th-social">
                                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
@@ -56,7 +56,7 @@
                         <div class="th-widget-contact">
                             <div class="info-box_text">
                                 <div class="icon">
-                                    <img src="assets/img/icon/location-dot.svg" alt="img" />
+                                    <img src="../assets/img/icon/location-dot.svg" alt="img" />
                                 </div>
                                 <div class="details">
                                     <p>Tajganj Agra , 282010</p>
@@ -64,7 +64,7 @@
                             </div>
                             <div class="info-box_text">
                                 <div class="icon">
-                                    <img src="assets/img/icon/phone.svg" alt="img" />
+                                    <img src="../assets/img/icon/phone.svg" alt="img" />
                                 </div>
                                 <div class="details">
                                     <p>
@@ -74,7 +74,7 @@
                             </div>
                             <div class="info-box_text">
                                 <div class="icon">
-                                    <img src="assets/img/icon/envelope.svg" alt="img" />
+                                    <img src="../assets/img/icon/envelope.svg" alt="img" />
                                 </div>
                                 <div class="details">
                                     <p>
@@ -95,13 +95,14 @@
         <div class="container">
             <div class="row align-items-center justify-content-between ">
                 <div class="col-md-4 text-md-start text-center mb-3 mb-md-0">
-                   <p class="copyright-text mb-0">
-                        Developed By <a style="color: orange;" href="https://digiconnunite.com/">Digiconn Unite Pvt. Ltd.</a>
-                    </p>   
-               
+                    <p class="copyright-text mb-0">
+                        Developed By <a style="color: orange;" href="https://digiconnunite.com/">Digiconn Unite Pvt.
+                            Ltd.</a>
+                    </p>
+
                 </div>
                 <div class="col-md-4 text-end mb-3 mb-md-0">
-              <p class="copyright-text mb-0">
+                    <p class="copyright-text mb-0">
                         © Copyright 2025 <a href="index.php"> Indiana Taj Tour </a> | All Rights Reserved.
                     </p>
                 </div>
@@ -110,7 +111,6 @@
                         <span class="title">We Accept</span>
                         <img src="assets/img/shape/cards.webp" alt="" />
                     </div>
-                    
                 </div> -->
             </div>
         </div>

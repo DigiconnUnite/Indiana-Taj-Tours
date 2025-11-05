@@ -64,7 +64,7 @@ function is_active($pages) {
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="index.php"><img  src="assets/img/logo-full.webp" width="150" alt="indian taj tours logo" /></a>
+                            <a href="index.php"><img  src="../assets/img/logo-full.webp" width="150" alt="indian taj tours logo" /></a>
                         </div>
                     </div>
                     <div class="col-auto me-xl-auto">

@@ -5,11 +5,15 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Taj Mahal Tours from Delhi - Indiana Taj Tour | Sunrise, Luxury & Train Packages
+        Taj Mahal Tour Package | Indiana Taj Tour
     </title>
+    <link rel="canonical" href="https://www.indianatajtours.com/taj-mahal-tour.php" />
+
     <meta name="author" content="Indiana Taj Tour" />
-    <meta name="description" content="Experience the Taj Mahal with our exclusive tours from Delhi. Choose from sunrise, luxury, and train packages for an unforgettable visit to India's most iconic monument." />
-    <meta name="keywords" content="Taj Mahal tour, Taj Mahal from Delhi, Taj Mahal sunrise tour, Taj Mahal luxury tour, Taj Mahal train tour" />
+    <meta name="description"
+        content="Taj Mahal Tour Package with Indiana Taj Tour — explore India's iconic monument with expert guides, comfortable travel & unforgettable experiences." />
+    <meta name="keywords"
+        content="Taj Mahal tour, Taj Mahal from Delhi, Taj Mahal sunrise tour, Taj Mahal luxury tour, Taj Mahal train tour" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -35,7 +39,7 @@
     <main>
 
         <!-- breadcrumb-section  -->
-        <div class="breadcumb-wrapper" >
+        <div class="breadcumb-wrapper">
             <div class="container">
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Taj Mahal Tour Package</h1>
@@ -56,9 +60,16 @@
                             <span class="sub-title">Best Tours For You</span>
                             <h2 class="sec-title mb-20">Most Popular Taj Mahal Tours</h2>
                             <p class="sec-text">
-                                Experience the wonder of the Taj Mahal through our specially curated tour packages.
-                                Choose from a variety of options to visit this UNESCO World Heritage Site in comfort and
-                                style.
+                                Discover the lasting beauty of India’s most famous monument with our <b><a
+                                        href="https://www.indianatajtours.com/taj-mahal-tour.php">Taj Mahal Tour
+                                        Packages</a></b>. This package is made for travelers wanting to combine history,
+                                culture, and
+                                comfort, and explore the magnificent <b><a href="https://www.indianatajtours.com/">Taj
+                                        Mahal in Agra
+                                    </a></b>seamlessly. Our professional
+                                guides offer amazing perspectives on the Taj Mahal’s history and the architectural
+                                brilliance that bring your historic visit to life.
+
                             </p>
                         </div>
                     </div>
@@ -99,7 +110,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/taj-mahal-day-tour-by-car-from-delhi"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -109,7 +121,7 @@
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
                             <img src="assets/img/taj_mahal_tour/taj_mahal-2.webp"
-                             alt="Taj Mahal Sunrise Tour from Delhi" />
+                                alt="Taj Mahal Sunrise Tour from Delhi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -142,7 +154,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/taj-mahal-sunrise-tour-from-delhi"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -184,7 +197,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/taj-mahal-tour-by-gatimaan-express-train"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -227,7 +241,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/taj-mahal-luxury-tour-by-premium-car-from-delhi"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>

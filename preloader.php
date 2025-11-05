@@ -4,7 +4,7 @@
         <div class="preloader-content">
             <!-- Logo -->
             <div class="preloader-logo">
-                <img src="assets/img/logo-full.webp" width="300" alt="Indiana Taj Tour" class="logo-image">
+                <img src="../assets/img/logo-full.webp" width="300" alt="Indiana Taj Tour" class="logo-image">
             </div>
 
             <!-- Simple Loading Spinner -->
