@@ -23,13 +23,14 @@ foreach ($tours as $tour) {
     $matches = true;
 
     // Search term filter
-    if (!empty($searchTerm) && stripos($tour['name'], $searchTerm) === false) {
+    if (!empty($searchTerm) && stripos($tour['title'], $searchTerm) === false) {
         $matches = false;
     }
 
     // Location filter
     if (!empty($location)) {
         $tourLocations = explode(' ', $tour['location']);
+        
         $searchLocations = [];
 
         // Handle special cases
@@ -146,16 +147,7 @@ if (empty($searchTerm) &&
     $filteredTours = $tours;
 }
 
-// Debug information (remove in production)
-$debug = [
-    'searchTerm' => $searchTerm,
-    'location' => $location,
-    'tourType' => $tourType,
-    'duration' => $duration,
-    'priceRange' => $priceRange,
-    'totalTours' => count($tours),
-    'filteredTours' => count($filteredTours)
-];
+
 ?>
 
 <!DOCTYPE html>
@@ -377,22 +369,22 @@ $debug = [
                                 <div class="col-md-6 mb-4 col-lg-4">
                                     <div class="card tour-card h-100 shadow" style="border: 2px solid #e9ecef; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
                                         <div style="position: relative;">
-                                            <img src="<?php echo $tour['image']; ?>" class="card-img-top" alt="<?php echo $tour['name']; ?>" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 220px; object-fit: cover;">
-                                            <span class="badge" style="
+                                            <img src="<?php echo $tour['image']; ?>" class="card-img-top" alt="<?php echo $tour['title']; ?>" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 220px; object-fit: cover;">
+                                            <!-- <span class="badge" style="
                                                 position: absolute;
                                                 top: 1rem;
                                                 left: 1rem;
                                                 background: #113d48;
                                                 color: #fff;
                                                 padding: 0.45rem 1.1rem;
-                                                font-size: 0.85rem;
+                                                font-size: 0.75rem;
                                                 font-weight: 600;
                                                 border-radius: 30px;
                                                 letter-spacing: 0.03em;
                                                 box-shadow: 0 2px 8px rgba(17,61,72,0.08);
                                                 z-index: 2;
                                             ">
-                                                <?php echo $tour['duration']; ?> Day<?php echo $tour['duration'] > 1 ? 's' : ''; ?>
+                                                <?php echo $tour['duration']; ?> -->
                                             </span>
                                             <span class="badge" style="
                                                 position: absolute;
@@ -401,7 +393,7 @@ $debug = [
                                                 background: #ffc107;
                                                 color: #113d48;
                                                 padding: 0.45rem 1.1rem;
-                                                font-size: 0.85rem;
+                                                font-size: 0.75rem;
                                                 font-weight: 600;
                                                 border-radius: 30px;
                                                 letter-spacing: 0.03em;
@@ -409,11 +401,11 @@ $debug = [
                                                 z-index: 2;
                                             ">
                                                  <i class="fas fa-map-marker-alt me-1"></i>
-                                                    <?php echo ucwords(str_replace(' ', ', ', $tour['location'])); ?>
+                                                    <?php echo ucwords(str_replace(' ', ' ', $tour['location'])); ?>
                                             </span>
                                         </div>
                                         <div class="card-body d-flex flex-column" style="background: #fff; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
-                                            <h5 class="card-title mb-2" style="color: #113d48; font-weight: 700;"><?php echo $tour['name']; ?></h5>
+                                            <h5 class="card-title mb-2" style="color: #113d48; font-weight: 700;"><?php echo $tour['title']; ?></h5>
                                             <div class="tour-rating mb-2" style="color: #ffc107;">
                                                 <?php
                                                     $fullStars = floor($tour['rating']);

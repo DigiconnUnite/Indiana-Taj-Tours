@@ -6,7 +6,7 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.php"><img src="../assets/img/logo-dark.webp" width="300"
+                                <a href="https://indianatajtours.com/"><img src="../assets/img/logo-dark.webp" width="300"
                                         alt="Indiana Taj Tour Logo" /></a>
                             </div>
                             <p class="about-text">
@@ -28,11 +28,11 @@
                         <h3 class="widget_title">Navigation</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="index.php">Home</a></li>
-                                <li><a href="about.php">About us</a></li>
-                                <li><a href="taj-mahal-tour.php">Taj Mahal Tour</a></li>
-                                <li><a href="golder-triangle.php">Golden Triangle Tour</a></li>
-                                <li><a href="same-day-tour.php">Same Day Tour</a></li>
+                                <li><a href="https://indianatajtours.com/">Home</a></li>
+                                <li><a href="https://indianatajtours.com/about.php">About us</a></li>
+                                <li><a href="https://indianatajtours.com/taj-mahal-tour.php">Taj Mahal Tour</a></li>
+                                <li><a href="https://indianatajtours.com/golder-triangle.php">Golden Triangle Tour</a></li>
+                                <li><a href="https://indianatajtours.com/same-day-tour.php">Same Day Tour</a></li>
                             </ul>
                         </div>
                     </div>
@@ -42,10 +42,10 @@
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="contact.php">Contact Us</a></li>
-                                <li><a href="tour-packages.php">Our Service</a></li>
-                                <li><a href="terms.php">Terms of Service</a></li>
-                                <li><a href="booking.php">Booking Now</a></li>
+                                <li><a href="https://indianatajtours.com/contact.php">Contact Us</a></li>
+                                <li><a href="https://indianatajtours.com/tour-packages.php">Our Service</a></li>
+                                <li><a href="https://indianatajtours.com/terms.php">Terms of Service</a></li>
+                                <li><a href="https://indianatajtours.com/booking.php">Booking Now</a></li>
                             </ul>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="col-md-4 text-end mb-3 mb-md-0">
                     <p class="copyright-text mb-0">
-                        © Copyright 2025 <a href="index.php"> Indiana Taj Tour </a> | All Rights Reserved.
+                        © Copyright 2025 <a href="https://indianatajtours.com/"> Indiana Taj Tour </a> | All Rights Reserved.
                     </p>
                 </div>
                 <!-- <div class="col-md-4 text-md-end text-center d-none d-md-block">

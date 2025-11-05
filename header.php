@@ -8,7 +8,21 @@ function is_active($pages) {
     }
     return $current_page === $pages ? 'active-link' : '';
 }
+
+// Canonical URL function
+function get_canonical_url() {
+    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+    $host = $_SERVER['HTTP_HOST'];
+    $request_uri = $_SERVER['REQUEST_URI'];
+    return $protocol . $host . $request_uri;
+}
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="<?php echo get_canonical_url(); ?>" />
 <style>
     /* Active link underline style */
     .main-menu a.active-link, .main-menu .active-link > a, .main-menu .active-link > a:visited {
@@ -64,20 +78,20 @@ function is_active($pages) {
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="index.php"><img  src="../assets/img/logo-full.webp" width="150" alt="indian taj tours logo" /></a>
+                            <a href="https://indianatajtours.com/"><img  src="../assets/img/logo-full.webp" width="150" alt="indian taj tours logo" /></a>
                         </div>
                     </div>
                     <div class="col-auto me-xl-auto">
                         <nav class="main-menu d-none d-xl-inline-block">
                             <ul>
                                 <li class="<?php echo is_active('index.php') || is_active('index.php') ? 'active-link' : ''; ?>">
-                                    <a href="index.php">Home</a>
+                                    <a href="https://indianatajtours.com/">Home</a>
                                 </li>
                                 <li class="<?php echo is_active('about.php'); ?>">
-                                    <a href="about.php">About Us</a>
+                                    <a href="https://indianatajtours.com/about.php">About Us</a>
                                 </li>
                                 <li class="<?php echo is_active('taj-mahal-tour.php'); ?>">
-                                    <a href="taj-mahal-tour.php">Taj Mahal Tour</a>
+                                    <a href="https://indianatajtours.com/taj-mahal-tour.php">Taj Mahal Tour</a>
                                 </li>
                                 <?php
                                 // Check if any of the tour package pages are active
@@ -88,18 +102,18 @@ function is_active($pages) {
                                     <a href="#">Tour Packages</a>
                                     <ul class="sub-menu">
                                         <li class="<?php echo is_active('same-day-tour.php'); ?>">
-                                            <a href="same-day-tour.php">Same Day Tour</a>
+                                            <a href="https://indianatajtours.com/same-day-tour.php">Same Day Tour</a>
                                         </li>
                                         <li class="<?php echo is_active('golder-triangle.php'); ?>">
-                                            <a href="golder-triangle.php">Golden Triangle</a>
+                                            <a href="https://indianatajtours.com/golder-triangle.php">Golden Triangle</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="<?php echo is_active('search-tours.php'); ?>">
-                                    <a href="search-tours.php">Search Tours</a>
+                                    <a href="https://indianatajtours.com/search-tours.php">Search Tours</a>
                                 </li>
                                 <li class="<?php echo is_active('contact.php'); ?>">
-                                    <a href="contact.php">Contact us</a>
+                                    <a href="https://indianatajtours.com/contact.php">Contact us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -109,7 +123,7 @@ function is_active($pages) {
                     </div>
                     <div class="col-auto d-none d-xl-block">
                         <div class="header-button">
-                            <a href="booking.php" class="th-btn style3 th-icon <?php echo is_active('booking.php'); ?>">Book Now</a>
+                            <a href="https://indianatajtours.com/booking.php" class="th-btn style3 th-icon <?php echo is_active('booking.php'); ?>">Book Now</a>
                         </div>
                     </div>
                 </div>
