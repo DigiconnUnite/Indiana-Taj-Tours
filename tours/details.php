@@ -8,8 +8,26 @@
  * @since 2025
  */
 
-// Get the slug from URL
-$slug = isset($_GET['slug']) ? trim($_GET['slug']) : '';
+// Get the slug from URL - support both /tours/slug and /tours/details.php?slug=slug formats
+$slug = '';
+
+// Check if this is a direct URL like /tours/slug-name
+$request_uri = $_SERVER['REQUEST_URI'];
+$script_name = $_SERVER['SCRIPT_NAME'];
+
+// Handle URL rewriting - if URL is /tours/slug-name, extract slug from path
+if (strpos($request_uri, '/tours/') === 0 && !strpos($request_uri, 'details.php')) {
+    // URL format: /tours/slug-name
+    $path_parts = explode('/', trim($request_uri, '/'));
+    if (count($path_parts) >= 2 && $path_parts[0] === 'tours' && !empty($path_parts[1])) {
+        $slug = trim($path_parts[1]);
+        // Remove any query parameters that might be appended
+        $slug = explode('?', $slug)[0];
+    }
+} else {
+    // URL format: /tours/details.php?slug=slug-name
+    $slug = isset($_GET['slug']) ? trim($_GET['slug']) : '';
+}
 
 // Debug: Check if slug is provided
 if (empty($slug)) {
@@ -19,14 +37,14 @@ if (empty($slug)) {
 }
 
 // Include tours data with error handling
-$toursDataPath = __DIR__ . '/tours-data.php';
-if (!file_exists($toursDataPath)) {
-    header('HTTP/1.0 500 Internal Server Error');
-    echo '<h1>Server Error</h1><p>Tour data file not found.</p>';
-    exit;
-}
+ $toursDataPath = __DIR__ . '/data.php';
+ if (!file_exists($toursDataPath)) {
+     header('HTTP/1.0 500 Internal Server Error');
+     echo '<h1>Server Error</h1><p>Tour data file not found.</p>';
+     exit;
+ }
 
-include $toursDataPath;
+ include $toursDataPath;
 
 // Check if tours array exists
 if (!isset($tours) || !is_array($tours)) {
@@ -37,15 +55,79 @@ if (!isset($tours) || !is_array($tours)) {
 
 // Check if tour exists
 if (!isset($tours[$slug])) {
-    // Tour not found - redirect to 404 or show error
+    // Tour not found - show custom 404 page with suggestions
     header('HTTP/1.0 404 Not Found');
-    echo '<h1>Tour Not Found</h1><p>The requested tour could not be found.</p>';
-    echo "<p>Requested slug: <strong>$slug</strong></p>";
-    echo '<p>Available tours:</p><ul>';
-    foreach (array_keys($tours) as $availableSlug) {
-        echo "<li>$availableSlug</li>";
+
+    // Try to find similar tours based on slug keywords
+    $slugKeywords = explode('-', $slug);
+    $suggestedTours = [];
+
+    foreach ($tours as $tourSlug => $tourData) {
+        $tourKeywords = explode('-', $tourSlug);
+        $similarity = count(array_intersect($slugKeywords, $tourKeywords));
+        if ($similarity > 0) {
+            $suggestedTours[$tourSlug] = $similarity;
+        }
     }
-    echo '</ul>';
+
+    // Sort by similarity
+    arsort($suggestedTours);
+    $topSuggestions = array_slice($suggestedTours, 0, 3, true);
+    ?>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tour Not Found - Indiana Taj Tour</title>
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <style>
+            body { background-color: #f8f9fa; }
+            .error-container { max-width: 800px; margin: 50px auto; padding: 40px; background: white; border-radius: 10px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+            .error-icon { font-size: 4rem; color: #dc3545; text-align: center; margin-bottom: 20px; }
+            .suggestion-card { border: 1px solid #e9ecef; border-radius: 8px; padding: 20px; margin-bottom: 15px; transition: all 0.3s ease; }
+            .suggestion-card:hover { box-shadow: 0 4px 15px rgba(0,0,0,0.1); transform: translateY(-2px); }
+            .suggestion-link { text-decoration: none; color: inherit; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="error-container text-center">
+                <div class="error-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h1 class="mb-3">Tour Not Found</h1>
+                <p class="text-muted mb-4">The tour you're looking for doesn't exist or may have been moved.</p>
+
+                <div class="mb-4">
+                    <p><strong>Requested tour:</strong> <?php echo htmlspecialchars($slug); ?></p>
+                </div>
+
+                <?php if (!empty($topSuggestions)): ?>
+                    <h4 class="mb-3">Did you mean?</h4>
+                    <div class="row">
+                        <?php foreach ($topSuggestions as $suggestedSlug => $similarity): ?>
+                            <div class="col-md-4 mb-3">
+                                <div class="suggestion-card">
+                                    <a href="<?php echo htmlspecialchars($suggestedSlug); ?>" class="suggestion-link">
+                                        <h6><?php echo htmlspecialchars($tours[$suggestedSlug]['title']); ?></h6>
+                                        <p class="text-muted small mb-0"><?php echo htmlspecialchars($tours[$suggestedSlug]['location']); ?> • <?php echo htmlspecialchars($tours[$suggestedSlug]['duration']); ?></p>
+                                    </a>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                <?php endif; ?>
+
+                <div class="mt-4">
+                    <a href="../index.php" class="btn btn-primary me-2">Back to Home</a>
+                    <a href="index.php" class="btn btn-outline-primary">Browse All Tours</a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    <?php
     exit;
 }
 
@@ -74,8 +156,37 @@ $pageKeywords    = isset($tour['meta_keywords']) ? $tour['meta_keywords'] : 'Taj
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- include the links file  -->
-    <?php include 'links.php' ?>
+    <!-- Hardcoded CSS links and fonts for tours subdirectory -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montez&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.jpg" />
+
+    <style>
+    /* Hide scrollbar globally */
+    html {
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+
+    html::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, and Opera */
+    }
+
+    /* Ensure body doesn't show scrollbars */
+    body {
+        overflow-x: hidden;
+    }
+    </style>
 
     <style>
         /* Enhanced Tour Hero Section */
@@ -642,13 +753,13 @@ $pageKeywords    = isset($tour['meta_keywords']) ? $tour['meta_keywords'] : 'Taj
 
 <body>
     <!-- include the preloader file -->
-    <?php include 'preloader.php'; ?>
+    <?php include '../preloader.php'; ?>
 
     <!-- include the sidemenu file -->
-    <?php include 'sidebar.php'; ?>
+    <?php include '../sidebar.php'; ?>
 
     <!-- Include the header file -->
-    <?php include 'header.php'; ?>
+    <?php include '../header.php'; ?>
 
     <!-- Main -->
     <main>
@@ -877,15 +988,37 @@ $pageKeywords    = isset($tour['meta_keywords']) ? $tour['meta_keywords'] : 'Taj
     </main>
 
     <!-- include the footer here  -->
-    <?php include 'footer.php'; ?>
+    <?php include '../footer.php'; ?>
 
-    <!-- include the bottom script -->
-    <?php include 'bottom-script.php'; ?>
+    <!-- Hardcoded JavaScript includes for tours subdirectory -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
+                transition: stroke-dashoffset 10ms linear 0s;
+                stroke-dasharray: 307.919, 307.919;
+                stroke-dashoffset: 307.919;
+              "></path>
+        </svg>
+    </div>
+    <script src="../assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="../assets/js/jquery-ui.min.js"></script>
+    <script src="../assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="../assets/js/gsap.min.js"></script>
+    <script src="../assets/js/circle-progress.js"></script>
+    <script src="../assets/js/matter.min.js"></script>
+    <script src="../assets/js/matterjs-custom.js"></script>
+    <script src="../assets/js/nice-select.min.js"></script>
+    <script src="../assets/js/main.js"></script>
 
    <?php
 // Set the tour name for the fixed button
 $tourName = $tour['title'];
-include 'fixed-book-button.php';
+include '../fixed-book-button.php';
 ?>
    
 
