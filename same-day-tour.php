@@ -5,11 +5,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Same Day Tours from Delhi - Indiana Taj Tour | Taj Mahal, Jaipur, Delhi Day Trips
+        Same Day Tour Package From Delhi to Agra
     </title>
     <meta name="author" content="Indiana Taj Tour" />
-    <meta name="description" content="Explore India's iconic destinations with our same-day tours from Delhi. Visit Taj Mahal, Jaipur, and Delhi in one day with expert guides and comfortable transport." />
-    <meta name="keywords" content="same day tour Delhi, Taj Mahal day tour, Jaipur day trip, Delhi sightseeing, India day tours" />
+    <meta name="description"
+        content="Same Day Tour Package from Delhi to Agra. Enjoy a comfortable, guided day trip to the Taj Mahal, Agra Fort, and nearby attractions hassle-free." />
+    <meta name="keywords"
+        content="same day tour Delhi, Taj Mahal day tour, Jaipur day trip, Delhi sightseeing, India day tours" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <meta name="msapplication-TileColor" content="#ffffff" />
@@ -35,7 +37,7 @@
     <main>
 
         <!-- breadcrumb-section  -->
-        <div class="breadcumb-wrapper" >
+        <div class="breadcumb-wrapper">
             <div class="container">
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Same Day Tour Package</h1>
@@ -56,9 +58,11 @@
                             <span class="sub-title">Best Tours For You</span>
                             <h2 class="sec-title mb-20">Most Popular Same Day Tours</h2>
                             <p class="sec-text">
-                                Explore India's rich heritage and vibrant culture with our carefully curated same-day
-                                tour packages. Perfect for travelers with limited time who want to experience the best
-                                of India.
+                                Experience the magic of Agra with one of our Same Day Tour Package From Delhi to Agra,
+                                is designed for visitors who want to see some of the best of India’s monuments and not
+                                worry about overnight trips. This unique and full-day excursion allows you to see the
+                                Taj Mahal, Agra Fort, and additional sights in one day that is both relaxing and
+                                enjoyable.
                             </p>
                         </div>
                     </div>
@@ -66,7 +70,8 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/same_day_tour/delhi-gate.webp" alt="Full Day Old and New Delhi City Tour" />
+                            <img src="assets/img/same_day_tour/delhi-gate.webp"
+                                alt="Full Day Old and New Delhi City Tour" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -98,7 +103,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=full-day-old-and-new-delhi-city-tour" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/full-day-old-and-new-delhi-city-tour"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -139,7 +145,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=half-day-delhi-city-tour" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/half-day-delhi-city-tour"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -148,7 +155,8 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/same_day_tour/hawa-mahal.webp" alt="Full Day Jaipur City Tour by Car" alt="Full Day Jaipur City Tour by Car" />
+                            <img src="assets/img/same_day_tour/hawa-mahal.webp" alt="Full Day Jaipur City Tour by Car"
+                                alt="Full Day Jaipur City Tour by Car" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -180,7 +188,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=full-day-jaipur-city-tour-by-car" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/full-day-jaipur-city-tour-by-car"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -222,7 +231,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=jaipur-tour-from-delhi-by-car" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/jaipur-tour-from-delhi-by-car"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -264,7 +274,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=taj-mahal-day-tour-by-car-from-delhi" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/taj-mahal-day-tour-by-car-from-delhi"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -273,7 +284,8 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                                  <img src="assets/img/taj_mahal_tour/taj_mahal-2.webp" alt="Taj Mahal Sunrise Tour from Delhi" />
+                            <img src="assets/img/taj_mahal_tour/taj_mahal-2.webp"
+                                alt="Taj Mahal Sunrise Tour from Delhi" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -306,7 +318,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=taj-mahal-sunrise-tour-from-delhi" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/taj-mahal-sunrise-tour-from-delhi"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -315,7 +328,7 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                              <img src="assets/img/taj_mahal_tour/taj_mahal-3.webp"
+                            <img src="assets/img/taj_mahal_tour/taj_mahal-3.webp"
                                 alt="Taj Mahal Tour by Gatimaan Express Train" />
                         </div>
                     </div>
@@ -348,7 +361,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=taj-mahal-tour-by-gatimaan-express-train" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/taj-mahal-tour-by-gatimaan-express-train"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -357,7 +371,7 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                              <img src="assets/img/taj_mahal_tour/taj_mahal-4.webp"
+                            <img src="assets/img/taj_mahal_tour/taj_mahal-4.webp"
                                 alt="Taj Mahal Luxury Tour by Premium Car from Delhi" />
                         </div>
                     </div>
@@ -391,7 +405,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=taj-mahal-luxury-tour-by-premium-car-from-delhi" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/taj-mahal-luxury-tour-by-premium-car-from-delhi"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>

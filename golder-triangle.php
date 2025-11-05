@@ -5,10 +5,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>
-        Golden Triangle Tour Package | Indiana Taj Tour
+        Golden Triangle Tour Package – Delhi Agra Jaipur
     </title>
     <meta name="author" content="Indiana Taj Tour" />
-    <meta name="description" content="Discover India's Golden Triangle - Delhi, Agra, Jaipur. Visit Taj Mahal, palaces, forts, and markets with our expert guides." />
+    <meta name="description"
+        content="Golden Triangle Tour Package offers an exciting journey through Delhi, Agra, and Jaipur, exploring monuments, culture, and heritage in comfort." />
     <meta name="keywords" content="Golden Triangle tour, India tour packages, Delhi Agra Jaipur, Taj Mahal tour" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
@@ -35,7 +36,7 @@
     <main>
 
         <!-- breadcrumb-section  -->
-        <div class="breadcumb-wrapper" >
+        <div class="breadcumb-wrapper">
             <div class="container">
                 <div class="breadcumb-content">
                     <h1 class="breadcumb-title">Golden Triangle Tour Package</h1>
@@ -56,9 +57,10 @@
                             <span class="sub-title">Best Tours For You</span>
                             <h2 class="sec-title mb-20">Most Popular Golden Triangle Tours</h2>
                             <p class="sec-text">
-                                Discover India's rich cultural heritage with our Golden Triangle tours covering Delhi,
-                                Agra, and Jaipur. Choose from various durations and extensions to customize your perfect
-                                itinerary.
+                                Experience the magnificence of India with our Golden Triangle Tour Package, a
+                                thoughtfully crafted itinerary that includes destinations like Delhi, Agra, and Jaipur.
+                                This popular trip is designed for tourists looking to understand India’s complex
+                                history, colorful culture, and stunning architecture all within a short timeframe.
                             </p>
                         </div>
                     </div>
@@ -66,7 +68,8 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-tour-1.webp" alt="Golden Triangle Tour 3 Days" />
+                            <img src="assets/img/golden_triangle_tour/golden-tour-1.webp"
+                                alt="Golden Triangle Tour 3 Days" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -99,7 +102,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=golden-triangle-tour-3-days" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/golden-triangle-tour-3-days"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -108,7 +112,8 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6 order-lg-4">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-tour-2.webp" alt="Golden Triangle Tour 4 Days" />
+                            <img src="assets/img/golden_triangle_tour/golden-tour-2.webp"
+                                alt="Golden Triangle Tour 4 Days" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -141,7 +146,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=golden-triangle-tour-4-days" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/golden-triangle-tour-4-days"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -150,7 +156,8 @@
                 <div class="row gx-60 gy-30 mb-60 align-items-center">
                     <div class="col-lg-6">
                         <div class="resort-image global-img">
-                            <img src="assets/img/golden_triangle_tour/golden-tour-3.webp" alt="Golden Triangle Tour 5 Days" />
+                            <img src="assets/img/golden_triangle_tour/golden-tour-3.webp"
+                                alt="Golden Triangle Tour 5 Days" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -183,7 +190,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=golden-triangle-tour-5-days" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/golden-triangle-tour-5-days"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -226,7 +234,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=golden-triangle-tour-with-amritsar" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/golden-triangle-tour-with-amritsar"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -269,7 +278,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=golden-triangle-tour-with-pushkar" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/golden-triangle-tour-with-pushkar"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -313,7 +323,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=golden-triangle-tour-with-ranthambore" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/golden-triangle-tour-with-ranthambore"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -356,7 +367,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=golden-triangle-tour-with-udaipur" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/golden-triangle-tour-with-udaipur"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>
@@ -399,7 +411,8 @@
                                 </ul>
                             </div>
                             <div class="resort-btn mt-40 d-flex gap-3 flex-wrap">
-                                <a href="tour-details.php?slug=golden-triangle-tour-with-varanasi" class="th-btn style3 th-icon">Read More</a>
+                                <a href="tours/golden-triangle-tour-with-varanasi"
+                                    class="th-btn style3 th-icon">Read More</a>
                                 <a href="booking.php" class="th-btn style4 th-icon">Book Now</a>
                             </div>
                         </div>

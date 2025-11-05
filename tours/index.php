@@ -1,6 +1,6 @@
 <?php
 /**
- * Indiana Taj Tour - Search Tours Results Page
+ * Indiana Taj Tour - Tours Listing Page
  *
  * @author Digiconn Unite Pvt. Ltd.
  * @version 1.0.0
@@ -15,7 +15,10 @@ $duration = isset($_POST['duration']) ? $_POST['duration'] : '';
 $priceRange = isset($_POST['priceRange']) ? $_POST['priceRange'] : (isset($_POST['category']) ? $_POST['category'] : '');
 
 // Include tours data from data.php file
-include 'tours/data.php';
+include 'data.php';
+
+ // Tour data array - extracted from index.php tours
+$tours = 
 
 // Filter tours based on search parameters
 $filteredTours = [];
@@ -164,15 +167,44 @@ $debug = [
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Search Tours - Indiana Taj Tour</title>
+    <title>All Tours - Indiana Taj Tour</title>
     <meta name="author" content="Indiana Taj Tour" />
-    <meta name="description" content="Find your perfect tour package with Indiana Taj Tour. Search and filter tours by location, type, duration, and more." />
+    <meta name="description" content="Browse our complete collection of tours including Taj Mahal tours, Golden Triangle packages, and day trips from Delhi. Find your perfect India adventure." />
     <meta name="keywords" content="Taj Mahal tour, Golden Triangle tour, Delhi tours, Jaipur tours, Agra tours, India travel packages" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
 
-    <!-- include the links file  -->
-    <?php include "links.php" ?>
+    <!-- Hardcoded CSS links and fonts for tours subdirectory -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Manrope:wght@200..800&family=Montez&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="../assets/css/magnific-popup.min.css" />
+    <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="icon" type="image/png" href="../assets/img/favicon.jpg" />
+
+    <style>
+    /* Hide scrollbar globally */
+    html {
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+
+    html::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, and Opera */
+    }
+
+    /* Ensure body doesn't show scrollbars */
+    body {
+        overflow-x: hidden;
+    }
+    </style>
 
     <style>
         /* .search-results-header {
@@ -257,13 +289,13 @@ $debug = [
 
 <body>
     <!-- include the preloader file -->
-    <?php include 'preloader.php'; ?>
+    <?php include '../preloader.php'; ?>
 
     <!-- include the sidebar file -->
-    <?php include 'sidebar.php'; ?>
+    <?php include '../sidebar.php'; ?>
 
     <!-- Include the header file -->
-    <?php include 'header.php'; ?>
+    <?php include '../header.php'; ?>
 
     <!-- Main Content -->
     <main>
@@ -273,10 +305,10 @@ $debug = [
         <div class="breadcumb-wrapper mb-5" >
             <div class="container">
                 <div class="breadcumb-content">
-                    <h1 class="breadcumb-title">Search Tours</h1>
+                    <h1 class="breadcumb-title">All Tours</h1>
                     <ul class="breadcumb-menu">
-                        <li><a href="index.php">Home</a></li>
-                        <li>Search Tours</li>
+                        <li><a href="../index.php">Home</a></li>
+                        <li>All Tours</li>
                     </ul>
                 </div>
             </div>
@@ -288,7 +320,7 @@ $debug = [
                 <div class="col-lg-3">
                     <div  class="filter-sidebar sticky-top  ">
                         <h4>Filter Results</h4>
-                        <form method="POST" action="search-tours.php">
+                        <form method="POST" action="index.php">
                             <div class="mb-3">
                                 <label class="form-label">Search by Name</label>
                                 <input type="text" name="search" class="form-control" value="<?php echo htmlspecialchars($searchTerm); ?>" placeholder="Tour name...">
@@ -340,7 +372,7 @@ $debug = [
                             <button type="submit" class="btn w-100 mb-2" style="background-color: #113d48; color: white; border-color: #113d48;">
                                 <i class="fas fa-search me-2"></i>Apply Filters
                             </button>
-                            <a href="search-tours.php" class="btn btn-outline-secondary w-100">
+                            <a href="index.php" class="btn btn-outline-secondary w-100">
                                 <i class="fas fa-times me-2"></i>Clear All
                             </a>
                         </form>
@@ -369,7 +401,7 @@ $debug = [
                                     <i class="fas fa-search fa-3x text-muted mb-3"></i>
                                     <h4>No tours found</h4>
                                     <p class="text-muted">Try adjusting your search criteria or browse all tours.</p>
-                                    <a href="search-tours.php" class="btn" style="background-color: #113d48; color: white; border-color: #113d48;">View All Tours</a>
+                                    <a href="index.php" class="btn" style="background-color: #113d48; color: white; border-color: #113d48;">View All Tours</a>
                                 </div>
                             </div>
                         <?php else: ?>
@@ -432,7 +464,7 @@ $debug = [
                                             </div>
                                           
                                           
-                                            <a href="tours/<?php echo $tour['slug']; ?>" class="btn w-100 mt-auto" style="background-color: #113d48; color: white; border-color: #113d48; font-weight: 600; border-radius: 8px;">
+                                            <a href="<?php echo $tour['url']; ?>" class="btn w-100 mt-auto" style="background-color: #113d48; color: white; border-color: #113d48; font-weight: 600; border-radius: 8px;">
                                                 View Details
                                             </a>
                                         </div>
@@ -447,16 +479,38 @@ $debug = [
     </main>
 
     <!-- include the footer here  -->
-    <?php include 'footer.php'; ?>
+    <?php include '../footer.php'; ?>
 
-    <!-- include the bottom script -->
-    <?php include 'bottom-script.php'; ?>
+    <!-- Hardcoded JavaScript includes for tours subdirectory -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="
+                transition: stroke-dashoffset 10ms linear 0s;
+                stroke-dasharray: 307.919, 307.919;
+                stroke-dashoffset: 307.919;
+              "></path>
+        </svg>
+    </div>
+    <script src="../assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <script src="../assets/js/jquery-ui.min.js"></script>
+    <script src="../assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="../assets/js/isotope.pkgd.min.js"></script>
+    <script src="../assets/js/gsap.min.js"></script>
+    <script src="../assets/js/circle-progress.js"></script>
+    <script src="../assets/js/matter.min.js"></script>
+    <script src="../assets/js/matterjs-custom.js"></script>
+    <script src="../assets/js/nice-select.min.js"></script>
+    <script src="../assets/js/main.js"></script>
 
     <script>
-       
+        // Add any additional JavaScript for dynamic filtering if needed
         document.addEventListener('DOMContentLoaded', function() {
-            
-            console.log('Search Tours page loaded with <?php echo count($filteredTours); ?> results');
+            // You can add JavaScript for additional dynamic filtering here
+            console.log('Tours Index page loaded with <?php echo count($filteredTours); ?> tours');
         });
     </script>
 </body>
