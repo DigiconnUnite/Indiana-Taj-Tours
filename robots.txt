@@ -1,0 +1,32 @@
+# robots.txt for https://www.indianatajtours.com/
+
+User-agent: *
+# Disallow backend and sensitive directories
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /cart/
+Disallow: /includes/
+Disallow: /search?
+Disallow: /checkout/
+Disallow: /login/
+Disallow: /register/
+
+# Allow all other content
+Allow: /
+
+# Sitemap (make sure sitemap.xml exists in root)
+Sitemap: https://www.indianatajtours.com/sitemap.xml
+
+# Optional: allow Google Ads bots (if you ever run campaigns)
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Optional: Crawl-delay for other search engines (not used by Google)
+# Crawl-delay: 10

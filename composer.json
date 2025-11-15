@@ -1,0 +1,20 @@
+{
+    "name": "indianataj/tour-website",
+    "description": "Indiana Taj Tour - Professional tour booking website",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "IndianaTajTour\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "prefer-stable": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+}
