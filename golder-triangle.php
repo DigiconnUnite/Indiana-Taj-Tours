@@ -14,6 +14,7 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <link rel="canonical" href="https://indianatajtours.com/golder-triangle.php" />
+    <meta property="og:url" content="https://indianatajtours.com/golder-triangle.php" />
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />

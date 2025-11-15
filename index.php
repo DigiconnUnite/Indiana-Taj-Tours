@@ -26,7 +26,8 @@
         Indiana Taj Tour – Taj Mahal, Delhi & Jaipur Tours
 
     </title>
-    <link rel="canonical" href="https://indianatajtours.com/" />
+    <link rel="canonical" href="https://indianatajtours.com/"/>
+    <meta property="og:url" content="https://indianatajtours.com/" />
     <meta name="author" content="Indiana Taj Tour" />
     <meta name="description"
         content="Explore India’s iconic Golden Triangle with Indiana Taj Tour – visit Taj Mahal, Delhi, Jaipur & enjoy customized, memorable travel experiences." />
@@ -484,7 +485,7 @@
                                                 </h4>
                                                 <div class="tour-action">
                                                     <span><i class="fa-light fa-clock"></i>1 Day</span>
-                                                    <a href="taj-mahal-and-agra-fort-tour-by-car-from-delhi.php"
+                                                    <a href="tours/taj-mahal-and-agra-fort-tour-by-car-from-delhi.php"
                                                         class="th-btn text-nowrap style4 th-icon">Read More</a>
                                                 </div>
                                             </div>
@@ -1330,7 +1331,7 @@
                         <div class="ps-xl-4">
                             <div class="title-area mb-20 ">
                                 <span class="sub-title style1">Let's Go Together</span>
-                                <h2 class="sec-title mb-20  heading">
+                                <h2 class="sec-title mb-20 heading">
                                     Plan Your Trip With us
                                 </h2>
                             </div>

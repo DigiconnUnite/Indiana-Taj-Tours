@@ -14,13 +14,14 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <link rel="canonical" href="https://indianatajtours.com/terms.php" />
+    
+    <meta property="og:url" content="https://indianatajtours.com/terms.php" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="Indiana Taj Tour | Terms & Conditions" />
     <meta property="og:description"
         content="Policies covering bookings, payments, cancellations, refunds, responsibilities, and privacy." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="/terms-and-conditions.php" />
     <meta property="og:image" content="assets/img/bg/banner-img.webp" />
 
     <!-- include the links file  -->

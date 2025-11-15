@@ -13,6 +13,8 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <link rel="canonical" href="https://indianatajtours.com/contact.php" />
+    <meta property="og:url" content="https://indianatajtours.com/contact.php" />
+
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
@@ -202,6 +204,41 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- scetion added by payal for content managment for SEO-->
+                <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <h2 class="mb-3">Why Choose Indiana Taj Tours?</h2>
+            <p>
+                Indiana Taj Tours is committed to offering memorable and hassle-free travel experiences
+                across Agra and other iconic destinations in India. Whether you are visiting the Taj Mahal
+                for the first time or planning a multi-day trip, our team ensures comfort, safety, and a
+                personalized experience. We provide certified guides, clean vehicles, flexible tour
+                itineraries, and 24/7 customer support to make your journey truly unforgettable.
+            </p>
+
+            <h2 class="mt-4 mb-3">How Our Team Assists You</h2>
+            <p>
+                Our dedicated customer support team is always available to help you with tour planning,
+                booking assistance, custom travel packages, and any questions related to transportation or
+                sightseeing. Simply fill out the contact form above, and we will respond promptly with the
+                best possible suggestions tailored to your travel interests and schedule.
+            </p>
+
+            <h2 class="mt-4 mb-3">Plan Your Trip with Confidence</h2>
+            <p>
+                We believe in transparency, reliability, and customer satisfaction. All our tours are
+                handled by experienced professionals who understand the needs of both domestic and
+                international travelers. Whether you need a same-day Agra tour, Golden Triangle tour,
+                airport pickup, or group travel services, Indiana Taj Tours has you covered with
+                affordable and high-quality travel options.
+            </p>
+        </div>
+    </div>
+</div>
+
+                <!-- scetion added by payal for content managment for SEO section end -->
             </div>
             <div class="row mt-5 justify-content-center">
                 <div class="col-lg-10">

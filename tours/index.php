@@ -174,6 +174,8 @@ $debug = [
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <link rel="canonical" href="https://indianatajtours.com/tours/" />
+    <meta property="og:url" content="https://indianatajtours.com/tours/" />
+
 
     <!-- Hardcoded CSS links and fonts for tours subdirectory -->
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
@@ -205,16 +207,7 @@ $debug = [
     body {
         overflow-x: hidden;
     }
-    </style>
-
-    <style>
-        /* .search-results-header {
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            padding: 3rem 0;
-            margin-bottom: 2rem;
-            
-        } */
-
+    
         .filter-sidebar {
             background: #fff;
             padding: 2rem;
@@ -286,6 +279,7 @@ $debug = [
             }
         }
     </style>
+
 </head>
 
 <body>

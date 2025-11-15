@@ -163,6 +163,9 @@ if (empty($searchTerm) &&
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <link rel="canonical" href="https://indianatajtours.com/search-tours.php" />
+    <meta property="og:url" content="https://indianatajtours.com/search-tours.php" />
+    
+    
 
     <!-- include the links file  -->
     <?php include "links.php" ?>

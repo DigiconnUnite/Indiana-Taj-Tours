@@ -8,6 +8,8 @@
         Indiana Taj Tour: Explore India's Iconic Destinations
     </title>
     <link rel="canonical" href="https://indianatajtours.com/about.php" />
+    <meta property="og:url" content="https://indianatajtours.com/about.php" />
+
 
     <meta name="author" content="Indiana Taj Tour" />
     <meta name="description"

@@ -21,3 +21,7 @@ RewriteRule ^details\.php$ %1? [R=301,L]
     Order Allow,Deny
     Deny from all
 </Files>
+
+# Redirect www to non-www
+RewriteCond %{HTTP_HOST} ^www\.indianatajtours\.com$ [NC]
+RewriteRule ^(.*)$ https://indianatajtours.com/$1 [L,R=301]

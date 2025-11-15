@@ -31,7 +31,7 @@ define('ADMIN_NAME', 'Indiana Taj Tour Admin');
 define('COMPANY_NAME', 'Indiana Taj Tour');
 define('COMPANY_EMAIL', 'indianatajtourswork@gmail.com');
 define('COMPANY_PHONE', '+91-9557679951');
-define('COMPANY_WEBSITE', 'https://indianatajtour.com');
+define('COMPANY_WEBSITE', 'https://indianatajtours.com');
 
 /**
  * Send email using SMTP

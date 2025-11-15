@@ -25,29 +25,29 @@
             <div class="recent-post-wrap">
                 <div class="recent-post">
                     <div class="media-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.webp"
+                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-1.webp"
                                 alt="Blog Image" /></a>
                     </div>
                     <div class="media-body">
                         <div class="recent-post-meta">
-                            <a href="blog.html"><i class="far fa-calendar"></i>24 Jun , 2025</a>
+                            <a href="blog.php"><i class="far fa-calendar"></i>24 Jun , 2025</a>
                         </div>
                         <h4 class="post-title">
-                            <a class="text-inherit" href="blog-details.html">Where Vision Meets Concrete Reality</a>
+                            <a class="text-inherit" href="blog-details.php">Where Vision Meets Concrete Reality</a>
                         </h4>
                     </div>
                 </div>
                 <div class="recent-post">
                     <div class="media-img">
-                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.webp"
+                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-2.webp"
                                 alt="Blog Image" /></a>
                     </div>
                     <div class="media-body">
                         <div class="recent-post-meta">
-                            <a href="blog.html"><i class="far fa-calendar"></i>22 Jun , 2025</a>
+                            <a href="blog.php"><i class="far fa-calendar"></i>22 Jun , 2025</a>
                         </div>
                         <h4 class="post-title">
-                            <a class="text-inherit" href="blog-details.html">Raising the Bar in Construction.</a>
+                            <a class="text-inherit" href="blog-details.php">Raising the Bar in Construction.</a>
                         </h4>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                     <a class="active" href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="about.html">About Us</a>
+                    <a href="about.php">About Us</a>
                 </li>
                 <li>
                     <a href="taj-mahal-tour.php">Taj Mahal Tour</a>
@@ -130,7 +130,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="contact.html">Contact us</a>
+                    <a href="contact.php">Contact us</a>
                 </li>
             </ul>
         </div>

@@ -13,6 +13,8 @@
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
     <link rel="canonical" href="https://indianatajtours.com/booking.php" />
+    <meta property="og:url" content="https://indianatajtours.com/booking.php" />
+
     <meta name="msapplication-TileColor" content="#ffffff" />
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.webp" />
     <meta name="theme-color" content="#ffffff" />
@@ -621,6 +623,42 @@
             </div>
         </div>
     </section>
+
+    <!-- added by payal to manage the content -->
+
+    <section class="space-top space-bottom">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <h2 class="mb-3">Why Book Your Tour With Indiana Taj Tour?</h2>
+                <p>
+                    Indiana Taj Tour is a trusted travel company specializing in private guided tours across Agra, Delhi, Jaipur, and the Golden Triangle. Thousands of travelers from across the world choose us every year for our professionalism, safety, and personalized service. Whether you're planning a same-day Taj Mahal trip or a multi-day India tour, our team ensures a seamless and memorable journey.
+                </p>
+
+                <h3 class="mt-4 mb-2">100% Private & Flexible Tour Options</h3>
+                <p>
+                    All our tours are fully customizable. You can choose your preferred date, travel mode, duration, and destinations. From luxury car tours to high-speed Gatimaan Express train packages, we offer options that fit every traveler’s budget and style. If you are unsure which tour to pick, simply submit the booking form and our experts will guide you with the best available choices.
+                </p>
+
+                <h3 class="mt-4 mb-2">Expert Local Guides & Professional Drivers</h3>
+                <p>
+                    Our licensed tour guides and English-speaking drivers ensure you get accurate historical insights, priority access, and a safe travel experience. We focus on comfort, reliability, and transparency—no hidden charges, no last-minute surprises.
+                </p>
+
+                <h3 class="mt-4 mb-2">Easy Booking & Quick Confirmation</h3>
+                <p>
+                    Once you submit the form, our team will contact you within 24 hours to confirm availability, pricing, and itinerary details. We respond promptly through email, WhatsApp, and phone. For urgent travel plans, you can contact us directly for immediate assistance.
+                </p>
+
+                <p class="mt-4">
+                    Start your journey with confidence by booking your trip with Indiana Taj Tour—your trusted partner for safe, comfortable, and unforgettable travel experiences in India.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- section End -->
 </main>
 <?php include "footer.php"; ?>
 
